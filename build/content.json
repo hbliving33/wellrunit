@@ -1622,6 +1622,16 @@
    "wasabi",
    "Wasabi cloud storage",
    "https://status.wasabi.com/"
+  ],
+  [
+   "zoom",
+   "Zoom",
+   "https://status.zoom.us/"
+  ],
+  [
+   "netsuite",
+   "Oracle NetSuite",
+   "https://status.netsuite.com/"
   ]
  ]
 }

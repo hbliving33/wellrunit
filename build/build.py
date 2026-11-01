@@ -309,7 +309,7 @@ def news_page():
   <ol class="news" id="newsList" data-limit="30"><li class="news-empty">Loading the latest headlines.</li></ol>
   <div>{status_panel()}</div>
 </div></section>'''
-    page('news.html', f'Cybersecurity News | {BRAND}', 'Cybersecurity headlines from CISA, Microsoft and the security press, plus Microsoft 365, AWS and Wasabi service status, refreshed every hour.', body)
+    page('news.html', f'Cybersecurity News | {BRAND}', 'Cybersecurity headlines from CISA, Microsoft and the security press, plus Microsoft 365, AWS, Wasabi, Zoom and NetSuite service status, refreshed every hour.', body)
 
 def contact():
     body = phero("Tell us what you're working on.", 'Fill out the form and a senior consultant will get back to you within one business day.') + f'''

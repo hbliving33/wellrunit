@@ -97,6 +97,18 @@ def wasabi():
     except Exception as e:
         return {'status': 'Unknown', 'link': 'https://status.wasabi.com/'}, str(e)[:160]
 
+def statuspage(base):
+    # Atlassian Statuspage sites publish a public summary at /api/v2/status.json (no sign-in needed).
+    try:
+        d = json.loads(get(base.rstrip('/') + '/api/v2/status.json'))
+        ind = (d.get('status') or {}).get('indicator', '')
+        desc = (d.get('status') or {}).get('description', '')
+        return {'status': 'Available' if ind == 'none' else (desc or 'Unknown'), 'link': base}, None
+    except Exception as e:
+        return {'status': 'Unknown', 'link': base}, str(e)[:160]
+
+EXTRA = [('zoom', 'Zoom status', 'https://status.zoom.us/'), ('netsuite', 'NetSuite status', 'https://status.netsuite.com/')]
+
 def main():
     prev = {}
     if OUT.exists():
@@ -132,6 +144,9 @@ def main():
     if we: errors['Wasabi status'] = we
     now = dt.datetime.now(dt.timezone.utc).isoformat(); a['checked'] = w['checked'] = now
     data = {'updated': now, 'm365': m365(), 'aws': a, 'wasabi': w, 'items': pick, 'errors': errors}
+    for key, label, base in EXTRA:
+        r, err = statuspage(base); r['checked'] = now; data[key] = r
+        if err: errors[label] = err
     if not data['items'] and prev.get('items'): data['items'] = prev['items']
     OUT.write_text(json.dumps(data, indent=1))
     print('\n'.join(ok)); print('M365:', data['m365']['status'], '| headlines:', len(data['items']))
