@@ -1,133 +1,104 @@
-"""Builds logos.html, round three: variations on option 33 of round two (light Well, heavy Run, IT in steel blue, one word).
-Run from the repo root:  python3 build/logos_build.py   (earlier rounds: logos-round1.html, logos-round2.html)"""
+"""Builds logos.html, round four: variations of round three's 2, 18, 20 and 38, then new fonts, then new colors.
+Reuses the drawing code from build/logos_round3_build.py.  Run from the repo root:  python3 build/logos_build.py"""
 import pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-NAVY, STEEL, SKY = '#0f1c2d', '#2f5d8a', '#8fb3d9'
+src = (ROOT / 'build' / 'logos_round3_build.py').read_text()
+g = {'__file__': str(ROOT / 'build' / 'logos_round3_build.py')}
+exec(src.split("\nOPTIONS = [")[0], g)          # FAMILIES, PAL, wordmark(), lockup(), fav() and friends
+FAMILIES, PAL, lockup, fav = g['FAMILIES'], g['PAL'], g['lockup'], g['fav']
+NAVY, STEEL, SKY = g['NAVY'], g['STEEL'], g['SKY']
 
-FAMILIES = {   # name: (file stem, light weight, heavy weight)
- 'Inter': ('inter', 400, 800), 'Manrope': ('manrope', 400, 800), 'Sora': ('sora', 400, 800), 'Outfit': ('outfit', 400, 800),
- 'Lexend': ('lexend', 400, 800), 'Montserrat': ('montserrat', 400, 800), 'Poppins': ('poppins', 400, 800), 'IBM Plex Sans': ('ibm-plex-sans', 400, 700),
- 'Archivo': ('archivo', 400, 800), 'Space Grotesk': ('space-grotesk', 400, 700), 'Bricolage Grotesque': ('bricolage-grotesque', 400, 800),
- 'Exo 2': ('exo-2', 400, 800), 'Raleway': ('raleway', 400, 800), 'Josefin Sans': ('josefin-sans', 400, 700),
-}
+FAMILIES.update({
+ 'Barlow': ('barlow', 400, 800), 'Syne': ('syne', 400, 800), 'Unbounded': ('unbounded', 400, 800), 'Rajdhani': ('rajdhani', 400, 700),
+ 'Oswald': ('oswald', 400, 700), 'Big Shoulders Display': ('big-shoulders-display', 400, 800), 'JetBrains Mono': ('jetbrains-mono', 400, 800),
+ 'IBM Plex Mono': ('ibm-plex-mono', 400, 700), 'Fraunces': ('fraunces', 400, 800), 'IBM Plex Serif': ('ibm-plex-serif', 400, 700),
+})
 FONT_CSS = ''
 for name, (stem, lw, hw) in FAMILIES.items():
-    for w in sorted({lw, hw, 700}):
+    for w in sorted({lw, hw, 600, 700, 800}):
         f = ROOT / 'assets' / 'fonts' / f'{stem}-latin-{w}-normal.woff2'
         if f.exists():
             FONT_CSS += f"@font-face{{font-family:'{name}';font-weight:{w};font-display:swap;src:url(assets/fonts/{f.name}) format('woff2')}}"
 
-PAL = {   # light: (Well, Run, IT), dark: (Well, Run, IT)
- 'base':     ((NAVY, NAVY, STEEL), ('#fff', '#fff', SKY)),
- 'slate':    (('#5b6b7f', NAVY, STEEL), ('#b7c4d3', '#fff', SKY)),
- 'steelwell':((STEEL, NAVY, STEEL), (SKY, '#fff', SKY)),
- 'graphite': (('#1b2430', '#1b2430', '#3d5f85'), ('#fff', '#fff', '#9bb6d3')),
- 'teal':     ((NAVY, NAVY, '#2d6475'), ('#fff', '#fff', '#8cc1cc')),
- 'ink':      (('#101828', '#101828', '#36557a'), ('#fff', '#fff', '#9db3cf')),
- 'twotone':  ((STEEL, NAVY, NAVY), (SKY, '#fff', '#fff')),
-}
-MARKS = {
- 'pulse': '<path d="M2 12.5h5l2-4.5 3.5 9 2.5-6 1.5 1.5H22" fill="none" stroke="{a}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>',
- 'status': '<circle cx="12" cy="12" r="9.5" fill="none" stroke="{c}" stroke-width="2"/><circle cx="12" cy="12" r="5" fill="{a}"/>',
- 'gauge': '<path d="M3.5 16a8.5 8.5 0 0117 0" fill="none" stroke="{c}" stroke-width="2.4" stroke-linecap="round"/><path d="M12 16l5-5.2" stroke="{a}" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="16" r="2" fill="{c}"/>',
- 'chev': '<path d="M5 6l6 6-6 6" fill="none" stroke="{c}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 6l6 6-6 6" fill="none" stroke="{a}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>',
-}
+PAL.update({   # light: (Well, Run, IT)  dark: (Well, Run, IT)
+ 'cobalt':      ((NAVY, NAVY, '#2a5db0'), ('#fff', '#fff', '#8fb0e6')),
+ 'ocean':       ((NAVY, NAVY, '#1f6f8b'), ('#fff', '#fff', '#86c3d6')),
+ 'navysky':     ((NAVY, NAVY, '#4f86b8'), ('#fff', '#fff', '#a9c8e6')),
+ 'slatesteel':  (('#475569', '#1e293b', '#3b6a99'), ('#cbd5e1', '#fff', '#93b4d6')),
+ 'blackblue':   (('#141414', '#141414', '#2563a8'), ('#fff', '#fff', '#7fb0e8')),
+ 'graphteal':   (('#1b2430', '#1b2430', '#2d6475'), ('#fff', '#fff', '#8cc1cc')),
+ 'warmgray':    (('#3a3632', '#3a3632', '#2f5d8a'), ('#f2eee9', '#f2eee9', SKY)),
+ 'mutedgold':   ((NAVY, NAVY, '#9a7535'), ('#fff', '#fff', '#d6b46e')),
+ 'steelwell2':  (('#4f86b8', NAVY, '#4f86b8'), ('#a9c8e6', '#fff', '#a9c8e6')),
+ 'tealwell':    (('#2d6475', NAVY, '#2d6475'), ('#8cc1cc', '#fff', '#8cc1cc')),
+ 'graphslate':  (('#6b7787', '#1b2430', '#3d5f85'), ('#b7c4d3', '#fff', '#9bb6d3')),
+ 'graphwell':   (('#3d5f85', '#1b2430', '#3d5f85'), ('#9bb6d3', '#fff', '#9bb6d3')),
+})
 
-def wordmark(o, dark=False):
-    fam = o.get('font', 'Inter'); stem, lw, hw = FAMILIES[fam]
-    lw = o.get('lw', lw); hw = o.get('hw', hw)
-    cw, cr, ci = PAL[o.get('pal', 'base')][1 if dark else 0]
-    ls = o.get('ls', '-.03em'); gap = o.get('gap', '.03em')
-    well, run, it = o.get('text', ('Well', 'Run', 'IT'))
-    it_style = f"color:{ci};font-weight:{o.get('itw', hw)};margin-left:{gap};letter-spacing:0;display:inline-block;"
-    if o.get('lean'): it_style += f"transform:skewX({o['lean']}deg);"
-    if o.get('under'): it_style += f"border-bottom:.09em solid {ci};padding-bottom:.01em;"
-    if o.get('dot'): it += f'<span style="color:{ci}">.</span>'
-    tail = ''
-    if o.get('bar'):   # thin rule after the wordmark
-        tail = f'<span style="display:inline-block;width:.5em;height:.12em;background:{ci};margin-left:.1em;vertical-align:.32em;border-radius:.06em"></span>'
-    caps = 'text-transform:uppercase;' if o.get('caps') else ''
-    well_gap = f"margin-right:{o['wellgap']};" if o.get('wellgap') else ''
-    return (f'<span style="font-family:\'{fam}\',Inter,sans-serif;letter-spacing:{ls};white-space:nowrap;{caps}">'
-            f'<span style="font-weight:{lw};color:{cw};{well_gap}">{well}</span><span style="font-weight:{hw};color:{cr}">{run}</span>'
-            f'<span style="{it_style}">{it}</span>{tail}</span>')
-
-def mark(o, dark):
-    m = o.get('mark')
-    if not m: return ''
-    c, a = ('#fff', SKY) if dark else (NAVY, STEEL)
-    return f'<svg viewBox="0 0 24 24" class="mk" aria-hidden="true">{MARKS[m].replace("{c}", c).replace("{a}", a)}</svg>'
-
-def lockup(o, dark=False, cls=''):
-    if o.get('stack'):
-        fam = o.get('font', 'Inter'); stem, lw, hw = FAMILIES[fam]
-        cw, cr, ci = PAL[o.get('pal', 'base')][1 if dark else 0]
-        w = (f'<span style="display:inline-flex;flex-direction:column;line-height:.9;font-family:\'{fam}\',Inter;letter-spacing:-.03em">'
-             f'<span style="font-weight:{lw};color:{cw};font-size:.62em">Well</span><span><span style="font-weight:{hw};color:{cr}">Run</span>'
-             f'<span style="font-weight:{hw};color:{ci};margin-left:.03em">IT</span></span></span>')
-    else:
-        w = wordmark(o, dark)
-    return f'<div class="lk {cls}">{mark(o, dark)}<span class="wm">{w}</span></div>'
-
-def fav(o, dark):
-    fam = o.get('font', 'Inter'); stem, lw, hw = FAMILIES[fam]
-    cw, cr, ci = PAL[o.get('pal', 'base')][1 if dark else 0]
-    if o.get('mark'):
-        return f'<span class="fav{" d" if dark else ""}">{mark(o, dark)}</span>'
-    return (f'<span class="fav{" d" if dark else ""}"><span style="font:{hw} 12px \'{fam}\',Inter;letter-spacing:-.02em">'
-            f'<span style="color:{cr}">R</span><span style="color:{ci}">IT</span></span></span>')
-
-OPTIONS = [
- (dict(), 'Your pick, number 33', 'Inter, light Well, heavy Run, IT in steel blue'),
- (dict(lw=400, hw=700), 'Slightly lighter Run', 'Inter, bold instead of extra bold'),
- (dict(gap='0'), 'IT tight to Run', 'No extra space before IT'),
- (dict(gap='.06em'), 'A touch more space before IT', 'Inter'),
- (dict(ls='-.045em'), 'Tighter overall', 'Letters pulled a little closer'),
- (dict(ls='-.01em'), 'Looser overall', 'More air between letters'),
- (dict(itw=700), 'IT a bit lighter than Run', 'Run extra bold, IT bold'),
- (dict(lean=-8), 'IT leans forward', 'A slight forward lean on IT only'),
- (dict(lean=-5), 'IT leans a little', 'A gentle lean on IT only'),
- (dict(under=True), 'IT underlined', 'A short rule under IT'),
- (dict(dot=True), 'With a full stop', 'WellRunIT.'),
- (dict(bar=True), 'With a short dash after', 'A small steel bar finishes the word'),
- (dict(caps=True, ls='.03em'), 'All caps', 'WELLRUNIT, IT in steel blue'),
- (dict(text=('well', 'run', 'IT')), 'Lowercase, capital IT', 'wellrunIT'),
- (dict(text=('well', 'Run', 'IT')), 'Lowercase well', 'wellRunIT'),
- (dict(stack=True), 'Stacked', 'Well above RunIT'),
- (dict(pal='slate'), 'Well in soft slate', 'Three tones: slate, navy, steel blue'),
- (dict(pal='steelwell'), 'Well and IT both steel blue', 'Run carries the weight'),
- (dict(pal='twotone'), 'Steel Well, navy RunIT', 'Color on Well instead of IT'),
- (dict(pal='graphite'), 'Graphite and slate blue', 'Subtle color shift'),
- (dict(pal='teal'), 'Navy with deep teal IT', 'Subtle color shift'),
- (dict(pal='ink'), 'Ink and denim', 'Subtle color shift'),
- (dict(mark='pulse'), 'With a pulse', 'Steel blue pulse line before the word'),
- (dict(mark='status'), 'With a status dot', 'Operational dot before the word'),
- (dict(mark='gauge'), 'With a gauge', 'Needle in the green'),
- (dict(mark='chev'), 'With forward chevrons', 'Motion before the word'),
- (dict(font='Manrope'), 'Manrope', 'Same idea, rounder letters'),
- (dict(font='Sora'), 'Sora', 'Wide and modern'),
- (dict(font='Outfit'), 'Outfit', 'Geometric and friendly'),
- (dict(font='Lexend'), 'Lexend', 'Very readable, slightly wide'),
- (dict(font='Montserrat'), 'Montserrat', 'Classic geometric'),
- (dict(font='Poppins'), 'Poppins', 'Round geometric'),
- (dict(font='IBM Plex Sans'), 'IBM Plex Sans', 'Technical, engineered feel'),
- (dict(font='Archivo'), 'Archivo', 'Compact and sturdy'),
- (dict(font='Space Grotesk'), 'Space Grotesk', 'Tech character'),
- (dict(font='Bricolage Grotesque'), 'Bricolage Grotesque', 'A bit of personality'),
- (dict(font='Exo 2'), 'Exo 2', 'Technical, slightly angular'),
- (dict(font='Raleway'), 'Raleway', 'Elegant, thin and bold contrast'),
- (dict(font='Josefin Sans'), 'Josefin Sans', 'Vintage geometric'),
- (dict(font='Manrope', lean=-6), 'Manrope with a leaning IT', 'Gentle forward lean'),
- (dict(font='Sora', pal='slate'), 'Sora in three tones', 'Slate Well, navy Run, steel IT'),
- (dict(font='Outfit', mark='pulse'), 'Outfit with a pulse', 'Friendly letters with the pulse mark'),
+S2 = dict(lw=400, hw=700)           # round three number 2
+SECTIONS = [
+ ('Variations of 2: Inter, light Well, bold Run, steel IT', [
+   (dict(S2), '2 as it was', 'Inter, bold Run'),
+   (dict(S2, hw=600), 'Run a step lighter', 'Semi-bold Run, calmer overall'),
+   (dict(S2, itw=800), 'IT a step heavier than Run', 'IT stands out a little more'),
+   (dict(S2, gap='.06em'), 'A touch more space before IT', ''),
+   (dict(S2, ls='-.015em'), 'A little more air', 'Letters slightly further apart'),
+   (dict(S2, lean=-5), 'IT leans a little', 'Gentle forward lean'),
+   (dict(S2, mark='pulse'), 'With the pulse mark', ''),
+   (dict(S2, pal='slate'), 'Well in soft slate', 'Three tones'),
+ ]),
+ ('Variations of 18: Well and IT both colored, Run carries the weight', [
+   (dict(pal='steelwell'), '18 as it was', 'Steel blue Well and IT, navy Run'),
+   (dict(pal='steelwell', hw=700), 'Bold instead of extra bold', ''),
+   (dict(pal='steelwell2'), 'Brighter steel', 'A slightly lighter blue on Well and IT'),
+   (dict(pal='tealwell'), 'Deep teal Well and IT', ''),
+   (dict(pal='graphwell'), 'Slate blue Well and IT, graphite Run', 'Mixes 18 and 20'),
+   (dict(pal='steelwell', font='Raleway'), 'In Raleway', 'Mixes 18 and 38'),
+   (dict(pal='steelwell', font='Manrope'), 'In Manrope', ''),
+   (dict(pal='steelwell', lean=-5), 'IT leans a little', ''),
+ ]),
+ ('Variations of 20: graphite and slate blue', [
+   (dict(pal='graphite'), '20 as it was', 'Graphite Well and Run, slate blue IT'),
+   (dict(pal='graphite', hw=700), 'Bold instead of extra bold', 'Mixes 20 and 2'),
+   (dict(pal='graphslate'), 'Well in light gray', 'Three tones in graphite'),
+   (dict(pal='graphteal'), 'Graphite with a teal IT', ''),
+   (dict(pal='graphite', font='Raleway'), 'In Raleway', 'Mixes 20 and 38'),
+   (dict(pal='graphite', font='Sora'), 'In Sora', ''),
+   (dict(pal='graphite', mark='status'), 'With the status dot', ''),
+ ]),
+ ('Variations of 38: Raleway', [
+   (dict(font='Raleway'), '38 as it was', 'Raleway, light Well, extra bold Run'),
+   (dict(font='Raleway', hw=700), 'Bold instead of extra bold', 'Mixes 38 and 2'),
+   (dict(font='Raleway', ls='-.045em'), 'Tighter', 'Letters pulled closer'),
+   (dict(font='Raleway', ls='.0em'), 'Looser', 'More air between letters'),
+   (dict(font='Raleway', pal='slate'), 'Well in soft slate', 'Three tones'),
+   (dict(font='Raleway', caps=True, ls='.04em'), 'All caps', 'WELLRUNIT'),
+   (dict(font='Raleway', lean=-5), 'IT leans a little', ''),
+   (dict(font='Raleway', mark='pulse'), 'With the pulse mark', ''),
+ ]),
+ ('New fonts, in the style of 2', [(dict(S2, font=f, hw=FAMILIES[f][2]), f, d) for f, d in [
+   ('Barlow', 'Clean and slightly condensed'), ('Syne', 'Distinctive, wide bold'), ('Unbounded', 'Very wide, modern'),
+   ('Rajdhani', 'Squared, technical'), ('Oswald', 'Tall and condensed'), ('Big Shoulders Display', 'Narrow, strong'),
+   ('JetBrains Mono', 'Code font, IT feel'), ('IBM Plex Mono', 'Typewriter-style code font'),
+   ('Fraunces', 'Soft serif, warm'), ('IBM Plex Serif', 'Serious serif, engineered')]]),
+ ('New color options, in the style of 2', [(dict(S2, pal=p), t, d) for p, t, d in [
+   ('base', 'Navy and steel blue', 'Current colors, for reference'), ('cobalt', 'Navy and cobalt', 'A cleaner, brighter blue'),
+   ('ocean', 'Navy and ocean blue', 'Blue with a hint of green'), ('navysky', 'Navy and sky blue', 'Lighter, airier accent'),
+   ('slatesteel', 'Slate and steel', 'Softer, three tones'), ('blackblue', 'Near black and true blue', 'Highest contrast'),
+   ('graphteal', 'Graphite and teal', 'Calm and technical'), ('warmgray', 'Warm gray and steel', 'A touch warmer than navy'),
+   ('mutedgold', 'Navy and muted gold', 'One warm option, still quiet')]]),
 ]
 
-cards = ''
-for n, (o, t, sub) in enumerate(OPTIONS, 1):
-    cards += f'''<article class="opt"><div class="num">{n}</div>
+body = ''; n = 0
+for title, opts in SECTIONS:
+    cards = ''
+    for o, t, sub in opts:
+        n += 1
+        cards += f'''<article class="opt"><div class="num">{n}</div>
 <div class="lite">{lockup(o)}</div><div class="drk">{lockup(o, True)}</div>
 <div class="small">{fav(o, False)}{fav(o, True)}{lockup(o, False, 'sm')}</div>
-<p class="cap"><b>{t}</b><br>{sub}</p></article>'''
+<p class="cap"><b>{t}</b>{('<br>' + sub) if sub else ''}</p></article>'''
+    body += f'<h2 class="sec">{title}</h2><div class="grid">{cards}</div>'
 
 page = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -135,8 +106,9 @@ page = f'''<!doctype html>
 <link rel="stylesheet" href="assets/css/site.css">
 <style>
 {FONT_CSS}
-.intro{{padding:56px 0 28px}} .intro h1{{font-size:clamp(34px,4.5vw,52px)}} .intro p{{margin-top:14px;max-width:780px}}
-.grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding-bottom:80px}}
+.intro{{padding:56px 0 20px}} .intro h1{{font-size:clamp(34px,4.5vw,52px)}} .intro p{{margin-top:14px;max-width:780px}}
+.sec{{font-size:clamp(22px,2.4vw,28px);margin:34px 0 16px;padding-top:22px;border-top:1px solid var(--line2)}}
+.grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding-bottom:24px}}
 @media (max-width:1000px){{.grid{{grid-template-columns:repeat(2,1fr)}}}} @media (max-width:640px){{.grid{{grid-template-columns:1fr}}}}
 .opt{{position:relative;background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden}}
 .num{{position:absolute;top:10px;left:12px;font:700 13px Inter;color:var(--muted)}}
@@ -150,11 +122,12 @@ page = f'''<!doctype html>
 .fav.d{{background:var(--dark);border-color:var(--dark)}} .fav svg{{width:20px;height:20px}}
 .cap{{padding:0 18px 16px;font-size:14px;color:var(--ink2);line-height:1.45}}
 </style></head><body>
-<header class="top"><div class="wrap"><a class="brand" href="index.html" style="font:800 18px Inter;color:var(--ink);text-decoration:none">Well Run IT</a><nav class="nav" style="display:flex"><a href="logos-round2.html">Round two</a><a href="logos-round1.html">Round one</a><a href="index.html">Back to the site</a></nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="index.html" style="font:800 18px Inter;color:var(--ink);text-decoration:none">Well Run IT</a><nav class="nav" style="display:flex"><a href="logos-round3.html">Round three</a><a href="logos-round2.html">Round two</a><a href="logos-round1.html">Round one</a><a href="index.html">Back to the site</a></nav></div></header>
 <main class="wrap">
-<section class="intro"><h1>Logo options, round three.</h1><p class="lead">{len(OPTIONS)} variations on the one you liked: a light Well, a heavy Run and IT in steel blue, written as one word.  Number 1 is your pick as it was.  The rest try spacing, a lean, small accents, subtle colors, a mark, and 14 different typefaces.  The tab icon on each card uses R and IT.</p></section>
-<div class="grid">{cards}</div>
+<section class="intro"><h1>Logo options, round four.</h1><p class="lead">{n} options.  First, variations of the four you picked from round three (2, 18, 20 and 38), each in its own section.  Then new typefaces, and then new color options, all in the style of 2.</p></section>
+{body}
+<div style="height:60px"></div>
 </main></body></html>
 '''
 (ROOT / 'logos.html').write_text(page)
-print('built logos.html, round three, with', len(OPTIONS), 'options')
+print('built logos.html, round four, with', n, 'options')
