@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wellrunit.com/sitemap.xml

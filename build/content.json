@@ -1,0 +1,1627 @@
+{
+ "CA": "M10.1,0L19.7,0.4L20.3,0.3L25.0,0.5L28.5,0.4L30.2,0.6L37.3,0.8L39.6,0.8L45.5,0.9L48.3,1.1L57.8,1.4L64.8,1.6L77.0,1.7L82.7,1.6L82.7,1.7L82.7,30.4L82.8,31.1L82.8,46.1L82.7,54.0L82.7,54.2L82.7,63.3L82.6,65.8L82.7,71.0L84.4,72.5L91.9,79.1L99.3,85.7L103.5,89.3L110.0,95.1L118.4,102.5L122.5,106.1L131.1,113.8L152.6,132.7L168.9,147.2L173.9,151.6L184.4,160.8L184.5,163.7L185.6,164.8L186.2,166.2L187.8,167.3L189.9,172.0L189.8,173.1L190.7,173.2L192.9,175.1L193.9,175.4L194.7,176.4L194.9,177.4L193.2,178.8L193.2,179.2L192.0,179.6L191.4,180.5L189.9,181.1L189.3,181.7L189.4,183.1L187.6,185.5L188.1,185.9L188.3,187.0L187.9,187.1L187.9,188.1L188.5,189.4L188.7,190.8L188.2,191.1L188.0,193.3L188.3,194.2L187.8,194.7L186.0,197.6L184.7,197.8L185.3,198.8L184.7,200.1L185.8,200.9L185.8,203.7L185.4,205.1L186.5,206.4L186.7,206.0L187.6,206.5L188.1,206.2L189.2,206.3L190.4,208.9L190.4,210.5L189.2,211.8L189.4,212.6L187.7,213.2L186.0,213.0L185.7,213.7L156.7,217.6L138.9,220L138.7,218.0L138.0,216.8L137.4,216.4L136.5,216.9L136.2,215.6L136.2,214.2L135.7,213.4L136.3,212.2L135.5,209.0L134.6,206.5L133.9,205.4L131.0,201.7L129.3,200.5L128.5,199.5L127.5,198.8L126.9,198.9L125.5,197.0L123.7,195.9L122.7,195.6L121.3,194.5L119.5,192.8L117.8,192.0L117.7,193.0L116.3,193.4L115.0,193.2L114.3,192.7L113.3,192.6L113.0,191.9L113.6,191.2L113.7,190.3L112.7,188.0L111.9,186.8L110.7,185.8L108.3,185.8L106.8,186.0L105.7,186.7L104.7,186.0L102.8,185.7L100.2,184.5L99.4,184.5L97.7,183.5L96.5,180.7L95.8,180.5L94.7,179.4L94.4,179.5L93.0,178.2L91.6,177.7L91.2,177.3L89.0,177.2L87.9,177.7L86.6,177.2L85.1,177.4L82.6,176.2L81.0,176.2L80.0,175.9L77.0,176.1L73.7,176.5L73.6,175.9L72.7,174.6L71.7,174L70.8,174.0L70.4,173.4L71.3,170.5L70.6,169.3L71.2,167.0L70.0,165.9L70.6,163.6L70.7,160.8L69.5,159.7L68.6,159.6L68.3,160.0L66.5,158.9L65.8,157.9L66.5,155.3L66.4,154.3L65.6,153.2L63.8,152.9L62.0,150.9L60.8,148.9L59.2,148.3L58.1,147.0L57.8,145.4L56.7,144.4L56.2,143.7L55.3,143.0L54.9,141.0L54.6,140.3L53.3,139.7L52.3,137.6L50.7,135.7L48.5,134.4L47.8,133.5L47.3,131.9L47.3,131.1L46.6,129.0L46.8,127.2L46.1,126.9L46.8,125.4L48.0,126.2L48.6,125.6L49.1,124.4L49.7,121.6L48.3,118.6L47.5,117.7L46.9,117.5L46.3,118.0L43.8,118.0L42.0,116.6L40.6,114.5L39.7,114.1L39.6,113.5L38.5,112.3L38.2,111.0L38.6,108.5L37.9,106.7L37.8,105.6L37.0,105.3L36.6,104.7L36.6,103.4L36.9,102.9L37.1,101.3L36.8,98.6L37.7,98.1L38.8,98.0L39.1,98.5L39.5,100.2L39.0,100.4L39.6,102.5L39.5,103.1L41.2,103.6L43.0,105.2L43.5,105.1L44.4,106.4L45.2,106.4L44.8,105.6L44.0,105.2L43.4,103.4L43.0,101.2L41.7,100.1L41.5,99.2L40.1,98.7L40.7,97.2L40.3,95.8L39.3,95.8L38.5,94.4L39.0,94.6L39.6,94.1L39.6,93.3L40.8,93.4L41.5,92.7L40.9,91.2L39.2,90.3L38.3,90.9L37.4,91.0L37.5,91.9L37.2,92.8L38.1,93.9L37.3,94.3L37.1,95.2L38.3,96.4L37.8,96.6L37.1,96.0L37.5,97.5L36.5,97.7L36.0,97.0L34.3,95.7L33.4,95.9L32.0,94.5L31.3,93.5L30.3,92.8L29.2,92.6L27.9,93.2L28.9,90.7L29.1,89.8L28.4,87.9L28.8,87.5L27.9,86.1L27.1,86.3L27.1,84.9L26.1,82.8L24.8,81.7L23.9,81.3L22.5,80.0L20.3,76.4L19.4,75.8L18.9,75.0L16.9,73.1L15.5,70.7L16.5,69.2L16.4,68.4L15.6,65.8L14.7,63.3L14.3,61.2L14.6,59.3L15.5,56.7L15.3,55.6L15.3,54.3L14.5,52.5L14.3,50.3L13.3,49.6L13.0,48.4L10.9,45.7L10.4,45.6L10.5,44.7L10.0,43.8L8.6,43.1L5.7,40.0L6.0,38.8L5.8,37.4L5.0,35.8L5.7,33.9L6.7,31.8L9.6,26.7L10.3,24.8L10.9,22.5L10.1,21.7L10.2,19.8L10.4,19.7L11.2,17.8L12.2,13.0L11.9,10.5L11.1,7.9L10.7,6.0L10.1,6.0L9.1,4.9L9.8,3.5L10.2,1.3Z",
+ "ENGAGE": [
+  [
+   "Projects",
+   "A defined job with a clear finish line.",
+   "A fixed scope and a price agreed before work starts.  When it is done, it is documented and handed back to you.",
+   [
+    "Written scope, timeline and fixed price",
+    "One senior lead from start to finish",
+    "Documentation and handoff when the job is done"
+   ],
+   [
+    "Office or headquarters moves",
+    "Microsoft 365 migrations",
+    "Network or Wi-Fi refreshes",
+    "Security assessments",
+    "Access control installs"
+   ],
+   "one-time needs with a clear goal"
+  ],
+  [
+   "Managed IT, your way",
+   "A right-sized MSP plan, built around you.",
+   "We're not a big-box managed service provider (MSP) with one plan for everyone.  We sit down with you, choose what we manage and how, and price it to fit, from a few key systems to the whole stack.",
+   [
+    "Monitoring and patching",
+    "User onboarding and offboarding",
+    "Vendor and license management",
+    "Help when something breaks",
+    "A monthly review of what changed and what is next",
+    "A scope you can grow or shrink as you go"
+   ],
+   [
+    "Companies without in-house IT",
+    "Teams whose IT person left",
+    "Co-managed support alongside a small IT staff"
+   ],
+   "teams that want MSP-style coverage without a one-size contract"
+  ],
+  [
+   "Fractional IT leadership",
+   "An IT director, part time.",
+   "The judgment of an IT director for a set number of days a month, without a full-time salary.",
+   [
+    "Technology roadmap and budget",
+    "Vendor contract review and negotiation",
+    "Audit, compliance and risk ownership",
+    "Board and audit committee cybersecurity updates",
+    "Hiring and managing outside providers"
+   ],
+   [
+    "Startups and growing companies",
+    "Businesses facing an audit or acquisition",
+    "Leadership teams that need an IT voice at the table"
+   ],
+   "companies not ready for a full-time IT director"
+  ]
+ ],
+ "HERO_STATE": "<svg class=\"hero-state\" viewBox=\"0 0 200 220\" aria-hidden=\"true\"><path d=\"M10.1,0L19.7,0.4L20.3,0.3L25.0,0.5L28.5,0.4L30.2,0.6L37.3,0.8L39.6,0.8L45.5,0.9L48.3,1.1L57.8,1.4L64.8,1.6L77.0,1.7L82.7,1.6L82.7,1.7L82.7,30.4L82.8,31.1L82.8,46.1L82.7,54.0L82.7,54.2L82.7,63.3L82.6,65.8L82.7,71.0L84.4,72.5L91.9,79.1L99.3,85.7L103.5,89.3L110.0,95.1L118.4,102.5L122.5,106.1L131.1,113.8L152.6,132.7L168.9,147.2L173.9,151.6L184.4,160.8L184.5,163.7L185.6,164.8L186.2,166.2L187.8,167.3L189.9,172.0L189.8,173.1L190.7,173.2L192.9,175.1L193.9,175.4L194.7,176.4L194.9,177.4L193.2,178.8L193.2,179.2L192.0,179.6L191.4,180.5L189.9,181.1L189.3,181.7L189.4,183.1L187.6,185.5L188.1,185.9L188.3,187.0L187.9,187.1L187.9,188.1L188.5,189.4L188.7,190.8L188.2,191.1L188.0,193.3L188.3,194.2L187.8,194.7L186.0,197.6L184.7,197.8L185.3,198.8L184.7,200.1L185.8,200.9L185.8,203.7L185.4,205.1L186.5,206.4L186.7,206.0L187.6,206.5L188.1,206.2L189.2,206.3L190.4,208.9L190.4,210.5L189.2,211.8L189.4,212.6L187.7,213.2L186.0,213.0L185.7,213.7L156.7,217.6L138.9,220L138.7,218.0L138.0,216.8L137.4,216.4L136.5,216.9L136.2,215.6L136.2,214.2L135.7,213.4L136.3,212.2L135.5,209.0L134.6,206.5L133.9,205.4L131.0,201.7L129.3,200.5L128.5,199.5L127.5,198.8L126.9,198.9L125.5,197.0L123.7,195.9L122.7,195.6L121.3,194.5L119.5,192.8L117.8,192.0L117.7,193.0L116.3,193.4L115.0,193.2L114.3,192.7L113.3,192.6L113.0,191.9L113.6,191.2L113.7,190.3L112.7,188.0L111.9,186.8L110.7,185.8L108.3,185.8L106.8,186.0L105.7,186.7L104.7,186.0L102.8,185.7L100.2,184.5L99.4,184.5L97.7,183.5L96.5,180.7L95.8,180.5L94.7,179.4L94.4,179.5L93.0,178.2L91.6,177.7L91.2,177.3L89.0,177.2L87.9,177.7L86.6,177.2L85.1,177.4L82.6,176.2L81.0,176.2L80.0,175.9L77.0,176.1L73.7,176.5L73.6,175.9L72.7,174.6L71.7,174L70.8,174.0L70.4,173.4L71.3,170.5L70.6,169.3L71.2,167.0L70.0,165.9L70.6,163.6L70.7,160.8L69.5,159.7L68.6,159.6L68.3,160.0L66.5,158.9L65.8,157.9L66.5,155.3L66.4,154.3L65.6,153.2L63.8,152.9L62.0,150.9L60.8,148.9L59.2,148.3L58.1,147.0L57.8,145.4L56.7,144.4L56.2,143.7L55.3,143.0L54.9,141.0L54.6,140.3L53.3,139.7L52.3,137.6L50.7,135.7L48.5,134.4L47.8,133.5L47.3,131.9L47.3,131.1L46.6,129.0L46.8,127.2L46.1,126.9L46.8,125.4L48.0,126.2L48.6,125.6L49.1,124.4L49.7,121.6L48.3,118.6L47.5,117.7L46.9,117.5L46.3,118.0L43.8,118.0L42.0,116.6L40.6,114.5L39.7,114.1L39.6,113.5L38.5,112.3L38.2,111.0L38.6,108.5L37.9,106.7L37.8,105.6L37.0,105.3L36.6,104.7L36.6,103.4L36.9,102.9L37.1,101.3L36.8,98.6L37.7,98.1L38.8,98.0L39.1,98.5L39.5,100.2L39.0,100.4L39.6,102.5L39.5,103.1L41.2,103.6L43.0,105.2L43.5,105.1L44.4,106.4L45.2,106.4L44.8,105.6L44.0,105.2L43.4,103.4L43.0,101.2L41.7,100.1L41.5,99.2L40.1,98.7L40.7,97.2L40.3,95.8L39.3,95.8L38.5,94.4L39.0,94.6L39.6,94.1L39.6,93.3L40.8,93.4L41.5,92.7L40.9,91.2L39.2,90.3L38.3,90.9L37.4,91.0L37.5,91.9L37.2,92.8L38.1,93.9L37.3,94.3L37.1,95.2L38.3,96.4L37.8,96.6L37.1,96.0L37.5,97.5L36.5,97.7L36.0,97.0L34.3,95.7L33.4,95.9L32.0,94.5L31.3,93.5L30.3,92.8L29.2,92.6L27.9,93.2L28.9,90.7L29.1,89.8L28.4,87.9L28.8,87.5L27.9,86.1L27.1,86.3L27.1,84.9L26.1,82.8L24.8,81.7L23.9,81.3L22.5,80.0L20.3,76.4L19.4,75.8L18.9,75.0L16.9,73.1L15.5,70.7L16.5,69.2L16.4,68.4L15.6,65.8L14.7,63.3L14.3,61.2L14.6,59.3L15.5,56.7L15.3,55.6L15.3,54.3L14.5,52.5L14.3,50.3L13.3,49.6L13.0,48.4L10.9,45.7L10.4,45.6L10.5,44.7L10.0,43.8L8.6,43.1L5.7,40.0L6.0,38.8L5.8,37.4L5.0,35.8L5.7,33.9L6.7,31.8L9.6,26.7L10.3,24.8L10.9,22.5L10.1,21.7L10.2,19.8L10.4,19.7L11.2,17.8L12.2,13.0L11.9,10.5L11.1,7.9L10.7,6.0L10.1,6.0L9.1,4.9L9.8,3.5L10.2,1.3Z\" fill=\"#8fb3d9\"/></svg>",
+ "INDUSTRIES": [
+  [
+   "flask",
+   "Life sciences and medical device companies",
+   "Medical device, diagnostics and biotech teams where systems, records and audits are under a regulator's eye.",
+   [
+    "IT controls, access reviews and change management that hold up in audits",
+    "Account and role management for lab and quality systems",
+    "SharePoint and OneDrive permissions cleaned up and kept that way"
+   ]
+  ],
+  [
+   "compliance",
+   "Clinical and diagnostics labs",
+   "Certified labs that cannot stop for an IT problem, from a single site to several states.",
+   [
+    "Lab build-outs, biobank moves and validated-system support",
+    "Lab network and Wi-Fi designed for uptime",
+    "Physical security for labs: badges, cameras and visitor logs",
+    "Backups and recovery you have actually tested",
+    "Support across sites in several states"
+   ]
+  ],
+  [
+   "factory",
+   "Manufacturing and distribution",
+   "Plants, warehouses and offices that need one network, one standard and costs under control.",
+   [
+    "Multi-site networks",
+    "Data center and colocation moves",
+    "ISO 9001, 14001 and 27001 audit support",
+    "Vendor consolidation and cost reduction"
+   ]
+  ],
+  [
+   "briefcase",
+   "Finance and professional services",
+   "Firms that live on email, documents and client trust, and answer to auditors and clients.",
+   [
+    "SOX IT general controls",
+    "Microsoft 365 security and licensing",
+    "Phishing and impersonation defenses",
+    "Client data protection and access reviews"
+   ]
+  ],
+  [
+   "growth",
+   "Growing and acquiring companies",
+   "Companies adding sites, people or acquisitions faster than IT can keep up.",
+   [
+    "Acquisition IT integration, from first day to full merge",
+    "Office moves and new building cutovers",
+    "Roadmaps and budgets for the next three to five years",
+    "Fractional IT leadership until a full-time hire makes sense"
+   ]
+  ]
+ ],
+ "NAV": [
+  [
+   "index.html",
+   "Home"
+  ],
+  [
+   "services.html",
+   "Services"
+  ],
+  [
+   "engagement.html",
+   "How We Work"
+  ],
+  [
+   "why-us.html",
+   "Why Us"
+  ],
+  [
+   "about.html",
+   "About"
+  ],
+  [
+   "news.html",
+   "Cyber News"
+  ]
+ ],
+ "PAINS": [
+  [
+   "Your IT person left, and nobody knows the passwords.",
+   "it-strategy"
+  ],
+  [
+   "You're not sure you'd survive a ransomware attack.",
+   "cybersecurity"
+  ],
+  [
+   "You're paying for Microsoft licenses nobody uses.",
+   "microsoft-365"
+  ],
+  [
+   "The Wi-Fi drops every afternoon, and everyone just lives with it.",
+   "network"
+  ],
+  [
+   "An audit is coming and the evidence is scattered everywhere.",
+   "compliance"
+  ],
+  [
+   "Your server closet is one bad day away from a very bad week.",
+   "cloud"
+  ],
+  [
+   "Your colocation contract renews next month, and nobody has compared prices in years.",
+   "data-center"
+  ],
+  [
+   "Someone who left months ago still has a badge that opens the front door.",
+   "access-control"
+  ],
+  [
+   "Nobody can say how many apps you pay for, or who still has access to them.",
+   "business-applications"
+  ],
+  [
+   "Your team types the same order into three different systems.",
+   "business-automation"
+  ]
+ ],
+ "QUESTIONS": [
+  "Is multi-factor sign-in turned on for every account, including admins?",
+  "Have you actually restored something from backup in the last six months?",
+  "Do people who leave lose access to everything the same day?",
+  "Are your firewall, servers and laptops patched every month?",
+  "Do you know exactly which licenses you pay for, and who uses them?",
+  "Is there a written plan for what happens if ransomware hits tomorrow?"
+ ],
+ "QUOTES": [
+  [
+   "\u201c[His] commitment to providing his clients with the highest level of service \u2026 is unsurpassed!\u201d",
+   "President, equipment financing firm"
+  ],
+  [
+   "\u201cAlways assured of [his] passion to do what is right, what is technically sound, and what is cost effective.\u201d",
+   "Former manager"
+  ],
+  [
+   "\u201cA strong leader (often leading by example) and a great communicator!\u201d",
+   "President and Chief Operating Officer"
+  ],
+  [
+   "\u201c[He] is the kind of guy all successful organizations need.\u201d",
+   "Project manager"
+  ]
+ ],
+ "RESULTS": [
+  [
+   "Facilities",
+   "Headquarters and lab, rebuilt and moved",
+   "Moved a diagnostics company into a new 26,800 sq ft headquarters, including network design, building systems input and lab layout, then relocated a production lab and biobank.",
+   "New certified and R&D labs built out"
+  ],
+  [
+   "Cost",
+   "$4.5 million out of the IT budget",
+   "For a large manufacturer: virtualized 80% of servers across six regional hubs, moved the data center to a colocation facility with failover, and restructured outside partners.",
+   "$4.5M cut over two years"
+  ]
+ ],
+ "SERVICES": [
+  {
+   "slug": "network",
+   "name": "Network",
+   "h": "Fast, stable and <em>built to grow</em>.",
+   "short": "Firewalls, switching, Wi-Fi, VPN and the links between your sites.",
+   "intro": "Firewalls, switches, Wi-Fi and the links between your sites.  We design it, install it, document it and watch it, so the network is the last thing anyone thinks about.",
+   "pains": [
+    [
+     "The Wi-Fi drops",
+     "Everyone has learned which conference room to avoid."
+    ],
+    [
+     "Sites don't talk",
+     "Branch offices or labs connect through workarounds nobody wants to touch."
+    ],
+    [
+     "The office is moving",
+     "A new building means cabling, firewalls, Wi-Fi and a cutover that can't go wrong."
+    ]
+   ],
+   "get": [
+    "Network design from core to edge",
+    "Firewall, switching and Wi-Fi installs",
+    "Site-to-site VPN and SD-WAN between offices, labs and plants",
+    "Remote access, from VPN to zero trust (ZTNA)",
+    "Office moves and new building cutovers",
+    "Guest Wi-Fi kept separate from your business network",
+    "Monitoring and documentation you keep"
+   ],
+   "plat": [
+    "Cisco Meraki",
+    "UniFi",
+    "SD-WAN",
+    "Site-to-site VPN",
+    "ZTNA",
+    "Wi-Fi",
+    "Network monitoring"
+   ],
+   "case": [
+    "One network, every site",
+    "A multi-site lab company needed all of its locations on one secure, managed network.",
+    [
+     "Designed and deployed a Cisco Meraki network across its sites",
+     "Linked every location with site-to-site VPN"
+    ],
+    "Every site on one managed network, with security handled centrally."
+   ],
+   "desc": "Network design and support: firewalls, switching, Wi-Fi, SD-WAN, site-to-site VPN and zero trust remote access, documented and monitored."
+  },
+  {
+   "slug": "cloud",
+   "name": "Cloud",
+   "h": "Move what makes sense.  <em>Keep what doesn't.</em>",
+   "short": "Azure and hybrid servers, storage and virtualization, with backups you have tested.",
+   "intro": "Not everything belongs in the cloud, and not everything belongs in your closet.  We help you decide, then move it, back it up and keep the bill in check.",
+   "pains": [
+    [
+     "The server closet is aging",
+     "The hardware is out of warranty and the one person who understood it has left."
+    ],
+    [
+     "Backups are a hope",
+     "Backups run, but nobody has tested a real restore in years."
+    ],
+    [
+     "The cloud bill keeps climbing",
+     "Resources were spun up for a project and never turned off."
+    ]
+   ],
+   "get": [
+    "Cloud readiness review and migration plan",
+    "Azure and hybrid server design",
+    "Virtualization and storage: VMware, Hyper-V and NetApp",
+    "Immutable, offsite backups with tested restores",
+    "Disaster recovery with recovery times agreed in writing",
+    "Cloud cost reviews"
+   ],
+   "plat": [
+    "Azure",
+    "VMware",
+    "Hyper-V",
+    "NetApp",
+    "Dell",
+    "HP",
+    "Synology",
+    "Immutable backups",
+    "Colocation"
+   ],
+   "case": [
+    "Out of the server room",
+    "A medical device company ran its systems in an on-site data center with local backups.",
+    [
+     "Moved the corporate data center to a colocation facility",
+     "Replaced local backup appliances with an offsite cloud backup partner",
+     "Set up disaster recovery on cloud-based virtual servers"
+    ],
+    "Systems in a professional facility, backups offsite and a working recovery plan."
+   ],
+   "desc": "Servers, storage, virtualization and backup: Azure and hybrid design, VMware and Hyper-V, immutable offsite backups and tested disaster recovery."
+  },
+  {
+   "slug": "data-center",
+   "name": "Data Center",
+   "h": "Data centers and colocation, <em>planned down to the rack</em>.",
+   "short": "Server rooms, colocation and moves without the surprises.",
+   "intro": "We have designed, built and moved data centers and server rooms for companies across the country.  From picking a colocation provider to the last cable in the rack, we plan it, build it and move you in without the surprises.",
+   "pains": [
+    [
+     "The server room is out of room",
+     "Power, cooling or rack space has run out, and adding one more server is a risk."
+    ],
+    [
+     "A colocation contract is up",
+     "The renewal is coming, the price went up, and nobody has compared providers in years."
+    ],
+    [
+     "A move is on the calendar",
+     "A new office, a closing facility or a lease ending, and the servers have to go somewhere without downtime."
+    ]
+   ],
+   "get": [
+    "Data center and server room design and build-outs",
+    "Colocation provider selection and contract negotiation",
+    "Server and data center moves, between facilities or to the cloud",
+    "Power, cooling and backup generator planning",
+    "Rack layout, structured cabling and labeling",
+    "Move plans with cutover steps and a rollback plan"
+   ],
+   "plat": [
+    "Colocation",
+    "Server rooms",
+    "Rack and cabling",
+    "UPS and power",
+    "Cooling",
+    "Generators",
+    "Data center moves"
+   ],
+   "case": [
+    "Into a professional facility",
+    "A large manufacturer was running its data center on-site, with servers spread across regional hubs.",
+    [
+     "Virtualized 80% of servers across six regional hubs",
+     "Moved the data center to a colocation facility with failover",
+     "Restructured outside partners as part of the same program"
+    ],
+    "$4.5 million in operating costs cut over two years, with failover built in."
+   ],
+   "desc": "Data center and server room design, colocation selection and moves: power, cooling, racks and cabling, with a cutover and rollback plan."
+  },
+  {
+   "slug": "microsoft-365",
+   "name": "Microsoft 365",
+   "h": "Your workplace, <em>secured from the sign-in up</em>.",
+   "short": "Identity first, then email, SharePoint/OneDrive and Teams, with devices, file permissions and licensing set up right and kept clean.",
+   "intro": "Microsoft 365 starts with identity: who can sign in, from where, on what device.  Then email, files and meetings.  We set it up right, secure it, and keep licensing under control.",
+   "pains": [
+    [
+     "Nobody owns the tenant",
+     "Settings were clicked through years ago, admins come and go, and nobody is sure what is configured."
+    ],
+    [
+     "Licenses keep creeping up",
+     "You pay for seats and add-ons nobody uses, and every renewal costs more."
+    ],
+    [
+     "Files live everywhere",
+     "Shared drives, personal OneDrives and old file servers, with no clear owner or permissions."
+    ]
+   ],
+   "get": [
+    "Identity first: Entra ID, phishing-resistant MFA, passkeys and conditional access",
+    "Tenant security review with a ranked fix list, tracked in Secure Score",
+    "Exchange Online, Teams, SharePoint and OneDrive migrations",
+    "SharePoint and OneDrive sharing and permissions cleaned up and kept that way",
+    "Devices enrolled and managed with Intune and Autopilot",
+    "Licensing review and cleanup",
+    "Standard onboarding and offboarding for every user"
+   ],
+   "plat": [
+    "Entra ID",
+    "Conditional access",
+    "Passkeys",
+    "Exchange Online",
+    "Teams",
+    "SharePoint",
+    "OneDrive",
+    "Intune",
+    "Autopilot"
+   ],
+   "case": [
+    "A full move to the cloud",
+    "A medical device company was running its own email, chat and document servers.",
+    [
+     "Migrated Exchange 2010, Lync 2013 and SharePoint 2013 to Office 365",
+     "Built the company's first corporate intranet, with project and team sites",
+     "Retired the on-premises servers once users were moved"
+    ],
+    "Email, chat and documents moved to the cloud, and the company launched its first intranet."
+   ],
+   "desc": "Microsoft 365, identity first: Entra ID, phishing-resistant MFA and conditional access, then Exchange Online, SharePoint, OneDrive, Teams, Intune and licensing."
+  },
+  {
+   "slug": "business-applications",
+   "name": "Business Applications",
+   "h": "Every app, <em>with an owner</em>.",
+   "short": "ERP, HR and payroll, CRM and quality systems: single sign-on, access by role, licenses and renewals, managed.",
+   "intro": "Your business runs on a stack of apps: ERP, HR and payroll, CRM, quality and document systems.  We give every one an owner, put sign-in through one identity, and keep access, licenses and renewals under control.",
+   "pains": [
+    [
+     "Nobody owns the apps",
+     "Each department bought its own tools, and IT finds out when something breaks or the invoice arrives."
+    ],
+    [
+     "Logins everywhere",
+     "Every app has its own password, and nobody is sure who still has access after someone leaves."
+    ],
+    [
+     "Renewals on autopilot",
+     "Contracts renew themselves, seat counts only go up, and no one has compared what you pay to what you use."
+    ]
+   ],
+   "get": [
+    "Administration for ERP, HR and payroll, CRM and quality systems",
+    "Single sign-on and automatic user provisioning through Entra ID",
+    "Roles and permissions set by job, with regular access reviews",
+    "One onboarding and offboarding checklist across every app",
+    "An app inventory with owners, costs and renewal dates",
+    "License and renewal reviews before the contract auto-renews",
+    "App selection, rollout and vendor management, start to finish"
+   ],
+   "plat": [
+    "NetSuite",
+    "Oracle",
+    "ADP",
+    "MasterControl",
+    "HubSpot",
+    "Pipedrive",
+    "Entra ID single sign-on",
+    "SCIM provisioning"
+   ],
+   "case": [
+    "One owner for the whole stack",
+    "A diagnostics company ran its ERP, payroll, CRM and quality systems with separate logins and no single owner.",
+    [
+     "Took over ERP administration: roles, approvals and license types",
+     "Connected the HR and payroll platform to Entra ID for single sign-on",
+     "Earlier led an Oracle ERP rollout alongside acquisition integrations for a large manufacturer"
+    ],
+    "Every app with an owner, access set by role, and renewals on a calendar."
+   ],
+   "desc": "Business application management: ERP, HR and payroll, CRM and quality systems, with single sign-on, access by role and license control."
+  },
+  {
+   "slug": "ai",
+   "name": "AI",
+   "h": "Put AI to work, <em>safely and on purpose</em>.",
+   "short": "Copilot readiness, AI policies and guardrails, and practical automation that saves real time.",
+   "intro": "AI is only as safe as the data it can reach.  We get your permissions, policies and people ready, then put AI to work where it actually saves time.",
+   "pains": [
+    [
+     "Copilot sees too much",
+     "Old sharing links and loose permissions mean AI can surface files people were never meant to see."
+    ],
+    [
+     "No rules yet",
+     "Staff are already pasting company data into free AI tools, and nobody has said what is allowed."
+    ],
+    [
+     "Pilots that go nowhere",
+     "A few licenses were bought, a few people tried it, and nobody can say what it is worth."
+    ]
+   ],
+   "get": [
+    "Microsoft 365 Copilot readiness review",
+    "SharePoint and OneDrive oversharing cleanup before AI is turned on",
+    "Shadow AI check: which AI tools staff already use, and with what data",
+    "AI acceptable use policy and guardrails",
+    "Tool selection and a pilot with clear goals",
+    "Agents and automation in Copilot Studio and Power Automate",
+    "Staff training on using AI well and safely"
+   ],
+   "plat": [
+    "Microsoft 365 Copilot",
+    "Copilot Studio",
+    "Power Automate",
+    "Azure OpenAI",
+    "SharePoint and OneDrive",
+    "Entra ID",
+    "Sensitivity labels"
+   ],
+   "case": [
+    "Ready, then useful",
+    "Every AI engagement starts the same way, so you get value without surprises.",
+    [
+     "Review who can see what across Microsoft 365, and fix the oversharing",
+     "Write a short, plain-English AI policy your staff will follow",
+     "Pilot with a small team on two or three real tasks, then measure the time saved"
+    ],
+    "AI turned on with guardrails, and a clear answer on what it is worth."
+   ],
+   "case_label": "How we start",
+   "case_note": "",
+   "desc": "AI readiness for Microsoft 365: Copilot readiness, oversharing cleanup, shadow AI checks, AI policies and practical agents in Copilot Studio."
+  },
+  {
+   "slug": "managed-it",
+   "name": "Managed IT",
+   "h": "Managed IT, <em>sized to fit</em>.",
+   "short": "A right-sized MSP plan built around you: monitoring, patching, users and vendors, from a few systems to the whole stack.",
+   "intro": "We're not a big-box managed service provider (MSP) with one plan for everyone.  We sit down with you, choose what we manage and how, and price it to fit.",
+   "pains": [
+    [
+     "One-size contracts",
+     "The big MSPs sell a package, and you pay for what you never use."
+    ],
+    [
+     "Tickets, not answers",
+     "Every call goes to a queue and a different person who has never seen your setup."
+    ],
+    [
+     "Too small for in-house IT",
+     "You need someone watching the systems, but not a full-time hire."
+    ]
+   ],
+   "get": [
+    "Monitoring and patching for servers, network and devices",
+    "User onboarding and offboarding",
+    "Vendor and license management",
+    "Help when something breaks, from people who know your setup",
+    "A monthly review of what changed and what is next",
+    "A scope you can grow or shrink as you go"
+   ],
+   "plat": [
+    "Remote monitoring",
+    "Patch management",
+    "Microsoft 365",
+    "Intune",
+    "Cisco Meraki",
+    "UniFi",
+    "Cloud backup",
+    "Co-managed IT"
+   ],
+   "case": [
+    "Built around you",
+    "Every managed plan starts with a short conversation, not a price sheet.",
+    [
+     "We list what you have and what matters most",
+     "You choose what we manage, from a few key systems to the whole stack",
+     "We agree on response times and a monthly price, in writing"
+    ],
+    "MSP-style coverage, without a one-size contract."
+   ],
+   "case_label": "How it works",
+   "case_note": "",
+   "desc": "Managed IT sized to fit: monitoring, patching, users, devices and vendors, fully managed or co-managed alongside your own IT staff."
+  },
+  {
+   "slug": "it-strategy",
+   "name": "IT Strategy",
+   "h": "A plan that matches the business, and <em>a budget to back it</em>.",
+   "short": "IT operations leadership, repeatable processes, roadmaps, budget control and forecasting, and vendor management.",
+   "intro": "Fractional CIO and IT director support for companies that need a senior IT voice without a full-time hire.  Roadmaps, budgets, vendors, written processes and the hard calls.",
+   "pains": [
+    [
+     "IT is a pile of vendors",
+     "Contracts renew on their own, and nobody knows what you are paying for."
+    ],
+    [
+     "Growth is coming",
+     "An acquisition, a new site or a funding round, and IT has to keep up."
+    ],
+    [
+     "No one to ask",
+     "Leadership needs someone who can explain the risks and the costs in plain English."
+    ]
+   ],
+   "get": [
+    "Technology roadmap with a 3 to 5 year view",
+    "Written IT processes: onboarding, offboarding, change, access and vendor management",
+    "IT budget control and forecasting, with an annual operating plan",
+    "Vendor contract review and negotiation",
+    "Merger and acquisition IT integration",
+    "Managed service provider selection, or replacement",
+    "Cybersecurity and IT updates for your board and audit committee, in plain English"
+   ],
+   "plat": [
+    "IT roadmaps",
+    "Budgets",
+    "Vendor contracts",
+    "M&A integration",
+    "NetSuite",
+    "Service desk"
+   ],
+   "case": [
+    "A roadmap and a budget that held",
+    "Growing companies needed IT that kept pace with acquisitions, new sites and new budgets.",
+    [
+     "Built a technology roadmap by business function, with a 3 to 5 year view",
+     "Brought IT budgets under control, built multi-year forecasts and renegotiated IT contracts",
+     "Replaced an outside managed service provider with an in-house service desk"
+    ],
+    "A clear plan, predictable spending and support that answered to the business."
+   ],
+   "desc": "Fractional CIO and IT leadership: technology roadmaps, IT budgets, written processes, vendor contracts, M&A integration and board reporting."
+  },
+  {
+   "slug": "cybersecurity",
+   "name": "Cybersecurity",
+   "h": "Find the gaps <em>before someone else does</em>.",
+   "short": "Penetration testing, risk assessments, MFA, email gateway security and a plan for a bad day.",
+   "intro": "Security based on risk, not fear.  We find the doors an attacker would use, close the important ones first, and get your team ready for the day something gets through.",
+   "pains": [
+    [
+     "MFA is \"mostly\" on",
+     "A few accounts, often admins or shared mailboxes, were left out, and those are the ones attackers find."
+    ],
+    [
+     "No plan for a bad day",
+     "If ransomware hit tomorrow, nobody knows who calls whom, or what gets shut off first."
+    ],
+    [
+     "Staff are the target",
+     "Phishing and phone scams now impersonate your help desk and your vendors."
+    ]
+   ],
+   "get": [
+    "Penetration testing, including autonomous pentesting, and vulnerability scanning",
+    "Security assessment with a ranked remediation plan",
+    "Phishing-resistant MFA and conditional access for every account",
+    "Endpoint protection (EDR) and managed detection (MDR) chosen and set up with the right partner",
+    "Email gateway security and phishing defenses",
+    "Security awareness training for staff",
+    "Board and audit committee cybersecurity briefings: risks, progress and what is next",
+    "Incident response plan and tabletop exercise",
+    "Hands-on help when an incident happens"
+   ],
+   "plat": [
+    "Penetration testing",
+    "EDR and MDR",
+    "Email gateway",
+    "Entra ID",
+    "Conditional access",
+    "Passkeys",
+    "Intune",
+    "Security awareness training"
+   ],
+   "case": [
+    "Security leadership for a regulated company",
+    "A medical device company needed someone to own security end to end.",
+    [
+     "Served as acting chief security officer for incident response and risk management",
+     "Led HIPAA compliance work",
+     "Ran secure remote access for thousands of users at a large manufacturer"
+    ],
+    "Security had an owner, a plan and a response process that held up."
+   ],
+   "desc": "Cybersecurity based on risk: penetration testing, phishing-resistant MFA, EDR and MDR, email security, staff training and an incident response plan."
+  },
+  {
+   "slug": "business-automation",
+   "name": "Business Automation",
+   "h": "Stop re-typing.  <em>Let the systems do it.</em>",
+   "short": "Power Apps, Power Automate and CRM workflows that end busywork.",
+   "intro": "Approvals stuck in email, the same data typed into three systems, spreadsheets passed around for sign-off.  We automate the busywork with Power Apps, Power Automate and the tools you already pay for.",
+   "pains": [
+    [
+     "Approvals live in email",
+     "Purchase requests, time off and sign-offs bounce between inboxes, and nobody knows where things stand."
+    ],
+    [
+     "Double data entry",
+     "The same customer or order gets typed into the CRM, the accounting system and a spreadsheet."
+    ],
+    [
+     "Spreadsheets run the business",
+     "A critical process depends on one workbook and the one person who understands it."
+    ]
+   ],
+   "get": [
+    "Process review to find what is worth automating",
+    "Power Apps that replace paper forms and spreadsheets",
+    "Power Automate flows for approvals, alerts and handoffs",
+    "CRM setup and automation in Pipedrive or HubSpot",
+    "Connections between Microsoft 365, your CRM and accounting",
+    "Documentation and training so your team owns it"
+   ],
+   "plat": [
+    "Power Apps",
+    "Power Automate",
+    "SharePoint lists",
+    "Microsoft Forms",
+    "Teams approvals",
+    "Pipedrive",
+    "HubSpot",
+    "NetSuite"
+   ],
+   "case": [
+    "Business apps that keep up",
+    "A medical device company needed its business systems to work together.",
+    [
+     "Supported the business application stack, data integrations and data warehousing",
+     "Delivered reporting, business intelligence and Power Apps for the business",
+     "Later managed the business application stack and change management for a diagnostics company"
+    ],
+    "Systems connected, data flowing, and fewer manual steps between teams."
+   ],
+   "desc": "Business automation with Power Apps, Power Automate and CRM workflows: approvals, handoffs and data entry done by the system, not by people."
+  },
+  {
+   "slug": "access-control",
+   "name": "Access Control",
+   "h": "Badge doors, cameras and alarms that <em>work with your IT</em>.",
+   "short": "Badge access, security cameras and monitoring for every door and every site.",
+   "intro": "Physical security is part of security.  We design badge access, cameras and monitoring, and build them into offboarding, so access ends the day someone leaves.",
+   "pains": [
+    [
+     "Old badges still work",
+     "People who left months ago can still open the front door."
+    ],
+    [
+     "Cameras nobody can use",
+     "The system records, but nobody knows how to find or export footage."
+    ],
+    [
+     "A new building is coming",
+     "Doors, readers, cameras and network all need to be planned before the walls close."
+    ]
+   ],
+   "get": [
+    "Access control system design and installs",
+    "Security cameras and video surveillance",
+    "Badge design and visitor management",
+    "Remote guard and alarm monitoring coordination",
+    "Badges added and shut off as part of every hire and exit",
+    "Plans for new buildings and build-outs"
+   ],
+   "plat": [
+    "Badge access control",
+    "Video surveillance",
+    "Visitor management",
+    "Remote guard services",
+    "Alarm monitoring"
+   ],
+   "case": [
+    "A secure campus from day one",
+    "A medical device company was moving into a new four-building campus.",
+    [
+     "Designed the access control and video surveillance system for all four buildings",
+     "Created the employee badge design",
+     "Later built a full physical security program, with access control, cameras and remote guards, for three sites including certified labs"
+    ],
+    "Every door, camera and badge planned before move-in, and managed from one place."
+   ],
+   "desc": "Physical security that works with IT: badge access, security cameras, visitor management and monitoring, shut off the day someone leaves."
+  },
+  {
+   "slug": "compliance",
+   "name": "Compliance",
+   "h": "Ready when the <em>auditors show up</em>.",
+   "short": "SOX, HIPAA and ISO IT controls, with audit evidence ready when you need it.",
+   "intro": "We've sat on the IT side of SOX, HIPAA and ISO audits.  We help you build the controls, keep the evidence and walk into the audit calm.",
+   "pains": [
+    [
+     "Evidence is scattered",
+     "Screenshots in email, spreadsheets on desktops, and a scramble every audit season."
+    ],
+    [
+     "Policies are out of date",
+     "Written years ago, never followed, and now they contradict what you really do."
+    ],
+    [
+     "New rules apply to you",
+     "Growth, a new customer or going public just put you in scope."
+    ]
+   ],
+   "get": [
+    "IT general controls for SOX",
+    "HIPAA and data protection readiness",
+    "Written policies and procedures that match reality",
+    "Evidence collection and audit support",
+    "Change management and access reviews",
+    "Support for certified lab environments"
+   ],
+   "plat": [
+    "SOX",
+    "HIPAA",
+    "GDPR",
+    "ISO 9001",
+    "ISO 14001",
+    "ISO 27001",
+    "ITIL",
+    "CLIA labs"
+   ],
+   "case": [
+    "Audits without the scramble",
+    "A publicly traded diagnostics company needed IT controls tested every year.",
+    [
+     "Served as business lead for SOX IT general controls testing and reporting",
+     "Supported certified clinical labs in multiple states",
+     "Earlier led IT through ISO 9001, 14001 and 27001 audits for a large manufacturer"
+    ],
+    "Controls documented, tested on schedule and ready for every audit cycle."
+   ],
+   "desc": "IT compliance for regulated companies: SOX IT general controls, HIPAA, ISO audits and evidence that is ready on time."
+  }
+ ],
+ "STANDARD": [
+  [
+   "clock",
+   "A reply within one business day",
+   "Every message through our contact form gets a real answer from a senior consultant, not an autoresponder."
+  ],
+  [
+   "doc",
+   "Written scope and price first",
+   "You see the scope, timeline and price in plain English before any work starts.  No surprise invoices."
+  ],
+  [
+   "person",
+   "Senior people do the work",
+   "The people who scope your project are the people who deliver it."
+  ],
+  [
+   "key",
+   "You own everything",
+   "Passwords, documentation and admin access stay with you.  We never lock you in."
+  ],
+  [
+   "talk",
+   "Straight answers",
+   "If something doesn't need fixing, we'll say so.  If it's urgent, we'll say that too."
+  ],
+  [
+   "it-strategy",
+   "Built for the next five years",
+   "We design for where the business is going, not for the next invoice."
+  ]
+ ],
+ "STATE": "<svg class=\"state-bg\" viewBox=\"0 0 200 220\" aria-hidden=\"true\"><path d=\"M10.1,0L19.7,0.4L20.3,0.3L25.0,0.5L28.5,0.4L30.2,0.6L37.3,0.8L39.6,0.8L45.5,0.9L48.3,1.1L57.8,1.4L64.8,1.6L77.0,1.7L82.7,1.6L82.7,1.7L82.7,30.4L82.8,31.1L82.8,46.1L82.7,54.0L82.7,54.2L82.7,63.3L82.6,65.8L82.7,71.0L84.4,72.5L91.9,79.1L99.3,85.7L103.5,89.3L110.0,95.1L118.4,102.5L122.5,106.1L131.1,113.8L152.6,132.7L168.9,147.2L173.9,151.6L184.4,160.8L184.5,163.7L185.6,164.8L186.2,166.2L187.8,167.3L189.9,172.0L189.8,173.1L190.7,173.2L192.9,175.1L193.9,175.4L194.7,176.4L194.9,177.4L193.2,178.8L193.2,179.2L192.0,179.6L191.4,180.5L189.9,181.1L189.3,181.7L189.4,183.1L187.6,185.5L188.1,185.9L188.3,187.0L187.9,187.1L187.9,188.1L188.5,189.4L188.7,190.8L188.2,191.1L188.0,193.3L188.3,194.2L187.8,194.7L186.0,197.6L184.7,197.8L185.3,198.8L184.7,200.1L185.8,200.9L185.8,203.7L185.4,205.1L186.5,206.4L186.7,206.0L187.6,206.5L188.1,206.2L189.2,206.3L190.4,208.9L190.4,210.5L189.2,211.8L189.4,212.6L187.7,213.2L186.0,213.0L185.7,213.7L156.7,217.6L138.9,220L138.7,218.0L138.0,216.8L137.4,216.4L136.5,216.9L136.2,215.6L136.2,214.2L135.7,213.4L136.3,212.2L135.5,209.0L134.6,206.5L133.9,205.4L131.0,201.7L129.3,200.5L128.5,199.5L127.5,198.8L126.9,198.9L125.5,197.0L123.7,195.9L122.7,195.6L121.3,194.5L119.5,192.8L117.8,192.0L117.7,193.0L116.3,193.4L115.0,193.2L114.3,192.7L113.3,192.6L113.0,191.9L113.6,191.2L113.7,190.3L112.7,188.0L111.9,186.8L110.7,185.8L108.3,185.8L106.8,186.0L105.7,186.7L104.7,186.0L102.8,185.7L100.2,184.5L99.4,184.5L97.7,183.5L96.5,180.7L95.8,180.5L94.7,179.4L94.4,179.5L93.0,178.2L91.6,177.7L91.2,177.3L89.0,177.2L87.9,177.7L86.6,177.2L85.1,177.4L82.6,176.2L81.0,176.2L80.0,175.9L77.0,176.1L73.7,176.5L73.6,175.9L72.7,174.6L71.7,174L70.8,174.0L70.4,173.4L71.3,170.5L70.6,169.3L71.2,167.0L70.0,165.9L70.6,163.6L70.7,160.8L69.5,159.7L68.6,159.6L68.3,160.0L66.5,158.9L65.8,157.9L66.5,155.3L66.4,154.3L65.6,153.2L63.8,152.9L62.0,150.9L60.8,148.9L59.2,148.3L58.1,147.0L57.8,145.4L56.7,144.4L56.2,143.7L55.3,143.0L54.9,141.0L54.6,140.3L53.3,139.7L52.3,137.6L50.7,135.7L48.5,134.4L47.8,133.5L47.3,131.9L47.3,131.1L46.6,129.0L46.8,127.2L46.1,126.9L46.8,125.4L48.0,126.2L48.6,125.6L49.1,124.4L49.7,121.6L48.3,118.6L47.5,117.7L46.9,117.5L46.3,118.0L43.8,118.0L42.0,116.6L40.6,114.5L39.7,114.1L39.6,113.5L38.5,112.3L38.2,111.0L38.6,108.5L37.9,106.7L37.8,105.6L37.0,105.3L36.6,104.7L36.6,103.4L36.9,102.9L37.1,101.3L36.8,98.6L37.7,98.1L38.8,98.0L39.1,98.5L39.5,100.2L39.0,100.4L39.6,102.5L39.5,103.1L41.2,103.6L43.0,105.2L43.5,105.1L44.4,106.4L45.2,106.4L44.8,105.6L44.0,105.2L43.4,103.4L43.0,101.2L41.7,100.1L41.5,99.2L40.1,98.7L40.7,97.2L40.3,95.8L39.3,95.8L38.5,94.4L39.0,94.6L39.6,94.1L39.6,93.3L40.8,93.4L41.5,92.7L40.9,91.2L39.2,90.3L38.3,90.9L37.4,91.0L37.5,91.9L37.2,92.8L38.1,93.9L37.3,94.3L37.1,95.2L38.3,96.4L37.8,96.6L37.1,96.0L37.5,97.5L36.5,97.7L36.0,97.0L34.3,95.7L33.4,95.9L32.0,94.5L31.3,93.5L30.3,92.8L29.2,92.6L27.9,93.2L28.9,90.7L29.1,89.8L28.4,87.9L28.8,87.5L27.9,86.1L27.1,86.3L27.1,84.9L26.1,82.8L24.8,81.7L23.9,81.3L22.5,80.0L20.3,76.4L19.4,75.8L18.9,75.0L16.9,73.1L15.5,70.7L16.5,69.2L16.4,68.4L15.6,65.8L14.7,63.3L14.3,61.2L14.6,59.3L15.5,56.7L15.3,55.6L15.3,54.3L14.5,52.5L14.3,50.3L13.3,49.6L13.0,48.4L10.9,45.7L10.4,45.6L10.5,44.7L10.0,43.8L8.6,43.1L5.7,40.0L6.0,38.8L5.8,37.4L5.0,35.8L5.7,33.9L6.7,31.8L9.6,26.7L10.3,24.8L10.9,22.5L10.1,21.7L10.2,19.8L10.4,19.7L11.2,17.8L12.2,13.0L11.9,10.5L11.1,7.9L10.7,6.0L10.1,6.0L9.1,4.9L9.8,3.5L10.2,1.3Z\" fill=\"#8fb3d9\"/></svg>",
+ "STATS": [
+  [
+   "30",
+   "Years in IT leadership"
+  ],
+  [
+   "10+",
+   "Acquisitions integrated"
+  ],
+  [
+   "50",
+   "States we support remotely"
+  ],
+  [
+   "$12M",
+   "Largest IT budget managed"
+  ]
+ ],
+ "STEPS": [
+  [
+   "Assess",
+   "We look at what you have, what it costs and where the risks are, then hand you a ranked, written plan."
+  ],
+  [
+   "Deploy",
+   "We build it right the first time, on a written scope and price, with every change documented."
+  ],
+  [
+   "Manage",
+   "We keep it running: users, devices, updates, vendors and a real person when something breaks."
+  ],
+  [
+   "Protect",
+   "We keep watch, test the backups, train your people and keep the evidence ready for audits."
+  ]
+ ],
+ "SVC": {
+  "microsoft-365": {
+   "slug": "microsoft-365",
+   "name": "Microsoft 365",
+   "h": "Your workplace, <em>secured from the sign-in up</em>.",
+   "short": "Identity first, then email, SharePoint/OneDrive and Teams, with devices, file permissions and licensing set up right and kept clean.",
+   "intro": "Microsoft 365 starts with identity: who can sign in, from where, on what device.  Then email, files and meetings.  We set it up right, secure it, and keep licensing under control.",
+   "pains": [
+    [
+     "Nobody owns the tenant",
+     "Settings were clicked through years ago, admins come and go, and nobody is sure what is configured."
+    ],
+    [
+     "Licenses keep creeping up",
+     "You pay for seats and add-ons nobody uses, and every renewal costs more."
+    ],
+    [
+     "Files live everywhere",
+     "Shared drives, personal OneDrives and old file servers, with no clear owner or permissions."
+    ]
+   ],
+   "get": [
+    "Identity first: Entra ID, phishing-resistant MFA, passkeys and conditional access",
+    "Tenant security review with a ranked fix list, tracked in Secure Score",
+    "Exchange Online, Teams, SharePoint and OneDrive migrations",
+    "SharePoint and OneDrive sharing and permissions cleaned up and kept that way",
+    "Devices enrolled and managed with Intune and Autopilot",
+    "Licensing review and cleanup",
+    "Standard onboarding and offboarding for every user"
+   ],
+   "plat": [
+    "Entra ID",
+    "Conditional access",
+    "Passkeys",
+    "Exchange Online",
+    "Teams",
+    "SharePoint",
+    "OneDrive",
+    "Intune",
+    "Autopilot"
+   ],
+   "case": [
+    "A full move to the cloud",
+    "A medical device company was running its own email, chat and document servers.",
+    [
+     "Migrated Exchange 2010, Lync 2013 and SharePoint 2013 to Office 365",
+     "Built the company's first corporate intranet, with project and team sites",
+     "Retired the on-premises servers once users were moved"
+    ],
+    "Email, chat and documents moved to the cloud, and the company launched its first intranet."
+   ],
+   "desc": "Microsoft 365, identity first: Entra ID, phishing-resistant MFA and conditional access, then Exchange Online, SharePoint, OneDrive, Teams, Intune and licensing."
+  },
+  "cybersecurity": {
+   "slug": "cybersecurity",
+   "name": "Cybersecurity",
+   "h": "Find the gaps <em>before someone else does</em>.",
+   "short": "Penetration testing, risk assessments, MFA, email gateway security and a plan for a bad day.",
+   "intro": "Security based on risk, not fear.  We find the doors an attacker would use, close the important ones first, and get your team ready for the day something gets through.",
+   "pains": [
+    [
+     "MFA is \"mostly\" on",
+     "A few accounts, often admins or shared mailboxes, were left out, and those are the ones attackers find."
+    ],
+    [
+     "No plan for a bad day",
+     "If ransomware hit tomorrow, nobody knows who calls whom, or what gets shut off first."
+    ],
+    [
+     "Staff are the target",
+     "Phishing and phone scams now impersonate your help desk and your vendors."
+    ]
+   ],
+   "get": [
+    "Penetration testing, including autonomous pentesting, and vulnerability scanning",
+    "Security assessment with a ranked remediation plan",
+    "Phishing-resistant MFA and conditional access for every account",
+    "Endpoint protection (EDR) and managed detection (MDR) chosen and set up with the right partner",
+    "Email gateway security and phishing defenses",
+    "Security awareness training for staff",
+    "Board and audit committee cybersecurity briefings: risks, progress and what is next",
+    "Incident response plan and tabletop exercise",
+    "Hands-on help when an incident happens"
+   ],
+   "plat": [
+    "Penetration testing",
+    "EDR and MDR",
+    "Email gateway",
+    "Entra ID",
+    "Conditional access",
+    "Passkeys",
+    "Intune",
+    "Security awareness training"
+   ],
+   "case": [
+    "Security leadership for a regulated company",
+    "A medical device company needed someone to own security end to end.",
+    [
+     "Served as acting chief security officer for incident response and risk management",
+     "Led HIPAA compliance work",
+     "Ran secure remote access for thousands of users at a large manufacturer"
+    ],
+    "Security had an owner, a plan and a response process that held up."
+   ],
+   "desc": "Cybersecurity based on risk: penetration testing, phishing-resistant MFA, EDR and MDR, email security, staff training and an incident response plan."
+  },
+  "network": {
+   "slug": "network",
+   "name": "Network",
+   "h": "Fast, stable and <em>built to grow</em>.",
+   "short": "Firewalls, switching, Wi-Fi, VPN and the links between your sites.",
+   "intro": "Firewalls, switches, Wi-Fi and the links between your sites.  We design it, install it, document it and watch it, so the network is the last thing anyone thinks about.",
+   "pains": [
+    [
+     "The Wi-Fi drops",
+     "Everyone has learned which conference room to avoid."
+    ],
+    [
+     "Sites don't talk",
+     "Branch offices or labs connect through workarounds nobody wants to touch."
+    ],
+    [
+     "The office is moving",
+     "A new building means cabling, firewalls, Wi-Fi and a cutover that can't go wrong."
+    ]
+   ],
+   "get": [
+    "Network design from core to edge",
+    "Firewall, switching and Wi-Fi installs",
+    "Site-to-site VPN and SD-WAN between offices, labs and plants",
+    "Remote access, from VPN to zero trust (ZTNA)",
+    "Office moves and new building cutovers",
+    "Guest Wi-Fi kept separate from your business network",
+    "Monitoring and documentation you keep"
+   ],
+   "plat": [
+    "Cisco Meraki",
+    "UniFi",
+    "SD-WAN",
+    "Site-to-site VPN",
+    "ZTNA",
+    "Wi-Fi",
+    "Network monitoring"
+   ],
+   "case": [
+    "One network, every site",
+    "A multi-site lab company needed all of its locations on one secure, managed network.",
+    [
+     "Designed and deployed a Cisco Meraki network across its sites",
+     "Linked every location with site-to-site VPN"
+    ],
+    "Every site on one managed network, with security handled centrally."
+   ],
+   "desc": "Network design and support: firewalls, switching, Wi-Fi, SD-WAN, site-to-site VPN and zero trust remote access, documented and monitored."
+  },
+  "cloud": {
+   "slug": "cloud",
+   "name": "Cloud",
+   "h": "Move what makes sense.  <em>Keep what doesn't.</em>",
+   "short": "Azure and hybrid servers, storage and virtualization, with backups you have tested.",
+   "intro": "Not everything belongs in the cloud, and not everything belongs in your closet.  We help you decide, then move it, back it up and keep the bill in check.",
+   "pains": [
+    [
+     "The server closet is aging",
+     "The hardware is out of warranty and the one person who understood it has left."
+    ],
+    [
+     "Backups are a hope",
+     "Backups run, but nobody has tested a real restore in years."
+    ],
+    [
+     "The cloud bill keeps climbing",
+     "Resources were spun up for a project and never turned off."
+    ]
+   ],
+   "get": [
+    "Cloud readiness review and migration plan",
+    "Azure and hybrid server design",
+    "Virtualization and storage: VMware, Hyper-V and NetApp",
+    "Immutable, offsite backups with tested restores",
+    "Disaster recovery with recovery times agreed in writing",
+    "Cloud cost reviews"
+   ],
+   "plat": [
+    "Azure",
+    "VMware",
+    "Hyper-V",
+    "NetApp",
+    "Dell",
+    "HP",
+    "Synology",
+    "Immutable backups",
+    "Colocation"
+   ],
+   "case": [
+    "Out of the server room",
+    "A medical device company ran its systems in an on-site data center with local backups.",
+    [
+     "Moved the corporate data center to a colocation facility",
+     "Replaced local backup appliances with an offsite cloud backup partner",
+     "Set up disaster recovery on cloud-based virtual servers"
+    ],
+    "Systems in a professional facility, backups offsite and a working recovery plan."
+   ],
+   "desc": "Servers, storage, virtualization and backup: Azure and hybrid design, VMware and Hyper-V, immutable offsite backups and tested disaster recovery."
+  },
+  "data-center": {
+   "slug": "data-center",
+   "name": "Data Center",
+   "h": "Data centers and colocation, <em>planned down to the rack</em>.",
+   "short": "Server rooms, colocation and moves without the surprises.",
+   "intro": "We have designed, built and moved data centers and server rooms for companies across the country.  From picking a colocation provider to the last cable in the rack, we plan it, build it and move you in without the surprises.",
+   "pains": [
+    [
+     "The server room is out of room",
+     "Power, cooling or rack space has run out, and adding one more server is a risk."
+    ],
+    [
+     "A colocation contract is up",
+     "The renewal is coming, the price went up, and nobody has compared providers in years."
+    ],
+    [
+     "A move is on the calendar",
+     "A new office, a closing facility or a lease ending, and the servers have to go somewhere without downtime."
+    ]
+   ],
+   "get": [
+    "Data center and server room design and build-outs",
+    "Colocation provider selection and contract negotiation",
+    "Server and data center moves, between facilities or to the cloud",
+    "Power, cooling and backup generator planning",
+    "Rack layout, structured cabling and labeling",
+    "Move plans with cutover steps and a rollback plan"
+   ],
+   "plat": [
+    "Colocation",
+    "Server rooms",
+    "Rack and cabling",
+    "UPS and power",
+    "Cooling",
+    "Generators",
+    "Data center moves"
+   ],
+   "case": [
+    "Into a professional facility",
+    "A large manufacturer was running its data center on-site, with servers spread across regional hubs.",
+    [
+     "Virtualized 80% of servers across six regional hubs",
+     "Moved the data center to a colocation facility with failover",
+     "Restructured outside partners as part of the same program"
+    ],
+    "$4.5 million in operating costs cut over two years, with failover built in."
+   ],
+   "desc": "Data center and server room design, colocation selection and moves: power, cooling, racks and cabling, with a cutover and rollback plan."
+  },
+  "compliance": {
+   "slug": "compliance",
+   "name": "Compliance",
+   "h": "Ready when the <em>auditors show up</em>.",
+   "short": "SOX, HIPAA and ISO IT controls, with audit evidence ready when you need it.",
+   "intro": "We've sat on the IT side of SOX, HIPAA and ISO audits.  We help you build the controls, keep the evidence and walk into the audit calm.",
+   "pains": [
+    [
+     "Evidence is scattered",
+     "Screenshots in email, spreadsheets on desktops, and a scramble every audit season."
+    ],
+    [
+     "Policies are out of date",
+     "Written years ago, never followed, and now they contradict what you really do."
+    ],
+    [
+     "New rules apply to you",
+     "Growth, a new customer or going public just put you in scope."
+    ]
+   ],
+   "get": [
+    "IT general controls for SOX",
+    "HIPAA and data protection readiness",
+    "Written policies and procedures that match reality",
+    "Evidence collection and audit support",
+    "Change management and access reviews",
+    "Support for certified lab environments"
+   ],
+   "plat": [
+    "SOX",
+    "HIPAA",
+    "GDPR",
+    "ISO 9001",
+    "ISO 14001",
+    "ISO 27001",
+    "ITIL",
+    "CLIA labs"
+   ],
+   "case": [
+    "Audits without the scramble",
+    "A publicly traded diagnostics company needed IT controls tested every year.",
+    [
+     "Served as business lead for SOX IT general controls testing and reporting",
+     "Supported certified clinical labs in multiple states",
+     "Earlier led IT through ISO 9001, 14001 and 27001 audits for a large manufacturer"
+    ],
+    "Controls documented, tested on schedule and ready for every audit cycle."
+   ],
+   "desc": "IT compliance for regulated companies: SOX IT general controls, HIPAA, ISO audits and evidence that is ready on time."
+  },
+  "access-control": {
+   "slug": "access-control",
+   "name": "Access Control",
+   "h": "Badge doors, cameras and alarms that <em>work with your IT</em>.",
+   "short": "Badge access, security cameras and monitoring for every door and every site.",
+   "intro": "Physical security is part of security.  We design badge access, cameras and monitoring, and build them into offboarding, so access ends the day someone leaves.",
+   "pains": [
+    [
+     "Old badges still work",
+     "People who left months ago can still open the front door."
+    ],
+    [
+     "Cameras nobody can use",
+     "The system records, but nobody knows how to find or export footage."
+    ],
+    [
+     "A new building is coming",
+     "Doors, readers, cameras and network all need to be planned before the walls close."
+    ]
+   ],
+   "get": [
+    "Access control system design and installs",
+    "Security cameras and video surveillance",
+    "Badge design and visitor management",
+    "Remote guard and alarm monitoring coordination",
+    "Badges added and shut off as part of every hire and exit",
+    "Plans for new buildings and build-outs"
+   ],
+   "plat": [
+    "Badge access control",
+    "Video surveillance",
+    "Visitor management",
+    "Remote guard services",
+    "Alarm monitoring"
+   ],
+   "case": [
+    "A secure campus from day one",
+    "A medical device company was moving into a new four-building campus.",
+    [
+     "Designed the access control and video surveillance system for all four buildings",
+     "Created the employee badge design",
+     "Later built a full physical security program, with access control, cameras and remote guards, for three sites including certified labs"
+    ],
+    "Every door, camera and badge planned before move-in, and managed from one place."
+   ],
+   "desc": "Physical security that works with IT: badge access, security cameras, visitor management and monitoring, shut off the day someone leaves."
+  },
+  "business-automation": {
+   "slug": "business-automation",
+   "name": "Business Automation",
+   "h": "Stop re-typing.  <em>Let the systems do it.</em>",
+   "short": "Power Apps, Power Automate and CRM workflows that end busywork.",
+   "intro": "Approvals stuck in email, the same data typed into three systems, spreadsheets passed around for sign-off.  We automate the busywork with Power Apps, Power Automate and the tools you already pay for.",
+   "pains": [
+    [
+     "Approvals live in email",
+     "Purchase requests, time off and sign-offs bounce between inboxes, and nobody knows where things stand."
+    ],
+    [
+     "Double data entry",
+     "The same customer or order gets typed into the CRM, the accounting system and a spreadsheet."
+    ],
+    [
+     "Spreadsheets run the business",
+     "A critical process depends on one workbook and the one person who understands it."
+    ]
+   ],
+   "get": [
+    "Process review to find what is worth automating",
+    "Power Apps that replace paper forms and spreadsheets",
+    "Power Automate flows for approvals, alerts and handoffs",
+    "CRM setup and automation in Pipedrive or HubSpot",
+    "Connections between Microsoft 365, your CRM and accounting",
+    "Documentation and training so your team owns it"
+   ],
+   "plat": [
+    "Power Apps",
+    "Power Automate",
+    "SharePoint lists",
+    "Microsoft Forms",
+    "Teams approvals",
+    "Pipedrive",
+    "HubSpot",
+    "NetSuite"
+   ],
+   "case": [
+    "Business apps that keep up",
+    "A medical device company needed its business systems to work together.",
+    [
+     "Supported the business application stack, data integrations and data warehousing",
+     "Delivered reporting, business intelligence and Power Apps for the business",
+     "Later managed the business application stack and change management for a diagnostics company"
+    ],
+    "Systems connected, data flowing, and fewer manual steps between teams."
+   ],
+   "desc": "Business automation with Power Apps, Power Automate and CRM workflows: approvals, handoffs and data entry done by the system, not by people."
+  },
+  "it-strategy": {
+   "slug": "it-strategy",
+   "name": "IT Strategy",
+   "h": "A plan that matches the business, and <em>a budget to back it</em>.",
+   "short": "IT operations leadership, repeatable processes, roadmaps, budget control and forecasting, and vendor management.",
+   "intro": "Fractional CIO and IT director support for companies that need a senior IT voice without a full-time hire.  Roadmaps, budgets, vendors, written processes and the hard calls.",
+   "pains": [
+    [
+     "IT is a pile of vendors",
+     "Contracts renew on their own, and nobody knows what you are paying for."
+    ],
+    [
+     "Growth is coming",
+     "An acquisition, a new site or a funding round, and IT has to keep up."
+    ],
+    [
+     "No one to ask",
+     "Leadership needs someone who can explain the risks and the costs in plain English."
+    ]
+   ],
+   "get": [
+    "Technology roadmap with a 3 to 5 year view",
+    "Written IT processes: onboarding, offboarding, change, access and vendor management",
+    "IT budget control and forecasting, with an annual operating plan",
+    "Vendor contract review and negotiation",
+    "Merger and acquisition IT integration",
+    "Managed service provider selection, or replacement",
+    "Cybersecurity and IT updates for your board and audit committee, in plain English"
+   ],
+   "plat": [
+    "IT roadmaps",
+    "Budgets",
+    "Vendor contracts",
+    "M&A integration",
+    "NetSuite",
+    "Service desk"
+   ],
+   "case": [
+    "A roadmap and a budget that held",
+    "Growing companies needed IT that kept pace with acquisitions, new sites and new budgets.",
+    [
+     "Built a technology roadmap by business function, with a 3 to 5 year view",
+     "Brought IT budgets under control, built multi-year forecasts and renegotiated IT contracts",
+     "Replaced an outside managed service provider with an in-house service desk"
+    ],
+    "A clear plan, predictable spending and support that answered to the business."
+   ],
+   "desc": "Fractional CIO and IT leadership: technology roadmaps, IT budgets, written processes, vendor contracts, M&A integration and board reporting."
+  },
+  "business-applications": {
+   "slug": "business-applications",
+   "name": "Business Applications",
+   "h": "Every app, <em>with an owner</em>.",
+   "short": "ERP, HR and payroll, CRM and quality systems: single sign-on, access by role, licenses and renewals, managed.",
+   "intro": "Your business runs on a stack of apps: ERP, HR and payroll, CRM, quality and document systems.  We give every one an owner, put sign-in through one identity, and keep access, licenses and renewals under control.",
+   "pains": [
+    [
+     "Nobody owns the apps",
+     "Each department bought its own tools, and IT finds out when something breaks or the invoice arrives."
+    ],
+    [
+     "Logins everywhere",
+     "Every app has its own password, and nobody is sure who still has access after someone leaves."
+    ],
+    [
+     "Renewals on autopilot",
+     "Contracts renew themselves, seat counts only go up, and no one has compared what you pay to what you use."
+    ]
+   ],
+   "get": [
+    "Administration for ERP, HR and payroll, CRM and quality systems",
+    "Single sign-on and automatic user provisioning through Entra ID",
+    "Roles and permissions set by job, with regular access reviews",
+    "One onboarding and offboarding checklist across every app",
+    "An app inventory with owners, costs and renewal dates",
+    "License and renewal reviews before the contract auto-renews",
+    "App selection, rollout and vendor management, start to finish"
+   ],
+   "plat": [
+    "NetSuite",
+    "Oracle",
+    "ADP",
+    "MasterControl",
+    "HubSpot",
+    "Pipedrive",
+    "Entra ID single sign-on",
+    "SCIM provisioning"
+   ],
+   "case": [
+    "One owner for the whole stack",
+    "A diagnostics company ran its ERP, payroll, CRM and quality systems with separate logins and no single owner.",
+    [
+     "Took over ERP administration: roles, approvals and license types",
+     "Connected the HR and payroll platform to Entra ID for single sign-on",
+     "Earlier led an Oracle ERP rollout alongside acquisition integrations for a large manufacturer"
+    ],
+    "Every app with an owner, access set by role, and renewals on a calendar."
+   ],
+   "desc": "Business application management: ERP, HR and payroll, CRM and quality systems, with single sign-on, access by role and license control."
+  },
+  "ai": {
+   "slug": "ai",
+   "name": "AI",
+   "h": "Put AI to work, <em>safely and on purpose</em>.",
+   "short": "Copilot readiness, AI policies and guardrails, and practical automation that saves real time.",
+   "intro": "AI is only as safe as the data it can reach.  We get your permissions, policies and people ready, then put AI to work where it actually saves time.",
+   "pains": [
+    [
+     "Copilot sees too much",
+     "Old sharing links and loose permissions mean AI can surface files people were never meant to see."
+    ],
+    [
+     "No rules yet",
+     "Staff are already pasting company data into free AI tools, and nobody has said what is allowed."
+    ],
+    [
+     "Pilots that go nowhere",
+     "A few licenses were bought, a few people tried it, and nobody can say what it is worth."
+    ]
+   ],
+   "get": [
+    "Microsoft 365 Copilot readiness review",
+    "SharePoint and OneDrive oversharing cleanup before AI is turned on",
+    "Shadow AI check: which AI tools staff already use, and with what data",
+    "AI acceptable use policy and guardrails",
+    "Tool selection and a pilot with clear goals",
+    "Agents and automation in Copilot Studio and Power Automate",
+    "Staff training on using AI well and safely"
+   ],
+   "plat": [
+    "Microsoft 365 Copilot",
+    "Copilot Studio",
+    "Power Automate",
+    "Azure OpenAI",
+    "SharePoint and OneDrive",
+    "Entra ID",
+    "Sensitivity labels"
+   ],
+   "case": [
+    "Ready, then useful",
+    "Every AI engagement starts the same way, so you get value without surprises.",
+    [
+     "Review who can see what across Microsoft 365, and fix the oversharing",
+     "Write a short, plain-English AI policy your staff will follow",
+     "Pilot with a small team on two or three real tasks, then measure the time saved"
+    ],
+    "AI turned on with guardrails, and a clear answer on what it is worth."
+   ],
+   "case_label": "How we start",
+   "case_note": "",
+   "desc": "AI readiness for Microsoft 365: Copilot readiness, oversharing cleanup, shadow AI checks, AI policies and practical agents in Copilot Studio."
+  },
+  "managed-it": {
+   "slug": "managed-it",
+   "name": "Managed IT",
+   "h": "Managed IT, <em>sized to fit</em>.",
+   "short": "A right-sized MSP plan built around you: monitoring, patching, users and vendors, from a few systems to the whole stack.",
+   "intro": "We're not a big-box managed service provider (MSP) with one plan for everyone.  We sit down with you, choose what we manage and how, and price it to fit.",
+   "pains": [
+    [
+     "One-size contracts",
+     "The big MSPs sell a package, and you pay for what you never use."
+    ],
+    [
+     "Tickets, not answers",
+     "Every call goes to a queue and a different person who has never seen your setup."
+    ],
+    [
+     "Too small for in-house IT",
+     "You need someone watching the systems, but not a full-time hire."
+    ]
+   ],
+   "get": [
+    "Monitoring and patching for servers, network and devices",
+    "User onboarding and offboarding",
+    "Vendor and license management",
+    "Help when something breaks, from people who know your setup",
+    "A monthly review of what changed and what is next",
+    "A scope you can grow or shrink as you go"
+   ],
+   "plat": [
+    "Remote monitoring",
+    "Patch management",
+    "Microsoft 365",
+    "Intune",
+    "Cisco Meraki",
+    "UniFi",
+    "Cloud backup",
+    "Co-managed IT"
+   ],
+   "case": [
+    "Built around you",
+    "Every managed plan starts with a short conversation, not a price sheet.",
+    [
+     "We list what you have and what matters most",
+     "You choose what we manage, from a few key systems to the whole stack",
+     "We agree on response times and a monthly price, in writing"
+    ],
+    "MSP-style coverage, without a one-size contract."
+   ],
+   "case_label": "How it works",
+   "case_note": "",
+   "desc": "Managed IT sized to fit: monitoring, patching, users, devices and vendors, fully managed or co-managed alongside your own IT staff."
+  }
+ },
+ "TESTIMONIALS": [
+  {
+   "paras": [
+    "[He] is a man of great character both on a professional and personal level.  He exemplifies the qualities of a natural leader with his problem solving expertise, genuineness, intelligence, and integrity to name just a few attributes.  He has a resolute desire to exemplify and promote excellence to both his clients and his employees; which has had an extremely positive effect and brought the very best out of the people he works with and manages.  [His] commitment to providing his clients with the highest level of service while fulfilling their current needs as well as long term goals is unsurpassed!  He truly has been and continues to be an invaluable asset to [our company] and the success of our day to day operations."
+   ],
+   "cap": [
+    "President, equipment financing firm",
+    "Client"
+   ]
+  },
+  {
+   "paras": [
+    "I worked hand-in-hand with [him] for over 7 years on projects big and small, difficult and complex, straight forward and simple.  In each circumstance I was always assured of [his] passion to do what is right, what is technically sound, and what is cost effective.  He was a very ethical and extremely hard-working.  He was also always willing to do all tasks associated with getting the job done, from managing an outsourced company, to getting his hands dirty in doing an install.  He was thorough, prudent and very conscientious to ensure that the customers' expectations were met, and the effort was done within or below the proposed budget.  He is a team player that always gave you his full effort.  His passion to learn was always there, as he would do the up front study to ensure he was familiar with the product/system and/or proposed solution.",
+    "[He] has evolved into viewing things with a global focus, able to manage disparate groups and cultures and also results-oriented.  He was a strategic and valuable resource to me, and he would be to any effort he engages in."
+   ],
+   "cap": [
+    "Former manager",
+    "Worked together for more than 7 years"
+   ]
+  },
+  {
+   "paras": [
+    "I worked closely with [him] during my time at [the company].  He and I worked together on several projects such as integration of the various acquisitions at [the company], as well as setting up Oracle (new ERP system).  [He] is an energetic IT professional.  He is very well versed in all aspects of technologies necessary for any business to run smoothly.  Additionally, he is quite skillful in understanding business and its users' needs and marrying them to the technologies available.  He has managed very successfully the many networks [the company] has deployed, as well completing their integration as new businesses have been added.  [He] is a strong leader (often leading by example) and a great communicator!  He has a 'roll up your sleeves' approach to any task at hand, and would be a great asset to any organization!"
+   ],
+   "cap": [
+    "President and Chief Operating Officer",
+    "Former senior colleague"
+   ]
+  },
+  {
+   "paras": [
+    "[He] is the kind of guy all successful organizations need.  He is very intelligent, a natural leader, self-motivated, and a problem solver.  He is very upbeat, always quick to help others less capable, always offering words of support and encouragement.  He brings out the best in those around him, helping them be the best they can possibly be.  I highly recommend him and I would enjoy any opportunity to work with [him] again."
+   ],
+   "cap": [
+    "Project manager",
+    "Former direct report"
+   ]
+  }
+ ],
+ "TOPICS": [
+  "IT and security assessment",
+  "Microsoft 365",
+  "Business Applications",
+  "Cybersecurity",
+  "Network",
+  "Cloud",
+  "Data Center",
+  "Compliance",
+  "Access Control",
+  "Business Automation",
+  "IT Strategy",
+  "Audit support",
+  "AI",
+  "Managed IT",
+  "Something else"
+ ],
+ "YEAR": 2026,
+ "FAQ": [
+  [
+   "Do you only work in California?",
+   "No.  Our headquarters is in Huntington Beach, and we work on-site across California and Arizona.  We support clients remotely in all 50 states and travel on-site as required."
+  ],
+  [
+   "How big are the companies you work with?",
+   "Startups, small and growing companies are our sweet spot: usually businesses without a full IT department, or with one IT person who needs backup.  Our team has been part of a few startups, so we know how to build IT that can grow without overspending early.  We're a small team on purpose, and we keep our client list small enough to know every one of them."
+  ],
+  [
+   "Are you an MSP?",
+   "Not a big-box one.  You can hire us for a single project, a managed IT plan built around what you actually need, or part-time IT leadership.  Many clients start with a project and keep going from there."
+  ],
+  [
+   "Can you work alongside our IT person or current provider?",
+   "Yes.  Co-managed IT is a common setup for us: your team keeps the day-to-day, and we take the projects, the security work or the parts nobody has time for."
+  ],
+  [
+   "Do you work with medical device and life sciences companies?",
+   "Yes.  Our team has spent years running IT for medical device, diagnostics and certified lab companies, where access, change records and audit evidence have to hold up."
+  ],
+  [
+   "What happens if we stop working together?",
+   "You keep everything: passwords, admin access and documentation.  We hand it over in writing, so the next person can pick it up on day one."
+  ],
+  [
+   "How do we get started?",
+   "Send a few lines through the contact form.  A senior consultant replies within one business day, and you get a written scope and price before any work starts."
+  ]
+ ],
+ "TOPICS2": [
+  "A project or assessment",
+  "Ongoing IT support",
+  "Security or compliance",
+  "IT leadership and strategy",
+  "Something else"
+ ],
+ "TOPIC_OF": {
+  "managed-it": "Ongoing IT support",
+  "cybersecurity": "Security or compliance",
+  "compliance": "Security or compliance",
+  "access-control": "Security or compliance",
+  "it-strategy": "IT leadership and strategy"
+ },
+ "STATUS": [
+  [
+   "m365",
+   "Microsoft 365",
+   "https://status.cloud.microsoft/"
+  ],
+  [
+   "aws",
+   "Amazon Web Services",
+   "https://health.aws.amazon.com/health/status"
+  ],
+  [
+   "wasabi",
+   "Wasabi cloud storage",
+   "https://status.wasabi.com/"
+  ]
+ ]
+}

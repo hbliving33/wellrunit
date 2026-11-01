@@ -1,0 +1,203 @@
+{
+ "updated": "2026-11-01T21:50:51.647897+00:00",
+ "m365": {
+  "status": "Available",
+  "checked": "2026-11-01T21:50:51.790107+00:00",
+  "link": "https://status.cloud.microsoft/"
+ },
+ "aws": {
+  "status": "2 open events",
+  "link": "https://health.aws.amazon.com/health/status",
+  "checked": "2026-11-01T21:50:51.647897+00:00"
+ },
+ "wasabi": {
+  "status": "Available",
+  "link": "https://status.wasabi.com/",
+  "checked": "2026-11-01T21:50:51.647897+00:00"
+ },
+ "items": [
+  {
+   "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+   "source": "BleepingComputer",
+   "date": "2026-11-01T19:57:53+00:00"
+  },
+  {
+   "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+   "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+   "source": "BleepingComputer",
+   "date": "2026-11-01T15:11:21+00:00"
+  },
+  {
+   "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+   "source": "BleepingComputer",
+   "date": "2026-11-01T13:53:11+00:00"
+  },
+  {
+   "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+   "link": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+   "source": "SecurityWeek",
+   "date": "2026-11-01T11:15:00+00:00"
+  },
+  {
+   "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+   "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+   "source": "The Hacker News",
+   "date": "2026-11-01T08:51:31+00:00"
+  },
+  {
+   "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+   "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+   "source": "The Hacker News",
+   "date": "2026-11-01T07:25:40+00:00"
+  },
+  {
+   "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+   "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+   "source": "The Hacker News",
+   "date": "2026-11-01T07:03:00+00:00"
+  },
+  {
+   "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+   "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+   "source": "The Hacker News",
+   "date": "2026-11-01T07:02:58+00:00"
+  },
+  {
+   "title": "Northflank security breach leads to abuse of customers' AI API keys",
+   "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "source": "BleepingComputer",
+   "date": "2026-10-31T18:01:12+00:00"
+  },
+  {
+   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "source": "BleepingComputer",
+   "date": "2026-10-31T15:35:11+00:00"
+  },
+  {
+   "title": "Reddit to lock content behind logins to fight scrapers",
+   "link": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+   "source": "BleepingComputer",
+   "date": "2026-10-31T14:05:15+00:00"
+  },
+  {
+   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "source": "The Hacker News",
+   "date": "2026-10-31T12:01:56+00:00"
+  },
+  {
+   "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+   "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+   "source": "SecurityWeek",
+   "date": "2026-10-31T11:00:00+00:00"
+  },
+  {
+   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "source": "The Hacker News",
+   "date": "2026-10-31T08:27:43+00:00"
+  },
+  {
+   "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-31T01:02:57+00:00"
+  },
+  {
+   "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+   "source": "Dark Reading",
+   "date": "2026-10-30T20:05:58+00:00"
+  },
+  {
+   "title": "Behind the Scenes of How Operation Blackout Went Down",
+   "link": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
+   "source": "Dark Reading",
+   "date": "2026-10-30T19:46:08+00:00"
+  },
+  {
+   "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-30T16:11:44+00:00"
+  },
+  {
+   "title": "L\u2019Italia \u00e8 afflitta da vulnerabilit\u00e0 informatiche, senza una causa chiara",
+   "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian",
+   "source": "Dark Reading",
+   "date": "2026-10-30T15:39:54+00:00"
+  },
+  {
+   "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+   "link": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+   "source": "SecurityWeek",
+   "date": "2026-10-30T15:09:25+00:00"
+  },
+  {
+   "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+   "link": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+   "source": "SecurityWeek",
+   "date": "2026-10-30T14:41:35+00:00"
+  },
+  {
+   "title": "Undead Software Projects Continue to Raise Security Risks",
+   "link": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
+   "source": "Dark Reading",
+   "date": "2026-10-30T14:10:37+00:00"
+  },
+  {
+   "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
+   "link": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+   "source": "SecurityWeek",
+   "date": "2026-10-30T14:00:00+00:00"
+  },
+  {
+   "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
+   "link": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+   "source": "SecurityWeek",
+   "date": "2026-10-30T13:36:12+00:00"
+  },
+  {
+   "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
+   "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
+   "source": "Dark Reading",
+   "date": "2026-10-30T08:00:00+00:00"
+  },
+  {
+   "title": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
+   "source": "Dark Reading",
+   "date": "2026-10-29T21:21:56+00:00"
+  },
+  {
+   "title": "Actively exploited: GitLab Community Edition and Enterprise Edition (CVE-2026-97229)",
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+   "source": "CISA",
+   "date": "2026-10-29T00:00:00+00:00"
+  },
+  {
+   "title": "Actively exploited: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software (CVE-2026-76418)",
+   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+   "source": "CISA",
+   "date": "2026-10-29T00:00:00+00:00"
+  },
+  {
+   "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+   "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+   "source": "Krebs on Security",
+   "date": "2026-10-21T15:26:07+00:00"
+  },
+  {
+   "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+   "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+   "source": "Krebs on Security",
+   "date": "2026-10-19T13:48:56+00:00"
+  }
+ ],
+ "errors": {
+  "CISA": "HTTP Error 403: Forbidden"
+ }
+}
