@@ -121,6 +121,65 @@ def label(opt):
         return t, sub
     return 'No box, a hair of space', f'IT in steel blue, wordmark {names[st]}' + (f', with the {MNAME[mk]} mark' if mk else '')
 
+
+# ---------- round two, part two: other fonts, subtle color shifts, and a leaning IT ----------
+FONTS = [('Manrope', 'manrope-latin-800', 800), ('Sora', 'sora-latin-700', 700), ('Space Grotesk', 'space-grotesk-latin-700', 700), ('Outfit', 'outfit-latin-700', 700),
+         ('Lexend', 'lexend-latin-700', 700), ('Montserrat', 'montserrat-latin-800', 800), ('IBM Plex Sans', 'ibm-plex-sans-latin-700', 700), ('Archivo', 'archivo-latin-800', 800),
+         ('Bricolage Grotesque', 'bricolage-grotesque-latin-800', 800), ('Poppins', 'poppins-latin-700', 700)]
+FONT_CSS = ''.join(f"@font-face{{font-family:'{n}';font-weight:{w};font-display:swap;src:url(assets/fonts/{f}-normal.woff2) format('woff2')}}" for n, f, w in FONTS)
+PALETTES = {
+ 'navy':     ('Navy and steel blue (current)', NAVY, STEEL, '#fff', SKY),
+ 'graphite': ('Graphite and slate blue', '#1b2430', '#3d5f85', '#fff', '#9bb6d3'),
+ 'midnight': ('Midnight and deep teal blue', '#0c1b2b', '#2d6475', '#fff', '#8cc1cc'),
+ 'charcoal': ('Charcoal and soft steel', '#22262b', '#4a6b8f', '#fff', '#a3bcd6'),
+ 'ink':      ('Ink and denim', '#101828', '#36557a', '#fff', '#9db3cf'),
+ 'slatebox': ('Navy with a slate box', NAVY, '#4b5d73', '#fff', '#a9b8c9'),
+}
+def lock2(font='Inter', weight=800, pal='navy', lean=0, boxlean=0, box=True, dark=False, ls='-.035em', size=''):
+    _, ink, acc, boxfg, dacc = PALETTES[pal]
+    ink_c = '#fff' if dark else ink
+    acc_c = dacc if dark else acc
+    fg = NAVY if dark else boxfg
+    lean_css = f'transform:skewX({lean}deg);' if lean else ''
+    if box:
+        inner = f'<span style="display:inline-block;{lean_css}">IT</span>'
+        it = (f'<span style="display:inline-block;background:{acc_c};color:{fg};border-radius:.2em;padding:.04em .14em .06em;margin-left:.07em;'
+              f'font-size:.86em;vertical-align:.06em;letter-spacing:0;line-height:1;{f"transform:skewX({boxlean}deg);" if boxlean else ""}">{inner}</span>')
+    else:
+        it = f'<span style="display:inline-block;color:{acc_c};margin-left:.06em;letter-spacing:0;{lean_css}">IT</span>'
+    return f'<div class="lk {size}"><span class="wm"><span style="font-family:\'{font}\',Inter,sans-serif;font-weight:{weight};letter-spacing:{ls};color:{ink_c}">Well Run{it}</span></span></div>'
+
+def fav2(dark, **k):
+    _, ink, acc, boxfg, dacc = PALETTES[k.get('pal', 'navy')]
+    bg = dacc if dark else acc
+    lean = k.get('lean', 0); bl = k.get('boxlean', 0)
+    inner = f'<span style="display:inline-block;{f"transform:skewX({lean}deg)" if lean else ""}">IT</span>'
+    return (f'<span class="fav{" d" if dark else ""}"><span style="font:{k.get("weight", 800)} 13px \'{k.get("font", "Inter")}\',Inter;background:{bg};color:{NAVY if dark else boxfg};border-radius:3px;padding:1px 3px;'
+            f'{f"transform:skewX({bl}deg);display:inline-block" if bl else ""}">{inner}</span></span>')
+
+EXTRA = []
+for name, _, w in FONTS:
+    EXTRA.append((dict(font=name, weight=w), f'{name} font', 'Same box and colors'))
+for key in ['graphite', 'midnight', 'charcoal', 'ink', 'slatebox']:
+    EXTRA.append((dict(pal=key), PALETTES[key][0], 'Subtle color shift, same box'))
+EXTRA += [
+ (dict(lean=-10), 'IT leans, box stays straight', 'A slight forward lean on the letters only'),
+ (dict(lean=-6), 'IT leans a little less', 'A gentler lean, letters only'),
+ (dict(boxlean=-10), 'Box and IT lean together', 'The whole tab tilts forward'),
+ (dict(boxlean=-6, pal='graphite'), 'Gentle tilt, graphite and slate', 'Whole tab tilted a little, with a color shift'),
+ (dict(box=False, lean=-10), 'No box, leaning IT', 'IT in steel blue with a forward lean'),
+ (dict(font='Manrope', weight=800, lean=-10), 'Manrope with a leaning IT', 'Letters lean inside a straight box'),
+ (dict(font='Sora', weight=700, boxlean=-8), 'Sora with a tilted tab', 'Whole tab tilts forward'),
+]
+start = len(OPTIONS) + 1
+cards2 = ''
+for i, (k, t, sub) in enumerate(EXTRA, start):
+    fk = {x: k[x] for x in ('font', 'weight', 'pal', 'lean', 'boxlean') if x in k}
+    cards2 += f'''<article class="opt"><div class="num">{i}</div>
+<div class="lite">{lock2(**k)}</div><div class="drk">{lock2(dark=True, **k)}</div>
+<div class="small">{fav2(False, **fk)}{fav2(True, **fk)}{lock2(size="sm", **k)}</div>
+<p class="cap"><b>{t}</b><br>{sub}</p></article>'''
+
 cards = ''
 for n, opt in enumerate(OPTIONS, 1):
     t, sub = label(opt)
@@ -134,6 +193,7 @@ page = f'''<!doctype html>
 <meta name="robots" content="noindex, nofollow"><title>Logo options | Well Run IT</title>
 <link rel="stylesheet" href="assets/css/site.css">
 <style>
+{FONT_CSS}
 .intro{{padding:56px 0 28px}} .intro h1{{font-size:clamp(34px,4.5vw,52px)}} .intro p{{margin-top:14px;max-width:780px}}
 .grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding-bottom:80px}}
 @media (max-width:1000px){{.grid{{grid-template-columns:repeat(2,1fr)}}}} @media (max-width:640px){{.grid{{grid-template-columns:1fr}}}}
@@ -153,6 +213,8 @@ page = f'''<!doctype html>
 <main class="wrap">
 <section class="intro"><h1>Logo options, round two.</h1><p class="lead">{len(OPTIONS)} options built around IT in a box, starting with the one you picked (number 1).  Every box sits a hair away from Run, with IT at full weight, so it never blurs into Run at small sizes.  Numbers 30 to 35 skip the box and use a hair of space instead, for comparison.  Each card shows the logo on light, on dark, and small, with the browser tab icon.</p></section>
 <div class="grid">{cards}</div>
+<section class="intro" style="padding-top:8px"><h2 style="font-size:clamp(28px,3.4vw,40px)">More fonts, subtle colors and a lean.</h2><p class="lead">Numbers {start} to {start + len(EXTRA) - 1} keep your box and try other typefaces, small color shifts and a forward-leaning IT.</p></section>
+<div class="grid">{cards2}</div>
 </main></body></html>
 '''
 (ROOT / 'logos.html').write_text(page)
