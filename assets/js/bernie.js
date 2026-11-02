@@ -79,6 +79,7 @@
     if (opened) return;
     opened = true;
     ready = connect();
+    ready.then((ok) => { if (!ok && !transcript.some((m) => m.who === 'visitor')) { log.replaceChildren(); transcript.length = 0; offline(); } });
     say("Hi, I'm Bernie.  What would you like to do?");
     setFoot(choices([
       ['Talk to a person', () => { say('Talk to a person', 'visitor'); startForm(); }],

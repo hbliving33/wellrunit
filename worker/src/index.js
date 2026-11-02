@@ -9,7 +9,7 @@ const SESSION_MINUTES = 30;
 const MAX_QUESTIONS = 3;
 
 const SECURITY_HEADERS = {
-  'Strict-Transport-Security': 'max-age=31536000',
+  'Strict-Transport-Security': 'max-age=15552000; includeSubDomains',   // matches the HSTS setting already on in Cloudflare
   'X-Content-Type-Options': 'nosniff',
   'X-Frame-Options': 'DENY',
   'Referrer-Policy': 'strict-origin-when-cross-origin',

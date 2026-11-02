@@ -34,20 +34,28 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Check that every secret is in place
+        id: secrets
         run: |
           missing=""
           for v in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID TURNSTILE_SITEKEY TURNSTILE_SECRET SESSION_KEY GRAPH_TENANT GRAPH_CLIENT_ID GRAPH_CLIENT_SECRET NTFY_TOPIC; do
             [ -n "${!v}" ] || missing="$missing $v"
           done
-          if [ -n "$missing" ]; then echo "::error::Not deployed.  These GitHub secrets are still missing:$missing"; exit 1; fi
+          if [ -n "$missing" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "::error::Not deployed.  These GitHub secrets are still missing:$missing"; exit 1; fi
+            echo "::notice::Not deployed yet.  Waiting on these GitHub secrets:$missing"
+          fi
 
       - uses: actions/setup-node@v4
+        if: steps.secrets.outputs.skip != 'true'
         with:
           node-version: '22'
 
       - run: npm ci --no-audit --no-fund
+        if: steps.secrets.outputs.skip != 'true'
 
       - name: Deploy
+        if: steps.secrets.outputs.skip != 'true'
         run: |
           umask 077
           node -e 'const k=["TURNSTILE_SECRET","SESSION_KEY","GRAPH_TENANT","GRAPH_CLIENT_ID","GRAPH_CLIENT_SECRET","NTFY_TOPIC"];const o={};for(const x of k)o[x]=process.env[x];require("fs").writeFileSync(process.env.RUNNER_TEMP+"/s.json",JSON.stringify(o))'
@@ -55,10 +63,14 @@ jobs:
           rm -f "$RUNNER_TEMP/s.json"
 
       - name: Check the live site
+        if: steps.secrets.outputs.skip != 'true'
         run: |
           sleep 20
           h=$(curl -sSI "https://wellrunit.com/?check=$GITHUB_RUN_ID")
-          echo "$h" | grep -i '^server:' || true
+          if echo "$h" | grep -qi '^cf-mitigated: *challenge'; then
+            echo "::warning::Deployed, but Cloudflare's bot protection challenges GitHub's servers, so the live check can't run from here.  Check the site from a browser."
+            exit 0
+          fi
           for x in content-security-policy strict-transport-security x-frame-options x-content-type-options; do
             echo "$h" | grep -qi "^$x:" && echo "OK  $x" || { echo "::error::$x header is missing.  Is the wellrunit.com DNS record proxied (orange cloud) in Cloudflare?"; exit 1; }
           done
