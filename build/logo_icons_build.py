@@ -51,10 +51,10 @@ ICONS = [
 
  # ---- number 13, server stack, color mixes ----
  ('Number 13 server stack, as it was (two graphite, one slate blue)', 'rack', lambda a,c,m: rack('c','c','a',a,c,m)),
- ('Server stack, slate blue on top', 'rack', lambda a,c,m: rack('a','c','c',a,c,m)),
- ('Server stack, three tones dark to light', 'rack', lambda a,c,m: rack('c','a','m',a,c,m)),
+ ('Server stack, light slate on top, graphite below', 'rack', lambda a,c,m: rack('m','c','c',a,c,m)),
+ ('Server stack, light slate in the middle', 'rack', lambda a,c,m: rack('c','m','c',a,c,m)),
  ('Server stack, three tones light to dark', 'rack', lambda a,c,m: rack('m','a','c',a,c,m)),
- ('Server stack, graphite in the middle', 'rack', lambda a,c,m: rack('a','c','a',a,c,m)),
+ ('Server stack, light slate top and bottom', 'rack', lambda a,c,m: rack('m','c','m',a,c,m)),
  ('Server stack with status lights', 'rack', lambda a,c,m: rack_lights('c','a','m',a,c,m)),
 
  # ---- stepped server rack ----
