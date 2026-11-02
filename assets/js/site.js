@@ -32,7 +32,8 @@
     const ago = (iso) => { const m = Math.round((Date.now() - new Date(iso)) / 60000); if (!(m >= 0)) return ""; if (m < 60) return m <= 1 ? "just now" : m + " minutes ago"; const h = Math.round(m / 60); if (h < 24) return h + (h === 1 ? " hour ago" : " hours ago"); const d = Math.round(h / 24); return d + (d === 1 ? " day ago" : " days ago"); };
     fetch("assets/data/news.json?t=" + Math.floor(Date.now() / 600000)).then((r) => r.json()).then((data) => {
       if (newsList) {
-        const items = (data.items || []).slice(0, +newsList.dataset.limit || 6);
+        const hours = +newsList.dataset.hours || 0, since = Date.now() - hours * 3600000;
+        const items = hours ? (data.items || []).filter((it) => new Date(it.date) >= since) : (data.items || []).slice(0, +newsList.dataset.limit || 6);
         newsList.textContent = "";
         if (!items.length) { const li = document.createElement("li"); li.className = "news-empty"; li.textContent = "Headlines will appear here shortly."; newsList.appendChild(li); }
         items.forEach((it) => {
@@ -49,6 +50,31 @@
         t.textContent = ok ? "No widespread issues reported" : unk ? "Status unavailable.  Open the status page." : st;
       });
     }).catch(() => { if (newsList) newsList.innerHTML = '<li class="news-empty">Headlines are unavailable right now.</li>'; });
+  }
+
+  // news history: the previous two weeks, grouped by day (older than the 48 hours on the main page)
+  const hist = document.getElementById("newsHistory");
+  if (hist) {
+    fetch("assets/data/news-history.json?t=" + Math.floor(Date.now() / 600000)).then((r) => r.json()).then((data) => {
+      const cut = Date.now() - 48 * 3600000, days = new Map();
+      (data.items || []).filter((it) => new Date(it.date) < cut).forEach((it) => {
+        const k = new Date(it.date).toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
+        if (!days.has(k)) days.set(k, []); days.get(k).push(it);
+      });
+      hist.textContent = "";
+      if (!days.size) { const p = document.createElement("p"); p.className = "news-empty"; p.textContent = "Older headlines will build up here over the next two weeks."; hist.appendChild(p); return; }
+      days.forEach((items, day) => {
+        const sec = document.createElement("div"), h = document.createElement("h2"), ol = document.createElement("ol");
+        sec.className = "nh-day"; h.textContent = day; ol.className = "news";
+        items.forEach((it) => {
+          const li = document.createElement("li"), a = document.createElement("a"), meta = document.createElement("span");
+          a.href = it.link; a.target = "_blank"; a.rel = "noopener"; a.textContent = it.title;
+          meta.className = "news-meta"; meta.textContent = it.source;
+          li.append(meta, a); ol.appendChild(li);
+        });
+        sec.append(h, ol); hist.appendChild(sec);
+      });
+    }).catch(() => { hist.innerHTML = '<p class="news-empty">Headlines are unavailable right now.</p>'; });
   }
 
   // IT health check (runs only in the browser; nothing is sent unless the visitor chooses to)

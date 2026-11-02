@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / 'assets' / 'data' / 'news.json'
+HIST = ROOT / 'assets' / 'data' / 'news-history.json'   # two weeks of headlines for news-history.html
 FEEDS = [
     ('CISA', 'https://www.cisa.gov/cybersecurity-advisories/all.xml'),
     ('Microsoft Security Blog', 'https://www.microsoft.com/en-us/security/blog/feed/'),
@@ -20,7 +21,7 @@ FEEDS = [
 ]
 KEV_JSON = 'https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json'   # CISA's official KEV catalog on GitHub
 M365_FEED = 'https://status.cloud.microsoft/api/feed/mac'
-PER_SOURCE, TOTAL = 6, 30
+PER_SOURCE, TOTAL = 12, 60
 UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 wellrunit-news/1.0',
       'Accept': 'application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8'}
 
@@ -149,6 +150,15 @@ def main():
         if err: errors[label] = err
     if not data['items'] and prev.get('items'): data['items'] = prev['items']
     OUT.write_text(json.dumps(data, indent=1))
+    # history: everything seen in the last 14 days, kept between runs, newest first
+    try: hist = json.loads(HIST.read_text()).get('items', []) if HIST.exists() else []
+    except Exception: hist = []
+    cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=14)).isoformat()
+    keep, seen_h = [], set()
+    for x in sorted(uniq + hist, key=lambda x: x['date'], reverse=True):
+        k = x['title'].lower()
+        if x['date'] >= cutoff and k not in seen_h: seen_h.add(k); keep.append(x)
+    HIST.write_text(json.dumps({'updated': now, 'items': keep[:600]}, indent=1))
     print('\n'.join(ok)); print('M365:', data['m365']['status'], '| headlines:', len(data['items']))
 
 if __name__ == '__main__':

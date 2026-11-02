@@ -14,21 +14,11 @@ routes = [
 SUPPORT_MAILBOX = "support@wellrunit.com"
 # TURNSTILE_SITEKEY is public by design; it's set from the TURNSTILE_SITEKEY repo variable at deploy.
 
-[ai]
-binding = "AI"
-
 [[ratelimits]]
 name = "RL_SESSION"
 namespace_id = "7101"
   [ratelimits.simple]
   limit = 6
-  period = 60
-
-[[ratelimits]]
-name = "RL_ASK"
-namespace_id = "7102"
-  [ratelimits.simple]
-  limit = 8
   period = 60
 
 [[ratelimits]]

@@ -13,7 +13,13 @@ DOMAIN = 'https://wellrunit.com/'
 PRELAUNCH = True   # keeps every page out of search results until launch; set False on launch day and rebuild
 PRE_META = '<meta name="robots" content="noindex, nofollow">\n' if PRELAUNCH else ''
 
-SERVICES = C['SERVICES']
+SERVICE_ORDER = ['microsoft-365', 'business-applications', 'network', 'cybersecurity', 'it-strategy', 'managed-it', 'cloud', 'ai', 'data-center', 'business-automation', 'access-control', 'compliance']
+SERVICES = sorted(C['SERVICES'], key=lambda x: SERVICE_ORDER.index(x['slug']) if x['slug'] in SERVICE_ORDER else 99)
+# One-line answers to the questions people ask most, placed inside the service they belong to (Nov 2026: instead of Bernie answering questions)
+SVC_NOTES = {
+  'managed-it': ['No packages.  No tiers.  No paying for what you don\'t use.  Every plan is built around your business.', 'We can take over from your current MSP, and we support companies in all 50 states.'],
+  'microsoft-365': ['From sign-in to SharePoint, Exchange and Teams, we support Microsoft 365 for companies of every size.'],
+}
 SVC = {s['slug']: s for s in SERVICES}
 TOPICS = C['TOPICS2']; TOPIC_OF = C['TOPIC_OF']
 
@@ -51,6 +57,11 @@ def icon(name):
       'business-automation': '<path d="M4 7h11M11 3l4 4-4 4M20 17H9M13 13l-4 4 4 4"/>',
       'it-strategy': '<path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/>',
       'managed-it': '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+      'clock': '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+      'doc': '<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/>',
+      'person': '<circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/>',
+      'key': '<circle cx="8" cy="15" r="4"/><path d="M11 12l8-8M16 7l2 2M14 9l2 2"/>',
+      'talk': '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 10h8"/>',
       'business-applications': '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/>',
     }[name]
     return f'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{p}</svg>'
@@ -58,7 +69,7 @@ def icon(name):
 def plain(h):
     return re.sub(r'</?em>', '', h)
 
-NAV = [('services.html', 'Services'), ('engagement.html', 'How We Work'), ('about.html', 'About Us'), ('news.html', 'Cyber News')]
+NAV = [('index.html', 'Home'), ('services.html', 'Services'), ('engagement.html', 'How We Work'), ('about.html', 'About Us'), ('news.html', 'Cyber News')]
 SVC_FILES = {s['slug'] + '.html' for s in SERVICES}
 
 ORG_LD = json.dumps({"@context": "https://schema.org", "@type": "ProfessionalService", "name": BRAND, "url": DOMAIN, "logo": DOMAIN + "assets/brand/og.png",
@@ -104,9 +115,9 @@ def page(fname, title, desc, body):
   <div class="wrap">
     <div class="foot-row">
       <a class="brand" href="index.html" aria-label="{BRAND}, home">{logo(True)}</a>
-      <nav class="foot-links" aria-label="Footer"><a href="services.html">Services</a><a href="engagement.html">How we work</a><a href="about.html">About us</a><a href="testimonials.html">Testimonials</a><a href="news.html">Cyber news</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></nav>
+      <nav class="foot-links" aria-label="Footer"><a href="services.html">Services</a><a href="engagement.html">How we work</a><a href="about.html">About us</a><a href="testimonials.html">Testimonials</a><a href="news.html">Cyber news</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
     </div>
-    <div class="base"><span>&copy; {YEAR} {BRAND}</span><span>Huntington Beach, California.  Remote support in all 50 states.</span></div>
+    <div class="base"><span>&copy; {YEAR} {BRAND}</span><span>Supporting all 50 states</span></div>
   </div>
 </footer>
 <script src="assets/js/site.js?v={js}" defer></script>
@@ -156,7 +167,7 @@ RUN = [('Core infrastructure', 'Servers, storage, virtualization, networks, Wi-F
        ('Facilities', 'When the building is part of the job: office moves and build-outs, server room power and cooling, badge access and cameras.'),
        ('Compliance', 'When audits come, the evidence is ready: SOX, HIPAA and ISO environments.')]
 
-PROOF = [('30 years', 'running IT operations, from data centers to Microsoft 365'), ('$4.5M', 'cut from one manufacturer’s IT costs over two years'),
+PROOF = [('30+ years', 'running IT operations, from data centers to Microsoft 365'), ('$4.5M', 'cut from one manufacturer’s IT costs over two years'),
          ('1 business day', 'to hear back from a senior consultant'), ('50 states', 'with remote support, on-site across California and Arizona')]
 
 def proof():
@@ -185,73 +196,72 @@ def form():
 
 FAQ = C['FAQ']
 def faq():
-    items = ''.join(f'<details><summary>{q}</summary><p>{a}</p></details>' for q, a in FAQ)
+    # plain questions and answers, nothing to click open
+    items = ''.join(f'<div class="qa"><h3>{q}</h3><p>{a}</p></div>' for q, a in FAQ)
     ld = json.dumps({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a.replace('  ', ' ')}} for q, a in FAQ]})
-    return f'<section><div class="wrap"><div class="sec-head"><h2>Common questions.</h2></div><div class="faq">{items}</div></div></section><script type="application/ld+json">{ld}</script>'
+    return f'<section class="band"><div class="wrap"><div class="sec-head"><h2>Common questions.</h2></div><div class="qas">{items}</div></div></section><script type="application/ld+json">{ld}</script>'
 
 # ---------- pages ----------
 def home():
+    lines = ''.join(f'<a class="line" href="services.html#{x["slug"]}"><span class="li-ic">{icon(x["slug"])}</span><span><b>{x["name"]}</b><span>{x["short"]}</span></span></a>' for x in SERVICES[:6])
+    stats = ''.join(f'<div><b>{n}</b><span>{t}</span></div>' for n, t in PROOF)
     body = f'''
 <section class="hero"><div class="wrap">
   <span class="kicker">IT for startups, small and growing companies</span>
   <h1>Your IT, well run.</h1>
   <p class="lead">We set up your IT, keep it running and keep it safe.  So you can get back to work.</p>
   <div class="acts"><a class="btn" href="contact.html">Contact us</a><a class="link" href="about.html#check">Take the free 60-second IT health check</a></div>
-  <p class="reach">Headquartered in Huntington Beach, California.  Remote support in all 50 states.</p>
+  <p class="reach">Supporting companies in all 50 states.</p>
 </div></section>
 
-<section style="padding-top:0"><div class="wrap">{tiles()}</div></section>
+<section class="tight"><div class="wrap">
+  <div class="split-head"><h2>What we run.</h2><a class="link" href="services.html">All services</a></div>
+  <div class="lines">{lines}</div>
+</div></section>
 
-<section style="padding-top:24px"><div class="wrap"><div class="panel two">
+<section class="tight"><div class="wrap"><div class="panel two">
   <div><h2>What well run looks like.</h2><p class="lead" style="margin-top:18px">It just works.  People sign in, the network stays up, and problems get fixed fast.</p>
   <p style="margin-top:26px"><a class="link" href="about.html#check">See how your IT measures up</a></p></div>
   <ul class="checks">{''.join(f'<li>{x}</li>' for x in WELL_RUN)}</ul>
 </div></div></section>
 
-<section><div class="wrap"><div class="sec-head"><h2>Mom-and-pop care.  Enterprise experience.</h2><p class="lead">A small team that knows your name and your systems.</p></div>{fit_cards()}</div></section>
-
-<section class="dark"><div class="wrap"><div class="sec-head"><h2>Proof, not promises.</h2><p class="lead">A few numbers behind the work.  Client names are kept confidential.</p></div>{proof().replace('class="card"', 'class="card"')}</div></section>
-
-
+<section class="tight"><div class="wrap"><div class="statrow">{stats}</div></div></section>
 {quote_block(1)}
 {cta()}
 <script type="application/ld+json">{ORG_LD}</script>'''
-    page('index.html', f'{BRAND} | IT infrastructure and operations, well run', 'IT infrastructure and operations for startups, small and growing companies: networks, servers and cloud, Microsoft 365, business applications and security.  Headquartered in California, serving clients nationwide.', body)
+    page('index.html', f'{BRAND} | IT infrastructure and operations, well run', 'IT infrastructure and operations for startups, small and growing companies: Microsoft 365, business applications, networks, cybersecurity and IT leadership.  Supporting companies in all 50 states.', body)
 
 def services():
-    cards = ''.join(f'<a class="tile" href="{s["slug"]}.html"><span class="ic">{icon(s["slug"])}</span><h3>{s["name"]}</h3><p>{s["short"]}</p><span class="go">Learn more</span></a>' for s in SERVICES)
-    body = phero('Everything IT, one team.', 'Bring us a single project or hand us the whole stack.  Every service is delivered by the same small, senior team.') + f'<section style="padding-top:0"><div class="wrap"><div class="tiles">{cards}</div></div></section>' + cta()
-    page('services.html', f'Services | {BRAND}', 'Network, cloud, data center, Microsoft 365, business applications, AI, managed IT, IT strategy, cybersecurity, automation, access control and compliance.', body)
+    jump = ''.join(f'<a href="#{x["slug"]}">{x["name"]}</a>' for x in SERVICES)
+    rows = ''
+    for n, x in enumerate(SERVICES, 1):
+        notes = ''.join(f'<p class="svc-note">{t}</p>' for t in SVC_NOTES.get(x['slug'], []))
+        topic = quote(TOPIC_OF.get(x['slug'], 'A project or assessment')); msg = quote('About ' + x['name'] + ': ')
+        rows += f'''<section class="svc{' alt' if n % 2 == 0 else ''}" id="{x["slug"]}"><div class="wrap svc-grid">
+  <div class="svc-side"><span class="svc-num">{n:02d}</span><span class="svc-ic">{icon(x["slug"])}</span><h2>{x["name"]}</h2></div>
+  <div class="svc-main"><p class="svc-h">{plain(x["h"])}</p><p class="svc-intro">{x["intro"]}</p>{notes}
+    <ul class="svc-list">{''.join(f'<li>{g}</li>' for g in x["get"][:4])}</ul>
+    <a class="btn" href="contact.html?topic={topic}&amp;msg={msg}">Talk to us about {x["name"]}</a></div>
+</div></section>'''
+    body = phero('Everything IT, one team.', 'Bring us a single project or hand us the whole stack.  Every service is delivered by the same small, senior team.') + f'<nav class="jump" aria-label="Services on this page"><div class="wrap">{jump}</div></nav>' + rows + cta()
+    page('services.html', f'Services | {BRAND}', 'Microsoft 365, business applications, network, cybersecurity, IT strategy, managed IT, cloud, AI, data center, automation, access control and compliance.', body)
 
 def service(i, s):
-    sym = ''.join(f'<div class="card"><h3>{t}</h3><p>{d}</p></div>' for t, d in s['pains'])
-    ct, cs, cl, co = s['case']
-    prev, nxt = SERVICES[i - 1], SERVICES[(i + 1) % len(SERVICES)]
-    note = s.get('case_note', 'Client names are kept confidential.')
-    topic = quote(TOPIC_OF.get(s['slug'], 'A project or assessment')); msg = quote('About ' + s['name'] + ': ')
-    body = phero(plain(s['h']), s['intro'], trail=f'<a href="services.html">Services</a> / {s["name"]}') + f'''
-<section style="padding-top:0"><div class="wrap"><div class="sec-head"><h2>Sound familiar?</h2></div><div class="cards">{sym}</div></div></section>
-<section style="padding-top:0"><div class="wrap"><div class="panel two">
-  <div><h2>What you get.</h2><ul class="ticks" style="margin-top:26px">{''.join(f'<li>{g}</li>' for g in s['get'])}</ul>
-  <p style="margin-top:28px"><a class="btn" href="contact.html?topic={topic}&amp;msg={msg}">Talk to us about {s["name"]}</a></p></div>
-  <div><article class="story"><p class="lbl">{s.get('case_label', 'From the field')}</p><h3>{ct}</h3><p>{cs}</p><ul class="ticks" style="margin-top:14px">{''.join(f'<li>{x}</li>' for x in cl)}</ul><div class="out">{co}</div></article>
-  {f'<p class="fine">{note}</p>' if note else ''}
-  <h3 style="margin-top:30px">Platforms and standards</h3><div class="pills">{''.join(f'<span>{p}</span>' for p in s['plat'])}</div></div>
-</div></div></section>
-<section style="padding-top:0"><div class="wrap"><nav class="next-prev" aria-label="More services"><a href="{prev['slug']}.html"><small>Previous service</small><b>{prev['name']}</b></a><a href="{nxt['slug']}.html" style="text-align:right"><small>Next service</small><b>{nxt['name']}</b></a></nav></div></section>
-'''
-    page(s['slug'] + '.html', f'{s["name"]} | {BRAND}', s.get('desc') or f'{s["name"]} from {BRAND}.  {s["intro"].split("  ")[0]}', body)
+    redirect(s['slug'] + '.html', 'services.html#' + s['slug'])   # one Services page now, no sub-pages (Nov 2026)
 
 def engagement():
-    eng = ''.join(f'''<div class="card"><div class="num">{t}</div><h3>{sub}</h3><p>{how}</p><ul class="ticks" style="margin-top:16px">{''.join(f"<li>{x}</li>" for x in inc)}</ul>
-<p style="margin-top:16px;font-size:15px"><b>Typical work:</b> {', '.join(work)}.</p><p style="margin-top:8px;font-size:15px"><b>Best for:</b> {best}.</p></div>''' for t, sub, how, inc, work, best in C['ENGAGE'])
-    steps = [('Ask Bernie', "Bernie asks a few quick questions and passes everything to a real person, who calls you back at a time you picked."), ('Get a written proposal', 'A clear scope, timeline and price, in plain English.'), ('Kick off', 'We get to work, keep you posted and document everything as we go.'), ('Hand-off or ongoing', 'Projects end with documentation you own.  Managed and fractional work continue month to month.')]
-    st = ''.join(f'<div class="card"><div class="num">Step {n}</div><h3>{t}</h3><p>{d}</p></div>' for n, (t, d) in enumerate(steps, 1))
-    std = ''.join(f'<div class="card"><h3>{t}</h3><p>{d}</p></div>' for _, t, d in C['STANDARD'])
+    ways = list(C['ENGAGE'])
+    t, sub, how, inc, work, best = ways[1]
+    ways[1] = (t, "No packages.  No tiers.  No paying for what you don't use.", "Every plan is built around your business.  We sit down with you, choose what we manage and how, and price it to fit, from a few key systems to the whole stack.  We can also take over from your current MSP.", inc, work, best)
+    cols = ''.join(f'''<div class="way"><span class="way-t">{t}</span><h3>{sub}</h3><p>{how}</p><ul class="ticks">{''.join(f"<li>{x}</li>" for x in inc[:5])}</ul>
+<p class="way-best"><b>Best for:</b> {best}.</p></div>''' for t, sub, how, inc, work, best in ways)
+    steps = [('Ask Bernie', "A few quick questions and everything goes to a real person, who calls you back at a time you picked."), ('Get a written proposal', 'A clear scope, timeline and price, in plain English.'), ('Kick off', 'We get to work, keep you posted and document everything as we go.'), ('Hand-off or ongoing', 'Projects end with documentation you own.  Managed and fractional work continue month to month.')]
+    st = ''.join(f'<li><span class="tl-n">{n}</span><h3>{t}</h3><p>{d}</p></li>' for n, (t, d) in enumerate(steps, 1))
+    std = ''.join(f'<li><span class="li-ic">{icon(k)}</span><div><h3>{t}</h3><p>{d}</p></div></li>' for k, t, d in C['STANDARD'])
     body = phero('Work with us the way that fits.', 'One job, a managed IT plan built around you, or a senior IT leader part time.  Start with one and add another later.') + f'''
-<section style="padding-top:0"><div class="wrap"><div class="cards">{eng}</div></div></section>
-<section class="dark"><div class="wrap"><div class="sec-head"><h2>How an engagement starts.</h2></div><div class="cards four">{st}</div></div></section>
-<section><div class="wrap"><div class="sec-head"><h2>Our standard, in writing.</h2><p class="lead">Six commitments we hold ourselves to on every engagement, large or small.</p></div><div class="cards">{std}</div></div></section>
+<section class="tight"><div class="wrap"><div class="ways">{cols}</div></div></section>
+<section class="dark"><div class="wrap"><div class="sec-head"><h2>How an engagement starts.</h2></div><ol class="timeline">{st}</ol></div></section>
+<section><div class="wrap"><div class="sec-head"><h2>Our standard, in writing.</h2><p class="lead">Six commitments we hold ourselves to on every engagement, large or small.</p></div><ul class="standards">{std}</ul></div></section>
 {faq()}
 {cta()}'''
     page('engagement.html', f'How We Work | {BRAND}', 'Projects, a managed IT plan built around you, or fractional IT leadership.  Written scope and price before any work starts.', body)
@@ -261,27 +271,26 @@ def why():
 
 def about():
     qs = ''.join(f'<li data-q="{i}"><p>{q}</p><div class="yn"><button type="button" data-v="1" aria-pressed="false">Yes</button><button type="button" data-v="0" aria-pressed="false">No</button></div></li>' for i, q in enumerate(C['QUESTIONS']))
-    vals = ''.join(f'<div class="card"><h3>{t}</h3><p>{d}</p></div>' for t, d in [('Straight answers', "Plain English, no jargon.  If something doesn't need fixing, we'll say so."), ('Senior people', 'The people who scope your project are the ones who do the work.'), ('Documented', "Every change is written down, so you're never locked in to us."), ('Built to last', 'We design for the next five years, not the next invoice.')])
-    body = phero('Mom-and-pop care.  Enterprise experience.', 'A small, senior team for startups, small and growing companies, backed by thirty years of running IT.') + f'''
-<section style="padding-top:0"><div class="wrap"><div class="panel">
+    body = phero('Mom-and-pop care.  Enterprise experience.', 'A small, senior team for startups, small and growing companies, backed by 30+ years of running IT.') + f'''
+<section class="tight"><div class="wrap"><div class="panel">
   <p class="big">Well-run IT is the IT nobody talks about.  People sign in and get to work.  The network stays up.  Backups restore when you need them.  The audit goes smoothly, and the person who left last Friday can't get back in.</p>
   <p class="lead" style="margin-top:26px;max-width:820px">That's the job, and it's the only promise we want to make.  So it's our name.</p>
 </div></div></section>
 <section><div class="wrap two">
-  <div><h2>Where we come from.</h2><div style="margin-top:34px"><div class="stat">30</div><p class="stat-l">Years in IT leadership</p></div></div>
+  <div><h2>Where we come from.</h2><div style="margin-top:34px"><div class="stat">30+</div><p class="stat-l">Years running IT</p></div></div>
   <div class="prose">
-    <p class="lead">We've spent three decades running IT: building data centers and colocation facilities across the country, and running IT for medical device and diagnostics companies, manufacturers, startups and growing firms, through SOX and ISO audits and HIPAA reviews.</p>
+    <p class="lead">For more than three decades we've run IT from the help desk to the data center: service desk and IT operations, network infrastructure, physical and digital security, websites and business applications.</p>
+    <p>We've built data centers and colocation facilities across the country and run IT for medical device and diagnostics companies, manufacturers, startups and growing firms, keeping them secure and ready for every audit and compliance review.</p>
     <p>Some of our longest client relationships began at OC TechWorks LLC, the Orange County IT firm our founder co-owned.  When it wound down, its clients came with us.  We started out as Cali IT Consulting, headquartered in Huntington Beach, with remote offices in Arcata, California and Payson, Arizona.  Our clients are now across the country, so our name says what we do, not where we are.</p>
   </div>
 </div></section>
-<section class="dark"><div class="wrap"><div class="sec-head"><h2>What we stand for.</h2></div><div class="cards four">{vals}</div></div></section>
-<section id="check"><div class="wrap"><div class="panel-check">
+<section id="check" class="band"><div class="wrap"><div class="panel-check">
   <h2>The 60-second IT health check.</h2><p class="lead" style="margin-top:14px">Six honest questions.  No email required, and your answers stay in your browser.</p>
   <div class="check" style="margin-top:34px"><ol class="questions" id="questions">{qs}</ol>
   <div class="score"><div class="n" id="gaugeNum">0<small> of {len(C['QUESTIONS'])}</small></div><h3 id="verdictTitle">Answer the questions</h3><p id="verdictText">Every "No" is a gap worth closing.  Most businesses have at least one.</p><a class="btn" id="checkCta" href="contact.html" hidden>Send us your results</a></div></div>
 </div></div></section>
 {cta()}'''
-    page('about.html', f'About Us | {BRAND}', 'Mom-and-pop care, enterprise experience: thirty years of running IT for startups, small and growing companies.  Take the free 60-second IT health check.', body)
+    page('about.html', f'About Us | {BRAND}', 'Mom-and-pop care, enterprise experience: 30+ years of running IT for startups, small and growing companies.  Take the free 60-second IT health check.', body)
 
 def testimonials():
     rows = ''.join(f'<figure class="tq"><figcaption class="who">{E(t["cap"][0])}<span>{E(t["cap"][1]) if len(t["cap"]) > 1 else ""}</span></figcaption><blockquote>{"".join(f"<p>{E(p)}</p>" for p in t["paras"])}</blockquote></figure>' for t in C['TESTIMONIALS'])
@@ -293,12 +302,18 @@ def status_panel():
     return f'<div class="status-panel"><p class="sp-h">Cloud service status</p>{rows}<p class="sp-note">From each provider\'s public status page, checked every hour.  Problems limited to one company\'s account show only in its own admin console.</p></div>'
 
 def news_page():
-    body = phero('Cybersecurity news, refreshed every hour.', 'Advisories from CISA and Microsoft, plus the stories security teams are reading.  We collect the headlines; every link goes to the original publisher.') + f'''
+    body = phero('Cybersecurity news, last 48 hours.', 'Advisories from CISA and Microsoft, plus the stories security teams are reading.  We collect the headlines; every link goes to the original publisher.') + f'''
 <section style="padding-top:0"><div class="wrap two">
-  <ol class="news" id="newsList" data-limit="30"><li class="news-empty">Loading the latest headlines.</li></ol>
+  <div><ol class="news" id="newsList" data-hours="48"><li class="news-empty">Loading the latest headlines.</li></ol>
+  <p style="margin-top:22px"><a class="link" href="news-history.html">Previous two weeks</a></p></div>
   <div>{status_panel()}</div>
 </div></section>'''
-    page('news.html', f'Cybersecurity News | {BRAND}', 'Cybersecurity headlines from CISA, Microsoft and the security press, plus Microsoft 365, AWS, Wasabi, Zoom and NetSuite service status, refreshed every hour.', body)
+    page('news.html', f'Cybersecurity News | {BRAND}', 'Cybersecurity headlines from the last 48 hours, from CISA, Microsoft and the security press, plus cloud service status, refreshed every hour.', body)
+
+def news_history():
+    body = phero('Cybersecurity news, previous two weeks.', 'Older headlines, newest first.  For the last 48 hours, see the <a href="news.html">main news page</a>.') + \
+        '<section style="padding-top:0"><div class="wrap" style="max-width:900px"><div id="newsHistory"><p class="news-empty">Loading headlines.</p></div></div></section>'
+    page('news-history.html', f'Cybersecurity News History | {BRAND}', 'Cybersecurity headlines from the previous two weeks.', body)
 
 def contact():
     body = phero("Tell us what you're working on.", "Bernie fills out the form for you in a few quick questions, then a real person takes it from there.") + f'''
@@ -315,7 +330,11 @@ def thanks():
 
 def privacy():
     prose = (ROOT / 'build' / 'privacy_src.html').read_text()
-    page('privacy.html', f'Privacy | {BRAND}', f'How {BRAND} collects, uses and protects information sent through this website and its contact form.', phero('Privacy policy.', f'Effective November 1, {YEAR}.') + f'<section style="padding-top:0"><div class="wrap prose" style="max-width:820px">{prose}</div></section>')
+    page('privacy.html', f'Privacy | {BRAND}', f'How {BRAND} collects, uses and protects information sent through this website.', phero('Privacy policy.', f'Effective November 2, {YEAR}.') + f'<section style="padding-top:0"><div class="wrap prose" style="max-width:820px">{prose}</div></section>')
+
+def terms():
+    prose = (ROOT / 'build' / 'terms_src.html').read_text()
+    page('terms.html', f'Terms of Use | {BRAND}', f'The terms for using the {BRAND} website.', phero('Terms of use.', f'Effective November 2, {YEAR}.') + f'<section style="padding-top:0"><div class="wrap prose" style="max-width:820px">{prose}</div></section>')
 
 def notfound():
     page('404.html', f'Page not found | {BRAND}', 'Page not found.', phero("This page isn't here.", "The page you're looking for may have moved.") + '<section style="padding-top:0"><div class="wrap"><div class="acts" style="margin-top:0"><a class="btn" href="index.html">Home page</a><a class="link" href="services.html">See our services</a></div></div></section>')
@@ -324,7 +343,7 @@ def redirect(fname, to):
     (ROOT / fname).write_text(f'<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url={to}"><link rel="canonical" href="{DOMAIN}{to}"><title>Moved</title><a href="{to}">This page has moved.</a>')
 
 def extras():
-    pages = ['', 'services.html', 'engagement.html', 'about.html', 'testimonials.html', 'news.html', 'contact.html', 'privacy.html'] + [s['slug'] + '.html' for s in SERVICES]
+    pages = ['', 'services.html', 'engagement.html', 'about.html', 'testimonials.html', 'news.html', 'news-history.html', 'contact.html', 'privacy.html', 'terms.html']
     (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{DOMAIN}{p}</loc></url>\n' for p in pages) + '</urlset>\n')
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {DOMAIN}sitemap.xml\n')
     (ROOT / 'CNAME').write_text('wellrunit.com\n')
@@ -334,7 +353,7 @@ def extras():
         redirect(old, new)
 
 if __name__ == '__main__':
-    home(); services(); [service(i, s) for i, s in enumerate(SERVICES)]; engagement(); why(); about(); testimonials(); news_page(); contact(); thanks(); privacy(); notfound(); extras()
+    home(); services(); [service(i, s) for i, s in enumerate(SERVICES)]; engagement(); why(); about(); testimonials(); news_page(); news_history(); contact(); thanks(); privacy(); terms(); notfound(); extras()
     for n in ('thanks.html', '404.html'):
         f = ROOT / n; t = f.read_text()
         if 'name="robots"' not in t: f.write_text(t.replace('<meta name="theme-color"', '<meta name="robots" content="noindex">\n<meta name="theme-color"', 1))

@@ -1,10 +1,10 @@
 // Bernie: fills out the contact form for the visitor through a short chat, then hands them to a real person.
+// Form only: Bernie asks the questions, he doesn't answer them (Nov 2026).
 // Never asks for the same thing twice.  Never prices, troubleshoots or solves.  "Talk to a person" is always one click away.
 // Nothing is stored in the browser or on the server: a finished chat becomes one email to support@wellrunit.com.
 (() => {
   const API = '/api/bernie/';
   const SUPPORT = 'support@wellrunit.com';
-  const MAX_Q = 3;
   const STATES = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming','Outside the United States'];
   // Main time zone for each state, used only to show callback times in the visitor's local time.
   const EAST = 'America/New_York', CENT = 'America/Chicago', MTN = 'America/Denver', PAC = 'America/Los_Angeles';
@@ -18,8 +18,6 @@
   let ui, log, foot, session = null, sitekey = null, ready = null, opened = false;
   const lead = { need: '', type: '', name: '', company: '', email: '', phone: '', state: '', times: [], emergency: false };
   const transcript = [];   // goes into the email, then it's gone
-  const history = [];      // quick-question chat for the AI
-  let qCount = 0;
 
   // ---------- small helpers ----------
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
@@ -62,7 +60,7 @@
   // ---------- open / close ----------
   function build() {
     ui = el('div', 'bpanel'); ui.setAttribute('role', 'dialog'); ui.setAttribute('aria-label', 'Bernie'); ui.hidden = true;
-    ui.innerHTML = `<div class="bhead"><span class="bavatar" aria-hidden="true">B<i></i></span><div><b>Bernie</b><span>Not a fan of chatbots?  Neither are we.  No endless loops, no "I didn't quite get that."  Bernie just fills out the form for you.</span></div><button type="button" class="bx" aria-label="Close">Close</button></div>
+    ui.innerHTML = `<div class="bhead"><span class="bavatar" aria-hidden="true">B<i></i></span><div><b>Bernie</b><span>Not a fan of chatbots?  Neither are we.  So Bernie skips the endless loops and the "I didn't quite get that."  He just fills out the form, and a real person will contact you.</span></div><button type="button" class="bx" aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
 <div class="blog" aria-live="polite"></div><div class="bfoot"></div><div class="bturn"></div>`;
     document.body.appendChild(ui);
     log = ui.querySelector('.blog'); foot = ui.querySelector('.bfoot');
@@ -82,7 +80,6 @@
     say("Hi, I'm Bernie.  What would you like to do?");
     setFoot(choices([
       ['Talk to a person', () => { say('Talk to a person', 'visitor'); startForm(); }],
-      ['Ask a quick question', () => { say('Ask a quick question', 'visitor'); question(); }, 'ghost'],
       ["Something's down right now", () => { say("Something's down right now", 'visitor'); lead.emergency = true; startForm(); }, 'warn'],
     ]));
   }
@@ -114,29 +111,6 @@
     const a = el('a', 'bb', 'Email ' + SUPPORT); a.href = 'mailto:' + SUPPORT; setFoot(a);
   }
 
-  // ---------- quick questions (up to three) ----------
-  function question() {
-    ask(qCount ? 'What else would you like to know?' : 'Sure.  What would you like to know?', { area: true, placeholder: 'Type your question', done: async (q) => {
-      qCount++; history.push({ role: 'user', content: q });
-      if (!lead.need) lead.need = q; else lead.need += '\n' + q;
-      setFoot(el('span'));
-      const t = typing();
-      let reply = '';
-      if (await ready) {
-        try {
-          const r = await fetch(API + 'ask', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session, history }) });
-          const d = await r.json(); if (d.ok) reply = d.reply;
-        } catch (e) {}
-      }
-      t.remove();
-      if (!reply) reply = "That's a good one for our team.  Want me to pass it along?";
-      history.push({ role: 'assistant', content: reply }); say(reply);
-      const list = [['Pass this to our team', () => { say('Pass this to our team', 'visitor'); startForm(); }]];
-      if (qCount < MAX_Q) list.push(['Ask something else', () => { say('Ask something else', 'visitor'); question(); }, 'ghost']);
-      setFoot(choices(list));
-    } });
-  }
-
   // ---------- the form, one question at a time ----------
   const steps = [];
   function startForm() {
@@ -155,7 +129,7 @@
   function stepNeed() { ask(lead.emergency ? "What's down?" : 'What can we help with?', { area: true, placeholder: 'A sentence or two is plenty', done: (v) => { lead.need = v; next(); } }); }
   function stepType() {
     say('Are you a new or existing customer?');
-    setFoot(choices([['New customer', () => { lead.type = 'New customer'; say('New customer', 'visitor'); next(); }], ['Existing customer', () => { lead.type = 'Existing customer'; say('Existing customer', 'visitor'); next(); }, 'ghost']]));
+    setFoot(choices([['New customer', () => { lead.type = 'New customer'; say('New customer', 'visitor'); next(); }, 'ghost'], ['Existing customer', () => { lead.type = 'Existing customer'; say('Existing customer', 'visitor'); next(); }, 'ghost']]));
   }
   function stepName() { ask("What's your name?", { placeholder: 'First and last name', done: (v) => { lead.name = v; next(); } }); }
   function stepCompany() { ask('And your company?', { placeholder: 'Company name', done: (v) => { lead.company = v; next(); } }); }
