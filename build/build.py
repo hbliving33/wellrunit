@@ -25,12 +25,15 @@ CHECK = '<path d="M7 12.6l3.4 3.4L17.2 8.6" fill="none" stroke="#fff" stroke-wid
 def mark(fill='#1b2430', size=24):
     return f'<svg class="mk" width="{size}" height="{size}" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6.5" fill="{fill}"/>{CHECK}</svg>'
 
-GAUGE = '<path d="M6.5 29a13.5 13.5 0 1 1 27 0" fill="none" stroke="#b9cde3" stroke-width="5" stroke-linecap="round"/><path d="M20 29l8-9.6" stroke="#fff" stroke-width="4.2" stroke-linecap="round"/><circle cx="20" cy="29" r="4.4" fill="#fff"/>'
-def logomark(bg='#3d5f85'):
-    return f'<svg class="lm" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="{bg}"/>{GAUGE}</svg>'
+# Logo (picked Nov 1 2026, logo-refine.html number 2): the R in "Run" in stride, tipped 10 degrees with two motion marks.
+# Drawn on a 100-unit cap height; the marks take the accent color, the R takes the text color.
+STRIDE_W = 109
+STRIDE_R = '''<rect x="12.2" y="26" width="22.0" height="9" rx="4.5" class="rm"/><rect x="15.7" y="46" width="15.0" height="9" rx="4.5" class="rm"/><g transform="skewX(-10) translate(46.6 0)"><rect x="0" y="0" width="21" height="100" fill="currentColor"/><path d="M10 10.5H39a22.5 22.5 0 010 45H10" fill="none" stroke="currentColor" stroke-width="21"/><path d="M27 56h22l21 44H47z" fill="currentColor"/></g>'''
+def stride_r(cls='gl'):
+    return f'<svg class="{cls}" viewBox="0 0 {STRIDE_W} 100" style="width:{STRIDE_W * .727 / 100:.4f}em" aria-hidden="true" overflow="visible">{STRIDE_R}</svg>'
 
 def logo(dark=False):
-    return logomark('#2f4b6b' if not dark else '#3d5f85') + '<span class="wordmark">Well<b>Run</b><i>IT</i></span>'
+    return f'<span class="wordmark">Well<b>{stride_r()}un</b><i>IT</i></span>'
 
 def icon(name):
     p = {
@@ -335,7 +338,7 @@ def extras():
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {DOMAIN}sitemap.xml\n')
     (ROOT / 'CNAME').write_text('wellrunit.com\n')
     (ROOT / '.nojekyll').write_text('')
-    (ROOT / 'assets' / 'brand' / 'favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="#2f4b6b"/>' + GAUGE + '</svg>')
+    (ROOT / 'assets' / 'brand' / 'favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 -3 106 106"><style>svg{color:#1b2430}.rm{fill:#2f5580}@media (prefers-color-scheme:dark){svg{color:#fff}.rm{fill:#b9cde3}}</style>' + STRIDE_R + '</svg>')
     for old, new in [('industries.html', 'services.html'), ('focus.html', 'services.html')]:
         redirect(old, new)
 

@@ -297,3 +297,9 @@ table.sortable tbody td{color:var(--ink2)}
 .hero .link{color:#b9cde3}
 .phero{margin-bottom:56px}
 .panel .btn,.dark .btn{background:#fff;color:var(--ink)}.panel .btn:hover,.dark .btn:hover{background:var(--soft)}
+/* stride R logo (Nov 2026): replaces the boxed gauge */
+.brand .lm{display:none}
+.wordmark .gl{display:inline-block;height:.727em;vertical-align:baseline;overflow:visible}
+.wordmark .rm{fill:var(--accent)}
+.foot .wordmark .rm{fill:var(--sky)}
+.foot .brand .wordmark .gl{height:.727em;margin:0}
