@@ -44,14 +44,15 @@ for n, (name, kw) in enumerate(COMBOS, 1):
     cards += f'<div class="opt"><div class="num">{n}</div><div class="name">{name}</div>{row(fn, False)}{row(fn, True)}</div>'
 
 pairs, n = '', len(COMBOS)
-for ci in (1, 3, 4):   # three wordmark combos, each with the three picked icons
-    name, kw = COMBOS[ci - 1]
+ICON_STYLES = [('upright like 16', dict(gap='-.01em')), ('leaning a little', dict(lean=-8, gap='-.01em')), ('leaning like 8', dict(lean=-14, gap='-.01em'))]
+for sname, kw in ICON_STYLES:   # icon OR underline, never both: no underline here
+    kw = dict(kw, ul=None)
     for ic in (1, 10, 19):
         n += 1
         def fn(a, c, kw=kw, ic=ic):
             m = M
             return f'<svg viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" style="flex:none">{ICONS[ic](a, c, m)}</svg>' + wordmark(a, c, size=32, **kw)
-        pairs += f'<div class="opt"><div class="num">{n}</div><div class="name">Combo {ci} with icon {ic} ({ICON_NAMES[ic]})</div>{row(fn, False)}{row(fn, True)}</div>'
+        pairs += f'<div class="opt"><div class="num">{n}</div><div class="name">Icon {ic} ({ICON_NAMES[ic]}), letters {sname}, no underline</div>{row(fn, False)}{row(fn, True)}</div>'
 
 html = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex, nofollow"><title>Logo combinations | Well Run IT</title>
@@ -74,9 +75,9 @@ p.lead{{margin:0;color:#3c4a5c;max-width:840px}}
 .ul{{position:absolute;left:0;right:0;bottom:-.2em;border-radius:1em;background:linear-gradient(90deg,transparent,var(--c) 40%)}}
 </style></head><body><div class="wrap">
 <h1>Logo combinations</h1>
-<p class="lead">From <a href="logo-r.html">the forward R page</a>: the underline from number 10, the spacing from number 8 and the upright letters from number 16, mixed a few ways.  Below that, combos 1, 3 and 4 are each paired with your three icon picks (1, 10 and 19).  Same font throughout.  Tell me the number.</p>
-<h2>Wordmark only</h2><div class="grid">{cards}</div>
-<h2>With your three icons</h2><div class="grid">{pairs}</div>
+<p class="lead">From <a href="logo-r.html">the forward R page</a>: the underline from number 10, the spacing from number 8 and the upright letters from number 16, mixed a few ways.  It's one or the other: the top section has the underline and no icon, and the bottom section has an icon (your picks 1, 10 and 19) and no underline.  Same font throughout.  Tell me the number.</p>
+<h2>Underline, no icon</h2><div class="grid">{cards}</div>
+<h2>Icon, no underline</h2><div class="grid">{pairs}</div>
 </div></body></html>'''
 (ROOT / 'logo-combo.html').write_text(html)
 print(f'built logo-combo.html with {n} options')
