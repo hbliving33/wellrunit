@@ -25,8 +25,12 @@ CHECK = '<path d="M7 12.6l3.4 3.4L17.2 8.6" fill="none" stroke="#fff" stroke-wid
 def mark(fill='#1b2430', size=24):
     return f'<svg class="mk" width="{size}" height="{size}" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6.5" fill="{fill}"/>{CHECK}</svg>'
 
+GAUGE = '<path d="M6.5 29a13.5 13.5 0 1 1 27 0" fill="none" stroke="#b9cde3" stroke-width="5" stroke-linecap="round"/><path d="M20 29l8-9.6" stroke="#fff" stroke-width="4.2" stroke-linecap="round"/><circle cx="20" cy="29" r="4.4" fill="#fff"/>'
+def logomark(bg='#3d5f85'):
+    return f'<svg class="lm" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="{bg}"/>{GAUGE}</svg>'
+
 def logo(dark=False):
-    return '<span class="wordmark">Well<b>Run</b><i>IT</i></span>'
+    return logomark('#2f4b6b' if not dark else '#3d5f85') + '<span class="wordmark">Well<b>Run</b><i>IT</i></span>'
 
 def icon(name):
     p = {
@@ -189,7 +193,7 @@ def home():
 <section class="hero"><div class="wrap">
   <span class="kicker">IT for startups, small and growing companies</span>
   <h1>Your IT, well run.</h1>
-  <p class="lead">We design, build and run the systems your business depends on: networks, servers and cloud, Microsoft 365, business applications and security.  Thirty years of running IT operations, now working for you.</p>
+  <p class="lead">We set up your IT, keep it running and keep it safe.  So you can get back to work.</p>
   <div class="acts"><a class="btn" href="contact.html">Contact us</a><a class="link" href="why-us.html#check">Take the free 60-second IT health check</a></div>
   <p class="reach">Headquartered in Huntington Beach, California.  Remote support in all 50 states.</p>
 </div></section>
@@ -197,18 +201,15 @@ def home():
 <section style="padding-top:0"><div class="wrap">{tiles()}</div></section>
 
 <section style="padding-top:24px"><div class="wrap"><div class="panel two">
-  <div><h2>What well run looks like.</h2><p class="lead" style="margin-top:18px">Well-run IT is the IT nobody has to think about.  People sign in and get to work, the network stays up, and the bad days are short.  Under the hood, it comes down to a few things done every time.</p>
+  <div><h2>What well run looks like.</h2><p class="lead" style="margin-top:18px">It just works.  People sign in, the network stays up, and problems get fixed fast.</p>
   <p style="margin-top:26px"><a class="link" href="why-us.html#check">See how your IT measures up</a></p></div>
   <ul class="checks">{''.join(f'<li>{x}</li>' for x in WELL_RUN)}</ul>
 </div></div></section>
 
-<section><div class="wrap"><div class="sec-head"><h2>Mom-and-pop care.  Enterprise experience.</h2><p class="lead">We're a small team, built for startups and small companies.  We don't chase large accounts; we'd rather be the IT partner a growing business can call by name.</p></div>{fit_cards()}</div></section>
+<section><div class="wrap"><div class="sec-head"><h2>Mom-and-pop care.  Enterprise experience.</h2><p class="lead">A small team that knows your name and your systems.</p></div>{fit_cards()}</div></section>
 
 <section class="dark"><div class="wrap"><div class="sec-head"><h2>Proof, not promises.</h2><p class="lead">A few numbers behind the work.  Client names are kept confidential.</p></div>{proof().replace('class="card"', 'class="card"')}</div></section>
 
-<section><div class="wrap"><div class="sec-head"><h2>What we run.</h2><p class="lead">Our specialty is the core of IT: the infrastructure and the day-to-day operations that keep a business moving.  Facilities and compliance come along when the work calls for it.</p></div>
-{sortable(['Area', 'What it covers'], RUN, 'What we run')}
-<p style="margin-top:24px"><a class="link" href="services.html">See every service</a></p></div></section>
 
 {quote_block(1)}
 {cta()}
@@ -334,7 +335,7 @@ def extras():
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {DOMAIN}sitemap.xml\n')
     (ROOT / 'CNAME').write_text('wellrunit.com\n')
     (ROOT / '.nojekyll').write_text('')
-    (ROOT / 'assets' / 'brand' / 'favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#1b2430"/><rect x="5.5" y="6" width="3.2" height="12" rx=".6" fill="#9bb6d3"/><rect x="10.3" y="6" width="9" height="3.2" rx=".6" fill="#9bb6d3"/><rect x="13.2" y="6" width="3.2" height="12" rx=".6" fill="#9bb6d3"/></svg>')
+    (ROOT / 'assets' / 'brand' / 'favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="#2f4b6b"/>' + GAUGE + '</svg>')
     for old, new in [('industries.html', 'services.html'), ('focus.html', 'services.html')]:
         redirect(old, new)
 
