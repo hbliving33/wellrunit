@@ -62,8 +62,7 @@
   // ---------- open / close ----------
   function build() {
     ui = el('div', 'bpanel'); ui.setAttribute('role', 'dialog'); ui.setAttribute('aria-label', 'Bernie'); ui.hidden = true;
-    ui.innerHTML = `<div class="bhead"><div><b>Bernie</b><span>Well Run IT's assistant</span></div><button type="button" class="bx" aria-label="Close">Close</button></div>
-<p class="bwink">Not a fan of chatbots?  Neither are we.  No endless loops, no "I didn't quite get that."  Bernie just fills out the form for you.</p>
+    ui.innerHTML = `<div class="bhead"><div><b>Bernie</b><span>Not a fan of chatbots?  Neither are we.  No endless loops, no "I didn't quite get that."  Bernie just fills out the form for you.</span></div><button type="button" class="bx" aria-label="Close">Close</button></div>
 <div class="blog" aria-live="polite"></div><div class="bfoot"></div><div class="bturn"></div>`;
     document.body.appendChild(ui);
     log = ui.querySelector('.blog'); foot = ui.querySelector('.bfoot');

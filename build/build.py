@@ -58,7 +58,7 @@ def icon(name):
 def plain(h):
     return re.sub(r'</?em>', '', h)
 
-NAV = [('services.html', 'Services'), ('engagement.html', 'How We Work'), ('why-us.html', 'Why Us'), ('about.html', 'Our Story'), ('news.html', 'Cyber News')]
+NAV = [('services.html', 'Services'), ('engagement.html', 'How We Work'), ('about.html', 'About Us'), ('news.html', 'Cyber News')]
 SVC_FILES = {s['slug'] + '.html' for s in SERVICES}
 
 ORG_LD = json.dumps({"@context": "https://schema.org", "@type": "ProfessionalService", "name": BRAND, "url": DOMAIN, "logo": DOMAIN + "assets/brand/og.png",
@@ -102,11 +102,9 @@ def page(fname, title, desc, body):
 </main>
 <footer class="foot">
   <div class="wrap">
-    <div class="cols">
-      <div><a class="brand" href="index.html" aria-label="{BRAND}, home">{logo(True)}</a><p>IT infrastructure and operations consulting for startups, small and growing companies.  Headquartered in Huntington Beach, California, serving clients across the United States.</p></div>
-      <div><h4>Services</h4><ul>{svc_links}</ul></div>
-      <div><h4>Company</h4><ul><li><a href="engagement.html">How we work</a></li><li><a href="why-us.html">Why us</a></li><li><a href="about.html">Our story</a></li><li><a href="testimonials.html">Testimonials</a></li><li><a href="news.html">Cybersecurity news</a></li></ul></div>
-      <div><h4>Get in touch</h4><ul><li><a href="contact.html">Contact us</a></li><li><a href="why-us.html#check">Free IT health check</a></li><li><a href="privacy.html">Privacy</a></li></ul></div>
+    <div class="foot-row">
+      <a class="brand" href="index.html" aria-label="{BRAND}, home">{logo(True)}</a>
+      <nav class="foot-links" aria-label="Footer"><a href="services.html">Services</a><a href="engagement.html">How we work</a><a href="about.html">About us</a><a href="testimonials.html">Testimonials</a><a href="news.html">Cyber news</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></nav>
     </div>
     <div class="base"><span>&copy; {YEAR} {BRAND}</span><span>Huntington Beach, California.  Remote support in all 50 states.</span></div>
   </div>
@@ -129,7 +127,7 @@ def sortable(cols, rows, caption):
 
 def cta(title='Ready for IT that runs well?', lead="Tell us what's going on.  A senior consultant replies within one business day."):
     return f'''<section class="cta"><div class="wrap"><div class="panel"><h2>{title}</h2><p class="lead">{lead}</p>
-<div class="acts"><a class="btn" href="contact.html">Contact us</a><a class="link" href="why-us.html#check">Take the free IT health check</a></div></div></div></section>'''
+<div class="acts"><a class="btn" href="contact.html">Contact us</a><a class="link" href="about.html#check">Take the free IT health check</a></div></div></div></section>'''
 
 # ---------- shared blocks ----------
 TILES = [('infra', 'Infrastructure', 'Networks, servers, storage, cloud and data centers, designed, built and kept running.', 'network.html'),
@@ -198,7 +196,7 @@ def home():
   <span class="kicker">IT for startups, small and growing companies</span>
   <h1>Your IT, well run.</h1>
   <p class="lead">We set up your IT, keep it running and keep it safe.  So you can get back to work.</p>
-  <div class="acts"><a class="btn" href="contact.html">Contact us</a><a class="link" href="why-us.html#check">Take the free 60-second IT health check</a></div>
+  <div class="acts"><a class="btn" href="contact.html">Contact us</a><a class="link" href="about.html#check">Take the free 60-second IT health check</a></div>
   <p class="reach">Headquartered in Huntington Beach, California.  Remote support in all 50 states.</p>
 </div></section>
 
@@ -206,7 +204,7 @@ def home():
 
 <section style="padding-top:24px"><div class="wrap"><div class="panel two">
   <div><h2>What well run looks like.</h2><p class="lead" style="margin-top:18px">It just works.  People sign in, the network stays up, and problems get fixed fast.</p>
-  <p style="margin-top:26px"><a class="link" href="why-us.html#check">See how your IT measures up</a></p></div>
+  <p style="margin-top:26px"><a class="link" href="about.html#check">See how your IT measures up</a></p></div>
   <ul class="checks">{''.join(f'<li>{x}</li>' for x in WELL_RUN)}</ul>
 </div></div></section>
 
@@ -259,23 +257,12 @@ def engagement():
     page('engagement.html', f'How We Work | {BRAND}', 'Projects, a managed IT plan built around you, or fractional IT leadership.  Written scope and price before any work starts.', body)
 
 def why():
-    qs = ''.join(f'<li data-q="{i}"><p>{q}</p><div class="yn"><button type="button" data-v="1" aria-pressed="false">Yes</button><button type="button" data-v="0" aria-pressed="false">No</button></div></li>' for i, q in enumerate(C['QUESTIONS']))
-    pains = ''.join(f'<li><a href="{s}.html"><span class="nm">{t}</span><span class="ds">{SVC[s]["name"]}</span></a></li>' for t, s in C['PAINS'])
-    body = phero('Mom-and-pop care.  Enterprise experience.', "A small team for startups, small and growing companies.  You get people who know your name and your systems, backed by thirty years of running IT where downtime isn't an option.") + f'''
-<section style="padding-top:0" id="check"><div class="wrap"><div class="panel">
-  <h2>The 60-second IT health check.</h2><p class="lead" style="margin-top:14px">Six honest questions.  No email required, and your answers stay in your browser.</p>
-  <div class="check" style="margin-top:34px"><ol class="questions" id="questions">{qs}</ol>
-  <div class="score"><div class="n" id="gaugeNum">0<small> of {len(C['QUESTIONS'])}</small></div><h3 id="verdictTitle">Answer the questions</h3><p id="verdictText">Every "No" is a gap worth closing.  Most businesses have at least one.</p><a class="btn" id="checkCta" href="contact.html" hidden>Send us your results</a></div></div>
-</div></div></section>
-<section><div class="wrap">{fit_cards()}</div></section>
-<section class="dark"><div class="wrap"><div class="sec-head"><h2>If you nodded at any of these, we should talk.</h2></div><ul class="pains">{pains}</ul></div></section>
-{cta()}'''
-    page('why-us.html', f'Why Us | {BRAND}', 'Mom-and-pop care, enterprise experience: a small IT team for startups, small and growing companies.  Take the free 60-second IT health check.', body)
+    redirect('why-us.html', 'about.html')   # Why Us merged into About Us, Nov 2026
 
 def about():
+    qs = ''.join(f'<li data-q="{i}"><p>{q}</p><div class="yn"><button type="button" data-v="1" aria-pressed="false">Yes</button><button type="button" data-v="0" aria-pressed="false">No</button></div></li>' for i, q in enumerate(C['QUESTIONS']))
     vals = ''.join(f'<div class="card"><h3>{t}</h3><p>{d}</p></div>' for t, d in [('Straight answers', "Plain English, no jargon.  If something doesn't need fixing, we'll say so."), ('Senior people', 'The people who scope your project are the ones who do the work.'), ('Documented', "Every change is written down, so you're never locked in to us."), ('Built to last', 'We design for the next five years, not the next invoice.')])
-    notes = ''.join(f'<article class="note"><div class="where">{k}</div><div><h3>{t}</h3><p>{d}</p></div><div class="out">{b}</div></article>' for k, t, d, b in C['RESULTS'])
-    body = phero('Our story.', 'Thirty years of running IT, and one idea we kept coming back to.') + f'''
+    body = phero('Mom-and-pop care.  Enterprise experience.', 'A small, senior team for startups, small and growing companies, backed by thirty years of running IT.') + f'''
 <section style="padding-top:0"><div class="wrap"><div class="panel">
   <p class="big">Well-run IT is the IT nobody talks about.  People sign in and get to work.  The network stays up.  Backups restore when you need them.  The audit goes smoothly, and the person who left last Friday can't get back in.</p>
   <p class="lead" style="margin-top:26px;max-width:820px">That's the job, and it's the only promise we want to make.  So it's our name.</p>
@@ -283,17 +270,18 @@ def about():
 <section><div class="wrap two">
   <div><h2>Where we come from.</h2><div style="margin-top:34px"><div class="stat">30</div><p class="stat-l">Years in IT leadership</p></div></div>
   <div class="prose">
-    <p class="lead">Our team has spent three decades running IT operations: building and moving data centers and colocation facilities across the country, and running IT for medical device and diagnostics companies, manufacturers, startups and growing firms.</p>
-    <p>We've moved headquarters and data centers, built labs, and been on the IT side of SOX and ISO audits and HIPAA reviews.  We handle networks, servers and cloud, data centers, Microsoft 365, business applications, cybersecurity, physical security and IT strategy.</p>
-    <p>Some of our longest client relationships began at OC TechWorks LLC, the Orange County IT firm our founder co-owned from start to finish.  When it wound down, its clients came with us.</p>
-    <p>We started out as Cali IT Consulting.  We're still headquartered in Huntington Beach, California, with remote offices in Arcata, California and Payson, Arizona.  But our clients are across the country, and our name should say what we do, not where we are.</p>
+    <p class="lead">We've spent three decades running IT: building data centers and colocation facilities across the country, and running IT for medical device and diagnostics companies, manufacturers, startups and growing firms, through SOX and ISO audits and HIPAA reviews.</p>
+    <p>Some of our longest client relationships began at OC TechWorks LLC, the Orange County IT firm our founder co-owned.  When it wound down, its clients came with us.  We started out as Cali IT Consulting, headquartered in Huntington Beach, with remote offices in Arcata, California and Payson, Arizona.  Our clients are now across the country, so our name says what we do, not where we are.</p>
   </div>
 </div></section>
 <section class="dark"><div class="wrap"><div class="sec-head"><h2>What we stand for.</h2></div><div class="cards four">{vals}</div></div></section>
-<section><div class="wrap"><div class="sec-head"><h2>Field notes.</h2><p class="lead">A few of the projects behind the numbers.  Client names are kept confidential.</p></div><div style="border-top:1px solid var(--line)">{notes}</div></div></section>
-{quote_block(2)}
+<section id="check"><div class="wrap"><div class="panel-check">
+  <h2>The 60-second IT health check.</h2><p class="lead" style="margin-top:14px">Six honest questions.  No email required, and your answers stay in your browser.</p>
+  <div class="check" style="margin-top:34px"><ol class="questions" id="questions">{qs}</ol>
+  <div class="score"><div class="n" id="gaugeNum">0<small> of {len(C['QUESTIONS'])}</small></div><h3 id="verdictTitle">Answer the questions</h3><p id="verdictText">Every "No" is a gap worth closing.  Most businesses have at least one.</p><a class="btn" id="checkCta" href="contact.html" hidden>Send us your results</a></div></div>
+</div></div></section>
 {cta()}'''
-    page('about.html', f'Our Story | {BRAND}', 'Why we are called Well Run IT: thirty years of running IT operations for startups, small and growing companies.  Headquartered in Huntington Beach, serving clients nationwide.', body)
+    page('about.html', f'About Us | {BRAND}', 'Mom-and-pop care, enterprise experience: thirty years of running IT for startups, small and growing companies.  Take the free 60-second IT health check.', body)
 
 def testimonials():
     rows = ''.join(f'<figure class="tq"><figcaption class="who">{E(t["cap"][0])}<span>{E(t["cap"][1]) if len(t["cap"]) > 1 else ""}</span></figcaption><blockquote>{"".join(f"<p>{E(p)}</p>" for p in t["paras"])}</blockquote></figure>' for t in C['TESTIMONIALS'])
@@ -336,7 +324,7 @@ def redirect(fname, to):
     (ROOT / fname).write_text(f'<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url={to}"><link rel="canonical" href="{DOMAIN}{to}"><title>Moved</title><a href="{to}">This page has moved.</a>')
 
 def extras():
-    pages = ['', 'services.html', 'engagement.html', 'why-us.html', 'about.html', 'testimonials.html', 'news.html', 'contact.html', 'privacy.html'] + [s['slug'] + '.html' for s in SERVICES]
+    pages = ['', 'services.html', 'engagement.html', 'about.html', 'testimonials.html', 'news.html', 'contact.html', 'privacy.html'] + [s['slug'] + '.html' for s in SERVICES]
     (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{DOMAIN}{p}</loc></url>\n' for p in pages) + '</urlset>\n')
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {DOMAIN}sitemap.xml\n')
     (ROOT / 'CNAME').write_text('wellrunit.com\n')

@@ -345,3 +345,15 @@ table.sortable tbody td{color:var(--ink2)}
 .bturn:empty{display:none}.bturn{padding:0 18px 10px}
 @media (max-width:520px){.bpanel{right:0;bottom:0;width:100vw;height:100dvh;border-radius:0;border-left:0;border-right:0}.blaunch{right:14px;bottom:14px}}
 @media print{.blaunch,.bpanel{display:none!important}}
+/* compact footer (Nov 2026) */
+.foot-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px 32px;padding-bottom:22px}
+.foot-row .brand .wordmark{margin-bottom:0}
+.foot-links{display:flex;flex-wrap:wrap;gap:6px 22px}
+.foot-links a{color:var(--on-dark);text-decoration:none;font-size:15px}
+.foot-links a:hover{color:#fff}
+/* health check on the About Us page: on the page background, not a dark panel */
+.panel-check{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:28px;padding:56px}
+@media (max-width:700px){.panel-check{padding:30px 22px;border-radius:22px}}
+.foot{padding:40px 0 26px}
+.foot .base{margin-top:0}
+[hidden]{display:none!important}
