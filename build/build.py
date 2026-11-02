@@ -22,15 +22,11 @@ def ver(rel):
 
 # ---------- brand ----------
 CHECK = '<path d="M7 12.6l3.4 3.4L17.2 8.6" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>'
-def mark(fill='#0f1c2d', size=24):
+def mark(fill='#1b2430', size=24):
     return f'<svg class="mk" width="{size}" height="{size}" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6.5" fill="{fill}"/>{CHECK}</svg>'
 
 def logo(dark=False):
-    ink, acc, mk = ('#fff', '#8fb3d9', '#2f5d8a') if dark else ('#0f1c2d', '#2f5d8a', '#0f1c2d')
-    return (f'<svg viewBox="0 0 160 32" role="img" aria-label="{BRAND}"><rect x="0" y="2" width="28" height="28" rx="7.5" fill="{mk}"/>'
-            '<path d="M8.2 16.6l4 4 8-8.6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
-            f'<text x="38" y="23.5" font-family="Inter,system-ui,sans-serif" font-weight="800" font-size="21" letter-spacing="-.6" fill="{ink}">Well Run</text>'
-            f'<text x="133" y="23.5" font-family="Inter,system-ui,sans-serif" font-weight="800" font-size="21" letter-spacing="-.3" fill="{acc}">IT</text></svg>')
+    return '<span class="wordmark">Well<b>Run</b><i>IT</i></span>'
 
 def icon(name):
     p = {
@@ -338,7 +334,7 @@ def extras():
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {DOMAIN}sitemap.xml\n')
     (ROOT / 'CNAME').write_text('wellrunit.com\n')
     (ROOT / '.nojekyll').write_text('')
-    (ROOT / 'assets' / 'brand' / 'favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="24" height="24" rx="6.5" fill="#0f1c2d"/>' + CHECK + '</svg>')
+    (ROOT / 'assets' / 'brand' / 'favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#1b2430"/><rect x="5.5" y="6" width="3.2" height="12" rx=".6" fill="#9bb6d3"/><rect x="10.3" y="6" width="9" height="3.2" rx=".6" fill="#9bb6d3"/><rect x="13.2" y="6" width="3.2" height="12" rx=".6" fill="#9bb6d3"/></svg>')
     for old, new in [('industries.html', 'services.html'), ('focus.html', 'services.html')]:
         redirect(old, new)
 
