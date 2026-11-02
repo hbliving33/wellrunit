@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-02T08:32:32.300154+00:00",
+ "updated": "2026-11-02T10:19:18.697736+00:00",
  "items": [
+  {
+   "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-02T09:33:26+00:00"
+  },
+  {
+   "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
+   "link": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-02T09:33:15+00:00"
+  },
+  {
+   "title": "FBI Flags Over 600 Addresses Tied to North Korea\u2019s Binance Heist",
+   "link": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
+   "source": "SecurityWeek",
+   "date": "2026-11-02T08:40:36+00:00"
+  },
   {
    "title": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
    "link": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
