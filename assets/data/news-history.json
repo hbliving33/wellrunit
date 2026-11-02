@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-02T20:55:05.246324+00:00",
+ "updated": "2026-11-02T21:53:31.580202+00:00",
  "items": [
+  {
+   "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+   "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+   "source": "BleepingComputer",
+   "date": "2026-11-02T21:40:14+00:00"
+  },
+  {
+   "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-02T20:20:59+00:00"
+  },
   {
    "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
    "link": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",

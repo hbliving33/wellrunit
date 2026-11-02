@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-02T20:55:05.246324+00:00",
+ "updated": "2026-11-02T21:53:31.580202+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-02T20:55:05.442161+00:00",
+  "checked": "2026-11-02T21:53:31.724997+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-02T20:55:05.246324+00:00"
+  "checked": "2026-11-02T21:53:31.580202+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-02T20:55:05.246324+00:00"
+  "checked": "2026-11-02T21:53:31.580202+00:00"
  },
  "items": [
+  {
+   "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+   "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+   "source": "BleepingComputer",
+   "date": "2026-11-02T21:40:14+00:00"
+  },
+  {
+   "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-02T20:20:59+00:00"
+  },
   {
    "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
    "link": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
@@ -197,12 +209,6 @@
    "date": "2026-11-01T15:11:21+00:00"
   },
   {
-   "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
-   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
-   "source": "BleepingComputer",
-   "date": "2026-11-01T13:53:11+00:00"
-  },
-  {
    "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
    "link": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
    "source": "SecurityWeek",
@@ -369,12 +375,6 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
    "source": "Microsoft Security Blog",
    "date": "2026-10-16T16:00:00+00:00"
-  },
-  {
-   "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-   "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-   "source": "Krebs on Security",
-   "date": "2026-10-14T14:22:49+00:00"
   }
  ],
  "errors": {
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-02T20:55:05.246324+00:00"
+  "checked": "2026-11-02T21:53:31.580202+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-02T20:55:05.246324+00:00"
+  "checked": "2026-11-02T21:53:31.580202+00:00"
  }
 }
