@@ -1,8 +1,7 @@
-// Well Run IT site script: menu, sortable tables, news, IT health check, contact form, visit counter.
+// Well Run IT site script: menu, sortable tables, news, IT health check, visit counter.
 (() => {
   const SB_URL = "https://mefvxxoytleyfjbwtxix.supabase.co";   // Supabase project "valve-partners" (shared by Eric's sites)
-  const SB_KEY = "sb_publishable_Ex6vMImvvkTdQsFYprve7g_awiuqxEs";   // public key: can only add form entries and count visits
-  const W3F_KEY = "b88fef65-1434-4f2b-8b2d-9b9cb760e7f0";   // Web3Forms access key (public by design; it can only send to the owner's inbox)
+  const SB_KEY = "sb_publishable_Ex6vMImvvkTdQsFYprve7g_awiuqxEs";   // public key: used only to count visits
 
   // mobile menu
   const btn = document.querySelector(".burger"), nav = document.getElementById("nav");
@@ -74,35 +73,7 @@
     });
   }
 
-  // contact form: save to the database and email a copy, then go to the thank-you page
-  const form = document.getElementById("contactForm");
-  if (form) {
-    const p = new URLSearchParams(location.search);
-    if (p.get("topic")) { const s = form.elements.topic; [...s.options].forEach((o) => { if (o.value === p.get("topic")) s.value = o.value; }); }
-    if (p.get("msg")) form.elements.message.value = p.get("msg");
-    const out = document.getElementById("formMsg");
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      if (!form.reportValidity()) return;
-      const f = form.elements;
-      if (f._honey.value) { location.href = "thanks.html"; return; }   // bots fill hidden fields
-      const send = form.querySelector("button[type=submit]"); send.disabled = true; send.textContent = "Sending...";
-      out.hidden = true;
-      const row = { site: "wellrunit", name: f.name.value.trim(), company: f.company.value.trim() || null, email: f.email.value.trim(), phone: f.phone.value.trim() || null,
-        topic: f.topic.value || null, company_size: f.size.value || null, message: f.message.value.trim(), page: location.pathname };
-      const db = fetch(`${SB_URL}/rest/v1/contact_requests`, { method: "POST", headers: { apikey: SB_KEY, "Content-Type": "application/json", Prefer: "return=minimal" }, body: JSON.stringify(row) })
-        .then((r) => r.ok).catch(() => false);
-      const fields = { Name: row.name, Company: row.company || "", Email: row.email, Phone: row.phone || "", Topic: row.topic || "", "Company size": row.company_size || "", Message: row.message };
-      const mail = fetch("https://api.web3forms.com/submit", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" },
-            body: JSON.stringify({ access_key: W3F_KEY, subject: "New Well Run IT website message", from_name: "Well Run IT website", replyto: row.email, ...fields }) })
-        .then((r) => r.ok).catch(() => false);
-      const [a, b] = await Promise.all([db, mail]);
-      if (a || b) { location.href = "thanks.html"; return; }
-      send.disabled = false; send.textContent = "Send message";
-      out.hidden = false; out.className = "form-msg err";
-      out.textContent = "Sorry, the message didn't go through.  Please try again in a minute.";
-    });
-  }
+  // contact form removed Nov 2026: Bernie (assets/js/bernie.js) handles contact, and nothing is stored in a database.
 
   // visit counter: one count per page per browser session.  No cookies, no personal data.
   if (!/^(localhost|127\.)/.test(location.hostname)) {

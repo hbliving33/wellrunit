@@ -66,7 +66,7 @@ ORG_LD = json.dumps({"@context": "https://schema.org", "@type": "ProfessionalSer
     "address": {"@type": "PostalAddress", "addressLocality": "Huntington Beach", "addressRegion": "CA", "addressCountry": "US"}, "areaServed": "US"})
 
 def page(fname, title, desc, body):
-    css, js = ver('assets/css/site.css'), ver('assets/js/site.js')
+    css, js, bj = ver('assets/css/site.css'), ver('assets/js/site.js'), ver('assets/js/bernie.js')
     cur = lambda f: ' aria-current="page"' if f == fname or (fname in SVC_FILES and f == 'services.html') else ''
     nav = ''.join(f'<a href="{f}"{cur(f)}>{n}</a>' for f, n in NAV) + '<a class="talk" href="contact.html">Contact us</a>'
     svc_links = ''.join(f'<li><a href="{s["slug"]}.html">{s["name"]}</a></li>' for s in SERVICES)
@@ -112,6 +112,7 @@ def page(fname, title, desc, body):
   </div>
 </footer>
 <script src="assets/js/site.js?v={js}" defer></script>
+<script src="assets/js/bernie.js?v={bj}" defer></script>
 </body>
 </html>
 '''
@@ -246,7 +247,7 @@ def service(i, s):
 def engagement():
     eng = ''.join(f'''<div class="card"><div class="num">{t}</div><h3>{sub}</h3><p>{how}</p><ul class="ticks" style="margin-top:16px">{''.join(f"<li>{x}</li>" for x in inc)}</ul>
 <p style="margin-top:16px;font-size:15px"><b>Typical work:</b> {', '.join(work)}.</p><p style="margin-top:8px;font-size:15px"><b>Best for:</b> {best}.</p></div>''' for t, sub, how, inc, work, best in C['ENGAGE'])
-    steps = [('Send us a message', "Tell us what's going on through the contact form.  We reply within one business day."), ('Get a written proposal', 'A clear scope, timeline and price, in plain English.'), ('Kick off', 'We get to work, keep you posted and document everything as we go.'), ('Hand-off or ongoing', 'Projects end with documentation you own.  Managed and fractional work continue month to month.')]
+    steps = [('Ask Bernie', "Bernie asks a few quick questions and passes everything to a real person, who calls you back at a time you picked."), ('Get a written proposal', 'A clear scope, timeline and price, in plain English.'), ('Kick off', 'We get to work, keep you posted and document everything as we go.'), ('Hand-off or ongoing', 'Projects end with documentation you own.  Managed and fractional work continue month to month.')]
     st = ''.join(f'<div class="card"><div class="num">Step {n}</div><h3>{t}</h3><p>{d}</p></div>' for n, (t, d) in enumerate(steps, 1))
     std = ''.join(f'<div class="card"><h3>{t}</h3><p>{d}</p></div>' for _, t, d in C['STANDARD'])
     body = phero('Work with us the way that fits.', 'One job, a managed IT plan built around you, or a senior IT leader part time.  Start with one and add another later.') + f'''
@@ -312,12 +313,14 @@ def news_page():
     page('news.html', f'Cybersecurity News | {BRAND}', 'Cybersecurity headlines from CISA, Microsoft and the security press, plus Microsoft 365, AWS, Wasabi, Zoom and NetSuite service status, refreshed every hour.', body)
 
 def contact():
-    body = phero("Tell us what you're working on.", 'Fill out the form and a senior consultant will get back to you within one business day.') + f'''
+    body = phero("Tell us what you're working on.", "Bernie fills out the form for you in a few quick questions, then a real person takes it from there.") + f'''
 <section style="padding-top:0"><div class="wrap two">
-  <div><h2>Headquartered in California.  Clients nationwide.</h2><ul class="ticks" style="margin-top:26px"><li>Headquarters in Huntington Beach, California</li><li>Remote offices in Arcata, California and Payson, Arizona</li><li>On-site across California and Arizona</li><li>Remote support in all 50 states, with on-site travel as required</li><li>A reply from a senior consultant within one business day</li></ul></div>
-  {form()}
+  <div class="panel-lite"><h2>Two ways to reach us.</h2>
+  <p class="lead" style="margin-top:18px">Ask Bernie, or email us directly.  Either way, a real person answers.</p>
+  <div class="acts" style="margin-top:26px"><button class="btn" type="button" data-bernie>Ask Bernie</button><a class="link" href="mailto:support@wellrunit.com">support@wellrunit.com</a></div></div>
+  <div><ul class="ticks"><li>Headquarters in Huntington Beach, California</li><li>Remote offices in Arcata, California and Payson, Arizona</li><li>On-site across California and Arizona</li><li>Remote support in all 50 states, with on-site travel as required</li><li>Callbacks weekdays, 7 a.m. to 4 p.m. Pacific</li></ul></div>
 </div></section>'''
-    page('contact.html', f'Contact | {BRAND}', f'Contact {BRAND}.  Headquartered in California, serving clients nationwide.  A senior consultant replies within one business day.', body)
+    page('contact.html', f'Contact | {BRAND}', f'Contact {BRAND}.  Headquartered in Huntington Beach, California, serving clients nationwide.', body)
 
 def thanks():
     page('thanks.html', f'Thank you | {BRAND}', 'Your message was sent.', phero('Thanks.  We got your message.', 'A senior consultant will reply within one business day.') + '<section style="padding-top:0"><div class="wrap"><a class="btn" href="index.html">Back to the home page</a></div></section>')

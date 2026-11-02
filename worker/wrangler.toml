@@ -1,0 +1,42 @@
+# Well Run IT edge Worker: security headers for every page, plus Bernie's back end at /api/bernie/.
+# Deployed by .github/workflows/worker.yml.  Secrets are set by that workflow from the repo's GitHub secrets.
+name = "wellrunit-edge"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+
+routes = [
+  { pattern = "wellrunit.com/*", zone_name = "wellrunit.com" },
+  { pattern = "www.wellrunit.com/*", zone_name = "wellrunit.com" },
+]
+
+[vars]
+SUPPORT_MAILBOX = "support@wellrunit.com"
+# TURNSTILE_SITEKEY is public by design; it's set from the TURNSTILE_SITEKEY repo variable at deploy.
+
+[ai]
+binding = "AI"
+
+[[ratelimits]]
+name = "RL_SESSION"
+namespace_id = "7101"
+  [ratelimits.simple]
+  limit = 6
+  period = 60
+
+[[ratelimits]]
+name = "RL_ASK"
+namespace_id = "7102"
+  [ratelimits.simple]
+  limit = 8
+  period = 60
+
+[[ratelimits]]
+name = "RL_SUBMIT"
+namespace_id = "7103"
+  [ratelimits.simple]
+  limit = 3
+  period = 60
+
+[observability]
+enabled = true

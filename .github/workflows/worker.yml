@@ -1,0 +1,66 @@
+name: Deploy edge Worker (security headers and Bernie)
+
+# Runs when the Worker changes, or by hand from the Actions tab ("Run workflow").
+on:
+  push:
+    branches: [main]
+    paths: ['worker/**', '.github/workflows/worker.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: worker
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: worker
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      TURNSTILE_SITEKEY: ${{ secrets.TURNSTILE_SITEKEY }}
+      TURNSTILE_SECRET: ${{ secrets.TURNSTILE_SECRET }}
+      SESSION_KEY: ${{ secrets.SESSION_KEY }}
+      GRAPH_TENANT: ${{ secrets.GRAPH_TENANT }}
+      GRAPH_CLIENT_ID: ${{ secrets.GRAPH_CLIENT_ID }}
+      GRAPH_CLIENT_SECRET: ${{ secrets.GRAPH_CLIENT_SECRET }}
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check that every secret is in place
+        run: |
+          missing=""
+          for v in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID TURNSTILE_SITEKEY TURNSTILE_SECRET SESSION_KEY GRAPH_TENANT GRAPH_CLIENT_ID GRAPH_CLIENT_SECRET NTFY_TOPIC; do
+            [ -n "${!v}" ] || missing="$missing $v"
+          done
+          if [ -n "$missing" ]; then echo "::error::Not deployed.  These GitHub secrets are still missing:$missing"; exit 1; fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - run: npm ci --no-audit --no-fund
+
+      - name: Deploy
+        run: |
+          umask 077
+          node -e 'const k=["TURNSTILE_SECRET","SESSION_KEY","GRAPH_TENANT","GRAPH_CLIENT_ID","GRAPH_CLIENT_SECRET","NTFY_TOPIC"];const o={};for(const x of k)o[x]=process.env[x];require("fs").writeFileSync(process.env.RUNNER_TEMP+"/s.json",JSON.stringify(o))'
+          npx wrangler deploy --var "TURNSTILE_SITEKEY:$TURNSTILE_SITEKEY" --secrets-file "$RUNNER_TEMP/s.json"
+          rm -f "$RUNNER_TEMP/s.json"
+
+      - name: Check the live site
+        run: |
+          sleep 20
+          h=$(curl -sSI "https://wellrunit.com/?check=$GITHUB_RUN_ID")
+          echo "$h" | grep -i '^server:' || true
+          for x in content-security-policy strict-transport-security x-frame-options x-content-type-options; do
+            echo "$h" | grep -qi "^$x:" && echo "OK  $x" || { echo "::error::$x header is missing.  Is the wellrunit.com DNS record proxied (orange cloud) in Cloudflare?"; exit 1; }
+          done
+          c=$(curl -sS https://wellrunit.com/api/bernie/config)
+          echo "$c" | grep -q '"ok":true' && echo "OK  Bernie is answering" || { echo "::error::Bernie's back end did not answer: $c"; exit 1; }
