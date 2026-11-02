@@ -15,7 +15,8 @@ ICONS = {   # the three picked from logo-icons.html, same drawings
 ICON_NAMES = {1: 'check inside a ring', 10: 'check-to-arrow with speed lines', 19: 'stepped rack with arrow'}
 
 # Wordmark settings: lean of "Run" and "IT", gap between Run and IT, underline style and what it sits under.
-def wordmark(a, c, lean=0, gap='.03em', ul='fade', under='all', ulw='.07em', size=40):
+def wordmark(a, c, lean=0, gap=None, ul='fade', under='all', ulw='.07em', size=40):
+    gap = gap or ('.03em' if not lean else f'{.03 + abs(lean) * .006:.3f}em')
     k = f'transform:skewX({lean}deg);transform-origin:50% 100%;' if lean else ''
     line = '' if not ul else (f'<span class="ul" style="--c:{a};height:{ulw};' + ('background:var(--c);' if ul == 'solid' else '') + '"></span>')
     run_it = f'<b style="color:{c};{k}">Run</b><i style="color:{a};margin-left:{gap};{k}">IT</i>'
@@ -25,13 +26,12 @@ def wordmark(a, c, lean=0, gap='.03em', ul='fade', under='all', ulw='.07em', siz
 
 COMBOS = [
  ('Upright letters (16) with the underline from 10', dict()),
- ('Upright, underline from 10, tighter Run-to-IT spacing like 8', dict(gap='-.01em')),
- ('"Run" and "IT" leaning a little, underline from 10', dict(lean=-8)),
- ('"Run" and "IT" leaning like 8, underline from 10', dict(lean=-14, gap='-.01em')),
- ('Upright, underline from 10 under "RunIT" only', dict(under='runit', gap='-.01em')),
- ('Leaning a little, underline under "RunIT" only', dict(lean=-8, under='runit', gap='-.01em')),
- ('Upright, solid slate underline (no fade)', dict(ul='solid', gap='-.01em')),
- ('Upright, heavier fading underline', dict(ulw='.11em', gap='-.01em')),
+  ('"Run" and "IT" leaning a little, underline from 10', dict(lean=-8)),
+ ('"Run" and "IT" leaning like 8, underline from 10', dict(lean=-14)),
+ ('Upright, underline from 10 under "RunIT" only', dict(under='runit')),
+ ('Leaning a little, underline under "RunIT" only', dict(lean=-8, under='runit')),
+ ('Upright, solid slate underline (no fade)', dict(ul='solid')),
+ ('Upright, heavier fading underline', dict(ulw='.11em')),
 ]
 
 def row(fn, dark):
@@ -44,7 +44,7 @@ for n, (name, kw) in enumerate(COMBOS, 1):
     cards += f'<div class="opt"><div class="num">{n}</div><div class="name">{name}</div>{row(fn, False)}{row(fn, True)}</div>'
 
 pairs, n = '', len(COMBOS)
-ICON_STYLES = [('upright like 16', dict(gap='-.01em')), ('leaning a little', dict(lean=-8, gap='-.01em')), ('leaning like 8', dict(lean=-14, gap='-.01em'))]
+ICON_STYLES = [('upright like 16', dict()), ('leaning a little', dict(lean=-8)), ('leaning like 8', dict(lean=-14))]
 for sname, kw in ICON_STYLES:   # icon OR underline, never both: no underline here
     kw = dict(kw, ul=None)
     for ic in (1, 10, 19):
@@ -75,7 +75,7 @@ p.lead{{margin:0;color:#3c4a5c;max-width:840px}}
 .ul{{position:absolute;left:0;right:0;bottom:-.2em;border-radius:1em;background:linear-gradient(90deg,transparent,var(--c) 40%)}}
 </style></head><body><div class="wrap">
 <h1>Logo combinations</h1>
-<p class="lead">From <a href="logo-r.html">the forward R page</a>: the underline from number 10, the spacing from number 8 and the upright letters from number 16, mixed a few ways.  It's one or the other: the top section has the underline and no icon, and the bottom section has an icon (your picks 1, 10 and 19) and no underline.  Same font throughout.  Tell me the number.</p>
+<p class="lead">From <a href="logo-r.html">the forward R page</a>: the underline from number 10, the lean from number 8 and the upright letters from number 16, mixed a few ways.  It's one or the other: the top section has the underline and no icon, and the bottom section has an icon (your picks 1, 10 and 19) and no underline.  Same font and the same letter spacing as the live site throughout.  Tell me the number.</p>
 <h2>Underline, no icon</h2><div class="grid">{cards}</div>
 <h2>Icon, no underline</h2><div class="grid">{pairs}</div>
 </div></body></html>'''
