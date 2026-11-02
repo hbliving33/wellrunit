@@ -1,11 +1,83 @@
 {
- "updated": "2026-11-02T13:24:30.991568+00:00",
+ "updated": "2026-11-02T15:06:39.759642+00:00",
  "items": [
+  {
+   "title": "BTCPay Server warns of hot wallet thefts targeting outdated instances",
+   "link": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+   "source": "BleepingComputer",
+   "date": "2026-11-02T15:03:07+00:00"
+  },
+  {
+   "title": "Your Mobile Carrier Stores Your Call Logs for Years",
+   "link": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+   "source": "BleepingComputer",
+   "date": "2026-11-02T15:01:11+00:00"
+  },
+  {
+   "title": "Microsoft's AI Risk Report Misses This Key Detail",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
+   "source": "Dark Reading",
+   "date": "2026-11-02T15:00:00+00:00"
+  },
+  {
+   "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+   "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+   "source": "The Hacker News",
+   "date": "2026-11-02T14:46:05+00:00"
+  },
+  {
+   "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
+   "link": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
+   "source": "SecurityWeek",
+   "date": "2026-11-02T14:44:18+00:00"
+  },
+  {
+   "title": "Hackers disrupt refrigeration systems at European supermarkets",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+   "source": "BleepingComputer",
+   "date": "2026-11-02T14:28:39+00:00"
+  },
+  {
+   "title": "PapRAT Cyber Espionage Campaign Leaves a 'BITTER' Taste in South Asia",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
+   "source": "Dark Reading",
+   "date": "2026-11-02T14:00:00+00:00"
+  },
+  {
+   "title": "Microsoft fixes Smart App Control broken by October Windows update",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+   "source": "BleepingComputer",
+   "date": "2026-11-02T13:57:29+00:00"
+  },
+  {
+   "title": "Revolve Data Breach Impacts at Least 180,000 People",
+   "link": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
+   "source": "SecurityWeek",
+   "date": "2026-11-02T13:35:21+00:00"
+  },
+  {
+   "title": "Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward",
+   "link": "https://www.securityweek.com/google-introduces-250000-root-in-cloud-bug-bounty-reward/",
+   "source": "SecurityWeek",
+   "date": "2026-11-02T13:25:11+00:00"
+  },
   {
    "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
    "link": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
    "source": "BleepingComputer",
    "date": "2026-11-02T12:47:00+00:00"
+  },
+  {
+   "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+   "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+   "source": "The Hacker News",
+   "date": "2026-11-02T11:50:00+00:00"
+  },
+  {
+   "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+   "link": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+   "source": "The Hacker News",
+   "date": "2026-11-02T11:30:00+00:00"
   },
   {
    "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
@@ -186,6 +258,12 @@
    "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
    "source": "BleepingComputer",
    "date": "2026-10-30T21:09:46+00:00"
+  },
+  {
+   "title": "Investors Dish on New Startups & What They'd Back Next",
+   "link": "https://www.darkreading.com/cybersecurity-operations/investors-dish-new-startsup-what-back-next",
+   "source": "Dark Reading",
+   "date": "2026-10-30T21:08:25+00:00"
   },
   {
    "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
@@ -390,12 +468,6 @@
    "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
    "source": "Krebs on Security",
    "date": "2026-10-21T15:26:07+00:00"
-  },
-  {
-   "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-   "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-   "source": "Krebs on Security",
-   "date": "2026-10-19T13:48:56+00:00"
   }
  ]
 }
