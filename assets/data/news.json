@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-02T05:14:48.544016+00:00",
+ "updated": "2026-11-02T06:19:38.690693+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-02T05:14:48.736811+00:00",
+  "checked": "2026-11-02T06:19:38.786047+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-02T05:14:48.544016+00:00"
+  "checked": "2026-11-02T06:19:38.690693+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-02T05:14:48.544016+00:00"
+  "checked": "2026-11-02T06:19:38.690693+00:00"
  },
  "items": [
+  {
+   "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+   "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+   "source": "The Hacker News",
+   "date": "2026-11-02T05:51:07+00:00"
+  },
   {
    "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
    "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
@@ -93,12 +99,6 @@
    "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
    "source": "SecurityWeek",
    "date": "2026-10-31T11:00:00+00:00"
-  },
-  {
-   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-   "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-   "source": "The Hacker News",
-   "date": "2026-10-31T08:27:43+00:00"
   },
   {
    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
@@ -203,11 +203,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-02T05:14:48.544016+00:00"
+  "checked": "2026-11-02T06:19:38.690693+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-02T05:14:48.544016+00:00"
+  "checked": "2026-11-02T06:19:38.690693+00:00"
  }
 }
