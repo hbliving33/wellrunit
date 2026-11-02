@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-02T06:19:38.690693+00:00",
+ "updated": "2026-11-02T08:32:32.300154+00:00",
  "items": [
+  {
+   "title": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+   "link": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+   "source": "SecurityWeek",
+   "date": "2026-11-02T07:57:49+00:00"
+  },
   {
    "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
    "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
@@ -74,6 +80,18 @@
    "date": "2026-10-31T14:05:15+00:00"
   },
   {
+   "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+   "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+   "source": "BleepingComputer",
+   "date": "2026-10-31T13:10:19+00:00"
+  },
+  {
+   "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "source": "BleepingComputer",
+   "date": "2026-10-31T12:50:09+00:00"
+  },
+  {
    "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
    "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
    "source": "The Hacker News",
@@ -86,10 +104,34 @@
    "date": "2026-10-31T11:00:00+00:00"
   },
   {
+   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "source": "The Hacker News",
+   "date": "2026-10-31T08:27:43+00:00"
+  },
+  {
+   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "source": "The Hacker News",
+   "date": "2026-10-31T05:33:41+00:00"
+  },
+  {
+   "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+   "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+   "source": "The Hacker News",
+   "date": "2026-10-31T04:56:12+00:00"
+  },
+  {
    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
    "source": "Microsoft Security Blog",
    "date": "2026-10-31T01:02:57+00:00"
+  },
+  {
+   "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+   "source": "BleepingComputer",
+   "date": "2026-10-30T21:09:46+00:00"
   },
   {
    "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
@@ -104,16 +146,34 @@
    "date": "2026-10-30T19:46:08+00:00"
   },
   {
+   "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+   "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+   "source": "The Hacker News",
+   "date": "2026-10-30T16:58:44+00:00"
+  },
+  {
    "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
    "source": "Microsoft Security Blog",
    "date": "2026-10-30T16:11:44+00:00"
   },
   {
+   "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+   "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+   "source": "BleepingComputer",
+   "date": "2026-10-30T15:58:20+00:00"
+  },
+  {
    "title": "L\u2019Italia \u00e8 afflitta da vulnerabilit\u00e0 informatiche, senza una causa chiara",
    "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian",
    "source": "Dark Reading",
    "date": "2026-10-30T15:39:54+00:00"
+  },
+  {
+   "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+   "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+   "source": "The Hacker News",
+   "date": "2026-10-30T15:17:28+00:00"
   },
   {
    "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
@@ -128,10 +188,28 @@
    "date": "2026-10-30T14:41:35+00:00"
   },
   {
+   "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+   "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+   "source": "BleepingComputer",
+   "date": "2026-10-30T14:36:54+00:00"
+  },
+  {
    "title": "Undead Software Projects Continue to Raise Security Risks",
    "link": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
    "source": "Dark Reading",
    "date": "2026-10-30T14:10:37+00:00"
+  },
+  {
+   "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+   "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+   "source": "The Hacker News",
+   "date": "2026-10-30T14:08:14+00:00"
+  },
+  {
+   "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+   "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+   "source": "BleepingComputer",
+   "date": "2026-10-30T14:00:10+00:00"
   },
   {
    "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
@@ -146,6 +224,24 @@
    "date": "2026-10-30T13:36:12+00:00"
   },
   {
+   "title": "Fresh WordPress Vulnerability in Attackers\u2019 Crosshairs",
+   "link": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+   "source": "SecurityWeek",
+   "date": "2026-10-30T12:04:13+00:00"
+  },
+  {
+   "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+   "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+   "source": "SecurityWeek",
+   "date": "2026-10-30T11:07:11+00:00"
+  },
+  {
+   "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+   "link": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+   "source": "SecurityWeek",
+   "date": "2026-10-30T09:41:36+00:00"
+  },
+  {
    "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
    "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
    "source": "Dark Reading",
@@ -156,6 +252,54 @@
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
    "source": "Dark Reading",
    "date": "2026-10-29T21:21:56+00:00"
+  },
+  {
+   "title": "Rethinking Cybersecurity Awareness in the AI Era",
+   "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
+   "source": "Dark Reading",
+   "date": "2026-10-29T20:15:37+00:00"
+  },
+  {
+   "title": "Why CTF Competitions May Be More Important Than Ever",
+   "link": "https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever",
+   "source": "Dark Reading",
+   "date": "2026-10-29T19:56:44+00:00"
+  },
+  {
+   "title": "Claude Model Builds Exploits Across Major Browsers & OSes",
+   "link": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
+   "source": "Dark Reading",
+   "date": "2026-10-29T18:15:59+00:00"
+  },
+  {
+   "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-29T16:00:00+00:00"
+  },
+  {
+   "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-29T16:00:00+00:00"
+  },
+  {
+   "title": "Threat Modeling With 4 Simple Questions on a White Board",
+   "link": "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions",
+   "source": "Dark Reading",
+   "date": "2026-10-29T15:44:04+00:00"
+  },
+  {
+   "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
+   "link": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+   "source": "Dark Reading",
+   "date": "2026-10-29T10:00:00+00:00"
+  },
+  {
+   "title": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
+   "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
+   "source": "Dark Reading",
+   "date": "2026-10-29T08:00:00+00:00"
   },
   {
    "title": "Actively exploited: GitLab Community Edition and Enterprise Edition (CVE-2026-97229)",
@@ -170,6 +314,24 @@
    "date": "2026-10-29T00:00:00+00:00"
   },
   {
+   "title": "The CISO\u2019s evolving role: Protecting and defending in the agentic era",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-28T16:00:00+00:00"
+  },
+  {
+   "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-23T18:12:19+00:00"
+  },
+  {
+   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-21T18:23:55+00:00"
+  },
+  {
    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
    "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
    "source": "Krebs on Security",
@@ -180,6 +342,12 @@
    "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
    "source": "Krebs on Security",
    "date": "2026-10-19T13:48:56+00:00"
+  },
+  {
+   "title": "Agents are your newest insiders. Security must move at their speed.",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-19T13:00:00+00:00"
   }
  ]
 }
