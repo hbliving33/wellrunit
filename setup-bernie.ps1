@@ -54,11 +54,22 @@ if (-not $sp) { $sp = New-MgServicePrincipal -AppId $app.AppId; Say "Created ser
 
 $expires = (Get-Date).AddMonths(24)
 $pw = Add-MgApplicationPassword -ApplicationId $app.Id -PasswordCredential @{ displayName = "Bernie Worker {0:yyyy-MM-dd}" -f (Get-Date); endDateTime = $expires }
+foreach ($old in (Get-MgApplication -ApplicationId $app.Id).PasswordCredentials | Where-Object { $_.KeyId -ne $pw.KeyId }) {
+    Remove-MgApplicationPassword -ApplicationId $app.Id -KeyId $old.KeyId
+    Say 'Removed an older client secret from a previous run.'
+}
 Say ("New client secret created.  It expires {0:MMMM d, yyyy}; run this script again before then." -f $expires) 'Yellow'
 
 # ---------- 2. Exchange RBAC for Applications: Mail.Send on the support mailbox only ----------
 Say "Signing in to Exchange Online as $Admin..." 'Cyan'
-Connect-ExchangeOnline -UserPrincipalName $Admin -ShowBanner:$false
+# -DisableWAM avoids the Windows sign-in broker crash ("Object reference not set...") in some terminals; it needs module 3.7.2 or later
+if (-not (Get-Command Connect-ExchangeOnline).Parameters.ContainsKey('DisableWAM')) {
+    Say 'Updating ExchangeOnlineManagement (3.7.2 or later is needed)...'
+    Install-Module ExchangeOnlineManagement -Scope CurrentUser -Force -AllowClobber
+    Remove-Module ExchangeOnlineManagement -ErrorAction SilentlyContinue
+    Import-Module ExchangeOnlineManagement -Force
+}
+Connect-ExchangeOnline -UserPrincipalName $Admin -ShowBanner:$false -DisableWAM
 $null = Get-Mailbox -Identity $Mailbox   # stops here if the mailbox doesn't exist
 
 if (-not (Get-ServicePrincipal -Identity $app.AppId -ErrorAction SilentlyContinue)) {
