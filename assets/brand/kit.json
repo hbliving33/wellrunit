@@ -1,0 +1,176 @@
+[
+ {
+  "file": "logo-color.svg",
+  "label": "SVG (vector)",
+  "group": "logo-color",
+  "bytes": 4721
+ },
+ {
+  "file": "logo-color.png",
+  "label": "PNG, transparent, 2400 wide",
+  "group": "logo-color",
+  "bytes": 76003
+ },
+ {
+  "file": "logo-color-on-white.jpg",
+  "label": "JPG on white",
+  "group": "logo-color",
+  "bytes": 92710
+ },
+ {
+  "file": "logo-reverse.svg",
+  "label": "SVG (vector)",
+  "group": "logo-reverse",
+  "bytes": 4721
+ },
+ {
+  "file": "logo-reverse.png",
+  "label": "PNG, transparent, 2400 wide",
+  "group": "logo-reverse",
+  "bytes": 71859
+ },
+ {
+  "file": "logo-reverse-on-graphite.jpg",
+  "label": "JPG on graphite",
+  "group": "logo-reverse",
+  "bytes": 86109
+ },
+ {
+  "file": "logo-white.svg",
+  "label": "SVG (vector)",
+  "group": "logo-white",
+  "bytes": 4721
+ },
+ {
+  "file": "logo-white.png",
+  "label": "PNG, transparent, 2400 wide",
+  "group": "logo-white",
+  "bytes": 63835
+ },
+ {
+  "file": "logo-white-on-slate.jpg",
+  "label": "JPG on slate",
+  "group": "logo-white",
+  "bytes": 94319
+ },
+ {
+  "file": "logo-white-on-graphite.jpg",
+  "label": "JPG on graphite",
+  "group": "logo-white",
+  "bytes": 89163
+ },
+ {
+  "file": "logo-graphite.svg",
+  "label": "SVG (vector)",
+  "group": "logo-graphite",
+  "bytes": 4721
+ },
+ {
+  "file": "logo-graphite.png",
+  "label": "PNG, transparent, 2400 wide",
+  "group": "logo-graphite",
+  "bytes": 75247
+ },
+ {
+  "file": "logo-graphite-on-white.jpg",
+  "label": "JPG on white",
+  "group": "logo-graphite",
+  "bytes": 89210
+ },
+ {
+  "file": "icon-color.svg",
+  "label": "SVG (vector)",
+  "group": "icon-color",
+  "bytes": 492
+ },
+ {
+  "file": "icon-color.png",
+  "label": "PNG, transparent, 1024 wide",
+  "group": "icon-color",
+  "bytes": 55796
+ },
+ {
+  "file": "icon-white.svg",
+  "label": "SVG (vector)",
+  "group": "icon-white",
+  "bytes": 492
+ },
+ {
+  "file": "icon-white.png",
+  "label": "PNG, transparent, 1024 wide",
+  "group": "icon-white",
+  "bytes": 47627
+ },
+ {
+  "file": "icon-reverse.svg",
+  "label": "SVG (vector)",
+  "group": "icon-reverse",
+  "bytes": 492
+ },
+ {
+  "file": "icon-reverse.png",
+  "label": "PNG, transparent, 1024 wide",
+  "group": "icon-reverse",
+  "bytes": 49012
+ },
+ {
+  "file": "app-icon.svg",
+  "label": "SVG (vector)",
+  "group": "app-icon",
+  "bytes": 599
+ },
+ {
+  "file": "app-icon.png",
+  "label": "PNG, 1024 square",
+  "group": "app-icon",
+  "bytes": 55040
+ },
+ {
+  "file": "app-icon.ico",
+  "label": "ICO, Windows icon (16 to 256)",
+  "group": "app-icon",
+  "bytes": 28955
+ },
+ {
+  "file": "favicon.ico",
+  "label": "ICO, transparent (16 to 256)",
+  "group": "app-icon",
+  "bytes": 20983
+ },
+ {
+  "file": "support-mailbox-photo.jpg",
+  "label": "JPG, 648 square (Microsoft 365)",
+  "group": "support-photo",
+  "bytes": 19342
+ },
+ {
+  "file": "support-mailbox-photo.png",
+  "label": "PNG, 648 square",
+  "group": "support-photo",
+  "bytes": 18505
+ },
+ {
+  "file": "zoom-dark.jpg",
+  "label": "JPG, 1920 x 1080",
+  "group": "zoom-dark",
+  "bytes": 49309
+ },
+ {
+  "file": "zoom-dark.png",
+  "label": "PNG, 1920 x 1080",
+  "group": "zoom-dark",
+  "bytes": 1594514
+ },
+ {
+  "file": "zoom-light.jpg",
+  "label": "JPG, 1920 x 1080",
+  "group": "zoom-light",
+  "bytes": 47965
+ },
+ {
+  "file": "zoom-light.png",
+  "label": "PNG, 1920 x 1080",
+  "group": "zoom-light",
+  "bytes": 1120759
+ }
+]

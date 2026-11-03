@@ -121,7 +121,7 @@
       if (!lead.need) steps.push(stepNeed);
       steps.push(stepType, stepName, stepCompany, stepEmail, stepPhone, stepState, stepTimes, review);
     }
-    if (lead.emergency) say('Got it.  Just your name and best phone number, and I\'ll alert our team right away.');
+    if (lead.emergency) say('Got it.  Just your name and best phone number, and I\'ll get this to our team right away.');
     else say('Happy to.  A few quick questions and a real person will take it from there.');
     next();
   }
@@ -226,7 +226,7 @@
     });
     log.appendChild(box); scroll();
     const p = el('p', 'bnote'); p.innerHTML = 'We only use this to reply to you.  <a href="privacy.html">Privacy</a>';
-    setFoot(btn(lead.emergency ? 'Send and alert the team' : 'Send it', submit, 'send wide' + (lead.emergency ? ' warn' : '')), p);
+    setFoot(btn(lead.emergency ? 'Send it now' : 'Send it', submit, 'send wide' + (lead.emergency ? ' warn' : '')), p);
   }
 
   async function submit() {
@@ -241,7 +241,7 @@
     }
     t.remove();
     if (!ok) return offline();
-    if (lead.emergency) say("Thanks, I've flagged this as an emergency and sent an alert to our team right away.  We'll be in touch as fast as we can.");
+    if (lead.emergency) say("Thanks.  I've emailed our team and marked it urgent.  We'll call you as fast as we can.");
     else say("All set.  A real person has everything and will reach out to confirm one of your times.  You won't have to repeat any of this.");
     setFoot(btn('Close', close, 'ghost'));
     inForm = false;
