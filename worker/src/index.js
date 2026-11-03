@@ -75,8 +75,16 @@ async function api(request, env, url) {
     const lead = cleanLead(body.lead);
     if (!lead) return json({ ok: false, error: 'missing details' }, 400);
     const transcript = cleanTranscript(body.transcript);
-    await sendLeadEmail(env, lead, transcript);
-    if (lead.emergency) await alertPhones(env, lead).catch((e) => console.log('ntfy failed', e && e.message));
+    // Emergency: the phone alert goes first and doesn't wait on email.  If either one gets through, the visitor is told it worked.
+    if (lead.emergency) {
+      const [alert, mail] = await Promise.allSettled([alertPhones(env, lead), sendLeadEmail(env, lead, transcript)]);
+      if (alert.status === 'rejected') console.log('ntfy failed', alert.reason && alert.reason.message);
+      if (mail.status === 'rejected') console.log('email failed', mail.reason && mail.reason.message);
+      if (alert.status === 'rejected' && mail.status === 'rejected') return json({ ok: false, error: 'send failed' }, 502);
+      return json({ ok: true });
+    }
+    try { await sendLeadEmail(env, lead, transcript); }
+    catch (e) { console.log('email failed', e && e.message); return json({ ok: false, error: 'send failed' }, 502); }
     return json({ ok: true });
   }
   return json({ ok: false, error: 'not found' }, 404);
@@ -187,10 +195,11 @@ async function sendLeadEmail(env, lead, transcript) {
 
 // Emergency push alert to the ntfy app on Eric's and Vicki's phones.  No phone numbers involved.
 async function alertPhones(env, lead) {
-  await fetch(`https://ntfy.sh/${env.NTFY_TOPIC}`, {
+  const r = await fetch(`https://ntfy.sh/${env.NTFY_TOPIC}`, {
     method: 'POST',
     // Emergencies carry just a name and phone number, so the alert includes them: the point is to call right away.
     headers: { Title: `URGENT: call ${lead.name} at ${lead.phone}`.replace(/[^\x20-\x7e]/g, '?').slice(0, 120), Priority: 'urgent', Tags: 'rotating_light' },
     body: `Emergency through Bernie on wellrunit.com.  Call ${lead.name} at ${lead.phone}.  A copy is in the support mailbox.`,
   });
+  if (!r.ok) throw new Error('ntfy ' + r.status);
 }
