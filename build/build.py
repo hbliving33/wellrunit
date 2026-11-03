@@ -73,7 +73,7 @@ NAV = [('index.html', 'Home'), ('services.html', 'Services'), ('engagement.html'
 SVC_FILES = {s['slug'] + '.html' for s in SERVICES}
 
 ORG_LD = json.dumps({"@context": "https://schema.org", "@type": "ProfessionalService", "name": BRAND, "url": DOMAIN, "logo": DOMAIN + "assets/brand/og.png",
-    "description": "IT infrastructure and operations consulting for startups, small and growing companies: networks, servers and cloud, Microsoft 365, business applications, security and managed IT.",
+    "description": "IT infrastructure and operations consulting for startups, small businesses and companies preparing for growth: networks, servers and cloud, Microsoft 365, business applications, security and managed IT.",
     "address": {"@type": "PostalAddress", "addressLocality": "Huntington Beach", "addressRegion": "CA", "addressCountry": "US"}, "areaServed": "US"})
 
 def page(fname, title, desc, body):
@@ -154,7 +154,7 @@ WELL_RUN = ['Multi-factor sign-in on every account, including admins', 'Backups 
             'Firewalls, servers and laptops patched every month', 'Every license accounted for, with a name next to it', 'A written plan for the day ransomware hits',
             'Documentation and admin access that belong to you']
 
-FIT = [('Startups, small and growing companies', 'Our sweet spot is the business without a full IT department, or with one IT person stretched thin.  We have been part of a few startups ourselves.'),
+FIT = [('Startups, small businesses and companies preparing for growth', 'Our sweet spot is the business without a full IT department, or with one IT person stretched thin.  We have been part of a few startups ourselves.'),
        ('People who know your name', 'You talk to the same small team every time, people who know your setup and your people.'),
        ('Enterprise experience', 'Big-company know-how: secure, documented and audit-ready IT, sized and priced for a small business.')]
 
@@ -207,7 +207,7 @@ def home():
     stats = ''.join(f'<div><b>{n}</b><span>{t}</span></div>' for n, t in PROOF)
     body = f'''
 <section class="hero"><div class="wrap">
-  <span class="kicker">IT for startups, small and growing companies</span>
+  <span class="kicker">IT for startups, small businesses and companies preparing for growth</span>
   <h1>Your IT, well run.</h1>
   <p class="lead">We set up your IT, keep it running and keep it safe.  So you can get back to work.</p>
   <div class="acts"><a class="btn" href="contact.html">Contact us</a><a class="link" href="about.html#check">Take the free 60-second IT health check</a></div>
@@ -229,7 +229,7 @@ def home():
 {quote_block(1)}
 {cta()}
 <script type="application/ld+json">{ORG_LD}</script>'''
-    page('index.html', f'{BRAND} | IT infrastructure and operations, well run', 'IT infrastructure and operations for startups, small and growing companies: Microsoft 365, business applications, networks, cybersecurity and IT leadership.  Supporting companies in all 50 states.', body)
+    page('index.html', f'{BRAND} | IT infrastructure and operations, well run', 'IT infrastructure and operations for startups, small businesses and companies preparing for growth: Microsoft 365, business applications, networks, cybersecurity and IT leadership.  Supporting companies in all 50 states.', body)
 
 def services():
     jump = ''.join(f'<a href="#{x["slug"]}">{x["name"]}</a>' for x in SERVICES)
@@ -271,7 +271,7 @@ def why():
 
 def about():
     qs = ''.join(f'<li data-q="{i}"><p>{q}</p><div class="yn"><button type="button" data-v="1" aria-pressed="false">Yes</button><button type="button" data-v="0" aria-pressed="false">No</button></div></li>' for i, q in enumerate(C['QUESTIONS']))
-    body = phero('Mom-and-pop care.  Enterprise experience.', 'A small, senior team for startups, small and growing companies, backed by 30+ years of running IT.') + f'''
+    body = phero('Mom-and-pop care.  Enterprise experience.', 'A small, senior team for startups, small businesses and companies preparing for growth, backed by 30+ years of running IT.') + f'''
 <section class="tight"><div class="wrap"><div class="panel">
   <p class="big">Well-run IT is the IT nobody talks about.  People sign in and get to work.  The network stays up.  Backups restore when you need them.  The audit goes smoothly, and the person who left last Friday can't get back in.</p>
   <p class="lead" style="margin-top:26px;max-width:820px">That's the job, and it's the only promise we want to make.  So it's our name.</p>
@@ -290,7 +290,7 @@ def about():
   <div class="score"><div class="n" id="gaugeNum">0<small> of {len(C['QUESTIONS'])}</small></div><h3 id="verdictTitle">Answer the questions</h3><p id="verdictText">Every "No" is a gap worth closing.  Most businesses have at least one.</p><a class="btn" id="checkCta" href="contact.html" hidden>Send us your results</a></div></div>
 </div></div></section>
 {cta()}'''
-    page('about.html', f'About Us | {BRAND}', 'Mom-and-pop care, enterprise experience: 30+ years of running IT for startups, small and growing companies.  Take the free 60-second IT health check.', body)
+    page('about.html', f'About Us | {BRAND}', 'Mom-and-pop care, enterprise experience: 30+ years of running IT for startups, small businesses and companies preparing for growth.  Take the free 60-second IT health check.', body)
 
 def testimonials():
     rows = ''.join(f'<figure class="tq"><figcaption class="who">{E(t["cap"][0])}<span>{E(t["cap"][1]) if len(t["cap"]) > 1 else ""}</span></figcaption><blockquote>{"".join(f"<p>{E(p)}</p>" for p in t["paras"])}</blockquote></figure>' for t in C['TESTIMONIALS'])
