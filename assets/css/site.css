@@ -450,3 +450,10 @@ section.band{background:#e3e8ef}
 .hero .btn,.panel .btn,.dark .btn{background:var(--accent);color:#fff}
 .hero .btn:hover,.panel .btn:hover,.dark .btn:hover{background:#3d6a9c}
 .bthint{margin:0 0 2px;font-size:13.5px;font-weight:600;color:var(--ink2)}
+/* bigger logo (Nov 2026): 36px in the header so "Well" and the motion marks read clearly */
+.top .wrap{height:80px}
+.top .wordmark{font-size:36px}
+.foot .wordmark,.foot-row .brand .wordmark{font-size:32px}
+.jump{top:80px}
+@media (max-width:980px){.nav{top:80px}}
+@media (max-width:520px){.top .wordmark{font-size:30px}.top .wrap{height:68px}.jump{top:68px}.nav{top:68px}}
