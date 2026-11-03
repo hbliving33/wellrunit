@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T06:05:10.859692+00:00",
+ "updated": "2026-11-03T07:27:37.225134+00:00",
  "items": [
   {
    "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
@@ -126,6 +126,12 @@
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
    "source": "BleepingComputer",
    "date": "2026-11-02T13:57:29+00:00"
+  },
+  {
+   "title": "Revolve Data Breach Impacts at Least 200,000 People",
+   "link": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
+   "source": "SecurityWeek",
+   "date": "2026-11-02T13:35:21+00:00"
   },
   {
    "title": "Revolve Data Breach Impacts at Least 180,000 People",
