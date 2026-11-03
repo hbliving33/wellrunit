@@ -1,26 +1,44 @@
 {
- "updated": "2026-11-03T09:04:04.894854+00:00",
+ "updated": "2026-11-03T10:06:10.912490+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-03T09:04:04.960727+00:00",
+  "checked": "2026-11-03T10:06:10.958107+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-03T09:04:04.894854+00:00"
+  "checked": "2026-11-03T10:06:10.912490+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-03T09:04:04.894854+00:00"
+  "checked": "2026-11-03T10:06:10.912490+00:00"
  },
  "items": [
+  {
+   "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
+   "link": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
+   "source": "SecurityWeek",
+   "date": "2026-11-03T09:49:12+00:00"
+  },
+  {
+   "title": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
+   "link": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+   "source": "SecurityWeek",
+   "date": "2026-11-03T09:22:09+00:00"
+  },
   {
    "title": "NATO\u2019s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
    "link": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
    "source": "SecurityWeek",
    "date": "2026-11-03T08:49:03+00:00"
+  },
+  {
+   "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T08:31:48+00:00"
   },
   {
    "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
@@ -221,24 +239,6 @@
    "date": "2026-11-02T09:33:26+00:00"
   },
   {
-   "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
-   "link": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T09:33:15+00:00"
-  },
-  {
-   "title": "FBI Flags Over 600 Addresses Tied to North Korea\u2019s Binance Heist",
-   "link": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T08:40:36+00:00"
-  },
-  {
-   "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-   "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T05:51:07+00:00"
-  },
-  {
    "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
    "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
    "source": "BleepingComputer",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-03T09:04:04.894854+00:00"
+  "checked": "2026-11-03T10:06:10.912490+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-03T09:04:04.894854+00:00"
+  "checked": "2026-11-03T10:06:10.912490+00:00"
  }
 }

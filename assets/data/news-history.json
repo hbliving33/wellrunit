@@ -1,11 +1,29 @@
 {
- "updated": "2026-11-03T09:04:04.894854+00:00",
+ "updated": "2026-11-03T10:06:10.912490+00:00",
  "items": [
+  {
+   "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
+   "link": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
+   "source": "SecurityWeek",
+   "date": "2026-11-03T09:49:12+00:00"
+  },
+  {
+   "title": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
+   "link": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+   "source": "SecurityWeek",
+   "date": "2026-11-03T09:22:09+00:00"
+  },
   {
    "title": "NATO\u2019s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
    "link": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
    "source": "SecurityWeek",
    "date": "2026-11-03T08:49:03+00:00"
+  },
+  {
+   "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T08:31:48+00:00"
   },
   {
    "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
