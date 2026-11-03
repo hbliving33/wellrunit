@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-03T07:27:37.225134+00:00",
+ "updated": "2026-11-03T09:04:04.894854+00:00",
  "items": [
+  {
+   "title": "NATO\u2019s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
+   "link": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
+   "source": "SecurityWeek",
+   "date": "2026-11-03T08:49:03+00:00"
+  },
+  {
+   "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
+   "link": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
+   "source": "SecurityWeek",
+   "date": "2026-11-03T07:43:24+00:00"
+  },
+  {
+   "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+   "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T07:43:07+00:00"
+  },
+  {
+   "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+   "link": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T07:27:07+00:00"
+  },
   {
    "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
    "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",

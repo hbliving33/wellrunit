@@ -1,21 +1,45 @@
 {
- "updated": "2026-11-03T07:27:37.225134+00:00",
+ "updated": "2026-11-03T09:04:04.894854+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-03T07:27:37.264158+00:00",
+  "checked": "2026-11-03T09:04:04.960727+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-03T07:27:37.225134+00:00"
+  "checked": "2026-11-03T09:04:04.894854+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-03T07:27:37.225134+00:00"
+  "checked": "2026-11-03T09:04:04.894854+00:00"
  },
  "items": [
+  {
+   "title": "NATO\u2019s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
+   "link": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
+   "source": "SecurityWeek",
+   "date": "2026-11-03T08:49:03+00:00"
+  },
+  {
+   "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
+   "link": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
+   "source": "SecurityWeek",
+   "date": "2026-11-03T07:43:24+00:00"
+  },
+  {
+   "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+   "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T07:43:07+00:00"
+  },
+  {
+   "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+   "link": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T07:27:07+00:00"
+  },
   {
    "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
    "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
@@ -83,15 +107,15 @@
    "date": "2026-11-02T15:03:07+00:00"
   },
   {
-   "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
-   "link": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T15:01:11+00:00"
-  },
-  {
    "title": "Your Mobile Carrier Stores Your Call Logs for Years",
    "link": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
    "source": "BleepingComputer",
+   "date": "2026-11-02T15:01:11+00:00"
+  },
+  {
+   "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
+   "link": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
+   "source": "SecurityWeek",
    "date": "2026-11-02T15:01:11+00:00"
   },
   {
@@ -209,12 +233,6 @@
    "date": "2026-11-02T08:40:36+00:00"
   },
   {
-   "title": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
-   "link": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T07:57:49+00:00"
-  },
-  {
    "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
    "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
    "source": "The Hacker News",
@@ -231,24 +249,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
    "source": "BleepingComputer",
    "date": "2026-11-01T15:11:21+00:00"
-  },
-  {
-   "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
-   "link": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
-   "source": "SecurityWeek",
-   "date": "2026-11-01T11:15:00+00:00"
-  },
-  {
-   "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-   "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-   "source": "The Hacker News",
-   "date": "2026-11-01T08:51:31+00:00"
-  },
-  {
-   "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
-   "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
-   "source": "The Hacker News",
-   "date": "2026-11-01T07:25:40+00:00"
   },
   {
    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-03T07:27:37.225134+00:00"
+  "checked": "2026-11-03T09:04:04.894854+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-03T07:27:37.225134+00:00"
+  "checked": "2026-11-03T09:04:04.894854+00:00"
  }
 }
