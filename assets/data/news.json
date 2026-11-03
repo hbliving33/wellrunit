@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-03T10:06:10.912490+00:00",
+ "updated": "2026-11-03T11:06:22.162763+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-03T10:06:10.958107+00:00",
+  "checked": "2026-11-03T11:06:22.313408+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-03T10:06:10.912490+00:00"
+  "checked": "2026-11-03T11:06:22.162763+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-03T10:06:10.912490+00:00"
+  "checked": "2026-11-03T11:06:22.162763+00:00"
  },
  "items": [
+  {
+   "title": "Harvard University data breach exposed info of 851,000 accounts",
+   "link": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+   "source": "BleepingComputer",
+   "date": "2026-11-03T10:53:25+00:00"
+  },
   {
    "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
    "link": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
@@ -245,12 +251,6 @@
    "date": "2026-11-01T19:57:53+00:00"
   },
   {
-   "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
-   "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
-   "source": "BleepingComputer",
-   "date": "2026-11-01T15:11:21+00:00"
-  },
-  {
    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
    "source": "Microsoft Security Blog",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-03T10:06:10.912490+00:00"
+  "checked": "2026-11-03T11:06:22.162763+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-03T10:06:10.912490+00:00"
+  "checked": "2026-11-03T11:06:22.162763+00:00"
  }
 }
