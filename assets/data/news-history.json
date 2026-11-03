@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-03T05:06:58.810435+00:00",
+ "updated": "2026-11-03T06:05:10.859692+00:00",
  "items": [
+  {
+   "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+   "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T05:34:41+00:00"
+  },
+  {
+   "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+   "link": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T05:34:37+00:00"
+  },
   {
    "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
    "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
