@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-03T17:59:12.054591+00:00",
+ "updated": "2026-11-03T19:08:13.767688+00:00",
  "items": [
+  {
+   "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+   "link": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+   "source": "BleepingComputer",
+   "date": "2026-11-03T18:51:04+00:00"
+  },
+  {
+   "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+   "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T18:46:38+00:00"
+  },
+  {
+   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+   "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T18:16:19+00:00"
+  },
+  {
+   "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-03T17:32:47+00:00"
+  },
+  {
+   "title": "Microsoft named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for AI Agent Management Platforms",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-03T17:00:00+00:00"
+  },
   {
    "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
    "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
@@ -20,13 +50,19 @@
    "date": "2026-11-03T15:41:53+00:00"
   },
   {
+   "title": "9 Cyber Awareness Tips That Actually Match Today's Maze of Threats",
+   "link": "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats",
+   "source": "Dark Reading",
+   "date": "2026-11-03T15:38:20+00:00"
+  },
+  {
    "title": "9 Cyber Awareness Tips That Actually Match Today\u2019s Maze of Threats",
    "link": "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats",
    "source": "Dark Reading",
    "date": "2026-11-03T15:38:20+00:00"
   },
   {
-   "title": "LLMJacking Emerges as Thriving Cybercriminal Enterprise",
+   "title": "LLMjacking Emerges as Thriving Cybercriminal Enterprise",
    "link": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise",
    "source": "Dark Reading",
    "date": "2026-11-03T15:35:50+00:00"
