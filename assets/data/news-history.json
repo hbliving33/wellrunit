@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-03T21:57:23.333485+00:00",
+ "updated": "2026-11-03T22:57:10.152433+00:00",
  "items": [
+  {
+   "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+   "source": "BleepingComputer",
+   "date": "2026-11-03T22:18:50+00:00"
+  },
+  {
+   "title": "Fresh European Fridge Attacks Put Cold-Chain Security in Focus",
+   "link": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security",
+   "source": "Dark Reading",
+   "date": "2026-11-03T22:16:49+00:00"
+  },
+  {
+   "title": "Germany Busts 'Crime-as-a-Service' Investment Fraud Outfit",
+   "link": "https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud",
+   "source": "Dark Reading",
+   "date": "2026-11-03T21:57:12+00:00"
+  },
   {
    "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
    "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
