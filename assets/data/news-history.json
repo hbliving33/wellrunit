@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-03T20:02:37.067147+00:00",
+ "updated": "2026-11-03T20:59:01.684566+00:00",
  "items": [
+  {
+   "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+   "link": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+   "source": "BleepingComputer",
+   "date": "2026-11-03T20:05:50+00:00"
+  },
   {
    "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
    "link": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
@@ -272,15 +278,15 @@
    "date": "2026-11-02T15:03:07+00:00"
   },
   {
-   "title": "Your Mobile Carrier Stores Your Call Logs for Years",
-   "link": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T15:01:11+00:00"
-  },
-  {
    "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
    "link": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
    "source": "SecurityWeek",
+   "date": "2026-11-02T15:01:11+00:00"
+  },
+  {
+   "title": "Your Mobile Carrier Stores Your Call Logs for Years",
+   "link": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+   "source": "BleepingComputer",
    "date": "2026-11-02T15:01:11+00:00"
   },
   {
