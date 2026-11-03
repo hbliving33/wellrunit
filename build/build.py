@@ -69,7 +69,7 @@ def icon(name):
 def plain(h):
     return re.sub(r'</?em>', '', h)
 
-NAV = [('index.html', 'Home'), ('services.html', 'Services'), ('engagement.html', 'How We Work'), ('about.html', 'About Us'), ('news.html', 'Cyber News')]
+NAV = [('index.html', 'Home'), ('services.html', 'Services'), ('engagement.html', 'Partnership'), ('about.html', 'About Us'), ('news.html', 'Cyber News')]
 SVC_FILES = {s['slug'] + '.html' for s in SERVICES}
 
 ORG_LD = json.dumps({"@context": "https://schema.org", "@type": "ProfessionalService", "name": BRAND, "url": DOMAIN, "logo": DOMAIN + "assets/brand/og.png",
@@ -115,7 +115,7 @@ def page(fname, title, desc, body):
   <div class="wrap">
     <div class="foot-row">
       <a class="brand" href="index.html" aria-label="{BRAND}, home">{logo(True)}</a>
-      <nav class="foot-links" aria-label="Footer"><a href="services.html">Services</a><a href="engagement.html">How we work</a><a href="about.html">About us</a><a href="testimonials.html">Testimonials</a><a href="news.html">Cyber news</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+      <nav class="foot-links" aria-label="Footer"><a href="services.html">Services</a><a href="engagement.html">Partnership</a><a href="about.html">About us</a><a href="testimonials.html">Testimonials</a><a href="news.html">Cyber news</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
     </div>
     <div class="base"><span>&copy; {YEAR} {BRAND}</span><span>Supporting all 50 states</span></div>
   </div>
@@ -258,13 +258,13 @@ def engagement():
     steps = [('Ask Bernie', "A few quick questions and everything goes to a real person, who calls you back at a time you picked."), ('Get a written proposal', 'A clear scope, timeline and price, in plain English.'), ('Kick off', 'We get to work, keep you posted and document everything as we go.'), ('Hand-off or ongoing', 'Projects end with documentation you own.  Managed and fractional work continue month to month.')]
     st = ''.join(f'<li><span class="tl-n">{n}</span><h3>{t}</h3><p>{d}</p></li>' for n, (t, d) in enumerate(steps, 1))
     std = ''.join(f'<li><span class="li-ic">{icon(k)}</span><div><h3>{t}</h3><p>{d}</p></div></li>' for k, t, d in C['STANDARD'])
-    body = phero('Work with us the way that fits.', 'One job, a managed IT plan built around you, or a senior IT leader part time.  Start with one and add another later.') + f'''
+    body = phero('A partnership built around your business.', 'One job, a managed IT plan built around you, or a senior IT leader part time.  Start with one and add another later.') + f'''
 <section class="tight"><div class="wrap"><div class="ways">{cols}</div></div></section>
 <section class="dark"><div class="wrap"><div class="sec-head"><h2>How an engagement starts.</h2></div><ol class="timeline">{st}</ol></div></section>
 <section><div class="wrap"><div class="sec-head"><h2>Our standard, in writing.</h2><p class="lead">Six commitments we hold ourselves to on every engagement, large or small.</p></div><ul class="standards">{std}</ul></div></section>
 {faq()}
 {cta()}'''
-    page('engagement.html', f'How We Work | {BRAND}', 'Projects, a managed IT plan built around you, or fractional IT leadership.  Written scope and price before any work starts.', body)
+    page('engagement.html', f'Partnership | {BRAND}', 'Projects, a managed IT plan built around you, or fractional IT leadership.  Written scope and price before any work starts.', body)
 
 def why():
     redirect('why-us.html', 'about.html')   # Why Us merged into About Us, Nov 2026
