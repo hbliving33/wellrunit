@@ -1,0 +1,12 @@
+name: ntfy test (temporary)
+on: { push: { branches: [main], paths: ['.github/workflows/ntfy-test.yml'] } }
+permissions: { contents: read }
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env: { NTFY_TOPIC: '${{ secrets.NTFY_TOPIC }}' }
+    steps:
+      - run: |
+          echo "topic length: ${#NTFY_TOPIC}"
+          code=$(curl -sS -o /tmp/r.txt -w "%{http_code}" -H "Title: Test from GitHub" -H "Priority: urgent" -d "If you see this, your ntfy channel name is right." "https://ntfy.sh/$NTFY_TOPIC")
+          echo "ntfy.sh answered HTTP $code"; head -c 300 /tmp/r.txt | sed 's/"topic":"[^"]*"/"topic":"(hidden)"/'
