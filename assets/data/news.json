@@ -1,21 +1,51 @@
 {
- "updated": "2026-11-03T15:02:09.908534+00:00",
+ "updated": "2026-11-03T16:03:16.703468+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-03T15:02:09.950333+00:00",
+  "checked": "2026-11-03T16:03:16.906427+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-03T15:02:09.908534+00:00"
+  "checked": "2026-11-03T16:03:16.703468+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-03T15:02:09.908534+00:00"
+  "checked": "2026-11-03T16:03:16.703468+00:00"
  },
  "items": [
+  {
+   "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+   "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T15:41:53+00:00"
+  },
+  {
+   "title": "LLMJacking Emerges as Thriving Cybercriminal Enterprise",
+   "link": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise",
+   "source": "Dark Reading",
+   "date": "2026-11-03T15:35:50+00:00"
+  },
+  {
+   "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+   "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T15:16:32+00:00"
+  },
+  {
+   "title": "Barracuda warns of critical flaws allowing root access to devices",
+   "link": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+   "source": "BleepingComputer",
+   "date": "2026-11-03T15:06:16+00:00"
+  },
+  {
+   "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+   "link": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+   "source": "BleepingComputer",
+   "date": "2026-11-03T15:00:10+00:00"
+  },
   {
    "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
    "link": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
@@ -29,15 +59,15 @@
    "date": "2026-11-03T14:12:44+00:00"
   },
   {
-   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-   "link": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T14:00:00+00:00"
-  },
-  {
    "title": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
    "link": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
    "source": "Dark Reading",
+   "date": "2026-11-03T14:00:00+00:00"
+  },
+  {
+   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "link": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "source": "BleepingComputer",
    "date": "2026-11-03T14:00:00+00:00"
   },
   {
@@ -215,12 +245,6 @@
    "date": "2026-11-02T15:00:00+00:00"
   },
   {
-   "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-   "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T14:46:05+00:00"
-  },
-  {
    "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
    "link": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
    "source": "SecurityWeek",
@@ -237,24 +261,6 @@
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
    "source": "Dark Reading",
    "date": "2026-11-02T14:00:00+00:00"
-  },
-  {
-   "title": "Microsoft fixes Smart App Control broken by October Windows update",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T13:57:29+00:00"
-  },
-  {
-   "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T12:47:00+00:00"
-  },
-  {
-   "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-   "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T11:50:00+00:00"
   },
   {
    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
@@ -309,12 +315,6 @@
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
    "source": "Dark Reading",
    "date": "2026-10-29T21:21:56+00:00"
-  },
-  {
-   "title": "Rethinking Cybersecurity Awareness in the AI Era",
-   "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
-   "source": "Dark Reading",
-   "date": "2026-10-29T20:15:37+00:00"
   },
   {
    "title": "Tracking AI adoption in North Korean threat actor tradecraft",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-03T15:02:09.908534+00:00"
+  "checked": "2026-11-03T16:03:16.703468+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-03T15:02:09.908534+00:00"
+  "checked": "2026-11-03T16:03:16.703468+00:00"
  }
 }
