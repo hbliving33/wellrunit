@@ -122,10 +122,11 @@ function cleanLead(l) {
     state: STATES.includes(l.state) ? l.state : '', need: str(l.need, 3000), emergency: l.emergency === true,
     times: Array.isArray(l.times) ? l.times.slice(0, 3).map((t) => str(t, 120)).filter(Boolean) : [],
   };
-  if (!lead.name || !lead.company || !lead.state || !lead.need) return null;
+  if (!lead.name || lead.phone.replace(/\D/g, '').length < 7) return null;
+  if (lead.emergency) return lead;   // emergency: name and phone are all we ask for
+  if (!lead.company || !lead.state || !lead.need) return null;
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(lead.email)) return null;
-  if (lead.phone.replace(/\D/g, '').length < 7) return null;
-  if (!lead.emergency && lead.times.length !== 3) return null;
+  if (lead.times.length < 1) return null;   // one to three callback times
   return lead;
 }
 function cleanTranscript(t) {
@@ -145,8 +146,12 @@ async function graphToken(env) {
 
 // The email always has the same subject format and the same rows in the same order.
 async function sendLeadEmail(env, lead, transcript) {
-  const subject = `${lead.emergency ? 'URGENT | ' : ''}${lead.company}, ${lead.state} | Website request`;
-  const rows = [
+  const subject = lead.emergency ? `URGENT | Call ${lead.name}, ${lead.phone} | Website emergency` : `${lead.company}, ${lead.state} | Website request`;
+  const rows = lead.emergency ? [
+    ['Emergency', 'YES, the visitor says something is down right now'],
+    ['Name', lead.name],
+    ['Phone', lead.phone],
+  ] : [
     ['Emergency', lead.emergency ? 'YES, the visitor says something is down right now' : 'No'],
     ['Customer', lead.type],
     ['Company', lead.company],
@@ -161,7 +166,7 @@ async function sendLeadEmail(env, lead, transcript) {
   const chat = transcript.length ? transcript.map((m) => `<p style="margin:0 0 8px"><b>${m.who}:</b> ${esc(m.text)}</p>`).join('') : '<p style="margin:0">No chat, form only.</p>';
   const html = `<div style="font:15px/1.5 Segoe UI,Arial,sans-serif;max-width:680px">
 <h2 style="margin:0 0 4px;font-size:20px;color:${lead.emergency ? '#b42318' : '#1b2430'}">${lead.emergency ? 'URGENT: ' : ''}New website request</h2>
-<p style="margin:0 0 16px;color:#6b7787">Sent by Bernie on wellrunit.com.  Reply to this email to answer the customer directly.</p>
+<p style="margin:0 0 16px;color:#6b7787">Sent by Bernie on wellrunit.com.  ${lead.emergency ? "Emergency: call them now." : "Reply to this email to answer the customer directly."}</p>
 <table style="border-collapse:collapse">${table}</table>
 <h3 style="margin:22px 0 8px;font-size:16px;color:#1b2430">Full chat</h3>${chat}</div>`;
   const token = await graphToken(env);
@@ -172,7 +177,7 @@ async function sendLeadEmail(env, lead, transcript) {
         subject, importance: lead.emergency ? 'high' : 'normal',
         body: { contentType: 'HTML', content: html },
         toRecipients: [{ emailAddress: { address: env.SUPPORT_MAILBOX } }],
-        replyTo: [{ emailAddress: { address: lead.email, name: lead.name } }],
+        ...(lead.email ? { replyTo: [{ emailAddress: { address: lead.email, name: lead.name } }] } : {}),   // emergencies have no email
       },
       saveToSentItems: false,
     }),
@@ -184,8 +189,8 @@ async function sendLeadEmail(env, lead, transcript) {
 async function alertPhones(env, lead) {
   await fetch(`https://ntfy.sh/${env.NTFY_TOPIC}`, {
     method: 'POST',
-    // Keep personal details off the alert service: company and state only, and plain ASCII for the header.
-    headers: { Title: `URGENT website request: ${lead.company}, ${lead.state}`.replace(/[^\x20-\x7e]/g, '?').slice(0, 120), Priority: 'urgent', Tags: 'rotating_light' },
-    body: 'An emergency came in through Bernie.  Full details are in the support mailbox.',
+    // Emergencies carry just a name and phone number, so the alert includes them: the point is to call right away.
+    headers: { Title: `URGENT: call ${lead.name} at ${lead.phone}`.replace(/[^\x20-\x7e]/g, '?').slice(0, 120), Priority: 'urgent', Tags: 'rotating_light' },
+    body: `Emergency through Bernie on wellrunit.com.  Call ${lead.name} at ${lead.phone}.  A copy is in the support mailbox.`,
   });
 }

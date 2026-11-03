@@ -116,11 +116,12 @@
   function startForm() {
     inForm = true;
     steps.length = 0;
-    if (!lead.need) steps.push(stepNeed);
-    steps.push(stepType, stepName, stepCompany, stepEmail, stepPhone, stepState);
-    if (!lead.emergency) steps.push(stepTimes);
-    steps.push(review);
-    if (lead.emergency) say('Got it.  A few quick details and I\'ll alert our team right away.');
+    if (lead.emergency) steps.push(stepName, stepPhone, review);   // emergency: just name and phone, fast
+    else {
+      if (!lead.need) steps.push(stepNeed);
+      steps.push(stepType, stepName, stepCompany, stepEmail, stepPhone, stepState, stepTimes, review);
+    }
+    if (lead.emergency) say('Got it.  Just your name and best phone number, and I\'ll alert our team right away.');
     else say('Happy to.  A few quick questions and a real person will take it from there.');
     next();
   }
@@ -169,8 +170,9 @@
     }
     const slots = []; for (let h = 7; h < 16; h++) for (const mm of [0, 30]) slots.push([h, mm]);
     const zoneName = local(new Date(), { timeZoneName: 'short' }).split(' ').pop();
-    say(`Pick three times that work for a callback.  Times are shown in your time zone (${zoneName}).`);
+    say(`Pick two or three times that work for a callback.  One is fine too.  Times are shown in your time zone (${zoneName}).`);
     const f = el('form', 'btimes');
+    f.appendChild(el('p', 'bthint', `Pick two or three callback times (${zoneName}).  One is fine too.`));
     const rows = [0, 1, 2].map((i) => {
       const r = el('div', 'btrow');
       const ds = el('select'); ds.setAttribute('aria-label', `Choice ${i + 1} day`);
@@ -191,9 +193,11 @@
     f.append(err, send);
     f.addEventListener('submit', (e) => {
       e.preventDefault();
-      const picked = rows.map(([ds, ts]) => (ds.value === '' || ts.value === '' ? null : ptInstant(...days[+ds.value], ...slots[+ts.value])));
-      if (picked.includes(null)) { err.textContent = 'Please pick a day and time for all three.'; err.hidden = false; return; }
-      if (new Set(picked.map((d) => d.getTime())).size < 3) { err.textContent = 'Please pick three different times.'; err.hidden = false; return; }
+      let picked = rows.map(([ds, ts]) => (ds.value === '' || ts.value === '' ? null : ptInstant(...days[+ds.value], ...slots[+ts.value])));
+      const half = rows.some(([ds, ts]) => (ds.value === '') !== (ts.value === ''));
+      if (half) { err.textContent = 'Pick both a day and a time, or leave that line blank.'; err.hidden = false; return; }
+      picked = [...new Map(picked.filter(Boolean).map((d) => [d.getTime(), d])).values()];
+      if (!picked.length) { err.textContent = 'Pick at least one day and time.'; err.hidden = false; return; }
       picked.sort((a, b) => a - b);
       const fmt = (dt) => `${local(dt, { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })}` + (zone === PAC ? '' : `  (${pt(dt, { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })})`);
       lead.times = picked.map(fmt);
@@ -205,8 +209,8 @@
 
   // Review: everything at once, change any one thing without starting over.
   function review() {
-    const fields = [['need', 'What you need'], ['type', 'Customer'], ['name', 'Name'], ['company', 'Company'], ['email', 'Email'], ['phone', 'Phone'], ['state', 'State']];
-    if (!lead.emergency) fields.push(['times', 'Callback times']);
+    const fields = lead.emergency ? [['name', 'Name'], ['phone', 'Phone']]
+      : [['need', 'What you need'], ['type', 'Customer'], ['name', 'Name'], ['company', 'Company'], ['email', 'Email'], ['phone', 'Phone'], ['state', 'State'], ['times', 'Callback times']];
     say("Here's what I'll send.  Tap anything to change it.");
     const box = el('div', 'breview');
     fields.forEach(([k, label]) => {

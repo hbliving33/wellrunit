@@ -449,3 +449,4 @@ section.band{background:#e3e8ef}
 /* every Contact us button matches Ask Bernie, on light and dark backgrounds */
 .hero .btn,.panel .btn,.dark .btn{background:var(--accent);color:#fff}
 .hero .btn:hover,.panel .btn:hover,.dark .btn:hover{background:#3d6a9c}
+.bthint{margin:0 0 2px;font-size:13.5px;font-weight:600;color:var(--ink2)}
