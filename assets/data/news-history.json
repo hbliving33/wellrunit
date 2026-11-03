@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-03T11:58:15.556610+00:00",
+ "updated": "2026-11-03T13:19:17.563339+00:00",
  "items": [
+  {
+   "title": "Android\u2019s November 2026 Updates Patch Over 200 Vulnerabilities",
+   "link": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-03T12:21:49+00:00"
+  },
+  {
+   "title": "Critical Node-RED Flaw Exploited in Attacks",
+   "link": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-03T12:10:19+00:00"
+  },
+  {
+   "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
+   "link": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+   "source": "BleepingComputer",
+   "date": "2026-11-03T12:05:52+00:00"
+  },
+  {
+   "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+   "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T11:23:53+00:00"
+  },
+  {
+   "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+   "link": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T11:18:20+00:00"
+  },
+  {
+   "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+   "link": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T11:00:45+00:00"
+  },
   {
    "title": "Harvard University data breach exposed info of 851,000 accounts",
    "link": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
