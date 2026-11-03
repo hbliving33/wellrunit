@@ -78,7 +78,7 @@ async function api(request, env, url) {
     // Emergency: the phone alert goes first and doesn't wait on email.  If either one gets through, the visitor is told it worked.
     if (lead.emergency) {
       const [alert, mail] = await Promise.allSettled([alertPhones(env, lead), sendLeadEmail(env, lead, transcript)]);
-      if (alert.status === 'rejected') console.log('ntfy failed', alert.reason && alert.reason.message);
+      if (alert.status === 'rejected') console.log('pushover failed', alert.reason && alert.reason.message);
       if (mail.status === 'rejected') console.log('email failed', mail.reason && mail.reason.message);
       if (alert.status === 'rejected' && mail.status === 'rejected') return json({ ok: false, error: 'send failed' }, 502);
       return json({ ok: true });
@@ -193,13 +193,15 @@ async function sendLeadEmail(env, lead, transcript) {
   if (r.status !== 202) throw new Error('sendMail ' + r.status + ' ' + (await r.text()).slice(0, 300));
 }
 
-// Emergency push alert to the ntfy app on Eric's and Vicki's phones.  No phone numbers involved.
+// Emergency alert to Eric's phone through Pushover (limits are per account, not per IP, so Cloudflare's shared IPs don't matter).
+// Priority 2 repeats every 60 seconds for up to 30 minutes until it's acknowledged in the app.
 async function alertPhones(env, lead) {
-  const r = await fetch(`https://ntfy.sh/${env.NTFY_TOPIC}`, {
-    method: 'POST',
-    // Emergencies carry just a name and phone number, so the alert includes them: the point is to call right away.
-    headers: { Title: `URGENT: call ${lead.name} at ${lead.phone}`.replace(/[^\x20-\x7e]/g, '?').slice(0, 120), Priority: 'urgent', Tags: 'rotating_light' },
-    body: `Emergency through Bernie on wellrunit.com.  Call ${lead.name} at ${lead.phone}.  A copy is in the support mailbox.`,
+  const form = new URLSearchParams({
+    token: env.PUSHOVER_TOKEN, user: env.PUSHOVER_USER,
+    title: `URGENT: call ${lead.name} at ${lead.phone}`.slice(0, 250),
+    message: `Emergency through Bernie on wellrunit.com.  Call ${lead.name} at ${lead.phone}.  A copy is in the support mailbox.`,
+    priority: '2', retry: '60', expire: '1800',
   });
-  if (!r.ok) throw new Error('ntfy ' + r.status);
+  const r = await fetch('https://api.pushover.net/1/messages.json', { method: 'POST', body: form });
+  if (!r.ok) throw new Error('pushover ' + r.status + ' ' + (await r.text()).slice(0, 200));
 }
