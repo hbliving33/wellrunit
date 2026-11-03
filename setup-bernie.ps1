@@ -28,7 +28,7 @@ $ScopeName = 'Bernie - support mailbox only'
 function Say($msg, $color = 'Gray') { Write-Host $msg -ForegroundColor $color }
 
 # ---------- modules and tools ----------
-foreach ($m in 'Microsoft.Graph.Authentication', 'Microsoft.Graph.Applications', 'ExchangeOnlineManagement') {
+foreach ($m in 'Microsoft.Graph.Authentication', 'Microsoft.Graph.Applications') {
     if (-not (Get-Module -ListAvailable -Name $m)) { Say "Installing $m..."; Install-Module $m -Scope CurrentUser -Force -AllowClobber }
     Import-Module $m
 }
@@ -61,34 +61,42 @@ foreach ($old in (Get-MgApplication -ApplicationId $app.Id).PasswordCredentials 
 Say ("New client secret created.  It expires {0:MMMM d, yyyy}; run this script again before then." -f $expires) 'Yellow'
 
 # ---------- 2. Exchange RBAC for Applications: Mail.Send on the support mailbox only ----------
-Say "Signing in to Exchange Online as $Admin..." 'Cyan'
-# -DisableWAM avoids the Windows sign-in broker crash ("Object reference not set...") in some terminals; it needs module 3.7.2 or later
-if (-not (Get-Command Connect-ExchangeOnline).Parameters.ContainsKey('DisableWAM')) {
-    Say 'Updating ExchangeOnlineManagement (3.7.2 or later is needed)...'
-    Install-Module ExchangeOnlineManagement -Scope CurrentUser -Force -AllowClobber
-    Remove-Module ExchangeOnlineManagement -ErrorAction SilentlyContinue
-    Import-Module ExchangeOnlineManagement -Force
-}
-Connect-ExchangeOnline -UserPrincipalName $Admin -ShowBanner:$false -DisableWAM
-$null = Get-Mailbox -Identity $Mailbox   # stops here if the mailbox doesn't exist
-
-if (-not (Get-ServicePrincipal -Identity $app.AppId -ErrorAction SilentlyContinue)) {
-    New-ServicePrincipal -AppId $app.AppId -ObjectId $sp.Id -DisplayName $AppName | Out-Null
-    Say 'Registered the app with Exchange Online.'
-}
-if (-not (Get-ManagementScope -Identity $ScopeName -ErrorAction SilentlyContinue)) {
-    New-ManagementScope -Name $ScopeName -RecipientRestrictionFilter "PrimarySmtpAddress -eq '$Mailbox'" | Out-Null
-    Say "Created management scope: $ScopeName"
-}
-$have = Get-ManagementRoleAssignment -Role 'Application Mail.Send' -ErrorAction SilentlyContinue | Where-Object { $_.CustomResourceScope -eq $ScopeName }
-if (-not $have) {
-    New-ManagementRoleAssignment -App $app.AppId -Role 'Application Mail.Send' -CustomResourceScope $ScopeName | Out-Null
-    Say 'Assigned Application Mail.Send, limited to the support mailbox.'
-}
-Say 'Permission check (InScope should be True):' 'Cyan'
-Test-ServicePrincipalAuthorization -Identity $app.AppId -Resource $Mailbox | Format-Table RoleName, GrantedPermissions, AllowedResourceScope, InScope -AutoSize
-Disconnect-ExchangeOnline -Confirm:$false
+# Runs in its own clean pwsh process.  The Graph module loads its own copy of Microsoft's sign-in library (MSAL),
+# and Exchange Online crashes if it shares that session ("Object reference not set to an instance of an object").
 Disconnect-MgGraph | Out-Null
+$exo = {
+    param($Admin, $Mailbox, $AppId, $SpId, $AppName, $ScopeName)
+    $ErrorActionPreference = 'Stop'
+    $m = Get-Module -ListAvailable ExchangeOnlineManagement | Sort-Object Version -Descending | Select-Object -First 1
+    if (-not $m -or $m.Version -lt [version]'3.7.2') {
+        Write-Host 'Installing ExchangeOnlineManagement 3.7.2 or later...'
+        Install-Module ExchangeOnlineManagement -Scope CurrentUser -Force -AllowClobber
+    }
+    Import-Module ExchangeOnlineManagement
+    Write-Host "Signing in to Exchange Online as $Admin (a browser window will open)..." -ForegroundColor Cyan
+    Connect-ExchangeOnline -UserPrincipalName $Admin -ShowBanner:$false -DisableWAM
+    $null = Get-Mailbox -Identity $Mailbox   # stops here if the mailbox doesn't exist
+    if (-not (Get-ServicePrincipal -Identity $AppId -ErrorAction SilentlyContinue)) {
+        New-ServicePrincipal -AppId $AppId -ObjectId $SpId -DisplayName $AppName | Out-Null
+        Write-Host 'Registered the app with Exchange Online.'
+    }
+    if (-not (Get-ManagementScope -Identity $ScopeName -ErrorAction SilentlyContinue)) {
+        New-ManagementScope -Name $ScopeName -RecipientRestrictionFilter "PrimarySmtpAddress -eq '$Mailbox'" | Out-Null
+        Write-Host "Created management scope: $ScopeName"
+    }
+    $have = Get-ManagementRoleAssignment -Role 'Application Mail.Send' -ErrorAction SilentlyContinue | Where-Object { $_.CustomResourceScope -eq $ScopeName }
+    if (-not $have) {
+        New-ManagementRoleAssignment -App $AppId -Role 'Application Mail.Send' -CustomResourceScope $ScopeName | Out-Null
+        Write-Host 'Assigned Application Mail.Send, limited to the support mailbox.'
+    }
+    Write-Host 'Permission check (InScope should be True):' -ForegroundColor Cyan
+    foreach ($r in Test-ServicePrincipalAuthorization -Identity $AppId -Resource $Mailbox) {
+        Write-Host ("  {0}  |  scope: {1}  |  InScope: {2}" -f $r.RoleName, $r.AllowedResourceScope, $r.InScope) -ForegroundColor $(if ($r.InScope -eq $true) { 'Green' } else { 'Yellow' })
+    }
+    Disconnect-ExchangeOnline -Confirm:$false
+}
+& (Join-Path $PSHOME 'pwsh.exe') -NoProfile -OutputFormat Text -Command $exo -args $Admin, $Mailbox, $app.AppId, $sp.Id, $AppName, $ScopeName
+if ($LASTEXITCODE -ne 0) { throw 'The Exchange Online step failed (see the error just above).  Nothing was saved to GitHub.' }
 
 # ---------- 3. Random values ----------
 $bytes = [byte[]]::new(48); [Security.Cryptography.RandomNumberGenerator]::Fill($bytes)
