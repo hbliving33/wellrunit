@@ -7,6 +7,12 @@ jobs:
     env: { NTFY_TOPIC: '${{ secrets.NTFY_TOPIC }}' }
     steps:
       - run: |
-          echo "topic length: ${#NTFY_TOPIC}"
-          code=$(curl -sS -o /tmp/r.txt -w "%{http_code}" -H "Title: Test from GitHub" -H "Priority: urgent" -d "If you see this, your ntfy channel name is right." "https://ntfy.sh/$NTFY_TOPIC")
-          echo "ntfy.sh answered HTTP $code"; head -c 300 /tmp/r.txt | sed 's/"topic":"[^"]*"/"topic":"(hidden)"/'
+          echo "Messages in the channel over the last 12 hours (time, title):"
+          curl -sS "https://ntfy.sh/$NTFY_TOPIC/json?poll=1&since=12h" | python3 -c "
+          import sys, json, datetime
+          for l in sys.stdin:
+              m = json.loads(l)
+              if m.get('event') == 'message':
+                  t = datetime.datetime.fromtimestamp(m['time'], datetime.timezone(datetime.timedelta(hours=-8))).strftime('%I:%M %p PT')
+                  print(' ', t, '|', m.get('title', '').split(' at ')[0])
+          "
