@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-03T17:09:40.697354+00:00",
+ "updated": "2026-11-03T17:59:12.054591+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-03T17:09:40.885750+00:00",
+  "checked": "2026-11-03T17:59:12.220123+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-03T17:09:40.697354+00:00"
+  "checked": "2026-11-03T17:59:12.054591+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-03T17:09:40.697354+00:00"
+  "checked": "2026-11-03T17:59:12.054591+00:00"
  },
  "items": [
+  {
+   "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+   "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T16:55:58+00:00"
+  },
+  {
+   "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+   "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+   "source": "The Hacker News",
+   "date": "2026-11-03T15:59:19+00:00"
+  },
   {
    "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
    "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
@@ -197,6 +209,12 @@
    "date": "2026-11-02T21:40:14+00:00"
   },
   {
+   "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-02T20:20:59+00:00"
+  },
+  {
    "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
    "link": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
    "source": "BleepingComputer",
@@ -207,18 +225,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
    "source": "BleepingComputer",
    "date": "2026-11-02T18:16:34+00:00"
-  },
-  {
-   "title": "\u26a1 Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-   "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T16:57:56+00:00"
-  },
-  {
-   "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-   "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T15:50:26+00:00"
   },
   {
    "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
@@ -263,6 +269,12 @@
    "date": "2026-11-02T14:00:00+00:00"
   },
   {
+   "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-31T01:02:57+00:00"
+  },
+  {
    "title": "Investors Dish on New Startups & What They'd Back Next",
    "link": "https://www.darkreading.com/cybersecurity-operations/investors-dish-new-startsup-what-back-next",
    "source": "Dark Reading",
@@ -279,6 +291,12 @@
    "link": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
    "source": "Dark Reading",
    "date": "2026-10-30T19:46:08+00:00"
+  },
+  {
+   "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-30T16:11:44+00:00"
   },
   {
    "title": "L\u2019Italia \u00e8 afflitta da vulnerabilit\u00e0 informatiche, senza una causa chiara",
@@ -299,6 +317,18 @@
    "date": "2026-10-30T08:00:00+00:00"
   },
   {
+   "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-29T16:00:00+00:00"
+  },
+  {
+   "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-29T16:00:00+00:00"
+  },
+  {
    "title": "Actively exploited: GitLab Community Edition and Enterprise Edition (CVE-2026-97229)",
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
    "source": "CISA",
@@ -309,6 +339,24 @@
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
    "source": "CISA",
    "date": "2026-10-29T00:00:00+00:00"
+  },
+  {
+   "title": "The CISO\u2019s evolving role: Protecting and defending in the agentic era",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-28T16:00:00+00:00"
+  },
+  {
+   "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-23T18:12:19+00:00"
+  },
+  {
+   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-10-21T18:23:55+00:00"
   },
   {
    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -323,71 +371,23 @@
    "date": "2026-10-19T13:48:56+00:00"
   },
   {
-   "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-   "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-   "source": "Krebs on Security",
-   "date": "2026-10-14T14:22:49+00:00"
-  },
-  {
-   "title": "Microsoft Patches More Than 1,400 Security Flaws",
-   "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-   "source": "Krebs on Security",
-   "date": "2026-10-13T23:24:53+00:00"
-  },
-  {
-   "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-   "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-   "source": "Krebs on Security",
-   "date": "2026-10-10T00:17:42+00:00"
-  },
-  {
-   "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+   "title": "Agents are your newest insiders. Security must move at their speed.",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
    "source": "Microsoft Security Blog",
-   "date": "2026-10-08T20:44:28+00:00"
-  },
-  {
-   "title": "3 lessons from frontier AI vulnerability research",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-07T16:00:00+00:00"
-  },
-  {
-   "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-   "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-   "source": "Krebs on Security",
-   "date": "2026-10-07T13:48:45+00:00"
-  },
-  {
-   "title": "CISO perspectives on managing vulnerability risks in the age of AI",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-06T16:00:00+00:00"
-  },
-  {
-   "title": "Preparing governments for an era of interconnected cyber risk",
-   "link": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-01T14:00:00+00:00"
-  },
-  {
-   "title": "Insights from the 2026 Microsoft Digital Defense Report",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-01T14:00:00+00:00"
+   "date": "2026-10-19T13:00:00+00:00"
   }
  ],
  "errors": {
   "CISA": "HTTP Error 403: Forbidden"
  },
  "zoom": {
-  "status": "Service Under Maintenance",
+  "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-03T17:09:40.697354+00:00"
+  "checked": "2026-11-03T17:59:12.054591+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-03T17:09:40.697354+00:00"
+  "checked": "2026-11-03T17:59:12.054591+00:00"
  }
 }
