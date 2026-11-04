@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-04T21:03:17.333634+00:00",
+ "updated": "2026-11-04T21:58:43.193125+00:00",
  "items": [
+  {
+   "title": "Vercel rolls out new protection against stolen session cookie attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T21:31:18+00:00"
+  },
   {
    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
    "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",

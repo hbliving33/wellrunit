@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-04T21:03:17.333634+00:00",
+ "updated": "2026-11-04T21:58:43.193125+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-04T21:03:17.365258+00:00",
+  "checked": "2026-11-04T21:58:43.231467+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-04T21:03:17.333634+00:00"
+  "checked": "2026-11-04T21:58:43.193125+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-04T21:03:17.333634+00:00"
+  "checked": "2026-11-04T21:58:43.193125+00:00"
  },
  "items": [
+  {
+   "title": "Vercel rolls out new protection against stolen session cookie attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T21:31:18+00:00"
+  },
   {
    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
    "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
@@ -245,12 +251,6 @@
    "date": "2026-11-03T21:57:12+00:00"
   },
   {
-   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-   "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T21:28:44+00:00"
-  },
-  {
    "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
    "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
    "source": "The Hacker News",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-04T21:03:17.333634+00:00"
+  "checked": "2026-11-04T21:58:43.193125+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-04T21:03:17.333634+00:00"
+  "checked": "2026-11-04T21:58:43.193125+00:00"
  }
 }
