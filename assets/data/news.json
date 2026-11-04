@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-04T17:07:52.756160+00:00",
+ "updated": "2026-11-04T18:02:19.479482+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-04T17:07:52.944477+00:00",
+  "checked": "2026-11-04T18:02:19.635528+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-04T17:07:52.756160+00:00"
+  "checked": "2026-11-04T18:02:19.479482+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-04T17:07:52.756160+00:00"
+  "checked": "2026-11-04T18:02:19.479482+00:00"
  },
  "items": [
+  {
+   "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+   "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T17:00:46+00:00"
+  },
+  {
+   "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+   "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T17:00:38+00:00"
+  },
   {
    "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
    "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
@@ -23,10 +35,16 @@
    "date": "2026-11-04T16:58:46+00:00"
   },
   {
-   "title": "Google, Partners Disrupts 1.3 Million-Device-Strong XCPE Botnet",
+   "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
    "link": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
    "source": "Dark Reading",
    "date": "2026-11-04T16:24:08+00:00"
+  },
+  {
+   "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+   "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T16:06:43+00:00"
   },
   {
    "title": "mSecure password manager hack prompts password reset warnings",
@@ -233,12 +251,6 @@
    "date": "2026-11-03T18:46:38+00:00"
   },
   {
-   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-   "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T18:16:19+00:00"
-  },
-  {
    "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
    "source": "Microsoft Security Blog",
@@ -249,18 +261,6 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/",
    "source": "Microsoft Security Blog",
    "date": "2026-11-03T17:00:00+00:00"
-  },
-  {
-   "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-   "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T16:55:58+00:00"
-  },
-  {
-   "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-   "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T15:59:19+00:00"
   },
   {
    "title": "9 Cyber Awareness Tips That Actually Match Today's Maze of Threats",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-04T17:07:52.756160+00:00"
+  "checked": "2026-11-04T18:02:19.479482+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-04T17:07:52.756160+00:00"
+  "checked": "2026-11-04T18:02:19.479482+00:00"
  }
 }
