@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-04T12:00:47.433428+00:00",
+ "updated": "2026-11-04T13:21:38.257838+00:00",
  "items": [
+  {
+   "title": "US charges two Canadians accused of hacking US universities",
+   "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T13:13:20+00:00"
+  },
+  {
+   "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
+   "link": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-04T12:43:20+00:00"
+  },
+  {
+   "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
+   "link": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
+   "source": "SecurityWeek",
+   "date": "2026-11-04T12:27:58+00:00"
+  },
+  {
+   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T12:11:05+00:00"
+  },
+  {
+   "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+   "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T12:07:04+00:00"
+  },
+  {
+   "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+   "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T11:46:27+00:00"
+  },
+  {
+   "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+   "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T11:34:20+00:00"
+  },
+  {
+   "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+   "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T11:24:31+00:00"
+  },
   {
    "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
    "link": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
@@ -60,6 +108,12 @@
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
    "source": "Dark Reading",
    "date": "2026-11-04T02:00:00+00:00"
+  },
+  {
+   "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
+   "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
+   "source": "Dark Reading",
+   "date": "2026-11-04T01:05:40+00:00"
   },
   {
    "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",

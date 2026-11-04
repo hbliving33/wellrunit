@@ -1,21 +1,69 @@
 {
- "updated": "2026-11-04T12:00:47.433428+00:00",
+ "updated": "2026-11-04T13:21:38.257838+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-04T12:00:47.476947+00:00",
+  "checked": "2026-11-04T13:21:38.372850+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-04T12:00:47.433428+00:00"
+  "checked": "2026-11-04T13:21:38.257838+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-04T12:00:47.433428+00:00"
+  "checked": "2026-11-04T13:21:38.257838+00:00"
  },
  "items": [
+  {
+   "title": "US charges two Canadians accused of hacking US universities",
+   "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T13:13:20+00:00"
+  },
+  {
+   "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
+   "link": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-04T12:43:20+00:00"
+  },
+  {
+   "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
+   "link": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
+   "source": "SecurityWeek",
+   "date": "2026-11-04T12:27:58+00:00"
+  },
+  {
+   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T12:11:05+00:00"
+  },
+  {
+   "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+   "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T12:07:04+00:00"
+  },
+  {
+   "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+   "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T11:46:27+00:00"
+  },
+  {
+   "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+   "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T11:34:20+00:00"
+  },
+  {
+   "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+   "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T11:24:31+00:00"
+  },
   {
    "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
    "link": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
@@ -75,6 +123,12 @@
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
    "source": "Dark Reading",
    "date": "2026-11-04T02:00:00+00:00"
+  },
+  {
+   "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
+   "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
+   "source": "Dark Reading",
+   "date": "2026-11-04T01:05:40+00:00"
   },
   {
    "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
@@ -167,12 +221,6 @@
    "date": "2026-11-03T15:35:50+00:00"
   },
   {
-   "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
-   "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T15:16:32+00:00"
-  },
-  {
    "title": "Barracuda warns of critical flaws allowing root access to devices",
    "link": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
    "source": "BleepingComputer",
@@ -221,46 +269,10 @@
    "date": "2026-11-03T12:21:49+00:00"
   },
   {
-   "title": "Critical Node-RED Flaw Exploited in Attacks",
-   "link": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-03T12:10:19+00:00"
-  },
-  {
    "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
    "link": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
    "source": "BleepingComputer",
    "date": "2026-11-03T12:05:52+00:00"
-  },
-  {
-   "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-   "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T11:23:53+00:00"
-  },
-  {
-   "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
-   "link": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T11:18:20+00:00"
-  },
-  {
-   "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-   "link": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T11:00:45+00:00"
-  },
-  {
-   "title": "Harvard University data breach exposed info of 851,000 accounts",
-   "link": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T10:53:25+00:00"
-  },
-  {
-   "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
-   "link": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
-   "source": "SecurityWeek",
-   "date": "2026-11-03T09:49:12+00:00"
   },
   {
    "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
@@ -273,12 +285,6 @@
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
    "source": "Dark Reading",
    "date": "2026-11-02T22:27:24+00:00"
-  },
-  {
-   "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
-   "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T21:40:14+00:00"
   },
   {
    "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
@@ -315,12 +321,6 @@
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
    "source": "Dark Reading",
    "date": "2026-10-30T20:05:58+00:00"
-  },
-  {
-   "title": "Behind the Scenes of How Operation Blackout Went Down",
-   "link": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
-   "source": "Dark Reading",
-   "date": "2026-10-30T19:46:08+00:00"
   },
   {
    "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-04T12:00:47.433428+00:00"
+  "checked": "2026-11-04T13:21:38.257838+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-04T12:00:47.433428+00:00"
+  "checked": "2026-11-04T13:21:38.257838+00:00"
  }
 }
