@@ -1,21 +1,39 @@
 {
- "updated": "2026-11-04T07:30:40.536475+00:00",
+ "updated": "2026-11-04T09:09:26.137941+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-04T07:30:40.678812+00:00",
+  "checked": "2026-11-04T09:09:26.162122+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-04T07:30:40.536475+00:00"
+  "checked": "2026-11-04T09:09:26.137941+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-04T07:30:40.536475+00:00"
+  "checked": "2026-11-04T09:09:26.137941+00:00"
  },
  "items": [
+  {
+   "title": "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million",
+   "link": "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/",
+   "source": "SecurityWeek",
+   "date": "2026-11-04T08:27:05+00:00"
+  },
+  {
+   "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+   "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T08:17:11+00:00"
+  },
+  {
+   "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+   "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T07:46:15+00:00"
+  },
   {
    "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
    "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
@@ -227,22 +245,10 @@
    "date": "2026-11-03T08:49:03+00:00"
   },
   {
-   "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
-   "link": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T08:31:48+00:00"
-  },
-  {
    "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
    "link": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
    "source": "SecurityWeek",
    "date": "2026-11-03T07:43:24+00:00"
-  },
-  {
-   "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-   "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T07:43:07+00:00"
   },
   {
    "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
@@ -285,12 +291,6 @@
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
    "source": "Dark Reading",
    "date": "2026-11-02T15:00:00+00:00"
-  },
-  {
-   "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
-   "link": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T14:44:18+00:00"
   },
   {
    "title": "PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-04T07:30:40.536475+00:00"
+  "checked": "2026-11-04T09:09:26.137941+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-04T07:30:40.536475+00:00"
+  "checked": "2026-11-04T09:09:26.137941+00:00"
  }
 }
