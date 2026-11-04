@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-04T13:21:38.257838+00:00",
+ "updated": "2026-11-04T15:02:32.288482+00:00",
  "items": [
+  {
+   "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+   "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T14:42:25+00:00"
+  },
+  {
+   "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
+   "link": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+   "source": "SecurityWeek",
+   "date": "2026-11-04T14:34:44+00:00"
+  },
+  {
+   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+   "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T14:27:52+00:00"
+  },
+  {
+   "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
+   "link": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+   "source": "SecurityWeek",
+   "date": "2026-11-04T14:24:54+00:00"
+  },
+  {
+   "title": "Agentic Data Security Firm Sentra Raises $150 Million",
+   "link": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
+   "source": "SecurityWeek",
+   "date": "2026-11-04T14:09:20+00:00"
+  },
   {
    "title": "US charges two Canadians accused of hacking US universities",
    "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
