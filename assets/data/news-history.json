@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-04T10:18:36.317687+00:00",
+ "updated": "2026-11-04T12:00:47.433428+00:00",
  "items": [
+  {
+   "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
+   "link": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-04T10:54:48+00:00"
+  },
+  {
+   "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
+   "link": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
+   "source": "SecurityWeek",
+   "date": "2026-11-04T10:38:46+00:00"
+  },
+  {
+   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
+   "link": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+   "source": "SecurityWeek",
+   "date": "2026-11-04T10:36:32+00:00"
+  },
   {
    "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
    "link": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
