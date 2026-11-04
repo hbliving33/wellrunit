@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-04T01:20:42.089434+00:00",
+ "updated": "2026-11-04T03:01:55.611158+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-04T01:20:42.199765+00:00",
+  "checked": "2026-11-04T03:01:55.634983+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-04T01:20:42.089434+00:00"
+  "checked": "2026-11-04T03:01:55.611158+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-04T01:20:42.089434+00:00"
+  "checked": "2026-11-04T03:01:55.611158+00:00"
  },
  "items": [
+  {
+   "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
+   "source": "Dark Reading",
+   "date": "2026-11-04T02:00:00+00:00"
+  },
   {
    "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
@@ -323,12 +329,6 @@
    "date": "2026-10-30T16:11:44+00:00"
   },
   {
-   "title": "L\u2019Italia \u00e8 afflitta da vulnerabilit\u00e0 informatiche, senza una causa chiara",
-   "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian",
-   "source": "Dark Reading",
-   "date": "2026-10-30T15:39:54+00:00"
-  },
-  {
    "title": "Tracking AI adoption in North Korean threat actor tradecraft",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
    "source": "Microsoft Security Blog",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-04T01:20:42.089434+00:00"
+  "checked": "2026-11-04T03:01:55.611158+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-04T01:20:42.089434+00:00"
+  "checked": "2026-11-04T03:01:55.611158+00:00"
  }
 }
