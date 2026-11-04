@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-04T20:09:27.229400+00:00",
+ "updated": "2026-11-04T21:03:17.333634+00:00",
  "items": [
+  {
+   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+   "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T20:58:19+00:00"
+  },
   {
    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
    "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
