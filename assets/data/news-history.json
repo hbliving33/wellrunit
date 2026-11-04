@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-04T15:02:32.288482+00:00",
+ "updated": "2026-11-04T16:06:15.686496+00:00",
  "items": [
+  {
+   "title": "mSecure password manager hack prompts password reset warnings",
+   "link": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T16:00:18+00:00"
+  },
+  {
+   "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+   "link": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T15:00:10+00:00"
+  },
   {
    "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
@@ -24,6 +36,12 @@
    "link": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
    "source": "SecurityWeek",
    "date": "2026-11-04T14:24:54+00:00"
+  },
+  {
+   "title": "Incidents Move Too Fast for Pen & Paper",
+   "link": "https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper",
+   "source": "Dark Reading",
+   "date": "2026-11-04T14:17:00+00:00"
   },
   {
    "title": "Agentic Data Security Firm Sentra Raises $150 Million",
@@ -272,15 +290,15 @@
    "date": "2026-11-03T14:12:44+00:00"
   },
   {
-   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-   "link": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T14:00:00+00:00"
-  },
-  {
    "title": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
    "link": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
    "source": "Dark Reading",
+   "date": "2026-11-03T14:00:00+00:00"
+  },
+  {
+   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "link": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "source": "BleepingComputer",
    "date": "2026-11-03T14:00:00+00:00"
   },
   {
@@ -918,12 +936,6 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
    "source": "Microsoft Security Blog",
    "date": "2026-10-21T18:23:55+00:00"
-  },
-  {
-   "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-   "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-   "source": "Krebs on Security",
-   "date": "2026-10-21T15:26:07+00:00"
   }
  ]
 }
