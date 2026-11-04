@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-04T21:58:43.193125+00:00",
+ "updated": "2026-11-04T22:58:48.802774+00:00",
  "items": [
+  {
+   "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+   "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
+   "source": "Dark Reading",
+   "date": "2026-11-04T21:48:18+00:00"
+  },
   {
    "title": "Vercel rolls out new protection against stolen session cookie attacks",
    "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
