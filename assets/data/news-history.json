@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-04T18:02:19.479482+00:00",
+ "updated": "2026-11-04T19:13:33.322992+00:00",
  "items": [
+  {
+   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T19:05:19+00:00"
+  },
+  {
+   "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+   "link": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+   "source": "BleepingComputer",
+   "date": "2026-11-04T18:02:56+00:00"
+  },
   {
    "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
    "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
@@ -966,12 +978,6 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
    "source": "Microsoft Security Blog",
    "date": "2026-10-23T18:12:19+00:00"
-  },
-  {
-   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-21T18:23:55+00:00"
   }
  ]
 }
