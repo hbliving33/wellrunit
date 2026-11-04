@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-04T06:11:23.517970+00:00",
+ "updated": "2026-11-04T07:30:40.536475+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-04T06:11:23.536992+00:00",
+  "checked": "2026-11-04T07:30:40.678812+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-04T06:11:23.517970+00:00"
+  "checked": "2026-11-04T07:30:40.536475+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-04T06:11:23.517970+00:00"
+  "checked": "2026-11-04T07:30:40.536475+00:00"
  },
  "items": [
+  {
+   "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+   "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+   "source": "The Hacker News",
+   "date": "2026-11-04T05:43:11+00:00"
+  },
   {
    "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
@@ -239,12 +245,6 @@
    "date": "2026-11-03T07:43:07+00:00"
   },
   {
-   "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
-   "link": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T07:27:07+00:00"
-  },
-  {
    "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
    "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
    "source": "Krebs on Security",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-04T06:11:23.517970+00:00"
+  "checked": "2026-11-04T07:30:40.536475+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-04T06:11:23.517970+00:00"
+  "checked": "2026-11-04T07:30:40.536475+00:00"
  }
 }
