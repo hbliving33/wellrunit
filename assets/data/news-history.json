@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-05T12:06:42.314137+00:00",
+ "updated": "2026-11-05T13:27:09.467128+00:00",
  "items": [
+  {
+   "title": "Bank Phishing Sites Show Fake \u2018Suspended\u2019 Pages to Evade Takedowns",
+   "link": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
+   "source": "SecurityWeek",
+   "date": "2026-11-05T13:22:12+00:00"
+  },
+  {
+   "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+   "link": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
+   "source": "SecurityWeek",
+   "date": "2026-11-05T12:58:32+00:00"
+  },
+  {
+   "title": "Cisco, WatchGuard Release Patches; SonicWall Won\u2019t Fix GMS Flaws",
+   "link": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+   "source": "SecurityWeek",
+   "date": "2026-11-05T12:33:49+00:00"
+  },
+  {
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "source": "The Hacker News",
+   "date": "2026-11-05T12:08:54+00:00"
+  },
+  {
+   "title": "The Agent Smith Dilemma: Governing Agentic Identities",
+   "link": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-05T11:15:00+00:00"
+  },
   {
    "title": "CISO Conversations: Ryan Davis \u2013 The Unknown Is Where Security Meets Reality",
    "link": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
@@ -66,12 +96,6 @@
    "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
    "source": "Krebs on Security",
    "date": "2026-11-05T04:36:17+00:00"
-  },
-  {
-   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-   "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T04:31:16+00:00"
   },
   {
    "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
