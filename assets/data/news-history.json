@@ -1,17 +1,23 @@
 {
- "updated": "2026-11-05T20:04:25.930150+00:00",
+ "updated": "2026-11-05T21:00:10.480428+00:00",
  "items": [
   {
-   "title": "OpenAI\u2019s GPT-6 Astra silently obstructed safety research tasks",
-   "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+   "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+   "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
    "source": "BleepingComputer",
-   "date": "2026-11-05T19:24:26+00:00"
+   "date": "2026-11-05T20:15:08+00:00"
   },
   {
    "title": "APT29's Watering Holes Target Thousands of Mobile Users",
    "link": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
    "source": "Dark Reading",
-   "date": "2026-11-05T18:08:31+00:00"
+   "date": "2026-11-05T20:05:39+00:00"
+  },
+  {
+   "title": "OpenAI\u2019s GPT-6 Astra silently obstructed safety research tasks",
+   "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-05T19:24:26+00:00"
   },
   {
    "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
