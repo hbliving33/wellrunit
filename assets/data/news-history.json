@@ -1,11 +1,23 @@
 {
- "updated": "2026-11-05T15:11:06.565113+00:00",
+ "updated": "2026-11-05T16:18:03.016236+00:00",
  "items": [
+  {
+   "title": "DigiCert data breach exposes customer information, identity documents",
+   "link": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+   "source": "BleepingComputer",
+   "date": "2026-11-05T16:12:46+00:00"
+  },
   {
    "title": "Closing the Identity Gap at the Service Desk",
    "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
    "source": "BleepingComputer",
    "date": "2026-11-05T15:00:10+00:00"
+  },
+  {
+   "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+   "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+   "source": "The Hacker News",
+   "date": "2026-11-05T14:41:10+00:00"
   },
   {
    "title": "Bank Phishing Sites Show Fake \u2018Suspended\u2019 Pages to Evade Takedowns",
