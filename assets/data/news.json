@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-05T06:13:33.363812+00:00",
+ "updated": "2026-11-05T07:36:29.008368+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-05T06:13:33.509935+00:00",
+  "checked": "2026-11-05T07:36:29.062030+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-05T06:13:33.363812+00:00"
+  "checked": "2026-11-05T07:36:29.008368+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-05T06:13:33.363812+00:00"
+  "checked": "2026-11-05T07:36:29.008368+00:00"
  },
  "items": [
   {
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-05T06:13:33.363812+00:00"
+  "checked": "2026-11-05T07:36:29.008368+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-05T06:13:33.363812+00:00"
+  "checked": "2026-11-05T07:36:29.008368+00:00"
  }
 }
