@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-05T21:00:10.480428+00:00",
+ "updated": "2026-11-05T21:57:51.702692+00:00",
  "items": [
+  {
+   "title": "US Government Email Systems Open to Abuse Thanks to Typos",
+   "link": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
+   "source": "Dark Reading",
+   "date": "2026-11-05T21:35:05+00:00"
+  },
+  {
+   "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+   "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+   "source": "BleepingComputer",
+   "date": "2026-11-05T21:30:30+00:00"
+  },
+  {
+   "title": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
+   "link": "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
+   "source": "Dark Reading",
+   "date": "2026-11-05T21:00:47+00:00"
+  },
   {
    "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
    "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
@@ -48,6 +66,18 @@
    "link": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
    "source": "Dark Reading",
    "date": "2026-11-05T16:48:36+00:00"
+  },
+  {
+   "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+   "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+   "source": "The Hacker News",
+   "date": "2026-11-05T16:42:46+00:00"
+  },
+  {
+   "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+   "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+   "source": "The Hacker News",
+   "date": "2026-11-05T16:42:32+00:00"
   },
   {
    "title": "Hackers backdoor Linux servers using trojanized CWP web server",
