@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-05T19:10:45.485659+00:00",
+ "updated": "2026-11-05T20:04:25.930150+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-05T19:10:45.631383+00:00",
+  "checked": "2026-11-05T20:04:25.992967+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-05T19:10:45.485659+00:00"
+  "checked": "2026-11-05T20:04:25.930150+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-05T19:10:45.485659+00:00"
+  "checked": "2026-11-05T20:04:25.930150+00:00"
  },
  "items": [
+  {
+   "title": "OpenAI\u2019s GPT-6 Astra silently obstructed safety research tasks",
+   "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-05T19:24:26+00:00"
+  },
+  {
+   "title": "APT29's Watering Holes Target Thousands of Mobile Users",
+   "link": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
+   "source": "Dark Reading",
+   "date": "2026-11-05T18:08:31+00:00"
+  },
   {
    "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
    "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
@@ -245,12 +257,6 @@
    "date": "2026-11-04T16:00:18+00:00"
   },
   {
-   "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-   "link": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-   "source": "BleepingComputer",
-   "date": "2026-11-04T15:00:10+00:00"
-  },
-  {
    "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
    "link": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
    "source": "SecurityWeek",
@@ -329,12 +335,6 @@
    "date": "2026-11-03T02:24:31+00:00"
   },
   {
-   "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-   "source": "Dark Reading",
-   "date": "2026-11-02T22:27:24+00:00"
-  },
-  {
    "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
    "source": "Microsoft Security Blog",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-05T19:10:45.485659+00:00"
+  "checked": "2026-11-05T20:04:25.930150+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-05T19:10:45.485659+00:00"
+  "checked": "2026-11-05T20:04:25.930150+00:00"
  }
 }
