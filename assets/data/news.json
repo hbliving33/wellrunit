@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-05T13:27:09.467128+00:00",
+ "updated": "2026-11-05T15:11:06.565113+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-05T13:27:09.589131+00:00",
+  "checked": "2026-11-05T15:11:06.710199+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-05T13:27:09.467128+00:00"
+  "checked": "2026-11-05T15:11:06.565113+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-05T13:27:09.467128+00:00"
+  "checked": "2026-11-05T15:11:06.565113+00:00"
  },
  "items": [
+  {
+   "title": "Closing the Identity Gap at the Service Desk",
+   "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+   "source": "BleepingComputer",
+   "date": "2026-11-05T15:00:10+00:00"
+  },
   {
    "title": "Bank Phishing Sites Show Fake \u2018Suspended\u2019 Pages to Evade Takedowns",
    "link": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
@@ -33,6 +39,12 @@
    "link": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
    "source": "SecurityWeek",
    "date": "2026-11-05T12:33:49+00:00"
+  },
+  {
+   "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+   "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+   "source": "The Hacker News",
+   "date": "2026-11-05T12:25:00+00:00"
   },
   {
    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
@@ -233,18 +245,6 @@
    "date": "2026-11-04T12:07:04+00:00"
   },
   {
-   "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-   "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-   "source": "The Hacker News",
-   "date": "2026-11-04T11:46:27+00:00"
-  },
-  {
-   "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-   "source": "BleepingComputer",
-   "date": "2026-11-04T09:39:54+00:00"
-  },
-  {
    "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
    "source": "Dark Reading",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-05T13:27:09.467128+00:00"
+  "checked": "2026-11-05T15:11:06.565113+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-05T13:27:09.467128+00:00"
+  "checked": "2026-11-05T15:11:06.565113+00:00"
  }
 }
