@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-05T04:07:34.686402+00:00",
+ "updated": "2026-11-05T05:12:40.666162+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-05T04:07:34.862675+00:00",
+  "checked": "2026-11-05T05:12:40.698739+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-05T04:07:34.686402+00:00"
+  "checked": "2026-11-05T05:12:40.666162+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-05T04:07:34.686402+00:00"
+  "checked": "2026-11-05T05:12:40.666162+00:00"
  },
  "items": [
+  {
+   "title": "Want to Rent an Internet Address at the White House?",
+   "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+   "source": "Krebs on Security",
+   "date": "2026-11-05T04:36:17+00:00"
+  },
+  {
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "source": "The Hacker News",
+   "date": "2026-11-05T04:31:16+00:00"
+  },
   {
    "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
    "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
@@ -257,12 +269,6 @@
    "date": "2026-11-03T21:57:12+00:00"
   },
   {
-   "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-   "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T18:46:38+00:00"
-  },
-  {
    "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
    "source": "Microsoft Security Blog",
@@ -369,12 +375,6 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
    "source": "Microsoft Security Blog",
    "date": "2026-10-21T18:23:55+00:00"
-  },
-  {
-   "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-   "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-   "source": "Krebs on Security",
-   "date": "2026-10-21T15:26:07+00:00"
   }
  ],
  "errors": {
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-05T04:07:34.686402+00:00"
+  "checked": "2026-11-05T05:12:40.666162+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-05T04:07:34.686402+00:00"
+  "checked": "2026-11-05T05:12:40.666162+00:00"
  }
 }

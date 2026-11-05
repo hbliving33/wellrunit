@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-05T04:07:34.686402+00:00",
+ "updated": "2026-11-05T05:12:40.666162+00:00",
  "items": [
+  {
+   "title": "Want to Rent an Internet Address at the White House?",
+   "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+   "source": "Krebs on Security",
+   "date": "2026-11-05T04:36:17+00:00"
+  },
+  {
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "source": "The Hacker News",
+   "date": "2026-11-05T04:31:16+00:00"
+  },
   {
    "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
    "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
