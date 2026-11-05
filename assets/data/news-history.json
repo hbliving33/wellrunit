@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-05T09:15:12.843696+00:00",
+ "updated": "2026-11-05T10:23:00.294886+00:00",
  "items": [
+  {
+   "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+   "link": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-05T10:02:00+00:00"
+  },
+  {
+   "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+   "link": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+   "source": "BleepingComputer",
+   "date": "2026-11-05T09:18:29+00:00"
+  },
+  {
+   "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+   "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+   "source": "The Hacker News",
+   "date": "2026-11-05T09:13:28+00:00"
+  },
+  {
+   "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+   "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+   "source": "The Hacker News",
+   "date": "2026-11-05T08:42:03+00:00"
+  },
   {
    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
    "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
