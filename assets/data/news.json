@@ -1,26 +1,68 @@
 {
- "updated": "2026-11-05T16:18:03.016236+00:00",
+ "updated": "2026-11-05T17:58:18.955527+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-05T16:18:03.074350+00:00",
+  "checked": "2026-11-05T17:58:19.096053+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-05T16:18:03.016236+00:00"
+  "checked": "2026-11-05T17:58:18.955527+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-05T16:18:03.016236+00:00"
+  "checked": "2026-11-05T17:58:18.955527+00:00"
  },
  "items": [
+  {
+   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+   "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+   "source": "BleepingComputer",
+   "date": "2026-11-05T17:45:29+00:00"
+  },
+  {
+   "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+   "link": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+   "source": "SecurityWeek",
+   "date": "2026-11-05T17:32:37+00:00"
+  },
+  {
+   "title": "New investments to reduce on-premises security risk",
+   "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-05T17:10:14+00:00"
+  },
+  {
+   "title": "\u200b\u200b\u200b\u200bWhat\u2019s new in Microsoft Security: November 2026",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-05T17:00:00+00:00"
+  },
+  {
+   "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
+   "link": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
+   "source": "Dark Reading",
+   "date": "2026-11-05T16:48:36+00:00"
+  },
+  {
+   "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+   "source": "BleepingComputer",
+   "date": "2026-11-05T16:24:26+00:00"
+  },
   {
    "title": "DigiCert data breach exposes customer information, identity documents",
    "link": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
    "source": "BleepingComputer",
    "date": "2026-11-05T16:12:46+00:00"
+  },
+  {
+   "title": "Email threat landscape: Q3 2026 trends and insights",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-05T16:00:00+00:00"
   },
   {
    "title": "Closing the Identity Gap at the Service Desk",
@@ -209,12 +251,6 @@
    "date": "2026-11-04T15:00:10+00:00"
   },
   {
-   "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-   "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-   "source": "BleepingComputer",
-   "date": "2026-11-04T14:42:25+00:00"
-  },
-  {
    "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
    "link": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
    "source": "SecurityWeek",
@@ -227,22 +263,10 @@
    "date": "2026-11-04T14:27:52+00:00"
   },
   {
-   "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
-   "link": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
-   "source": "SecurityWeek",
-   "date": "2026-11-04T14:24:54+00:00"
-  },
-  {
    "title": "Incidents Move Too Fast for Pen & Paper",
    "link": "https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper",
    "source": "Dark Reading",
    "date": "2026-11-04T14:17:00+00:00"
-  },
-  {
-   "title": "US charges two Canadians accused of hacking US universities",
-   "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
-   "source": "BleepingComputer",
-   "date": "2026-11-04T13:13:20+00:00"
   },
   {
    "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
@@ -317,12 +341,6 @@
    "date": "2026-11-02T20:20:59+00:00"
   },
   {
-   "title": "Microsoft's AI Risk Report Misses This Key Detail",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
-   "source": "Dark Reading",
-   "date": "2026-11-02T15:00:00+00:00"
-  },
-  {
    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
    "source": "Microsoft Security Blog",
@@ -357,24 +375,6 @@
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
    "source": "CISA",
    "date": "2026-10-29T00:00:00+00:00"
-  },
-  {
-   "title": "The CISO\u2019s evolving role: Protecting and defending in the agentic era",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-28T16:00:00+00:00"
-  },
-  {
-   "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-23T18:12:19+00:00"
-  },
-  {
-   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-21T18:23:55+00:00"
   }
  ],
  "errors": {
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-05T16:18:03.016236+00:00"
+  "checked": "2026-11-05T17:58:18.955527+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-05T16:18:03.016236+00:00"
+  "checked": "2026-11-05T17:58:18.955527+00:00"
  }
 }
