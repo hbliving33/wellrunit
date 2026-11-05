@@ -1,21 +1,45 @@
 {
- "updated": "2026-11-05T10:23:00.294886+00:00",
+ "updated": "2026-11-05T12:06:42.314137+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-05T10:23:00.332303+00:00",
+  "checked": "2026-11-05T12:06:42.463810+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-05T10:23:00.294886+00:00"
+  "checked": "2026-11-05T12:06:42.314137+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-05T10:23:00.294886+00:00"
+  "checked": "2026-11-05T12:06:42.314137+00:00"
  },
  "items": [
+  {
+   "title": "CISO Conversations: Ryan Davis \u2013 The Unknown Is Where Security Meets Reality",
+   "link": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
+   "source": "SecurityWeek",
+   "date": "2026-11-05T11:00:00+00:00"
+  },
+  {
+   "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
+   "link": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+   "source": "SecurityWeek",
+   "date": "2026-11-05T10:56:41+00:00"
+  },
+  {
+   "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
+   "link": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
+   "source": "SecurityWeek",
+   "date": "2026-11-05T10:37:13+00:00"
+  },
+  {
+   "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+   "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+   "source": "The Hacker News",
+   "date": "2026-11-05T10:06:19+00:00"
+  },
   {
    "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
    "link": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
@@ -209,40 +233,16 @@
    "date": "2026-11-04T11:46:27+00:00"
   },
   {
-   "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-   "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-   "source": "The Hacker News",
-   "date": "2026-11-04T11:34:20+00:00"
-  },
-  {
    "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
    "link": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
    "source": "SecurityWeek",
    "date": "2026-11-04T10:54:48+00:00"
   },
   {
-   "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
-   "link": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
-   "source": "SecurityWeek",
-   "date": "2026-11-04T10:38:46+00:00"
-  },
-  {
-   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
-   "link": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
-   "source": "SecurityWeek",
-   "date": "2026-11-04T10:36:32+00:00"
-  },
-  {
    "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
    "link": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
    "source": "BleepingComputer",
    "date": "2026-11-04T09:39:54+00:00"
-  },
-  {
-   "title": "North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack",
-   "link": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-04T09:23:22+00:00"
   },
   {
    "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-05T10:23:00.294886+00:00"
+  "checked": "2026-11-05T12:06:42.314137+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-05T10:23:00.294886+00:00"
+  "checked": "2026-11-05T12:06:42.314137+00:00"
  }
 }
