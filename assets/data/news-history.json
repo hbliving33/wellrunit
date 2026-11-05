@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-05T07:36:29.008368+00:00",
+ "updated": "2026-11-05T09:15:12.843696+00:00",
  "items": [
+  {
+   "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+   "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+   "source": "The Hacker News",
+   "date": "2026-11-05T07:06:33+00:00"
+  },
   {
    "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
    "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
