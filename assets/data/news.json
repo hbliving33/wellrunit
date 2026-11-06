@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-06T21:52:42.681811+00:00",
+ "updated": "2026-11-06T22:53:31.886741+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-06T21:52:42.829922+00:00",
+  "checked": "2026-11-06T22:53:31.938014+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
-  "status": "2 open events",
+  "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-06T21:52:42.681811+00:00"
+  "checked": "2026-11-06T22:53:31.886741+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-06T21:52:42.681811+00:00"
+  "checked": "2026-11-06T22:53:31.886741+00:00"
  },
  "items": [
+  {
+   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+   "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+   "source": "BleepingComputer",
+   "date": "2026-11-06T22:27:25+00:00"
+  },
   {
    "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
    "link": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
@@ -251,12 +257,6 @@
    "date": "2026-11-05T20:05:39+00:00"
   },
   {
-   "title": "OpenAI\u2019s GPT-6 Astra silently obstructed safety research tasks",
-   "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T19:24:26+00:00"
-  },
-  {
    "title": "New investments to reduce on-premises security risk",
    "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
    "source": "Microsoft Security Blog",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-06T21:52:42.681811+00:00"
+  "checked": "2026-11-06T22:53:31.886741+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-06T21:52:42.681811+00:00"
+  "checked": "2026-11-06T22:53:31.886741+00:00"
  }
 }
