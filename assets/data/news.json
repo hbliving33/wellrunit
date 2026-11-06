@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-06T04:05:57.032207+00:00",
+ "updated": "2026-11-06T05:11:02.372183+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-06T04:05:57.063508+00:00",
+  "checked": "2026-11-06T05:11:02.405649+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-06T04:05:57.032207+00:00"
+  "checked": "2026-11-06T05:11:02.372183+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-06T04:05:57.032207+00:00"
+  "checked": "2026-11-06T05:11:02.372183+00:00"
  },
  "items": [
   {
@@ -381,13 +381,13 @@
   "CISA": "HTTP Error 403: Forbidden"
  },
  "zoom": {
-  "status": "Partially Degraded Service",
+  "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-06T04:05:57.032207+00:00"
+  "checked": "2026-11-06T05:11:02.372183+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-06T04:05:57.032207+00:00"
+  "checked": "2026-11-06T05:11:02.372183+00:00"
  }
 }
