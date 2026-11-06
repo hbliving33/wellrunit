@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-06T12:06:45.685433+00:00",
+ "updated": "2026-11-06T13:21:33.863301+00:00",
  "items": [
+  {
+   "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+   "link": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+   "source": "SecurityWeek",
+   "date": "2026-11-06T13:19:52+00:00"
+  },
+  {
+   "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
+   "link": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
+   "source": "SecurityWeek",
+   "date": "2026-11-06T13:02:26+00:00"
+  },
+  {
+   "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+   "link": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-06T12:47:55+00:00"
+  },
+  {
+   "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+   "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+   "source": "BleepingComputer",
+   "date": "2026-11-06T12:37:22+00:00"
+  },
+  {
+   "title": "Researchers Find Residential Proxies on White House Network",
+   "link": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+   "source": "SecurityWeek",
+   "date": "2026-11-06T12:16:13+00:00"
+  },
+  {
+   "title": "OpenSSH Rushes Patches for \u2018SSHole\u2019 Authentication Bypass",
+   "link": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+   "source": "SecurityWeek",
+   "date": "2026-11-06T12:07:42+00:00"
+  },
+  {
+   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+   "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "source": "The Hacker News",
+   "date": "2026-11-06T12:06:43+00:00"
+  },
+  {
+   "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+   "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+   "source": "The Hacker News",
+   "date": "2026-11-06T12:06:35+00:00"
+  },
   {
    "title": "The Flood is Coming And The Pipes Were Already Full",
    "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
