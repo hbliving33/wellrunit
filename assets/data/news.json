@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-06T10:16:12.655435+00:00",
+ "updated": "2026-11-06T11:16:36.031758+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-06T10:16:12.838979+00:00",
+  "checked": "2026-11-06T11:16:36.235546+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-06T10:16:12.655435+00:00"
+  "checked": "2026-11-06T11:16:36.031758+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-06T10:16:12.655435+00:00"
+  "checked": "2026-11-06T11:16:36.031758+00:00"
  },
  "items": [
+  {
+   "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+   "link": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+   "source": "SecurityWeek",
+   "date": "2026-11-06T09:33:51+00:00"
+  },
   {
    "title": "MetaMask says recent attack didn't affect wallet infrastructure",
    "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
@@ -233,12 +239,6 @@
    "date": "2026-11-05T10:06:19+00:00"
   },
   {
-   "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
-   "link": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-05T10:02:00+00:00"
-  },
-  {
    "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
    "link": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
    "source": "BleepingComputer",
@@ -378,17 +378,16 @@
   }
  ],
  "errors": {
-  "CISA": "HTTP Error 403: Forbidden",
-  "SecurityWeek": "syntax error: line 1, column 0"
+  "CISA": "HTTP Error 403: Forbidden"
  },
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-06T10:16:12.655435+00:00"
+  "checked": "2026-11-06T11:16:36.031758+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-06T10:16:12.655435+00:00"
+  "checked": "2026-11-06T11:16:36.031758+00:00"
  }
 }

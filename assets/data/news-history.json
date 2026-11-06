@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-06T10:16:12.655435+00:00",
+ "updated": "2026-11-06T11:16:36.031758+00:00",
  "items": [
+  {
+   "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+   "link": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+   "source": "SecurityWeek",
+   "date": "2026-11-06T09:33:51+00:00"
+  },
   {
    "title": "MetaMask says recent attack didn't affect wallet infrastructure",
    "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
