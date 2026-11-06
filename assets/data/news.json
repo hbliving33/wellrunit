@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-06T14:59:17.057122+00:00",
+ "updated": "2026-11-06T15:59:45.430423+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-06T14:59:17.198780+00:00",
+  "checked": "2026-11-06T15:59:45.459984+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-06T14:59:17.057122+00:00"
+  "checked": "2026-11-06T15:59:45.430423+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-06T14:59:17.057122+00:00"
+  "checked": "2026-11-06T15:59:45.430423+00:00"
  },
  "items": [
+  {
+   "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+   "link": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+   "source": "BleepingComputer",
+   "date": "2026-11-06T15:25:31+00:00"
+  },
+  {
+   "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+   "link": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+   "source": "BleepingComputer",
+   "date": "2026-11-06T15:00:10+00:00"
+  },
   {
    "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
    "link": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
@@ -245,12 +257,6 @@
    "date": "2026-11-05T16:00:00+00:00"
   },
   {
-   "title": "Closing the Identity Gap at the Service Desk",
-   "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T15:00:10+00:00"
-  },
-  {
    "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
    "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
    "source": "The Hacker News",
@@ -273,12 +279,6 @@
    "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
    "source": "The Hacker News",
    "date": "2026-11-05T10:06:19+00:00"
-  },
-  {
-   "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
-   "link": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T09:18:29+00:00"
   },
   {
    "title": "Want to Rent an Internet Address at the White House?",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-06T14:59:17.057122+00:00"
+  "checked": "2026-11-06T15:59:45.430423+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-06T14:59:17.057122+00:00"
+  "checked": "2026-11-06T15:59:45.430423+00:00"
  }
 }
