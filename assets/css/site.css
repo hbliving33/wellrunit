@@ -457,3 +457,30 @@ section.band{background:#e3e8ef}
 .jump{top:80px}
 @media (max-width:980px){.nav{top:80px}}
 @media (max-width:520px){.top .wordmark{font-size:30px}.top .wrap{height:68px}.jump{top:68px}.nav{top:68px}}
+/* services jump bar (Nov 2026): squared tab grid, every tab visible, no gap above, even spacing */
+.phero:has(+ .jump){margin-bottom:0}
+.jump{background:rgba(238,240,243,.96);border-bottom:1px solid var(--line2);margin-bottom:8px}
+.jump .wrap{display:grid;grid-template-columns:repeat(6,1fr);gap:0;overflow:visible;padding-top:16px;padding-bottom:16px}
+.jump a{flex:initial;display:flex;align-items:center;justify-content:center;text-align:center;min-height:44px;padding:8px 10px;font:600 14px/1.2 Inter;color:var(--ink2);background:#fff;border:1px solid var(--line2);border-radius:0;margin:0 -1px -1px 0;transition:background .15s,color .15s}
+.jump a:nth-child(1){border-top-left-radius:6px}
+.jump a:nth-child(6){border-top-right-radius:6px}
+.jump a:nth-last-child(6){border-bottom-left-radius:6px}
+.jump a:last-child{border-bottom-right-radius:6px}
+.jump a:hover,.jump a.on{color:#fff;background:var(--accent);border-color:var(--accent);position:relative;z-index:1}
+.svc{scroll-margin-top:200px}
+@media (max-width:900px){
+  .jump .wrap{grid-template-columns:repeat(4,1fr)}
+  .jump a:nth-child(n){border-radius:0}
+  .jump a:nth-child(1){border-top-left-radius:6px}.jump a:nth-child(4){border-top-right-radius:6px}
+  .jump a:nth-last-child(4){border-bottom-left-radius:6px}.jump a:last-child{border-bottom-right-radius:6px}
+  .svc{scroll-margin-top:230px}
+}
+@media (max-width:560px){
+  .jump{position:static}
+  .jump .wrap{grid-template-columns:repeat(2,1fr);padding-top:12px;padding-bottom:12px}
+  .jump a{min-height:40px;font-size:13.5px}
+  .jump a:nth-child(n){border-radius:0}
+  .jump a:nth-child(1){border-top-left-radius:6px}.jump a:nth-child(2){border-top-right-radius:6px}
+  .jump a:nth-last-child(2){border-bottom-left-radius:6px}.jump a:last-child{border-bottom-right-radius:6px}
+  .svc{scroll-margin-top:100px}
+}

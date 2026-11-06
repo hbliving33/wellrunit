@@ -108,3 +108,14 @@
     if (!seen) fetch(`${SB_URL}/rest/v1/rpc/count_hit`, { method: "POST", keepalive: true, headers: { apikey: SB_KEY, "Content-Type": "application/json" }, body: JSON.stringify({ p_site: "wellrunit", p_path: path }) }).catch(() => {});
   }
 })();
+
+/* services jump bar: highlight the section in view */
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.jump a[href^="#"]'));
+  if(!links.length||!('IntersectionObserver' in window))return;
+  var map={};links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a;});
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){
+    if(e.isIntersecting){links.forEach(function(a){a.classList.remove('on');});var a=map[e.target.id];if(a)a.classList.add('on');}
+  });},{rootMargin:'-45% 0px -50% 0px'});
+  Object.keys(map).forEach(function(id){var s=document.getElementById(id);if(s)io.observe(s);});
+})();
