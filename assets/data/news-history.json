@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-06T17:57:09.373842+00:00",
+ "updated": "2026-11-06T19:06:50.009279+00:00",
  "items": [
+  {
+   "title": "Fake security tools on GitHub push backdoors and infostealers",
+   "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+   "source": "BleepingComputer",
+   "date": "2026-11-06T18:46:52+00:00"
+  },
+  {
+   "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+   "link": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-06T18:28:41+00:00"
+  },
+  {
+   "title": "AI Gave Your Incident Archive a Second Job",
+   "link": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
+   "source": "Dark Reading",
+   "date": "2026-11-06T18:27:30+00:00"
+  },
   {
    "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
    "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
@@ -1368,12 +1386,6 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
    "source": "Microsoft Security Blog",
    "date": "2026-10-28T16:00:00+00:00"
-  },
-  {
-   "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-23T18:12:19+00:00"
   }
  ]
 }
