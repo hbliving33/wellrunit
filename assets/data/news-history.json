@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-06T20:57:18.038221+00:00",
+ "updated": "2026-11-06T21:52:42.681811+00:00",
  "items": [
+  {
+   "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
+   "link": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
+   "source": "Dark Reading",
+   "date": "2026-11-06T21:27:36+00:00"
+  },
   {
    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
    "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
@@ -192,6 +198,12 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
    "source": "Microsoft Security Blog",
    "date": "2026-11-05T23:46:50+00:00"
+  },
+  {
+   "title": "Opera\u00e7\u00e3o de influ\u00eancia russa tem como alvo generalizado a Am\u00e9rica Latina",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/opera-o-de-influ-ncia-russa-tem-como-alvo-generalizado-a-am-rica-latina",
+   "source": "Dark Reading",
+   "date": "2026-11-05T22:13:23+00:00"
   },
   {
    "title": "US Government Email Systems Open to Abuse Thanks to Typos",
