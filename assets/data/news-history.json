@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-05T23:53:57.557199+00:00",
+ "updated": "2026-11-06T01:25:57.299350+00:00",
  "items": [
+  {
+   "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+   "source": "BleepingComputer",
+   "date": "2026-11-06T00:56:44+00:00"
+  },
+  {
+   "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-05T23:46:50+00:00"
+  },
   {
    "title": "US Government Email Systems Open to Abuse Thanks to Typos",
    "link": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
