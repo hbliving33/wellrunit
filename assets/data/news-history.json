@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-06T13:21:33.863301+00:00",
+ "updated": "2026-11-06T14:59:17.057122+00:00",
  "items": [
+  {
+   "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
+   "link": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
+   "source": "SecurityWeek",
+   "date": "2026-11-06T14:40:09+00:00"
+  },
+  {
+   "title": "Chainalysis says breach exposed credentials for all customers",
+   "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+   "source": "BleepingComputer",
+   "date": "2026-11-06T14:17:07+00:00"
+  },
+  {
+   "title": "DigiCert Data Breach Impacts Business Customer Information",
+   "link": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+   "source": "SecurityWeek",
+   "date": "2026-11-06T14:00:07+00:00"
+  },
+  {
+   "title": "Why Europe's Freezer Hacks Spread So Far, So Fast",
+   "link": "https://www.darkreading.com/ics-ot-security/europes-freezer-hacks-spread-so-far-so-fast",
+   "source": "Dark Reading",
+   "date": "2026-11-06T14:00:00+00:00"
+  },
   {
    "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
    "link": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
