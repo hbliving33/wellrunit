@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-06T07:30:07.507484+00:00",
+ "updated": "2026-11-06T09:09:37.733288+00:00",
  "items": [
+  {
+   "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
+   "link": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
+   "source": "Dark Reading",
+   "date": "2026-11-06T09:00:00+00:00"
+  },
+  {
+   "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+   "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+   "source": "The Hacker News",
+   "date": "2026-11-06T08:04:49+00:00"
+  },
   {
    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
    "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
