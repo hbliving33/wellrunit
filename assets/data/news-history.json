@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-06T19:59:21.839136+00:00",
+ "updated": "2026-11-06T20:57:18.038221+00:00",
  "items": [
+  {
+   "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+   "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "source": "BleepingComputer",
+   "date": "2026-11-06T20:24:19+00:00"
+  },
   {
    "title": "Fake security tools on GitHub push backdoors and infostealers",
    "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",

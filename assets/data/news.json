@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-06T19:59:21.839136+00:00",
+ "updated": "2026-11-06T20:57:18.038221+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-06T19:59:21.870451+00:00",
+  "checked": "2026-11-06T20:57:18.308050+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-06T19:59:21.839136+00:00"
+  "checked": "2026-11-06T20:57:18.038221+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-06T19:59:21.839136+00:00"
+  "checked": "2026-11-06T20:57:18.038221+00:00"
  },
  "items": [
+  {
+   "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+   "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "source": "BleepingComputer",
+   "date": "2026-11-06T20:24:19+00:00"
+  },
   {
    "title": "Fake security tools on GitHub push backdoors and infostealers",
    "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
@@ -239,12 +245,6 @@
    "date": "2026-11-05T19:24:26+00:00"
   },
   {
-   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-   "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T17:45:29+00:00"
-  },
-  {
    "title": "New investments to reduce on-premises security risk",
    "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
    "source": "Microsoft Security Blog",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-06T19:59:21.839136+00:00"
+  "checked": "2026-11-06T20:57:18.038221+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-06T19:59:21.839136+00:00"
+  "checked": "2026-11-06T20:57:18.038221+00:00"
  }
 }
