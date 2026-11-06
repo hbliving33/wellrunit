@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-06T17:04:26.574656+00:00",
+ "updated": "2026-11-06T17:57:09.373842+00:00",
  "items": [
+  {
+   "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-06T17:04:23+00:00"
+  },
   {
    "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
    "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
