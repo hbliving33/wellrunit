@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-07T07:15:10.687781+00:00",
+ "updated": "2026-11-07T08:15:00.771490+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-07T07:15:11.223917+00:00",
+  "checked": "2026-11-07T08:15:00.896856+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-07T07:15:10.687781+00:00"
+  "checked": "2026-11-07T08:15:00.771490+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-07T07:15:10.687781+00:00"
+  "checked": "2026-11-07T08:15:00.771490+00:00"
  },
  "items": [
+  {
+   "title": "Claude Code's \u201cDon't Ask Again\u201d File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+   "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "source": "The Hacker News",
+   "date": "2026-11-07T06:44:17+00:00"
+  },
   {
    "title": "ARTEX abuse expands as cybercriminals target financial sector",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
@@ -299,12 +305,6 @@
    "date": "2026-11-05T16:00:00+00:00"
   },
   {
-   "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-   "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T14:41:10+00:00"
-  },
-  {
    "title": "Want to Rent an Internet Address at the White House?",
    "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
    "source": "Krebs on Security",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-07T07:15:10.687781+00:00"
+  "checked": "2026-11-07T08:15:00.771490+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-07T07:15:10.687781+00:00"
+  "checked": "2026-11-07T08:15:00.771490+00:00"
  }
 }
