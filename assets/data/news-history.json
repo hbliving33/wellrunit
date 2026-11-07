@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-06T23:49:25.824702+00:00",
+ "updated": "2026-11-07T01:15:58.597627+00:00",
  "items": [
+  {
+   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-07T00:00:55+00:00"
+  },
   {
    "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
    "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
