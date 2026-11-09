@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-09T13:28:20.658347+00:00",
+ "updated": "2026-11-09T15:08:30.903061+00:00",
  "items": [
+  {
+   "title": "The Biggest Threat to Your GRC Job Isn\u2019t AI. It\u2019s Ignoring AI.",
+   "link": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+   "source": "BleepingComputer",
+   "date": "2026-11-09T15:05:15+00:00"
+  },
+  {
+   "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+   "source": "BleepingComputer",
+   "date": "2026-11-09T14:34:03+00:00"
+  },
+  {
+   "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+   "link": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+   "source": "SecurityWeek",
+   "date": "2026-11-09T14:08:08+00:00"
+  },
+  {
+   "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
+   "link": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
+   "source": "BleepingComputer",
+   "date": "2026-11-09T13:28:56+00:00"
+  },
+  {
+   "title": "\u26a1 Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+   "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+   "source": "The Hacker News",
+   "date": "2026-11-09T13:28:25+00:00"
+  },
   {
    "title": "Plex2Shell Exploited Against QNAP NAS Users",
    "link": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
