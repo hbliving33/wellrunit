@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-09T20:04:44.755816+00:00",
+ "updated": "2026-11-09T21:03:44.495699+00:00",
  "items": [
+  {
+   "title": "Black Hat India 2026 Makes a Landmark Debut in Bengaluru, Bringing the Global Cybersecurity Community to India",
+   "link": "https://www.darkreading.com/cybersecurity-operations/black-hat-india-2026-landmark-debut",
+   "source": "Dark Reading",
+   "date": "2026-11-09T20:19:56+00:00"
+  },
+  {
+   "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-09T20:17:31+00:00"
+  },
   {
    "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
    "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
