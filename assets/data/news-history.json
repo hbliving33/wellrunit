@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-09T21:03:44.495699+00:00",
+ "updated": "2026-11-09T21:58:05.678725+00:00",
  "items": [
+  {
+   "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents",
+   "source": "Dark Reading",
+   "date": "2026-11-09T21:38:20+00:00"
+  },
+  {
+   "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+   "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+   "source": "BleepingComputer",
+   "date": "2026-11-09T21:26:25+00:00"
+  },
+  {
+   "title": "York University breach exposed personal information dating to 2007",
+   "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+   "source": "BleepingComputer",
+   "date": "2026-11-09T21:22:31+00:00"
+  },
+  {
+   "title": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
+   "link": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
+   "source": "Dark Reading",
+   "date": "2026-11-09T21:12:24+00:00"
+  },
   {
    "title": "Black Hat India 2026 Makes a Landmark Debut in Bengaluru, Bringing the Global Cybersecurity Community to India",
    "link": "https://www.darkreading.com/cybersecurity-operations/black-hat-india-2026-landmark-debut",
