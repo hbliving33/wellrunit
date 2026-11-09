@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-09T17:24:26.776630+00:00",
+ "updated": "2026-11-09T19:09:25.811368+00:00",
  "items": [
+  {
+   "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+   "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+   "source": "BleepingComputer",
+   "date": "2026-11-09T18:32:42+00:00"
+  },
+  {
+   "title": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
+   "link": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
+   "source": "Dark Reading",
+   "date": "2026-11-09T18:08:30+00:00"
+  },
+  {
+   "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+   "source": "The Hacker News",
+   "date": "2026-11-09T17:51:21+00:00"
+  },
+  {
+   "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+   "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+   "source": "BleepingComputer",
+   "date": "2026-11-09T17:50:32+00:00"
+  },
+  {
+   "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+   "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+   "source": "The Hacker News",
+   "date": "2026-11-09T17:36:28+00:00"
+  },
   {
    "title": "PwC's CISO on AI, Robots & What's Next for Security",
    "link": "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security",
