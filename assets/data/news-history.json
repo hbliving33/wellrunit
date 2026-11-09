@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-09T07:41:12.231882+00:00",
+ "updated": "2026-11-09T09:25:32.830296+00:00",
  "items": [
+  {
+   "title": "Google DeepMind\u2019s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+   "link": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-09T08:35:50+00:00"
+  },
+  {
+   "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+   "link": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+   "source": "The Hacker News",
+   "date": "2026-11-09T07:05:48+00:00"
+  },
   {
    "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
    "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",

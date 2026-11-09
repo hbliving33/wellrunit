@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-09T07:41:12.231882+00:00",
+ "updated": "2026-11-09T09:25:32.830296+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-09T07:41:12.303328+00:00",
+  "checked": "2026-11-09T09:25:32.963685+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-09T07:41:12.231882+00:00"
+  "checked": "2026-11-09T09:25:32.830296+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-09T07:41:12.231882+00:00"
+  "checked": "2026-11-09T09:25:32.830296+00:00"
  },
  "items": [
+  {
+   "title": "Google DeepMind\u2019s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+   "link": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-09T08:35:50+00:00"
+  },
+  {
+   "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+   "link": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+   "source": "The Hacker News",
+   "date": "2026-11-09T07:05:48+00:00"
+  },
   {
    "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
    "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
@@ -203,12 +215,6 @@
    "date": "2026-11-06T12:16:13+00:00"
   },
   {
-   "title": "OpenSSH Rushes Patches for \u2018SSHole\u2019 Authentication Bypass",
-   "link": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
-   "source": "SecurityWeek",
-   "date": "2026-11-06T12:07:42+00:00"
-  },
-  {
    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
    "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
    "source": "The Hacker News",
@@ -243,12 +249,6 @@
    "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
    "source": "The Hacker News",
    "date": "2026-11-06T05:58:54+00:00"
-  },
-  {
-   "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-   "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-   "source": "The Hacker News",
-   "date": "2026-11-06T05:39:10+00:00"
   },
   {
    "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-09T07:41:12.231882+00:00"
+  "checked": "2026-11-09T09:25:32.830296+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-09T07:41:12.231882+00:00"
+  "checked": "2026-11-09T09:25:32.830296+00:00"
  }
 }
