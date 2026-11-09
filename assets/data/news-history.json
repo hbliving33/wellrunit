@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-09T09:25:32.830296+00:00",
+ "updated": "2026-11-09T11:10:31.713430+00:00",
  "items": [
+  {
+   "title": "Over 3 Million People Hit by Frontline Education Data Breach",
+   "link": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
+   "source": "SecurityWeek",
+   "date": "2026-11-09T10:09:02+00:00"
+  },
+  {
+   "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+   "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+   "source": "The Hacker News",
+   "date": "2026-11-09T10:01:21+00:00"
+  },
+  {
+   "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+   "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+   "source": "The Hacker News",
+   "date": "2026-11-09T09:01:50+00:00"
+  },
   {
    "title": "Google DeepMind\u2019s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
    "link": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
