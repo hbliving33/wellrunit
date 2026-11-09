@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-09T15:08:30.903061+00:00",
+ "updated": "2026-11-09T16:15:57.769198+00:00",
  "items": [
+  {
+   "title": "Binance denies data breach after alleged ShinyHunters claims",
+   "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+   "source": "BleepingComputer",
+   "date": "2026-11-09T16:12:39+00:00"
+  },
+  {
+   "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+   "source": "BleepingComputer",
+   "date": "2026-11-09T16:04:57+00:00"
+  },
+  {
+   "title": "NIST: Solo Shouldn't Mean Less Secure",
+   "link": "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure",
+   "source": "Dark Reading",
+   "date": "2026-11-09T15:46:10+00:00"
+  },
   {
    "title": "The Biggest Threat to Your GRC Job Isn\u2019t AI. It\u2019s Ignoring AI.",
    "link": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
@@ -12,6 +30,12 @@
    "link": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
    "source": "BleepingComputer",
    "date": "2026-11-09T14:34:03+00:00"
+  },
+  {
+   "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+   "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+   "source": "The Hacker News",
+   "date": "2026-11-09T14:31:29+00:00"
   },
   {
    "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",

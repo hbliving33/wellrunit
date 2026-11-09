@@ -1,21 +1,39 @@
 {
- "updated": "2026-11-09T15:08:30.903061+00:00",
+ "updated": "2026-11-09T16:15:57.769198+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-09T15:08:31.035582+00:00",
+  "checked": "2026-11-09T16:15:57.806423+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-09T15:08:30.903061+00:00"
+  "checked": "2026-11-09T16:15:57.769198+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-09T15:08:30.903061+00:00"
+  "checked": "2026-11-09T16:15:57.769198+00:00"
  },
  "items": [
+  {
+   "title": "Binance denies data breach after alleged ShinyHunters claims",
+   "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+   "source": "BleepingComputer",
+   "date": "2026-11-09T16:12:39+00:00"
+  },
+  {
+   "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+   "source": "BleepingComputer",
+   "date": "2026-11-09T16:04:57+00:00"
+  },
+  {
+   "title": "NIST: Solo Shouldn't Mean Less Secure",
+   "link": "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure",
+   "source": "Dark Reading",
+   "date": "2026-11-09T15:46:10+00:00"
+  },
   {
    "title": "The Biggest Threat to Your GRC Job Isn\u2019t AI. It\u2019s Ignoring AI.",
    "link": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
@@ -27,6 +45,12 @@
    "link": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
    "source": "BleepingComputer",
    "date": "2026-11-09T14:34:03+00:00"
+  },
+  {
+   "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+   "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+   "source": "The Hacker News",
+   "date": "2026-11-09T14:31:29+00:00"
   },
   {
    "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
@@ -203,22 +227,10 @@
    "date": "2026-11-06T20:24:19+00:00"
   },
   {
-   "title": "Fake security tools on GitHub push backdoors and infostealers",
-   "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-   "source": "BleepingComputer",
-   "date": "2026-11-06T18:46:52+00:00"
-  },
-  {
    "title": "AI Gave Your Incident Archive a Second Job",
    "link": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
    "source": "Dark Reading",
    "date": "2026-11-06T18:27:30+00:00"
-  },
-  {
-   "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-06T17:04:23+00:00"
   },
   {
    "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
@@ -231,12 +243,6 @@
    "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
    "source": "The Hacker News",
    "date": "2026-11-06T15:21:49+00:00"
-  },
-  {
-   "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-   "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-   "source": "The Hacker News",
-   "date": "2026-11-06T14:58:32+00:00"
   },
   {
    "title": "Why Europe's Freezer Hacks Spread So Far, So Fast",
@@ -323,12 +329,6 @@
    "date": "2026-11-04T16:24:08+00:00"
   },
   {
-   "title": "Incidents Move Too Fast for Pen & Paper",
-   "link": "https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper",
-   "source": "Dark Reading",
-   "date": "2026-11-04T14:17:00+00:00"
-  },
-  {
    "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
    "source": "Microsoft Security Blog",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-09T15:08:30.903061+00:00"
+  "checked": "2026-11-09T16:15:57.769198+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-09T15:08:30.903061+00:00"
+  "checked": "2026-11-09T16:15:57.769198+00:00"
  }
 }
