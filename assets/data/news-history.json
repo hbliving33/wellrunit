@@ -1,11 +1,47 @@
 {
- "updated": "2026-11-10T16:00:00.722761+00:00",
+ "updated": "2026-11-10T17:04:38.258039+00:00",
  "items": [
+  {
+   "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+   "link": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T16:45:00+00:00"
+  },
+  {
+   "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+   "link": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T16:42:02+00:00"
+  },
+  {
+   "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+   "source": "BleepingComputer",
+   "date": "2026-11-10T16:17:16+00:00"
+  },
+  {
+   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+   "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T16:00:55+00:00"
+  },
   {
    "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
    "link": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
    "source": "BleepingComputer",
    "date": "2026-11-10T15:59:19+00:00"
+  },
+  {
+   "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+   "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T15:58:44+00:00"
+  },
+  {
+   "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
+   "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T15:33:59+00:00"
   },
   {
    "title": "Ransomware recovery is now a client retention metric",
