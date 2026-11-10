@@ -1,21 +1,45 @@
 {
- "updated": "2026-11-10T19:10:21.165663+00:00",
+ "updated": "2026-11-10T20:03:49.352987+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-10T19:10:21.225778+00:00",
+  "checked": "2026-11-10T20:03:49.496100+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-10T19:10:21.165663+00:00"
+  "checked": "2026-11-10T20:03:49.352987+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-10T19:10:21.165663+00:00"
+  "checked": "2026-11-10T20:03:49.352987+00:00"
  },
  "items": [
+  {
+   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+   "source": "BleepingComputer",
+   "date": "2026-11-10T19:31:11+00:00"
+  },
+  {
+   "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+   "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T19:23:10+00:00"
+  },
+  {
+   "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+   "link": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T19:19:46+00:00"
+  },
+  {
+   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+   "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T19:19:39+00:00"
+  },
   {
    "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
@@ -35,10 +59,22 @@
    "date": "2026-11-10T18:33:26+00:00"
   },
   {
+   "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T18:12:21+00:00"
+  },
+  {
    "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
    "link": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
    "source": "SecurityWeek",
    "date": "2026-11-10T18:11:54+00:00"
+  },
+  {
+   "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+   "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T17:43:23+00:00"
   },
   {
    "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
@@ -77,7 +113,7 @@
    "date": "2026-11-10T15:58:44+00:00"
   },
   {
-   "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
+   "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
    "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
    "source": "The Hacker News",
    "date": "2026-11-10T15:33:59+00:00"
@@ -179,28 +215,10 @@
    "date": "2026-11-10T09:56:28+00:00"
   },
   {
-   "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks",
-   "link": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-10T09:42:27+00:00"
-  },
-  {
-   "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-   "link": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-   "source": "The Hacker News",
-   "date": "2026-11-10T09:08:20+00:00"
-  },
-  {
    "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
    "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
    "source": "BleepingComputer",
    "date": "2026-11-10T08:51:25+00:00"
-  },
-  {
-   "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-   "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-   "source": "The Hacker News",
-   "date": "2026-11-10T08:16:14+00:00"
   },
   {
    "title": "Fireworks AI discloses new breach after cloud provider hack",
@@ -209,28 +227,16 @@
    "date": "2026-11-10T07:49:58+00:00"
   },
   {
-   "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-   "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-   "source": "The Hacker News",
-   "date": "2026-11-10T06:52:54+00:00"
-  },
-  {
-   "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-   "link": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-   "source": "The Hacker News",
-   "date": "2026-11-10T06:44:36+00:00"
-  },
-  {
    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
    "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
    "source": "BleepingComputer",
    "date": "2026-11-09T23:52:12+00:00"
   },
   {
-   "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-   "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T22:09:33+00:00"
+   "title": "People Are Getting Weird About AI",
+   "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
+   "source": "Dark Reading",
+   "date": "2026-11-09T23:06:22+00:00"
   },
   {
    "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
@@ -297,12 +303,6 @@
    "link": "https://www.darkreading.com/ics-ot-security/europes-freezer-hacks-spread-so-far-so-fast",
    "source": "Dark Reading",
    "date": "2026-11-06T14:00:00+00:00"
-  },
-  {
-   "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
-   "link": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
-   "source": "Dark Reading",
-   "date": "2026-11-06T09:00:00+00:00"
   },
   {
    "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-10T19:10:21.165663+00:00"
+  "checked": "2026-11-10T20:03:49.352987+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-10T19:10:21.165663+00:00"
+  "checked": "2026-11-10T20:03:49.352987+00:00"
  }
 }
