@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-10T11:59:59.216288+00:00",
+ "updated": "2026-11-10T13:19:27.093573+00:00",
  "items": [
+  {
+   "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
+   "link": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
+   "source": "Dark Reading",
+   "date": "2026-11-10T13:00:00+00:00"
+  },
+  {
+   "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
+   "link": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T12:17:13+00:00"
+  },
+  {
+   "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+   "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T12:15:31+00:00"
+  },
+  {
+   "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+   "link": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
+   "source": "BleepingComputer",
+   "date": "2026-11-10T12:07:03+00:00"
+  },
   {
    "title": "Beyond the Alert: The Case for Rich Network Data",
    "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
