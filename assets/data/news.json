@@ -1,21 +1,39 @@
 {
- "updated": "2026-11-10T15:01:55.452395+00:00",
+ "updated": "2026-11-10T16:00:00.722761+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-10T15:01:55.809853+00:00",
+  "checked": "2026-11-10T16:00:00.798290+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-10T15:01:55.452395+00:00"
+  "checked": "2026-11-10T16:00:00.722761+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-10T15:01:55.452395+00:00"
+  "checked": "2026-11-10T16:00:00.722761+00:00"
  },
  "items": [
+  {
+   "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+   "link": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+   "source": "BleepingComputer",
+   "date": "2026-11-10T15:59:19+00:00"
+  },
+  {
+   "title": "Ransomware recovery is now a client retention metric",
+   "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+   "source": "BleepingComputer",
+   "date": "2026-11-10T15:01:11+00:00"
+  },
+  {
+   "title": "Today: CISO Forum Virtual Summit 2026 \u2013 Join Global Cybersecurity Leaders",
+   "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T15:00:00+00:00"
+  },
   {
    "title": "WhiteMatter Raises $20 Million in Series A Funding",
    "link": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
@@ -227,12 +245,6 @@
    "date": "2026-11-09T17:51:21+00:00"
   },
   {
-   "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
-   "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T17:50:32+00:00"
-  },
-  {
    "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
    "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
    "source": "The Hacker News",
@@ -245,12 +257,6 @@
    "date": "2026-11-09T17:17:23+00:00"
   },
   {
-   "title": "Binance denies data breach after alleged ShinyHunters claims",
-   "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T16:12:39+00:00"
-  },
-  {
    "title": "NIST: Solo Shouldn't Mean Less Secure",
    "link": "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure",
    "source": "Dark Reading",
@@ -261,12 +267,6 @@
    "link": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
    "source": "SecurityWeek",
    "date": "2026-11-09T14:08:08+00:00"
-  },
-  {
-   "title": "Plex2Shell Exploited Against QNAP NAS Users",
-   "link": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
-   "source": "SecurityWeek",
-   "date": "2026-11-09T13:13:28+00:00"
   },
   {
    "title": "ARTEX abuse expands as cybercriminals target financial sector",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-10T15:01:55.452395+00:00"
+  "checked": "2026-11-10T16:00:00.722761+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-10T15:01:55.452395+00:00"
+  "checked": "2026-11-10T16:00:00.722761+00:00"
  }
 }
