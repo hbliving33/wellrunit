@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-10T10:06:32.881488+00:00",
+ "updated": "2026-11-10T11:02:21.542083+00:00",
  "items": [
+  {
+   "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+   "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T10:16:51+00:00"
+  },
+  {
+   "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+   "source": "BleepingComputer",
+   "date": "2026-11-10T10:10:20+00:00"
+  },
+  {
+   "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+   "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T10:07:29+00:00"
+  },
   {
    "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
    "link": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
