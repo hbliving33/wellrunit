@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-10T21:53:23.940815+00:00",
+ "updated": "2026-11-10T22:55:38.042559+00:00",
  "items": [
+  {
+   "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+   "source": "Dark Reading",
+   "date": "2026-11-10T22:26:51+00:00"
+  },
+  {
+   "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+   "link": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+   "source": "BleepingComputer",
+   "date": "2026-11-10T22:20:19+00:00"
+  },
+  {
+   "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+   "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+   "source": "Krebs on Security",
+   "date": "2026-11-10T21:55:03+00:00"
+  },
   {
    "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
@@ -12,6 +30,12 @@
    "link": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
    "source": "BleepingComputer",
    "date": "2026-11-10T20:54:55+00:00"
+  },
+  {
+   "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
+   "link": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
+   "source": "Dark Reading",
+   "date": "2026-11-10T20:41:45+00:00"
   },
   {
    "title": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
