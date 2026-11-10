@@ -1,21 +1,45 @@
 {
- "updated": "2026-11-10T06:04:18.207352+00:00",
+ "updated": "2026-11-10T07:25:42.501906+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-10T06:04:18.366005+00:00",
+  "checked": "2026-11-10T07:25:42.535181+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-10T06:04:18.207352+00:00"
+  "checked": "2026-11-10T07:25:42.501906+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-10T06:04:18.207352+00:00"
+  "checked": "2026-11-10T07:25:42.501906+00:00"
  },
  "items": [
+  {
+   "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+   "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T06:52:54+00:00"
+  },
+  {
+   "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+   "link": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T06:44:36+00:00"
+  },
+  {
+   "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+   "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+   "source": "The Hacker News",
+   "date": "2026-11-10T06:31:42+00:00"
+  },
+  {
+   "title": "Chrome Update Patches Exploited XML Zero-Day, Eighth This Year",
+   "link": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T06:12:24+00:00"
+  },
   {
    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
    "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
@@ -233,34 +257,10 @@
    "date": "2026-11-09T07:05:48+00:00"
   },
   {
-   "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
-   "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
-   "source": "The Hacker News",
-   "date": "2026-11-09T06:15:10+00:00"
-  },
-  {
-   "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-   "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-   "source": "The Hacker News",
-   "date": "2026-11-09T06:05:24+00:00"
-  },
-  {
    "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
    "link": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
    "source": "SecurityWeek",
    "date": "2026-11-08T12:14:00+00:00"
-  },
-  {
-   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-   "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-   "source": "SecurityWeek",
-   "date": "2026-11-07T10:16:23+00:00"
-  },
-  {
-   "title": "Claude Code's \u201cDon't Ask Again\u201d File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-   "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-   "source": "The Hacker News",
-   "date": "2026-11-07T06:44:17+00:00"
   },
   {
    "title": "ARTEX abuse expands as cybercriminals target financial sector",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-10T06:04:18.207352+00:00"
+  "checked": "2026-11-10T07:25:42.501906+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-10T06:04:18.207352+00:00"
+  "checked": "2026-11-10T07:25:42.501906+00:00"
  }
 }
