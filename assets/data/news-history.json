@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-10T20:03:49.352987+00:00",
+ "updated": "2026-11-10T20:57:54.207757+00:00",
  "items": [
+  {
+   "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+   "link": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+   "source": "BleepingComputer",
+   "date": "2026-11-10T20:54:55+00:00"
+  },
+  {
+   "title": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
+   "link": "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer",
+   "source": "Dark Reading",
+   "date": "2026-11-10T20:35:34+00:00"
+  },
+  {
+   "title": "How to Assess OT Incident Response Preparedness",
+   "link": "https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness",
+   "source": "Dark Reading",
+   "date": "2026-11-10T20:18:43+00:00"
+  },
+  {
+   "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+   "source": "BleepingComputer",
+   "date": "2026-11-10T20:04:36+00:00"
+  },
   {
    "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
