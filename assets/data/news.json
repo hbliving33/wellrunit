@@ -1,21 +1,39 @@
 {
- "updated": "2026-11-10T13:19:27.093573+00:00",
+ "updated": "2026-11-10T15:01:55.452395+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-10T13:19:27.273428+00:00",
+  "checked": "2026-11-10T15:01:55.809853+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-10T13:19:27.093573+00:00"
+  "checked": "2026-11-10T15:01:55.452395+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-10T13:19:27.093573+00:00"
+  "checked": "2026-11-10T15:01:55.452395+00:00"
  },
  "items": [
+  {
+   "title": "WhiteMatter Raises $20 Million in Series A Funding",
+   "link": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T14:58:19+00:00"
+  },
+  {
+   "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
+   "link": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T14:46:28+00:00"
+  },
+  {
+   "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+   "link": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T13:27:44+00:00"
+  },
   {
    "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
    "link": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
@@ -251,24 +269,6 @@
    "date": "2026-11-09T13:13:28+00:00"
   },
   {
-   "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
-   "link": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
-   "source": "SecurityWeek",
-   "date": "2026-11-09T12:41:27+00:00"
-  },
-  {
-   "title": "Italy\u2019s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister\u2019s Data on the Dark Web",
-   "link": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
-   "source": "SecurityWeek",
-   "date": "2026-11-09T12:22:12+00:00"
-  },
-  {
-   "title": "Hackers Exploiting \u2018SSHole\u2019 Authentication Bypass in OpenSSH",
-   "link": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
-   "source": "SecurityWeek",
-   "date": "2026-11-09T12:13:32+00:00"
-  },
-  {
    "title": "ARTEX abuse expands as cybercriminals target financial sector",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
    "source": "Microsoft Security Blog",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-10T13:19:27.093573+00:00"
+  "checked": "2026-11-10T15:01:55.452395+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-10T13:19:27.093573+00:00"
+  "checked": "2026-11-10T15:01:55.452395+00:00"
  }
 }

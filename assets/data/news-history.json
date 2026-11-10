@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-10T13:19:27.093573+00:00",
+ "updated": "2026-11-10T15:01:55.452395+00:00",
  "items": [
+  {
+   "title": "WhiteMatter Raises $20 Million in Series A Funding",
+   "link": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T14:58:19+00:00"
+  },
+  {
+   "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
+   "link": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T14:46:28+00:00"
+  },
+  {
+   "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+   "link": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-10T13:27:44+00:00"
+  },
   {
    "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
    "link": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
