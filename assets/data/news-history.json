@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-11T20:12:39.245839+00:00",
+ "updated": "2026-11-11T23:03:12.958523+00:00",
  "items": [
+  {
+   "title": "Baker Tilly notifies clients of data breach at third-party provider",
+   "link": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T23:01:31+00:00"
+  },
+  {
+   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+   "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T22:56:21+00:00"
+  },
+  {
+   "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
+   "link": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
+   "source": "Dark Reading",
+   "date": "2026-11-11T21:44:04+00:00"
+  },
+  {
+   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+   "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T21:27:40+00:00"
+  },
+  {
+   "title": "AI Raises the Stakes for Cyber Resilience",
+   "link": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+   "source": "Dark Reading",
+   "date": "2026-11-11T21:20:41+00:00"
+  },
+  {
+   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+   "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T20:54:20+00:00"
+  },
+  {
+   "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
+   "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
+   "source": "Dark Reading",
+   "date": "2026-11-11T20:05:18+00:00"
+  },
+  {
+   "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-11T19:49:57+00:00"
+  },
   {
    "title": "Who Runs the Ransomware Group Qilin?",
    "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
