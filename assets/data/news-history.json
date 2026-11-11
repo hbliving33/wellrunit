@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-11T06:14:31.727773+00:00",
+ "updated": "2026-11-11T07:35:39.341381+00:00",
  "items": [
+  {
+   "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
+   "link": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T07:00:17+00:00"
+  },
+  {
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "source": "The Hacker News",
+   "date": "2026-11-11T06:04:02+00:00"
+  },
   {
    "title": "Detecting sleeper agents hiding in AI model neurons",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
