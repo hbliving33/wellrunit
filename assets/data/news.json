@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-11T09:08:59.651695+00:00",
+ "updated": "2026-11-11T10:12:40.348351+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-11T09:08:59.688757+00:00",
+  "checked": "2026-11-11T10:12:40.494570+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-11T09:08:59.651695+00:00"
+  "checked": "2026-11-11T10:12:40.348351+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-11T09:08:59.651695+00:00"
+  "checked": "2026-11-11T10:12:40.348351+00:00"
  },
  "items": [
+  {
+   "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T10:12:08+00:00"
+  },
   {
    "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
@@ -269,12 +275,6 @@
    "date": "2026-11-10T12:07:03+00:00"
   },
   {
-   "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-   "source": "BleepingComputer",
-   "date": "2026-11-10T10:10:20+00:00"
-  },
-  {
    "title": "People Are Getting Weird About AI",
    "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
    "source": "Dark Reading",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-11T09:08:59.651695+00:00"
+  "checked": "2026-11-11T10:12:40.348351+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-11T09:08:59.651695+00:00"
+  "checked": "2026-11-11T10:12:40.348351+00:00"
  }
 }

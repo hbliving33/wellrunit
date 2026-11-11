@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-11T09:08:59.651695+00:00",
+ "updated": "2026-11-11T10:12:40.348351+00:00",
  "items": [
+  {
+   "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T10:12:08+00:00"
+  },
   {
    "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
