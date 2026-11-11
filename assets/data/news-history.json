@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-11T15:07:11.257582+00:00",
+ "updated": "2026-11-11T16:06:58.801786+00:00",
  "items": [
+  {
+   "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
+   "link": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T15:42:47+00:00"
+  },
+  {
+   "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T15:12:59+00:00"
+  },
   {
    "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
    "link": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
@@ -2154,12 +2166,6 @@
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
    "source": "CISA",
    "date": "2026-10-29T00:00:00+00:00"
-  },
-  {
-   "title": "The CISO\u2019s evolving role: Protecting and defending in the agentic era",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-28T16:00:00+00:00"
   }
  ]
 }

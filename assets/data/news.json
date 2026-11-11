@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-11T15:07:11.257582+00:00",
+ "updated": "2026-11-11T16:06:58.801786+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-11T15:07:11.376526+00:00",
+  "checked": "2026-11-11T16:06:58.870145+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
-  "status": "2 open events",
+  "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-11T15:07:11.257582+00:00"
+  "checked": "2026-11-11T16:06:58.801786+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-11T15:07:11.257582+00:00"
+  "checked": "2026-11-11T16:06:58.801786+00:00"
  },
  "items": [
+  {
+   "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
+   "link": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T15:42:47+00:00"
+  },
+  {
+   "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T15:12:59+00:00"
+  },
   {
    "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
    "link": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
@@ -129,12 +141,6 @@
    "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
    "source": "The Hacker News",
    "date": "2026-11-11T08:17:53+00:00"
-  },
-  {
-   "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
-   "link": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-11T07:53:51+00:00"
   },
   {
    "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
@@ -263,12 +269,6 @@
    "date": "2026-11-10T17:43:23+00:00"
   },
   {
-   "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
-   "link": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
-   "source": "BleepingComputer",
-   "date": "2026-11-10T16:17:16+00:00"
-  },
-  {
    "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
    "link": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
    "source": "Dark Reading",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-11T15:07:11.257582+00:00"
+  "checked": "2026-11-11T16:06:58.801786+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-11T15:07:11.257582+00:00"
+  "checked": "2026-11-11T16:06:58.801786+00:00"
  }
 }
