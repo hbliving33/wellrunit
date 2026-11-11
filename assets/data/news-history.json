@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-11T07:35:39.341381+00:00",
+ "updated": "2026-11-11T09:08:59.651695+00:00",
  "items": [
+  {
+   "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T09:07:27+00:00"
+  },
+  {
+   "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+   "link": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T09:01:07+00:00"
+  },
+  {
+   "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
+   "link": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T08:42:44+00:00"
+  },
+  {
+   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+   "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+   "source": "The Hacker News",
+   "date": "2026-11-11T08:17:53+00:00"
+  },
+  {
+   "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
+   "link": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T07:53:51+00:00"
+  },
+  {
+   "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+   "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+   "source": "The Hacker News",
+   "date": "2026-11-11T07:49:04+00:00"
+  },
+  {
+   "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+   "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+   "source": "The Hacker News",
+   "date": "2026-11-11T07:21:05+00:00"
+  },
   {
    "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
    "link": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
