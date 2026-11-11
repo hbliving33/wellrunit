@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-11T12:07:28.542394+00:00",
+ "updated": "2026-11-11T13:26:07.008518+00:00",
  "items": [
+  {
+   "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+   "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T12:32:27+00:00"
+  },
+  {
+   "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
+   "link": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T12:24:33+00:00"
+  },
+  {
+   "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+   "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+   "source": "The Hacker News",
+   "date": "2026-11-11T12:19:40+00:00"
+  },
+  {
+   "title": "Fortinet Patches Nearly 100 Vulnerabilities",
+   "link": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T12:10:14+00:00"
+  },
   {
    "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
    "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",

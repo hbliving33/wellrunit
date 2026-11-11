@@ -1,21 +1,45 @@
 {
- "updated": "2026-11-11T12:07:28.542394+00:00",
+ "updated": "2026-11-11T13:26:07.008518+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-11T12:07:28.662266+00:00",
+  "checked": "2026-11-11T13:26:07.146558+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-11T12:07:28.542394+00:00"
+  "checked": "2026-11-11T13:26:07.008518+00:00"
  },
  "wasabi": {
   "status": "Partially Degraded Service",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-11T12:07:28.542394+00:00"
+  "checked": "2026-11-11T13:26:07.008518+00:00"
  },
  "items": [
+  {
+   "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+   "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T12:32:27+00:00"
+  },
+  {
+   "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
+   "link": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T12:24:33+00:00"
+  },
+  {
+   "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+   "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+   "source": "The Hacker News",
+   "date": "2026-11-11T12:19:40+00:00"
+  },
+  {
+   "title": "Fortinet Patches Nearly 100 Vulnerabilities",
+   "link": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T12:10:14+00:00"
+  },
   {
    "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
    "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
@@ -221,22 +245,10 @@
    "date": "2026-11-10T18:12:21+00:00"
   },
   {
-   "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
-   "link": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
-   "source": "SecurityWeek",
-   "date": "2026-11-10T18:11:54+00:00"
-  },
-  {
    "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
    "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
    "source": "The Hacker News",
    "date": "2026-11-10T17:43:23+00:00"
-  },
-  {
-   "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
-   "link": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
-   "source": "SecurityWeek",
-   "date": "2026-11-10T16:45:00+00:00"
   },
   {
    "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
@@ -255,18 +267,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
    "source": "BleepingComputer",
    "date": "2026-11-10T15:59:19+00:00"
-  },
-  {
-   "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-   "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-10T15:58:44+00:00"
-  },
-  {
-   "title": "Ransomware recovery is now a client retention metric",
-   "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
-   "source": "BleepingComputer",
-   "date": "2026-11-10T15:01:11+00:00"
   },
   {
    "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-11T12:07:28.542394+00:00"
+  "checked": "2026-11-11T13:26:07.008518+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-11T12:07:28.542394+00:00"
+  "checked": "2026-11-11T13:26:07.008518+00:00"
  }
 }
