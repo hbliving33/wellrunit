@@ -1,11 +1,35 @@
 {
- "updated": "2026-11-11T16:06:58.801786+00:00",
+ "updated": "2026-11-11T17:10:24.811056+00:00",
  "items": [
+  {
+   "title": "Today: CISO Forum Virtual Summit 2026 Day 2 \u2013 Join Cybersecurity Leaders Online",
+   "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T16:29:42+00:00"
+  },
+  {
+   "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+   "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T16:24:18+00:00"
+  },
+  {
+   "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+   "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+   "source": "The Hacker News",
+   "date": "2026-11-11T16:12:46+00:00"
+  },
   {
    "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
    "link": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
    "source": "SecurityWeek",
    "date": "2026-11-11T15:42:47+00:00"
+  },
+  {
+   "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+   "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+   "source": "The Hacker News",
+   "date": "2026-11-11T15:34:27+00:00"
   },
   {
    "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
