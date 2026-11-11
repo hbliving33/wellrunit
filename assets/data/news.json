@@ -1,21 +1,45 @@
 {
- "updated": "2026-11-11T13:26:07.008518+00:00",
+ "updated": "2026-11-11T15:07:11.257582+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-11T13:26:07.146558+00:00",
+  "checked": "2026-11-11T15:07:11.376526+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-11T13:26:07.008518+00:00"
+  "checked": "2026-11-11T15:07:11.257582+00:00"
  },
  "wasabi": {
-  "status": "Partially Degraded Service",
+  "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-11T13:26:07.008518+00:00"
+  "checked": "2026-11-11T15:07:11.257582+00:00"
  },
  "items": [
+  {
+   "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+   "link": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T15:01:11+00:00"
+  },
+  {
+   "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+   "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+   "source": "The Hacker News",
+   "date": "2026-11-11T14:01:00+00:00"
+  },
+  {
+   "title": "Asus, Zoom Release Security Patches",
+   "link": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T13:58:38+00:00"
+  },
+  {
+   "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+   "link": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T13:37:19+00:00"
+  },
   {
    "title": "N-able releases security hotfixes for zero-day vulnerabilities",
    "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
@@ -125,12 +149,6 @@
    "date": "2026-11-11T07:21:05+00:00"
   },
   {
-   "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
-   "link": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
-   "source": "SecurityWeek",
-   "date": "2026-11-11T07:00:17+00:00"
-  },
-  {
    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
    "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
    "source": "The Hacker News",
@@ -209,12 +227,6 @@
    "date": "2026-11-10T19:23:10+00:00"
   },
   {
-   "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
-   "link": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
-   "source": "SecurityWeek",
-   "date": "2026-11-10T19:19:46+00:00"
-  },
-  {
    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
    "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
    "source": "The Hacker News",
@@ -255,18 +267,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
    "source": "BleepingComputer",
    "date": "2026-11-10T16:17:16+00:00"
-  },
-  {
-   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-   "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-10T16:00:55+00:00"
-  },
-  {
-   "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
-   "link": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
-   "source": "BleepingComputer",
-   "date": "2026-11-10T15:59:19+00:00"
   },
   {
    "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-11T13:26:07.008518+00:00"
+  "checked": "2026-11-11T15:07:11.257582+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-11T13:26:07.008518+00:00"
+  "checked": "2026-11-11T15:07:11.257582+00:00"
  }
 }

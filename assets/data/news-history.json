@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-11T13:26:07.008518+00:00",
+ "updated": "2026-11-11T15:07:11.257582+00:00",
  "items": [
+  {
+   "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+   "link": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+   "source": "BleepingComputer",
+   "date": "2026-11-11T15:01:11+00:00"
+  },
+  {
+   "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+   "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+   "source": "The Hacker News",
+   "date": "2026-11-11T14:01:00+00:00"
+  },
+  {
+   "title": "Asus, Zoom Release Security Patches",
+   "link": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T13:58:38+00:00"
+  },
+  {
+   "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+   "link": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T13:37:19+00:00"
+  },
   {
    "title": "N-able releases security hotfixes for zero-day vulnerabilities",
    "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
