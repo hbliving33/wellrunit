@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-11T10:12:40.348351+00:00",
+ "updated": "2026-11-11T11:12:37.562105+00:00",
  "items": [
+  {
+   "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
+   "link": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
+   "source": "SecurityWeek",
+   "date": "2026-11-11T10:35:15+00:00"
+  },
   {
    "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
    "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
