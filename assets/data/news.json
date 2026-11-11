@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-11T18:04:47.177567+00:00",
+ "updated": "2026-11-11T19:13:50.733131+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-11T18:04:47.359384+00:00",
+  "checked": "2026-11-11T19:13:50.861988+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-11T18:04:47.177567+00:00"
+  "checked": "2026-11-11T19:13:50.733131+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-11T18:04:47.177567+00:00"
+  "checked": "2026-11-11T19:13:50.733131+00:00"
  },
  "items": [
+  {
+   "title": "Who Runs the Ransomware Group Qilin?",
+   "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+   "source": "Krebs on Security",
+   "date": "2026-11-11T18:06:01+00:00"
+  },
+  {
+   "title": "Lessons from 59 Linux Kernel Bug Reports",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-11T16:55:00+00:00"
+  },
   {
    "title": "Today: CISO Forum Virtual Summit 2026 Day 2 \u2013 Join Cybersecurity Leaders Online",
    "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
@@ -353,18 +365,6 @@
    "date": "2026-11-03T17:32:47+00:00"
   },
   {
-   "title": "Microsoft named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for AI Agent Management Platforms",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-03T17:00:00+00:00"
-  },
-  {
-   "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-   "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
-   "source": "Krebs on Security",
-   "date": "2026-11-03T02:24:31+00:00"
-  },
-  {
    "title": "Actively exploited: GitLab Community Edition and Enterprise Edition (CVE-2026-97229)",
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
    "source": "CISA",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-11T18:04:47.177567+00:00"
+  "checked": "2026-11-11T19:13:50.733131+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-11T18:04:47.177567+00:00"
+  "checked": "2026-11-11T19:13:50.733131+00:00"
  }
 }

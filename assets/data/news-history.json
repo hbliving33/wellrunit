@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-11T18:04:47.177567+00:00",
+ "updated": "2026-11-11T19:13:50.733131+00:00",
  "items": [
+  {
+   "title": "Who Runs the Ransomware Group Qilin?",
+   "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+   "source": "Krebs on Security",
+   "date": "2026-11-11T18:06:01+00:00"
+  },
+  {
+   "title": "Lessons from 59 Linux Kernel Bug Reports",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-11T16:55:00+00:00"
+  },
   {
    "title": "Today: CISO Forum Virtual Summit 2026 Day 2 \u2013 Join Cybersecurity Leaders Online",
    "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
