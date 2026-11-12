@@ -22,28 +22,27 @@
 
   // ---------- who is sending (kept on this device only) ----------
   function showWho() { $('who').textContent = ready() ? who.name : ''; $('changeWho').hidden = !ready(); }
-  $('setupForm').addEventListener('submit', (e) => {
-    e.preventDefault();
-    const v = (id) => $(id).value.trim();
-    const next = { name: v('s-name'), company: v('s-company'), phone: v('s-phone'), email: v('s-email') };
+  function readWho(prefix) {   // returns [details, problem]
+    const v = (k) => $(prefix + k).value.trim();
+    const next = { name: v('name'), company: v('company'), phone: v('phone'), email: v('email') };
     let problem = '';
     if (!next.name || !next.company) problem = 'Please fill in your name and company.';
     else if (next.phone.replace(/\D/g, '').length < 7) problem = "That phone number doesn't look right.";
     else if (next.email && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(next.email)) problem = "That email doesn't look right.";
+    return [next, problem];
+  }
+  function saveWho(next) { who = next; try { localStorage.setItem(KEY, JSON.stringify(who)); } catch (err) {} showWho(); }
+  $('setupForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const [next, problem] = readWho('s-');
     if (problem) { $('setupErr').textContent = problem; $('setupErr').hidden = false; return; }
-    who = next;
-    try { localStorage.setItem(KEY, JSON.stringify(who)); } catch (err) {}
-    showWho();
-    if (pendingText) { const t = pendingText; pendingText = ''; send(t); } else show('home');
+    saveWho(next); show('home');
   });
-  let pendingText = '';   // a ticket waiting on the client's details (first time only)
-  function editWho(firstSend) {
-    $('setupLead').textContent = firstSend ? 'Last step, just this once.  Who should we get back to?  It\'s saved on this device only.' : 'Saved on this device only.';
-    $('setupSave').textContent = firstSend ? 'Send it' : 'Save';
+  function editWho() {
     ['name', 'company', 'phone', 'email'].forEach((k) => { $('s-' + k).value = (who && who[k]) || ''; });
     $('setupErr').hidden = true; show('setup');
   }
-  $('changeWho').addEventListener('click', () => { pendingText = ''; editWho(false); });
+  $('changeWho').addEventListener('click', editWho);
 
   // ---------- recording ----------
   let rec = null, stream = null, chunks = [], started = 0, tick = null;
@@ -100,6 +99,7 @@
     $('r-text').value = text;
     $('reviewNote').textContent = note;
     $('reviewErr').hidden = true;
+    $('rWho').hidden = ready();
     show('review');
     if (!text) setTimeout(() => $('r-text').focus(), 50);
   }
@@ -122,7 +122,11 @@
     e.preventDefault();
     const text = $('r-text').value.trim();
     if (text.length < 3) { $('reviewErr').textContent = "Tell us a little about what's going on."; $('reviewErr').hidden = false; return; }
-    if (!ready()) { pendingText = text; editWho(true); return; }   // details asked once, at the end of the first ticket
+    if (!ready()) {   // first ticket only: details are on this same screen
+      const [next, problem] = readWho('r-');
+      if (problem) { $('reviewErr').textContent = problem; $('reviewErr').hidden = false; return; }
+      saveWho(next);
+    }
     send(text);
   });
 

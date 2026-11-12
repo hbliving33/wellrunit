@@ -376,14 +376,14 @@ def app_page():
 
   <main class="screen" id="setup" hidden>
     <h1>Who are we helping?</h1>
-    <p class="sub" id="setupLead">Saved on this device only.</p>
+    <p class="sub">Saved on this device only.</p>
     <form class="card" id="setupForm" novalidate>
       <label>Your name<input id="s-name" autocomplete="name" maxlength="120" required></label>
       <label>Company<input id="s-company" autocomplete="organization" maxlength="160" required></label>
       <label>Best phone number<input id="s-phone" type="tel" autocomplete="tel" maxlength="40" required></label>
       <label>Email (optional)<input id="s-email" type="email" autocomplete="email" maxlength="200"></label>
       <p class="err" id="setupErr" role="alert" hidden></p>
-      <button class="btn wide" id="setupSave" type="submit">Save</button>
+      <button class="btn wide" type="submit">Save</button>
       <p class="note">We only use this to reply to you.  <a href="privacy.html">Privacy</a></p>
     </form>
   </main>
@@ -405,6 +405,13 @@ def app_page():
     <form class="card" id="reviewForm" novalidate>
       <p class="sub" id="reviewNote" style="max-width:none;text-align:center"></p>
       <label><span class="hp">What's going on</span><textarea id="r-text" maxlength="5000" aria-label="What's going on"></textarea></label>
+      <div class="who-box" id="rWho" hidden>
+        <p class="note" style="font-size:15px;color:var(--ink2)">First time only: who should we get back to?  Saved on this device only.</p>
+        <label>Your name<input id="r-name" autocomplete="name" maxlength="120"></label>
+        <label>Company<input id="r-company" autocomplete="organization" maxlength="160"></label>
+        <label>Best phone number<input id="r-phone" type="tel" autocomplete="tel" maxlength="40"></label>
+        <label>Email (optional)<input id="r-email" type="email" autocomplete="email" maxlength="200"></label>
+      </div>
       <p class="err" id="reviewErr" role="alert" hidden></p>
       <div class="row" style="max-width:none"><button class="btn ghost" id="redo" type="button">Start over</button><button class="btn" type="submit">Submit</button></div>
     </form>
