@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-12T13:28:36.637931+00:00",
+ "updated": "2026-11-12T15:08:44.948094+00:00",
  "items": [
+  {
+   "title": "Police dismantles Gootloader, CastleRAT, StealC malware infrastructure",
+   "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T15:07:20+00:00"
+  },
+  {
+   "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+   "link": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T15:00:10+00:00"
+  },
+  {
+   "title": "Apify rotates API tokens, prompts 2FA resets after breach",
+   "link": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T14:36:47+00:00"
+  },
+  {
+   "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
+   "link": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T13:42:09+00:00"
+  },
+  {
+   "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
+   "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T13:39:03+00:00"
+  },
   {
    "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
    "link": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
