@@ -7,6 +7,7 @@
 
 const SITE = 'https://wellrunit.com';
 const SESSION_MINUTES = 30;
+const APP_FRESH = new Set(['/app.html', '/app', '/app-sw.js', '/app.webmanifest']);
 
 const SECURITY_HEADERS = {
   'Strict-Transport-Security': 'max-age=15552000; includeSubDomains',   // matches the HSTS setting already on in Cloudflare
@@ -38,6 +39,12 @@ export default {
     if (url.pathname.startsWith('/api/bernie/')) {
       try { return withHeaders(await api(request, env, url)); }
       catch (e) { console.log('bernie error', e && e.message); return withHeaders(json({ ok: false, error: 'server' }, 500)); }
+    }
+    // The Bernie app's page, service worker and manifest are never cached, so a phone always gets the latest version.
+    if (APP_FRESH.has(url.pathname)) {
+      const r = withHeaders(await fetch(request, { cache: 'no-store' }), url.pathname);
+      r.headers.set('Cache-Control', 'no-cache');
+      return r;
     }
     return withHeaders(await fetch(request), url.pathname);   // the page itself, from GitHub Pages
   },
