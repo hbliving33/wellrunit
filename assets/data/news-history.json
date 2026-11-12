@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-12T08:26:57.589363+00:00",
+ "updated": "2026-11-12T10:17:06.874172+00:00",
  "items": [
+  {
+   "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+   "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T09:39:55+00:00"
+  },
+  {
+   "title": "Hackers plant GSocket on Linux servers for persistent access",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T09:38:00+00:00"
+  },
+  {
+   "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+   "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T09:25:00+00:00"
+  },
+  {
+   "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+   "link": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T09:23:21+00:00"
+  },
+  {
+   "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+   "link": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T08:38:47+00:00"
+  },
+  {
+   "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+   "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T08:20:37+00:00"
+  },
   {
    "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
    "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
@@ -2256,12 +2292,6 @@
    "link": "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions",
    "source": "Dark Reading",
    "date": "2026-10-29T15:44:04+00:00"
-  },
-  {
-   "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
-   "link": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
-   "source": "Dark Reading",
-   "date": "2026-10-29T10:00:00+00:00"
   }
  ]
 }
