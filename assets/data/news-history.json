@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-12T05:14:27.586847+00:00",
+ "updated": "2026-11-12T06:18:58.753470+00:00",
  "items": [
+  {
+   "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+   "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T05:12:26+00:00"
+  },
   {
    "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
    "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
