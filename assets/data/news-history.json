@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-12T19:11:41.020740+00:00",
+ "updated": "2026-11-12T20:05:35.480652+00:00",
  "items": [
+  {
+   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+   "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T19:51:16+00:00"
+  },
+  {
+   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+   "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T19:12:55+00:00"
+  },
   {
    "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
    "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
@@ -114,6 +126,30 @@
    "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
    "source": "The Hacker News",
    "date": "2026-11-12T12:09:14+00:00"
+  },
+  {
+   "title": "Siemens Desigo, Gridscale",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+   "source": "CISA",
+   "date": "2026-11-12T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens RUGGEDCOM APE1808",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+   "source": "CISA",
+   "date": "2026-11-12T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens Building Automation and Energy Products",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+   "source": "CISA",
+   "date": "2026-11-12T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens Industrial Edge Management",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+   "source": "CISA",
+   "date": "2026-11-12T12:00:00+00:00"
   },
   {
    "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
@@ -686,6 +722,12 @@
    "date": "2026-11-10T12:07:03+00:00"
   },
   {
+   "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+   "source": "CISA",
+   "date": "2026-11-10T12:00:00+00:00"
+  },
+  {
    "title": "Beyond the Alert: The Case for Rich Network Data",
    "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
    "source": "The Hacker News",
@@ -962,6 +1004,12 @@
    "date": "2026-11-09T12:13:32+00:00"
   },
   {
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "source": "CISA",
+   "date": "2026-11-09T12:00:00+00:00"
+  },
+  {
    "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
    "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
    "source": "The Hacker News",
@@ -1214,6 +1262,12 @@
    "date": "2026-11-06T12:06:35+00:00"
   },
   {
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "source": "CISA",
+   "date": "2026-11-06T12:00:00+00:00"
+  },
+  {
    "title": "The Flood is Coming And The Pipes Were Already Full",
    "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
    "source": "The Hacker News",
@@ -1416,6 +1470,18 @@
    "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
    "source": "The Hacker News",
    "date": "2026-11-05T12:08:54+00:00"
+  },
+  {
+   "title": "Post-Quantum Questions to Ask Your Vendors",
+   "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+   "source": "CISA",
+   "date": "2026-11-05T12:00:00+00:00"
+  },
+  {
+   "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+   "link": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+   "source": "CISA",
+   "date": "2026-11-05T12:00:00+00:00"
   },
   {
    "title": "The Agent Smith Dilemma: Governing Agentic Identities",
@@ -2418,12 +2484,6 @@
    "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
    "source": "Dark Reading",
    "date": "2026-10-29T20:15:37+00:00"
-  },
-  {
-   "title": "Why CTF Competitions May Be More Important Than Ever",
-   "link": "https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever",
-   "source": "Dark Reading",
-   "date": "2026-10-29T19:56:44+00:00"
   }
  ]
 }

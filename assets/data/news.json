@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-12T19:11:41.020740+00:00",
+ "updated": "2026-11-12T20:05:35.480652+00:00",
  "m365": {
   "status": "ServiceDegradation",
-  "checked": "2026-11-12T19:11:42.151356+00:00",
+  "checked": "2026-11-12T20:05:35.571950+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-12T19:11:41.020740+00:00"
+  "checked": "2026-11-12T20:05:35.480652+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-12T19:11:41.020740+00:00"
+  "checked": "2026-11-12T20:05:35.480652+00:00"
  },
  "items": [
+  {
+   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+   "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T19:51:16+00:00"
+  },
+  {
+   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+   "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T19:12:55+00:00"
+  },
   {
    "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
    "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
@@ -123,6 +135,30 @@
    "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
    "source": "The Hacker News",
    "date": "2026-11-12T12:09:14+00:00"
+  },
+  {
+   "title": "Siemens Desigo, Gridscale",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+   "source": "CISA",
+   "date": "2026-11-12T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens RUGGEDCOM APE1808",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+   "source": "CISA",
+   "date": "2026-11-12T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens Building Automation and Energy Products",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+   "source": "CISA",
+   "date": "2026-11-12T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens Industrial Edge Management",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+   "source": "CISA",
+   "date": "2026-11-12T12:00:00+00:00"
   },
   {
    "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
@@ -239,12 +275,6 @@
    "date": "2026-11-11T21:20:41+00:00"
   },
   {
-   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-   "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-   "source": "BleepingComputer",
-   "date": "2026-11-11T20:54:20+00:00"
-  },
-  {
    "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
    "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
    "source": "Dark Reading",
@@ -273,12 +303,6 @@
    "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
    "source": "SecurityWeek",
    "date": "2026-11-11T16:29:42+00:00"
-  },
-  {
-   "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-   "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-   "source": "BleepingComputer",
-   "date": "2026-11-11T16:24:18+00:00"
   },
   {
    "title": "Detecting sleeper agents hiding in AI model neurons",
@@ -329,65 +353,39 @@
    "date": "2026-11-10T18:46:22+00:00"
   },
   {
+   "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+   "source": "CISA",
+   "date": "2026-11-10T12:00:00+00:00"
+  },
+  {
    "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
    "source": "Microsoft Security Blog",
    "date": "2026-11-09T20:17:31+00:00"
   },
   {
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "source": "CISA",
+   "date": "2026-11-09T12:00:00+00:00"
+  },
+  {
    "title": "ARTEX abuse expands as cybercriminals target financial sector",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
    "source": "Microsoft Security Blog",
    "date": "2026-11-07T02:44:34+00:00"
-  },
-  {
-   "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-05T23:46:50+00:00"
-  },
-  {
-   "title": "New investments to reduce on-premises security risk",
-   "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-05T17:10:14+00:00"
-  },
-  {
-   "title": "\u200b\u200b\u200b\u200bWhat\u2019s new in Microsoft Security: November 2026",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-05T17:00:00+00:00"
-  },
-  {
-   "title": "Email threat landscape: Q3 2026 trends and insights",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-05T16:00:00+00:00"
-  },
-  {
-   "title": "Actively exploited: GitLab Community Edition and Enterprise Edition (CVE-2026-97229)",
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
-   "source": "CISA",
-   "date": "2026-10-29T00:00:00+00:00"
-  },
-  {
-   "title": "Actively exploited: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software (CVE-2026-76418)",
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
-   "source": "CISA",
-   "date": "2026-10-29T00:00:00+00:00"
   }
  ],
- "errors": {
-  "CISA": "HTTP Error 403: Forbidden"
- },
+ "errors": {},
  "zoom": {
-  "status": "Available",
+  "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-12T19:11:41.020740+00:00"
+  "checked": "2026-11-12T20:05:35.480652+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-12T19:11:41.020740+00:00"
+  "checked": "2026-11-12T20:05:35.480652+00:00"
  }
 }
