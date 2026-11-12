@@ -486,3 +486,29 @@ section.band{background:#e3e8ef}
 }
 #partnership{scroll-margin-top:190px}
 #testimonials,#check{scroll-margin-top:90px}
+/* Services page, Nov 12 2026: three groups of four same-size cards, no buttons */
+.sgroup{padding:56px 0 8px}
+.phero + .sgroup{padding-top:8px}
+.sgroup-head{display:flex;align-items:baseline;justify-content:space-between;gap:24px;flex-wrap:wrap;padding-bottom:18px;margin-bottom:24px;border-bottom:2px solid var(--ink)}
+.sgroup-head h2{font-size:clamp(26px,2.6vw,34px)}
+.sgroup-head p{color:var(--ink2);font-size:17px;max-width:520px}
+.scards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.scard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px 24px 24px;display:flex;flex-direction:column;scroll-margin-top:100px}
+.scard-ic{display:block;width:40px;height:40px;color:var(--accent);margin-bottom:18px}
+.scard-ic svg{width:40px;height:40px;stroke-width:1.6}
+.scard h3{font-size:20px}
+.scard p{margin-top:10px;font-size:15.5px;line-height:1.5;color:var(--ink2);min-height:4.5em}
+.scard ul{list-style:none;margin:18px 0 0;padding:16px 0 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:9px}
+.scard li{position:relative;padding-left:22px;font-size:14.5px;line-height:1.45;color:var(--ink)}
+.scard li::before{content:"";position:absolute;left:0;top:7px;width:10px;height:10px;border-radius:2px;background:var(--accent)}
+.scard:target{border-color:var(--accent);box-shadow:0 0 0 3px rgba(61,95,133,.18)}
+@media (max-width:1080px){.scards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.scards{grid-template-columns:1fr}.scard p{min-height:0}.sgroup{padding-top:40px}}
+/* line up icon, title, summary and points across each row of cards */
+@supports (grid-template-rows:subgrid){
+  .scards{grid-auto-rows:auto}
+  .scard{display:grid;grid-row:span 4;grid-template-rows:subgrid;row-gap:0}
+  .scard p{min-height:0}
+  .scard ul{align-self:start}
+}
+.sgroup-head p{max-width:640px}

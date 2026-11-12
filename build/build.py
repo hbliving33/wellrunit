@@ -240,19 +240,21 @@ def ways():
 <p class="way-best"><b>Best for:</b> {best}.</p></div>''' for t, sub, how, inc, work, best in w)
     return f'''<section class="band" id="partnership"><div class="wrap"><div class="sec-head"><h2>Three ways to work with us.</h2><p class="lead">One job, a managed IT plan built around you, or a senior IT leader part time.  Start with one and add another later.  You get a written scope and price before any work starts.</p></div><div class="ways">{cols}</div></div></section>'''
 
+# Services page, Nov 12 2026 redesign: no button grid, no per-service buttons.
+# Twelve services in three groups of four, each a same-size card with a short summary and three points.
+GROUPS = [
+    ('Infrastructure', 'The network, servers, cloud and buildings your business runs on.', ['network', 'cloud', 'data-center', 'access-control']),
+    ('Workplace', 'The tools your people use every day, set up right and kept clean.', ['microsoft-365', 'business-applications', 'business-automation', 'ai']),
+    ('Run and protect', 'Day-to-day support, security and leadership, so nothing slips.', ['managed-it', 'cybersecurity', 'compliance', 'it-strategy']),
+]
+
 def services():
-    jump = ''.join(f'<a href="#{x["slug"]}">{x["name"]}</a>' for x in SERVICES)
-    rows = ''
-    for n, x in enumerate(SERVICES, 1):
-        notes = ''.join(f'<p class="svc-note">{t}</p>' for t in SVC_NOTES.get(x['slug'], []))
-        topic = quote(TOPIC_OF.get(x['slug'], 'A project or assessment')); msg = quote('About ' + x['name'] + ': ')
-        rows += f'''<section class="svc{' alt' if n % 2 == 0 else ''}" id="{x["slug"]}"><div class="wrap svc-grid">
-  <div class="svc-side"><span class="svc-num">{n:02d}</span><span class="svc-ic">{icon(x["slug"])}</span><h2>{x["name"]}</h2></div>
-  <div class="svc-main"><p class="svc-h">{plain(x["h"])}</p><p class="svc-intro">{x["intro"]}</p>{notes}
-    <ul class="svc-list">{''.join(f'<li>{g}</li>' for g in x["get"][:4])}</ul>
-    <a class="btn" href="contact.html?topic={topic}&amp;msg={msg}">Talk to us about {x["name"]}</a></div>
-</div></section>'''
-    body = phero('Everything IT, one team.', 'Bring us a single project or hand us the whole stack.  Every service is delivered by the same small, senior team.') + f'<nav class="jump" aria-label="Services on this page"><div class="wrap">{jump}</div></nav>' + rows + ways() + faq() + cta()
+    groups = ''
+    for title, lead, slugs in GROUPS:
+        cards = ''.join(f'''<article class="scard" id="{x["slug"]}"><span class="scard-ic">{icon(x["slug"])}</span><h3>{x["name"]}</h3><p>{x["short"]}</p>
+<ul>{''.join(f"<li>{g}</li>" for g in x["get"][:3])}</ul></article>''' for x in (SVC[k] for k in slugs))
+        groups += f'<section class="sgroup"><div class="wrap"><div class="sgroup-head"><h2>{title}</h2><p>{lead}</p></div><div class="scards">{cards}</div></div></section>'
+    body = phero('Everything IT, one team.', 'Bring us a single project or hand us the whole stack.  Every service is delivered by the same small, senior team.') + groups + ways() + faq() + cta()
     page('services.html', f'Services | {BRAND}', 'Microsoft 365, business applications, network, cybersecurity, IT strategy, managed IT, cloud, AI, data center, automation, access control and compliance.', body)
 
 def service(i, s):
