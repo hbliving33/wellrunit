@@ -376,14 +376,14 @@ def app_page():
 
   <main class="screen" id="setup" hidden>
     <h1>Who are we helping?</h1>
-    <p class="sub">Just once.  It's saved on this device only, so next time you just tap and talk.</p>
+    <p class="sub" id="setupLead">Saved on this device only.</p>
     <form class="card" id="setupForm" novalidate>
       <label>Your name<input id="s-name" autocomplete="name" maxlength="120" required></label>
       <label>Company<input id="s-company" autocomplete="organization" maxlength="160" required></label>
       <label>Best phone number<input id="s-phone" type="tel" autocomplete="tel" maxlength="40" required></label>
       <label>Email (optional)<input id="s-email" type="email" autocomplete="email" maxlength="200"></label>
       <p class="err" id="setupErr" role="alert" hidden></p>
-      <button class="btn wide" type="submit">Save</button>
+      <button class="btn wide" id="setupSave" type="submit">Save</button>
       <p class="note">We only use this to reply to you.  <a href="privacy.html">Privacy</a></p>
     </form>
   </main>

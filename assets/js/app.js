@@ -14,14 +14,14 @@
   const ready = () => !!(who && who.name && who.company && who.phone);
   function show(name) {
     screens.forEach((s) => { $(s).hidden = s !== name; });
-    document.querySelector('.foot').hidden = name !== 'home' || !ready();
+    document.querySelector('.foot').hidden = name !== 'home';
     const h = $(name).querySelector('h1');
     if (h) { h.setAttribute('tabindex', '-1'); h.focus({ preventScroll: true }); }
   }
   function working(title, text) { $('workTitle').textContent = title; $('workText').textContent = text; show('working'); }
 
   // ---------- who is sending (kept on this device only) ----------
-  function showWho() { $('who').textContent = ready() ? who.name : ''; }
+  function showWho() { $('who').textContent = ready() ? who.name : ''; $('changeWho').hidden = !ready(); }
   $('setupForm').addEventListener('submit', (e) => {
     e.preventDefault();
     const v = (id) => $(id).value.trim();
@@ -33,13 +33,17 @@
     if (problem) { $('setupErr').textContent = problem; $('setupErr').hidden = false; return; }
     who = next;
     try { localStorage.setItem(KEY, JSON.stringify(who)); } catch (err) {}
-    showWho(); show('home');
+    showWho();
+    if (pendingText) { const t = pendingText; pendingText = ''; send(t); } else show('home');
   });
-  function editWho() {
+  let pendingText = '';   // a ticket waiting on the client's details (first time only)
+  function editWho(firstSend) {
+    $('setupLead').textContent = firstSend ? 'Last step, just this once.  Who should we get back to?  It\'s saved on this device only.' : 'Saved on this device only.';
+    $('setupSave').textContent = firstSend ? 'Send it' : 'Save';
     ['name', 'company', 'phone', 'email'].forEach((k) => { $('s-' + k).value = (who && who[k]) || ''; });
     $('setupErr').hidden = true; show('setup');
   }
-  $('changeWho').addEventListener('click', editWho);
+  $('changeWho').addEventListener('click', () => { pendingText = ''; editWho(false); });
 
   // ---------- recording ----------
   let rec = null, stream = null, chunks = [], started = 0, tick = null;
@@ -118,6 +122,7 @@
     e.preventDefault();
     const text = $('r-text').value.trim();
     if (text.length < 3) { $('reviewErr').textContent = "Tell us a little about what's going on."; $('reviewErr').hidden = false; return; }
+    if (!ready()) { pendingText = text; editWho(true); return; }   // details asked once, at the end of the first ticket
     send(text);
   });
 
@@ -192,11 +197,11 @@
     deferred = null; $('installBtn').hidden = true; $('steps').hidden = false;
   });
   window.addEventListener('appinstalled', () => { $('installBtn').hidden = true; steps(['Bernie is installed.  Open Well Run IT from your home screen, desktop or Dock.']); $('steps').hidden = false; });
-  $('useHere').addEventListener('click', () => { if (ready()) show('home'); else editWho(); });
+  $('useHere').addEventListener('click', () => show('home'));
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('/app-sw.js', { scope: '/app' }).catch(() => {});
 
   // ---------- start ----------
   showWho();
   if (!standalone) show('get');
-  else if (ready()) show('home'); else editWho();
+  else show('home');
 })();
