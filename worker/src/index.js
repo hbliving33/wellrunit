@@ -1,6 +1,7 @@
 // Well Run IT edge Worker (wellrunit.com/*)
 // 1. Adds security headers to every page served from GitHub Pages.
-// 2. Runs Bernie's back end under /api/bernie/: bot check, then the lead email to support@wellrunit.com.  Form only, no AI.
+// 2. Runs Bernie's back end under /api/bernie/: bot check, then the lead email to support@wellrunit.com.  The chat is form only, no AI.
+// 3. Takes tickets from the Bernie app (app.html) at /api/bernie/ticket: speech to text with Workers AI, then one email with the recording attached.
 // Emergencies go out as the same email, marked URGENT and high importance.  No text or push alerts (Nov 2026: email only).
 // Nothing a visitor types is stored here.  A lead becomes one email, then it's gone.
 
@@ -38,13 +39,15 @@ export default {
       try { return withHeaders(await api(request, env, url)); }
       catch (e) { console.log('bernie error', e && e.message); return withHeaders(json({ ok: false, error: 'server' }, 500)); }
     }
-    return withHeaders(await fetch(request));   // the page itself, from GitHub Pages
+    return withHeaders(await fetch(request), url.pathname);   // the page itself, from GitHub Pages
   },
 };
 
-function withHeaders(res) {
+function withHeaders(res, path = '') {
   const r = new Response(res.body, res);
   for (const [k, v] of Object.entries(SECURITY_HEADERS)) r.headers.set(k, v);
+  // The Bernie app is the only page allowed to use the microphone.
+  if (path === '/app.html' || path === '/app') r.headers.set('Permissions-Policy', SECURITY_HEADERS['Permissions-Policy'].replace('microphone=()', 'microphone=(self)'));
   r.headers.delete('x-github-request-id');
   return r;
 }
@@ -60,6 +63,7 @@ async function api(request, env, url) {
   if (route === 'config' && request.method === 'GET') return json({ ok: true, sitekey: env.TURNSTILE_SITEKEY });
   if (request.method !== 'POST') return json({ ok: false, error: 'method' }, 405);
   if (request.headers.get('Origin') !== SITE) return json({ ok: false, error: 'origin' }, 403);
+  if (route === 'ticket') return ticket(request, env, ip);   // the Bernie app (app.html)
   const body = await request.json().catch(() => null);
   if (!body) return json({ ok: false, error: 'bad request' }, 400);
 
@@ -182,6 +186,80 @@ async function sendLeadEmail(env, lead, transcript) {
       },
       saveToSentItems: false,
     }),
+  });
+  if (r.status !== 202) throw new Error('sendMail ' + r.status + ' ' + (await r.text()).slice(0, 300));
+}
+
+// ---------- the Bernie app: one ticket, by voice or typed ----------
+// A client taps the button, talks, and taps again.  The recording comes here once, is turned into text,
+// and goes to the support mailbox as one email with the recording attached.  Nothing is kept here.
+const MAX_AUDIO = 2_800_000;   // Graph's sendMail takes attachments under 3 MB; the app stops recording at 2 minutes, well under this
+const AUDIO_TYPES = { 'audio/mp4': 'm4a', 'audio/x-m4a': 'm4a', 'audio/aac': 'aac', 'audio/webm': 'webm', 'audio/ogg': 'ogg', 'audio/mpeg': 'mp3', 'audio/wav': 'wav' };
+
+async function ticket(request, env, ip) {
+  if (!(await env.RL_SUBMIT.limit({ key: ip })).success) return json({ ok: false, error: 'slow down' }, 429);
+  const form = await request.formData().catch(() => null);
+  if (!form) return json({ ok: false, error: 'bad request' }, 400);
+  if (!(await turnstileOk(env, form.get('token'), ip))) return json({ ok: false, error: 'bot check' }, 403);
+
+  const who = { name: str(form.get('name'), 120), company: str(form.get('company'), 160), phone: str(form.get('phone'), 40), email: str(form.get('email'), 200) };
+  if (!who.name || !who.company || who.phone.replace(/\D/g, '').length < 7) return json({ ok: false, error: 'missing details' }, 400);
+  if (who.email && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(who.email)) who.email = '';
+  const typed = typeof form.get('text') === 'string' ? form.get('text').replace(/[\u0000-\u0008\u000b-\u001f\u007f]/g, ' ').trim().slice(0, 5000) : '';
+
+  const file = form.get('audio');
+  let audio = null;
+  if (file && typeof file === 'object' && file.size > 0) {
+    const type = String(file.type || '').split(';')[0].trim().toLowerCase();
+    if (file.size > MAX_AUDIO || !AUDIO_TYPES[type]) return json({ ok: false, error: 'recording too long' }, 413);
+    audio = { bytes: new Uint8Array(await file.arrayBuffer()), type, ext: AUDIO_TYPES[type] };
+  }
+  if (!audio && !typed) return json({ ok: false, error: 'nothing to send' }, 400);
+
+  let heard = '';
+  if (audio && env.AI) {   // Workers AI speech to text; if it fails, the recording still goes out
+    try {
+      const r = await env.AI.run('@cf/openai/whisper-large-v3-turbo', { audio: toBase64(audio.bytes), language: 'en' });
+      heard = str(r && r.text, 5000);
+    } catch (e) { console.log('transcribe failed', e && e.message); }
+  }
+  try { await sendTicketEmail(env, who, typed, heard, audio); }
+  catch (e) { console.log('ticket email failed', e && e.message); return json({ ok: false, error: 'send failed' }, 502); }
+  return json({ ok: true });
+}
+
+function toBase64(bytes) {
+  let s = '';
+  for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+  return btoa(s);
+}
+
+async function sendTicketEmail(env, who, typed, heard, audio) {
+  const said = typed || heard;
+  const first = said ? said.replace(/\s+/g, ' ').slice(0, 60) + (said.length > 60 ? '...' : '') : 'Voice message';
+  const subject = `${who.company} | ${who.name} | App ticket: ${first}`;
+  const stamp = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date()).reduce((o, p) => ((o[p.type] = p.value), o), {});
+  const rows = [['Company', who.company], ['Name', who.name], ['Phone', who.phone], ['Email', who.email || 'Not given'], ['Sent from', typed ? 'Bernie app, typed' : 'Bernie app, voice']]
+    .map(([k, v]) => `<tr><td style="padding:8px 14px 8px 0;color:#6b7787;vertical-align:top;white-space:nowrap">${k}</td><td style="padding:8px 0;color:#1b2430">${esc(v)}</td></tr>`).join('');
+  const body = typed ? `<p style="margin:0;white-space:pre-wrap">${esc(typed)}</p>`
+    : heard ? `<p style="margin:0;white-space:pre-wrap">${esc(heard)}</p><p style="margin:10px 0 0;color:#6b7787">Written out by computer from the recording, so a word may be off.  The recording is attached.</p>`
+    : '<p style="margin:0">The recording could not be written out.  Listen to the attached recording.</p>';
+  const html = `<div style="font:15px/1.5 Segoe UI,Arial,sans-serif;max-width:680px">
+<h2 style="margin:0 0 4px;font-size:20px;color:#1b2430">New ticket from the Bernie app</h2>
+<p style="margin:0 0 16px;color:#6b7787">${who.email ? 'Reply to this email to answer the customer directly.' : 'No email given.  Call the customer back.'}</p>
+<table style="border-collapse:collapse">${rows}</table>
+<h3 style="margin:22px 0 8px;font-size:16px;color:#1b2430">What they said</h3>${body}</div>`;
+  const message = {
+    subject, importance: 'normal',
+    body: { contentType: 'HTML', content: html },
+    toRecipients: [{ emailAddress: { address: env.SUPPORT_MAILBOX } }],
+    ...(who.email ? { replyTo: [{ emailAddress: { address: who.email, name: who.name } }] } : {}),
+  };
+  if (audio) message.attachments = [{ '@odata.type': '#microsoft.graph.fileAttachment', name: `voice-ticket-${stamp.year}${stamp.month}${stamp.day}-${stamp.hour}${stamp.minute}.${audio.ext}`, contentType: audio.type, contentBytes: toBase64(audio.bytes) }];
+  const token = await graphToken(env);
+  const r = await fetch(`https://graph.microsoft.com/v1.0/users/${encodeURIComponent(env.SUPPORT_MAILBOX)}/sendMail`, {
+    method: 'POST', headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message, saveToSentItems: false }),
   });
   if (r.status !== 202) throw new Error('sendMail ' + r.status + ' ' + (await r.text()).slice(0, 300));
 }

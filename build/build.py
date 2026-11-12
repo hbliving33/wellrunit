@@ -69,7 +69,7 @@ def icon(name):
 def plain(h):
     return re.sub(r'</?em>', '', h)
 
-NAV = [('index.html', 'Home'), ('services.html', 'Services'), ('engagement.html', 'Partnership'), ('about.html', 'About Us'), ('news.html', 'Cyber News')]
+NAV = [('index.html', 'Home'), ('services.html', 'Services'), ('about.html', 'About Us'), ('news.html', 'Cyber News')]   # five pages with Contact (Nov 12 2026 trim)
 SVC_FILES = {s['slug'] + '.html' for s in SERVICES}
 
 ORG_LD = json.dumps({"@context": "https://schema.org", "@type": "ProfessionalService", "name": BRAND, "url": DOMAIN, "logo": DOMAIN + "assets/brand/og.png",
@@ -115,7 +115,7 @@ def page(fname, title, desc, body):
   <div class="wrap">
     <div class="foot-row">
       <a class="brand" href="index.html" aria-label="{BRAND}, home">{logo(True)}</a>
-      <nav class="foot-links" aria-label="Footer"><a href="services.html">Services</a><a href="engagement.html">Partnership</a><a href="about.html">About us</a><a href="testimonials.html">Testimonials</a><a href="news.html">Cyber news</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+      <nav class="foot-links" aria-label="Footer"><a href="services.html">Services</a><a href="about.html">About us</a><a href="news.html">Cyber news</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="app.html">Get the app</a></nav>
     </div>
     <div class="base"><span>&copy; {YEAR} {BRAND}</span><span>Supporting all 50 states</span></div>
   </div>
@@ -178,7 +178,7 @@ def fit_cards():
 
 def quote_block(i=0):
     q, c = C['QUOTES'][i]
-    return f'<section><div class="wrap"><figure class="quote"><blockquote>{q}</blockquote><figcaption>{c}.  <a class="link" href="testimonials.html">Read the testimonials</a></figcaption></figure></div></section>'
+    return f'<section><div class="wrap"><figure class="quote"><blockquote>{q}</blockquote><figcaption>{c}.  <a class="link" href="about.html#testimonials">Read the testimonials</a></figcaption></figure></div></section>'
 
 def form():
     opts = ''.join(f'<option>{E(t)}</option>' for t in TOPICS)
@@ -231,6 +231,15 @@ def home():
 <script type="application/ld+json">{ORG_LD}</script>'''
     page('index.html', f'{BRAND} | IT infrastructure and operations, well run', 'IT infrastructure and operations for startups, small businesses and companies preparing for growth: Microsoft 365, business applications, networks, cybersecurity and IT leadership.  Supporting companies in all 50 states.', body)
 
+def ways():
+    # Partnership page folded into Services (Nov 12 2026 trim)
+    w = list(C['ENGAGE'])
+    t, sub, how, inc, work, best = w[1]
+    w[1] = (t, "No packages.  No tiers.  No paying for what you don't use.", "Every plan is built around your business.  We sit down with you, choose what we manage and how, and price it to fit, from a few key systems to the whole stack.  We can also take over from your current MSP.", inc, work, best)
+    cols = ''.join(f'''<div class="way"><span class="way-t">{t}</span><h3>{sub}</h3><p>{how}</p><ul class="ticks">{''.join(f"<li>{x}</li>" for x in inc[:5])}</ul>
+<p class="way-best"><b>Best for:</b> {best}.</p></div>''' for t, sub, how, inc, work, best in w)
+    return f'''<section class="band" id="partnership"><div class="wrap"><div class="sec-head"><h2>Three ways to work with us.</h2><p class="lead">One job, a managed IT plan built around you, or a senior IT leader part time.  Start with one and add another later.  You get a written scope and price before any work starts.</p></div><div class="ways">{cols}</div></div></section>'''
+
 def services():
     jump = ''.join(f'<a href="#{x["slug"]}">{x["name"]}</a>' for x in SERVICES)
     rows = ''
@@ -243,33 +252,21 @@ def services():
     <ul class="svc-list">{''.join(f'<li>{g}</li>' for g in x["get"][:4])}</ul>
     <a class="btn" href="contact.html?topic={topic}&amp;msg={msg}">Talk to us about {x["name"]}</a></div>
 </div></section>'''
-    body = phero('Everything IT, one team.', 'Bring us a single project or hand us the whole stack.  Every service is delivered by the same small, senior team.') + f'<nav class="jump" aria-label="Services on this page"><div class="wrap">{jump}</div></nav>' + rows + cta()
+    body = phero('Everything IT, one team.', 'Bring us a single project or hand us the whole stack.  Every service is delivered by the same small, senior team.') + f'<nav class="jump" aria-label="Services on this page"><div class="wrap">{jump}</div></nav>' + rows + ways() + faq() + cta()
     page('services.html', f'Services | {BRAND}', 'Microsoft 365, business applications, network, cybersecurity, IT strategy, managed IT, cloud, AI, data center, automation, access control and compliance.', body)
 
 def service(i, s):
     redirect(s['slug'] + '.html', 'services.html#' + s['slug'])   # one Services page now, no sub-pages (Nov 2026)
 
 def engagement():
-    ways = list(C['ENGAGE'])
-    t, sub, how, inc, work, best = ways[1]
-    ways[1] = (t, "No packages.  No tiers.  No paying for what you don't use.", "Every plan is built around your business.  We sit down with you, choose what we manage and how, and price it to fit, from a few key systems to the whole stack.  We can also take over from your current MSP.", inc, work, best)
-    cols = ''.join(f'''<div class="way"><span class="way-t">{t}</span><h3>{sub}</h3><p>{how}</p><ul class="ticks">{''.join(f"<li>{x}</li>" for x in inc[:5])}</ul>
-<p class="way-best"><b>Best for:</b> {best}.</p></div>''' for t, sub, how, inc, work, best in ways)
-    steps = [('Ask Bernie', "A few quick questions and everything goes to a real person, who calls you back at a time you picked."), ('Get a written proposal', 'A clear scope, timeline and price, in plain English.'), ('Kick off', 'We get to work, keep you posted and document everything as we go.'), ('Hand-off or ongoing', 'Projects end with documentation you own.  Managed and fractional work continue month to month.')]
-    st = ''.join(f'<li><span class="tl-n">{n}</span><h3>{t}</h3><p>{d}</p></li>' for n, (t, d) in enumerate(steps, 1))
-    std = ''.join(f'<li><span class="li-ic">{icon(k)}</span><div><h3>{t}</h3><p>{d}</p></div></li>' for k, t, d in C['STANDARD'])
-    body = phero('A partnership built around your business.', 'One job, a managed IT plan built around you, or a senior IT leader part time.  Start with one and add another later.') + f'''
-<section class="tight"><div class="wrap"><div class="ways">{cols}</div></div></section>
-<section class="dark"><div class="wrap"><div class="sec-head"><h2>How an engagement starts.</h2></div><ol class="timeline">{st}</ol></div></section>
-<section><div class="wrap"><div class="sec-head"><h2>Our standard, in writing.</h2><p class="lead">Six commitments we hold ourselves to on every engagement, large or small.</p></div><ul class="standards">{std}</ul></div></section>
-{faq()}
-{cta()}'''
-    page('engagement.html', f'Partnership | {BRAND}', 'Projects, a managed IT plan built around you, or fractional IT leadership.  Written scope and price before any work starts.', body)
+    redirect('engagement.html', 'services.html#partnership')   # Partnership folded into Services, Nov 12 2026
 
 def why():
     redirect('why-us.html', 'about.html')   # Why Us merged into About Us, Nov 2026
 
 def about():
+    std = ''.join(f'<li><span class="li-ic">{icon(k)}</span><div><h3>{t}</h3><p>{d}</p></div></li>' for k, t, d in C['STANDARD'])
+    tq = ''.join(f'<figure class="tq"><figcaption class="who">{E(t["cap"][0])}<span>{E(t["cap"][1]) if len(t["cap"]) > 1 else ""}</span></figcaption><blockquote>{"".join(f"<p>{E(p)}</p>" for p in t["paras"])}</blockquote></figure>' for t in C['TESTIMONIALS'])
     qs = ''.join(f'<li data-q="{i}"><p>{q}</p><div class="yn"><button type="button" data-v="1" aria-pressed="false">Yes</button><button type="button" data-v="0" aria-pressed="false">No</button></div></li>' for i, q in enumerate(C['QUESTIONS']))
     body = phero('Mom-and-pop care.  Enterprise experience.', 'A small, senior team for startups, small businesses and companies preparing for growth, backed by 30+ years of running IT.') + f'''
 <section class="tight"><div class="wrap"><div class="panel">
@@ -284,7 +281,9 @@ def about():
     <p>Some of our longest client relationships began at OC TechWorks LLC, the Orange County IT firm our founder co-owned.  When it wound down, its clients came with us.  We started out as Cali IT Consulting, headquartered in Huntington Beach, with remote offices in Arcata, California and Payson, Arizona.  Our clients are now across the country, so our name says what we do, not where we are.</p>
   </div>
 </div></section>
-<section id="check" class="band"><div class="wrap"><div class="panel-check">
+<section><div class="wrap"><div class="sec-head"><h2>Our standard, in writing.</h2><p class="lead">Six commitments we hold ourselves to on every engagement, large or small.</p></div><ul class="standards">{std}</ul></div></section>
+<section id="testimonials" class="band"><div class="wrap" style="max-width:900px"><div class="sec-head"><h2>In their own words.</h2><p class="lead">What clients and colleagues have said about the work of our team's leader.  Quoted from LinkedIn recommendations, with names left out for privacy.</p></div>{tq}</div></section>
+<section id="check"><div class="wrap"><div class="panel-check">
   <h2>The 60-second IT health check.</h2><p class="lead" style="margin-top:14px">Six honest questions.  No email required, and your answers stay in your browser.</p>
   <div class="check" style="margin-top:34px"><ol class="questions" id="questions">{qs}</ol>
   <div class="score"><div class="n" id="gaugeNum">0<small> of {len(C['QUESTIONS'])}</small></div><h3 id="verdictTitle">Answer the questions</h3><p id="verdictText">Every "No" is a gap worth closing.  Most businesses have at least one.</p><a class="btn" id="checkCta" href="contact.html" hidden>Send us your results</a></div></div>
@@ -293,9 +292,7 @@ def about():
     page('about.html', f'About Us | {BRAND}', 'Mom-and-pop care, enterprise experience: 30+ years of running IT for startups, small businesses and companies preparing for growth.  Take the free 60-second IT health check.', body)
 
 def testimonials():
-    rows = ''.join(f'<figure class="tq"><figcaption class="who">{E(t["cap"][0])}<span>{E(t["cap"][1]) if len(t["cap"]) > 1 else ""}</span></figcaption><blockquote>{"".join(f"<p>{E(p)}</p>" for p in t["paras"])}</blockquote></figure>' for t in C['TESTIMONIALS'])
-    body = phero('In their own words.', "What clients and colleagues have said about the work of our team's leader.  Quoted from LinkedIn recommendations, with names left out for privacy.") + f'<section style="padding-top:0"><div class="wrap" style="max-width:900px">{rows}</div></section>' + cta()
-    page('testimonials.html', f'Testimonials | {BRAND}', f'What clients and colleagues say about working with the {BRAND} team.', body)
+    redirect('testimonials.html', 'about.html#testimonials')   # folded into About Us, Nov 12 2026
 
 def status_panel():
     rows = ''.join(f'<a class="sp-row" data-status="{k}" href="{u}" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span><b>{n}</b><span class="sp-t">Checking.</span></a>' for k, n, u in C['STATUS'])
@@ -330,7 +327,7 @@ def thanks():
 
 def privacy():
     prose = (ROOT / 'build' / 'privacy_src.html').read_text()
-    page('privacy.html', f'Privacy | {BRAND}', f'How {BRAND} collects, uses and protects information sent through this website.', phero('Privacy policy.', f'Effective November 2, {YEAR}.') + f'<section style="padding-top:0"><div class="wrap prose" style="max-width:820px">{prose}</div></section>')
+    page('privacy.html', f'Privacy | {BRAND}', f'How {BRAND} collects, uses and protects information sent through this website.', phero('Privacy policy.', f'Effective November 12, {YEAR}.') + f'<section style="padding-top:0"><div class="wrap prose" style="max-width:820px">{prose}</div></section>')
 
 def terms():
     prose = (ROOT / 'build' / 'terms_src.html').read_text()
@@ -339,11 +336,104 @@ def terms():
 def notfound():
     page('404.html', f'Page not found | {BRAND}', 'Page not found.', phero("This page isn't here.", "The page you're looking for may have moved.") + '<section style="padding-top:0"><div class="wrap"><div class="acts" style="margin-top:0"><a class="btn" href="index.html">Home page</a><a class="link" href="services.html">See our services</a></div></div></section>')
 
+MIC = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v3M8 21h8"/></svg>'
+OKMARK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>'
+
+def app_page():
+    # The Bernie app (Nov 12 2026): saved to a phone or desktop from the footer's "Get the app" link.
+    # "Well Run IT" under the icon, "Bernie by Well Run IT" inside.  Look: option 2, Night (picked Nov 12 2026).
+    css, js = ver('assets/css/app.css'), ver('assets/js/app.js')
+    (ROOT / 'app.html').write_text(f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Well Run IT</title>
+<meta name="description" content="Bernie by Well Run IT.  Tap, talk and send an IT ticket to our support team.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1b2430">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Well Run IT">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="app.webmanifest">
+<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/brand/app-180.png">
+<link rel="preload" href="assets/fonts/inter-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/app.css?v={css}">
+</head>
+<body>
+<div class="app">
+  <header class="head"><span class="wordmark" aria-label="Well Run IT">Well<b>{stride_r()}un</b><i>IT</i></span><span class="by">Bernie</span></header>
+
+  <main class="screen" id="setup" hidden>
+    <h1>Who are we helping?</h1>
+    <p class="sub">Just once.  It's saved on this device only, so next time you just tap and talk.</p>
+    <form class="card" id="setupForm" novalidate>
+      <label>Your name<input id="s-name" autocomplete="name" maxlength="120" required></label>
+      <label>Company<input id="s-company" autocomplete="organization" maxlength="160" required></label>
+      <label>Best phone number<input id="s-phone" type="tel" autocomplete="tel" maxlength="40" required></label>
+      <label>Email (optional)<input id="s-email" type="email" autocomplete="email" maxlength="200"></label>
+      <p class="err" id="setupErr" role="alert" hidden></p>
+      <button class="btn wide" type="submit">Save</button>
+      <p class="note">We only use this to reply to you.  <a href="privacy.html">Privacy</a></p>
+    </form>
+  </main>
+
+  <main class="screen" id="home" hidden>
+    <h1>Tell Bernie<br>what's going on.</h1>
+    <button class="talk" id="talk" type="button" aria-pressed="false">{MIC}<span id="talkLabel">Tap to talk</span><span class="t2" id="talkSub" hidden><span class="timer" id="timer">0:00</span></span></button>
+    <p class="sub" id="homeHint" aria-live="polite">Tap again when you're done.  It goes straight to our support team.</p>
+    <p class="err" id="homeErr" role="alert" hidden></p>
+    <div class="install" id="install" hidden><p id="installText"></p><button class="btn" id="installBtn" type="button" hidden>Install</button></div>
+  </main>
+
+  <main class="screen" id="review" hidden>
+    <h1>Got it.</h1>
+    <p class="sub">Your message is <span id="reviewLen">0:00</span> long.  Send it to our team?</p>
+    <div class="row"><button class="btn ghost" id="redo" type="button">Start over</button><button class="btn" id="sendVoice" type="button">Send it</button></div>
+  </main>
+
+  <main class="screen" id="typed" hidden>
+    <h1>What's going on?</h1>
+    <form class="card" id="typedForm" novalidate>
+      <label>Tell us in a sentence or two<textarea id="t-text" maxlength="5000"></textarea></label>
+      <p class="err" id="typedErr" role="alert" hidden></p>
+      <div class="row" style="max-width:none"><button class="btn ghost" id="typedBack" type="button">Back</button><button class="btn" type="submit">Send it</button></div>
+    </form>
+  </main>
+
+  <main class="screen" id="sending" hidden>
+    <h1>Sending.</h1>
+    <p class="sub" aria-live="polite">One moment.</p>
+  </main>
+
+  <main class="screen" id="done" hidden>
+    <span class="big-ok">{OKMARK}</span>
+    <h1>Sent.</h1>
+    <p class="sub">A real person on our team has it and will reach out.  You won't have to repeat any of this.</p>
+    <button class="btn" id="again" type="button">Done</button>
+  </main>
+
+  <main class="screen" id="failed" hidden>
+    <h1>That didn't go through.</h1>
+    <p class="sub">Try again, or email us at <a id="mailLink" href="#">support@wellrunit.com</a>.</p>
+    <div class="row"><button class="btn ghost" id="failedBack" type="button">Back</button><button class="btn" id="retry" type="button">Try again</button></div>
+  </main>
+
+  <div id="botcheck"></div>
+  <div class="foot"><button class="linkbtn" id="typeIt" type="button">Rather type it?</button><button class="linkbtn who" id="changeWho" type="button" aria-label="Change your details"><span id="who"></span></button></div>
+</div>
+<script src="assets/js/app.js?v={js}" defer></script>
+</body>
+</html>
+''')
+
 def redirect(fname, to):
     (ROOT / fname).write_text(f'<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url={to}"><link rel="canonical" href="{DOMAIN}{to}"><title>Moved</title><a href="{to}">This page has moved.</a>')
 
 def extras():
-    pages = ['', 'services.html', 'engagement.html', 'about.html', 'testimonials.html', 'news.html', 'news-history.html', 'contact.html', 'privacy.html', 'terms.html']
+    pages = ['', 'services.html', 'about.html', 'news.html', 'news-history.html', 'contact.html', 'privacy.html', 'terms.html']
     (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{DOMAIN}{p}</loc></url>\n' for p in pages) + '</urlset>\n')
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {DOMAIN}sitemap.xml\n')
     (ROOT / 'CNAME').write_text('wellrunit.com\n')
@@ -353,7 +443,7 @@ def extras():
         redirect(old, new)
 
 if __name__ == '__main__':
-    home(); services(); [service(i, s) for i, s in enumerate(SERVICES)]; engagement(); why(); about(); testimonials(); news_page(); news_history(); contact(); thanks(); privacy(); terms(); notfound(); extras()
+    home(); services(); [service(i, s) for i, s in enumerate(SERVICES)]; engagement(); why(); about(); testimonials(); news_page(); news_history(); contact(); thanks(); privacy(); terms(); notfound(); app_page(); extras()
     for n in ('thanks.html', '404.html'):
         f = ROOT / n; t = f.read_text()
         if 'name="robots"' not in t: f.write_text(t.replace('<meta name="theme-color"', '<meta name="robots" content="noindex">\n<meta name="theme-color"', 1))

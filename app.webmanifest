@@ -1,0 +1,17 @@
+{
+  "name": "Bernie by Well Run IT",
+  "short_name": "Well Run IT",
+  "description": "Tap, talk and send an IT ticket to Well Run IT.",
+  "id": "/app.html",
+  "start_url": "/app.html",
+  "scope": "/app",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1b2430",
+  "theme_color": "#1b2430",
+  "icons": [
+    { "src": "/assets/brand/app-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/brand/app-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/brand/app-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
