@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-11T23:57:51.437175+00:00",
+ "updated": "2026-11-12T01:27:53.527205+00:00",
  "items": [
+  {
+   "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
+   "link": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+   "source": "Dark Reading",
+   "date": "2026-11-12T01:00:00+00:00"
+  },
+  {
+   "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+   "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+   "source": "Dark Reading",
+   "date": "2026-11-12T00:00:00+00:00"
+  },
   {
    "title": "Baker Tilly notifies clients of data breach at third-party provider",
    "link": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
@@ -2238,18 +2250,6 @@
    "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
    "source": "Dark Reading",
    "date": "2026-10-29T08:00:00+00:00"
-  },
-  {
-   "title": "Actively exploited: GitLab Community Edition and Enterprise Edition (CVE-2026-97229)",
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
-   "source": "CISA",
-   "date": "2026-10-29T00:00:00+00:00"
-  },
-  {
-   "title": "Actively exploited: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software (CVE-2026-76418)",
-   "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
-   "source": "CISA",
-   "date": "2026-10-29T00:00:00+00:00"
   }
  ]
 }
