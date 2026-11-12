@@ -1,21 +1,45 @@
 {
- "updated": "2026-11-12T17:19:16.282597+00:00",
+ "updated": "2026-11-12T19:11:41.020740+00:00",
  "m365": {
-  "status": "Available",
-  "checked": "2026-11-12T17:19:16.330579+00:00",
+  "status": "ServiceDegradation",
+  "checked": "2026-11-12T19:11:42.151356+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-12T17:19:16.282597+00:00"
+  "checked": "2026-11-12T19:11:41.020740+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-12T17:19:16.282597+00:00"
+  "checked": "2026-11-12T19:11:41.020740+00:00"
  },
  "items": [
+  {
+   "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+   "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T18:07:15+00:00"
+  },
+  {
+   "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+   "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T18:02:51+00:00"
+  },
+  {
+   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+   "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T17:50:27+00:00"
+  },
+  {
+   "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-12T17:00:00+00:00"
+  },
   {
    "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
    "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
@@ -101,12 +125,6 @@
    "date": "2026-11-12T12:09:14+00:00"
   },
   {
-   "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-   "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T12:02:51+00:00"
-  },
-  {
    "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
    "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
    "source": "The Hacker News",
@@ -177,18 +195,6 @@
    "link": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
    "source": "SecurityWeek",
    "date": "2026-11-12T08:38:47+00:00"
-  },
-  {
-   "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
-   "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T08:20:37+00:00"
-  },
-  {
-   "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-   "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T06:42:47+00:00"
   },
   {
    "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
@@ -359,12 +365,6 @@
    "date": "2026-11-05T16:00:00+00:00"
   },
   {
-   "title": "Want to Rent an Internet Address at the White House?",
-   "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
-   "source": "Krebs on Security",
-   "date": "2026-11-05T04:36:17+00:00"
-  },
-  {
    "title": "Actively exploited: GitLab Community Edition and Enterprise Edition (CVE-2026-97229)",
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
    "source": "CISA",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-12T17:19:16.282597+00:00"
+  "checked": "2026-11-12T19:11:41.020740+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-12T17:19:16.282597+00:00"
+  "checked": "2026-11-12T19:11:41.020740+00:00"
  }
 }
