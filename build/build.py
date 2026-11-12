@@ -115,7 +115,7 @@ def page(fname, title, desc, body):
   <div class="wrap">
     <div class="foot-row">
       <a class="brand" href="index.html" aria-label="{BRAND}, home">{logo(True)}</a>
-      <nav class="foot-links" aria-label="Footer"><a href="services.html">Services</a><a href="about.html">About us</a><a href="news.html">Cyber news</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="app.html">Get the app</a></nav>
+      <nav class="foot-links" aria-label="Footer"><a href="services.html">Services</a><a href="about.html">About us</a><a href="news.html">Cyber news</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
     </div>
     <div class="base"><span>&copy; {YEAR} {BRAND}</span><span>Supporting all 50 states</span></div>
   </div>
@@ -336,108 +336,6 @@ def terms():
 def notfound():
     page('404.html', f'Page not found | {BRAND}', 'Page not found.', phero("This page isn't here.", "The page you're looking for may have moved.") + '<section style="padding-top:0"><div class="wrap"><div class="acts" style="margin-top:0"><a class="btn" href="index.html">Home page</a><a class="link" href="services.html">See our services</a></div></div></section>')
 
-MIC = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v3M8 21h8"/></svg>'
-OKMARK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>'
-
-def app_page():
-    # The Bernie app (Nov 12 2026): saved to a phone or desktop from the footer's "Get the app" link.
-    # "Well Run IT" under the icon, "Bernie by Well Run IT" inside.  Look: option 2, Night (picked Nov 12 2026).
-    css, js = ver('assets/css/app.css'), ver('assets/js/app.js')
-    (ROOT / 'app.html').write_text(f'''<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Well Run IT</title>
-<meta name="description" content="Bernie by Well Run IT.  Tap, talk and send an IT ticket to our support team.">
-<meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#1b2430">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Well Run IT">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="manifest" href="app.webmanifest">
-<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="assets/brand/app-180.png">
-<link rel="preload" href="assets/fonts/inter-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/app.css?v={css}">
-</head>
-<body>
-<div class="app">
-  <header class="head"><span class="wordmark" aria-label="Well Run IT">Well<b>{stride_r()}un</b><i>IT</i></span><span class="by">Bernie</span></header>
-
-  <main class="screen" id="get" hidden>
-    <h1>Get Bernie.</h1>
-    <p class="sub">Put Bernie on your phone or computer.  Then you just open it, tap, and tell us what's going on.</p>
-    <button class="btn wide" id="installBtn" type="button" hidden style="max-width:340px">Install Bernie</button>
-    <ol class="steps" id="steps"></ol>
-    <button class="linkbtn" id="useHere" type="button">Or use it here in your browser</button>
-  </main>
-
-  <main class="screen" id="setup" hidden>
-    <h1>Who are we helping?</h1>
-    <p class="sub">Saved on this device only.</p>
-    <form class="card" id="setupForm" novalidate>
-      <label>Your name<input id="s-name" autocomplete="name" maxlength="120" required></label>
-      <label>Company<input id="s-company" autocomplete="organization" maxlength="160" required></label>
-      <label>Best phone number<input id="s-phone" type="tel" autocomplete="tel" maxlength="40" required></label>
-      <label>Email (optional)<input id="s-email" type="email" autocomplete="email" maxlength="200"></label>
-      <p class="err" id="setupErr" role="alert" hidden></p>
-      <button class="btn wide" type="submit">Save</button>
-      <p class="note">We only use this to reply to you.  <a href="privacy.html">Privacy</a></p>
-    </form>
-  </main>
-
-  <main class="screen" id="home" hidden>
-    <h1>Tell Bernie<br>what's going on.</h1>
-    <button class="talk" id="talk" type="button" aria-pressed="false">{MIC}<span id="talkLabel">Tap to talk</span><span class="t2" id="talkSub" hidden><span class="timer" id="timer">0:00</span></span></button>
-    <p class="sub" id="homeHint" aria-live="polite">Tap again when you're done.  You'll see what Bernie heard before it's sent.</p>
-    <p class="err" id="homeErr" role="alert" hidden></p>
-  </main>
-
-  <main class="screen" id="working" hidden>
-    <h1 id="workTitle">One moment.</h1>
-    <p class="sub" id="workText" aria-live="polite"></p>
-  </main>
-
-  <main class="screen" id="review" hidden>
-    <h1>Look right?</h1>
-    <form class="card" id="reviewForm" novalidate>
-      <p class="sub" id="reviewNote" style="max-width:none;text-align:center"></p>
-      <label><span class="hp">What's going on</span><textarea id="r-text" maxlength="5000" aria-label="What's going on"></textarea></label>
-      <div class="who-box" id="rWho" hidden>
-        <p class="note" style="font-size:15px;color:var(--ink2)">First time only: who should we get back to?  Saved on this device only.</p>
-        <label>Your name<input id="r-name" autocomplete="name" maxlength="120"></label>
-        <label>Company<input id="r-company" autocomplete="organization" maxlength="160"></label>
-        <label>Best phone number<input id="r-phone" type="tel" autocomplete="tel" maxlength="40"></label>
-        <label>Email (optional)<input id="r-email" type="email" autocomplete="email" maxlength="200"></label>
-      </div>
-      <p class="err" id="reviewErr" role="alert" hidden></p>
-      <div class="row" style="max-width:none"><button class="btn ghost" id="redo" type="button">Start over</button><button class="btn" type="submit">Submit</button></div>
-    </form>
-  </main>
-
-  <main class="screen" id="done" hidden>
-    <span class="big-ok">{OKMARK}</span>
-    <h1>Sent.</h1>
-    <p class="sub">A real person on our team has it and will reach out.  You won't have to repeat any of this.</p>
-    <button class="btn" id="again" type="button">Done</button>
-  </main>
-
-  <main class="screen" id="failed" hidden>
-    <h1>That didn't go through.</h1>
-    <p class="sub">Try again, or email us at <a id="mailLink" href="#">support@wellrunit.com</a>.</p>
-    <div class="row"><button class="btn ghost" id="failedBack" type="button">Edit</button><button class="btn" id="retry" type="button">Try again</button></div>
-  </main>
-
-  <div id="botcheck"></div>
-  <div class="foot"><button class="linkbtn" id="typeIt" type="button">Rather type it?</button><button class="linkbtn who" id="changeWho" type="button" aria-label="Change your details"><span id="who"></span></button></div>
-</div>
-<script src="assets/js/app.js?v={js}" defer></script>
-</body>
-</html>
-''')
-
 def redirect(fname, to):
     (ROOT / fname).write_text(f'<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url={to}"><link rel="canonical" href="{DOMAIN}{to}"><title>Moved</title><a href="{to}">This page has moved.</a>')
 
@@ -452,7 +350,7 @@ def extras():
         redirect(old, new)
 
 if __name__ == '__main__':
-    home(); services(); [service(i, s) for i, s in enumerate(SERVICES)]; engagement(); why(); about(); testimonials(); news_page(); news_history(); contact(); thanks(); privacy(); terms(); notfound(); app_page(); extras()
+    home(); services(); [service(i, s) for i, s in enumerate(SERVICES)]; engagement(); why(); about(); testimonials(); news_page(); news_history(); contact(); thanks(); privacy(); terms(); notfound(); redirect('app.html', 'index.html'); extras()   # Bernie app removed Nov 12 2026
     for n in ('thanks.html', '404.html'):
         f = ROOT / n; t = f.read_text()
         if 'name="robots"' not in t: f.write_text(t.replace('<meta name="theme-color"', '<meta name="robots" content="noindex">\n<meta name="theme-color"', 1))
