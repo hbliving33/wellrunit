@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-12T15:08:44.948094+00:00",
+ "updated": "2026-11-12T16:16:26.263958+00:00",
  "items": [
+  {
+   "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+   "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T16:04:00+00:00"
+  },
+  {
+   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+   "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T15:38:49+00:00"
+  },
+  {
+   "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+   "link": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T15:38:31+00:00"
+  },
+  {
+   "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+   "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T15:15:40+00:00"
+  },
+  {
+   "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+   "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T15:07:20+00:00"
+  },
   {
    "title": "Police dismantles Gootloader, CastleRAT, StealC malware infrastructure",
    "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
@@ -36,6 +66,12 @@
    "link": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
    "source": "SecurityWeek",
    "date": "2026-11-12T13:12:11+00:00"
+  },
+  {
+   "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+   "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T13:08:28+00:00"
   },
   {
    "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
@@ -2370,24 +2406,6 @@
    "link": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
    "source": "Dark Reading",
    "date": "2026-10-29T18:15:59+00:00"
-  },
-  {
-   "title": "Tracking AI adoption in North Korean threat actor tradecraft",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-29T16:00:00+00:00"
-  },
-  {
-   "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-29T16:00:00+00:00"
-  },
-  {
-   "title": "Threat Modeling With 4 Simple Questions on a White Board",
-   "link": "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions",
-   "source": "Dark Reading",
-   "date": "2026-10-29T15:44:04+00:00"
   }
  ]
 }
