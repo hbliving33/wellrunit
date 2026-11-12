@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-12T10:17:06.874172+00:00",
+ "updated": "2026-11-12T11:21:33.923971+00:00",
  "items": [
+  {
+   "title": "Notion Customer Data Compromised in Fireworks AI Hack",
+   "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T11:08:52+00:00"
+  },
+  {
+   "title": "Inside an AI Attack Against a US Retailer",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
+   "source": "Dark Reading",
+   "date": "2026-11-12T11:00:00+00:00"
+  },
+  {
+   "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+   "link": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T10:39:34+00:00"
+  },
+  {
+   "title": "Microsoft confirms Windows security updates installation issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T10:24:07+00:00"
+  },
   {
    "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
    "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",

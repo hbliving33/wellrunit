@@ -1,21 +1,45 @@
 {
- "updated": "2026-11-12T10:17:06.874172+00:00",
+ "updated": "2026-11-12T11:21:33.923971+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-12T10:17:06.934422+00:00",
+  "checked": "2026-11-12T11:21:34.271951+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-12T10:17:06.874172+00:00"
+  "checked": "2026-11-12T11:21:33.923971+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-12T10:17:06.874172+00:00"
+  "checked": "2026-11-12T11:21:33.923971+00:00"
  },
  "items": [
+  {
+   "title": "Notion Customer Data Compromised in Fireworks AI Hack",
+   "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T11:08:52+00:00"
+  },
+  {
+   "title": "Inside an AI Attack Against a US Retailer",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
+   "source": "Dark Reading",
+   "date": "2026-11-12T11:00:00+00:00"
+  },
+  {
+   "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+   "link": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T10:39:34+00:00"
+  },
+  {
+   "title": "Microsoft confirms Windows security updates installation issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T10:24:07+00:00"
+  },
   {
    "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
    "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
@@ -221,12 +245,6 @@
    "date": "2026-11-11T12:19:40+00:00"
   },
   {
-   "title": "Fortinet Patches Nearly 100 Vulnerabilities",
-   "link": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
-   "source": "SecurityWeek",
-   "date": "2026-11-11T12:10:14+00:00"
-  },
-  {
    "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
    "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
    "source": "The Hacker News",
@@ -239,12 +257,6 @@
    "date": "2026-11-11T12:00:53+00:00"
   },
   {
-   "title": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
-   "link": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
-   "source": "SecurityWeek",
-   "date": "2026-11-11T11:30:00+00:00"
-  },
-  {
    "title": "Microsoft fixes audio issues caused by September security updates",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
    "source": "BleepingComputer",
@@ -255,12 +267,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
    "source": "BleepingComputer",
    "date": "2026-11-11T10:12:08+00:00"
-  },
-  {
-   "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
-   "source": "BleepingComputer",
-   "date": "2026-11-11T09:07:27+00:00"
   },
   {
    "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
@@ -315,12 +321,6 @@
    "link": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
    "source": "Dark Reading",
    "date": "2026-11-10T18:46:22+00:00"
-  },
-  {
-   "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
-   "link": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
-   "source": "Dark Reading",
-   "date": "2026-11-10T13:00:00+00:00"
   },
   {
    "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-12T10:17:06.874172+00:00"
+  "checked": "2026-11-12T11:21:33.923971+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-12T10:17:06.874172+00:00"
+  "checked": "2026-11-12T11:21:33.923971+00:00"
  }
 }
