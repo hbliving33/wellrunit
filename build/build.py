@@ -366,6 +366,14 @@ def app_page():
 <div class="app">
   <header class="head"><span class="wordmark" aria-label="Well Run IT">Well<b>{stride_r()}un</b><i>IT</i></span><span class="by">Bernie</span></header>
 
+  <main class="screen" id="get" hidden>
+    <h1>Get Bernie.</h1>
+    <p class="sub">Put Bernie on your phone or computer.  Then you just open it, tap, and tell us what's going on.</p>
+    <button class="btn wide" id="installBtn" type="button" hidden style="max-width:340px">Install Bernie</button>
+    <ol class="steps" id="steps"></ol>
+    <button class="linkbtn" id="useHere" type="button">Or use it here in your browser</button>
+  </main>
+
   <main class="screen" id="setup" hidden>
     <h1>Who are we helping?</h1>
     <p class="sub">Just once.  It's saved on this device only, so next time you just tap and talk.</p>
@@ -385,7 +393,6 @@ def app_page():
     <button class="talk" id="talk" type="button" aria-pressed="false">{MIC}<span id="talkLabel">Tap to talk</span><span class="t2" id="talkSub" hidden><span class="timer" id="timer">0:00</span></span></button>
     <p class="sub" id="homeHint" aria-live="polite">Tap again when you're done.  You'll see what Bernie heard before it's sent.</p>
     <p class="err" id="homeErr" role="alert" hidden></p>
-    <div class="install" id="install" hidden><p id="installText"></p><button class="btn" id="installBtn" type="button" hidden>Install</button></div>
   </main>
 
   <main class="screen" id="working" hidden>

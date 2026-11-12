@@ -8,7 +8,7 @@
   const MAX_SECONDS = 120;
   const KEY = 'bernie-app-contact';
   const $ = (id) => document.getElementById(id);
-  const screens = ['setup', 'home', 'working', 'review', 'done', 'failed'];
+  const screens = ['get', 'setup', 'home', 'working', 'review', 'done', 'failed'];
   let who = null;
   try { who = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) { who = null; }
   const ready = () => !!(who && who.name && who.company && who.phone);
@@ -170,28 +170,33 @@
   $('again').addEventListener('click', () => show('home'));
   $('mailLink').href = 'mailto:' + SUPPORT;
 
-  // ---------- putting it on the home screen or desktop ----------
+  // ---------- "Get the app": install steps first when opened in a browser ----------
   const standalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
   const ua = navigator.userAgent;
   const iOS = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+  const android = /Android/.test(ua);
   const macSafari = !iOS && /Macintosh/.test(ua) && /Safari/.test(ua) && !/Chrome|Chromium|Edg|Firefox/.test(ua);
   let deferred = null;
-  function installTip(text, withButton) { $('installText').textContent = text; $('installBtn').hidden = !withButton; $('install').hidden = false; }
-  if (!standalone) {
-    if (iOS) installTip('Put Bernie on your home screen: tap the Share button (on newer iPhones, tap the three dots first), then Add to Home Screen.', false);
-    else if (macSafari) installTip('Put Bernie in your Dock: in Safari, choose File, then Add to Dock.', false);
-    else installTip("Put Bernie on your desktop or home screen: use Install in your browser's address bar or menu.", false);
-  }
-  window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferred = e; installTip("Put Bernie on your home screen or desktop, so it's one tap away.", true); });
+  function steps(list) { $('steps').replaceChildren(...list.map((t) => { const li = document.createElement('li'); li.textContent = t; return li; })); }
+  if (iOS) steps(['Tap the Share button at the bottom of Safari.  On newer iPhones, tap the three dots first, then Share.', 'Tap Add to Home Screen.', 'Tap Add.  Bernie shows up on your home screen as Well Run IT.']);
+  else if (macSafari) steps(['In Safari, choose File, then Add to Dock.', 'Click Add.  Bernie shows up in your Dock as Well Run IT.']);
+  else if (android) steps(['Tap the three dots at the top right of Chrome.', 'Tap Add to Home screen or Install app, then Install.']);
+  else steps(['In Chrome or Edge, click the Install icon at the right end of the address bar.', 'Click Install.  Bernie opens in its own window, and you can pin it to your taskbar or Dock.']);
+  window.addEventListener('beforeinstallprompt', (e) => {   // Chrome and Edge: one button does it
+    e.preventDefault(); deferred = e;
+    $('installBtn').hidden = false; $('steps').hidden = true;
+  });
   $('installBtn').addEventListener('click', async () => {
     if (!deferred) return;
     deferred.prompt(); await deferred.userChoice.catch(() => null);
-    deferred = null; $('install').hidden = true;
+    deferred = null; $('installBtn').hidden = true; $('steps').hidden = false;
   });
-  window.addEventListener('appinstalled', () => { $('install').hidden = true; });
+  window.addEventListener('appinstalled', () => { $('installBtn').hidden = true; steps(['Bernie is installed.  Open Well Run IT from your home screen, desktop or Dock.']); $('steps').hidden = false; });
+  $('useHere').addEventListener('click', () => { if (ready()) show('home'); else editWho(); });
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('/app-sw.js', { scope: '/app' }).catch(() => {});
 
   // ---------- start ----------
   showWho();
-  if (ready()) show('home'); else editWho();
+  if (!standalone) show('get');
+  else if (ready()) show('home'); else editWho();
 })();

@@ -15,11 +15,19 @@
 <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/brand/app-180.png">
 <link rel="preload" href="assets/fonts/inter-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/app.css?v=21b64bfd">
+<link rel="stylesheet" href="assets/css/app.css?v=faf488a6">
 </head>
 <body>
 <div class="app">
   <header class="head"><span class="wordmark" aria-label="Well Run IT">Well<b><svg class="gl" viewBox="0 0 109 100" style="width:0.7924em" aria-hidden="true" overflow="visible"><rect x="12.2" y="26" width="22.0" height="9" rx="4.5" class="rm"/><rect x="15.7" y="46" width="15.0" height="9" rx="4.5" class="rm"/><g transform="skewX(-10) translate(46.6 0)"><rect x="0" y="0" width="21" height="100" fill="currentColor"/><path d="M10 10.5H39a22.5 22.5 0 010 45H10" fill="none" stroke="currentColor" stroke-width="21"/><path d="M27 56h22l21 44H47z" fill="currentColor"/></g></svg>un</b><i>IT</i></span><span class="by">Bernie</span></header>
+
+  <main class="screen" id="get" hidden>
+    <h1>Get Bernie.</h1>
+    <p class="sub">Put Bernie on your phone or computer.  Then you just open it, tap, and tell us what's going on.</p>
+    <button class="btn wide" id="installBtn" type="button" hidden style="max-width:340px">Install Bernie</button>
+    <ol class="steps" id="steps"></ol>
+    <button class="linkbtn" id="useHere" type="button">Or use it here in your browser</button>
+  </main>
 
   <main class="screen" id="setup" hidden>
     <h1>Who are we helping?</h1>
@@ -40,7 +48,6 @@
     <button class="talk" id="talk" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v3M8 21h8"/></svg><span id="talkLabel">Tap to talk</span><span class="t2" id="talkSub" hidden><span class="timer" id="timer">0:00</span></span></button>
     <p class="sub" id="homeHint" aria-live="polite">Tap again when you're done.  You'll see what Bernie heard before it's sent.</p>
     <p class="err" id="homeErr" role="alert" hidden></p>
-    <div class="install" id="install" hidden><p id="installText"></p><button class="btn" id="installBtn" type="button" hidden>Install</button></div>
   </main>
 
   <main class="screen" id="working" hidden>
@@ -74,6 +81,6 @@
   <div id="botcheck"></div>
   <div class="foot"><button class="linkbtn" id="typeIt" type="button">Rather type it?</button><button class="linkbtn who" id="changeWho" type="button" aria-label="Change your details"><span id="who"></span></button></div>
 </div>
-<script src="assets/js/app.js?v=ce7c1e31" defer></script>
+<script src="assets/js/app.js?v=4f482680" defer></script>
 </body>
 </html>
