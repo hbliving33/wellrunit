@@ -38,29 +38,24 @@
   <main class="screen" id="home" hidden>
     <h1>Tell Bernie<br>what's going on.</h1>
     <button class="talk" id="talk" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v3M8 21h8"/></svg><span id="talkLabel">Tap to talk</span><span class="t2" id="talkSub" hidden><span class="timer" id="timer">0:00</span></span></button>
-    <p class="sub" id="homeHint" aria-live="polite">Tap again when you're done.  It goes straight to our support team.</p>
+    <p class="sub" id="homeHint" aria-live="polite">Tap again when you're done.  You'll see what Bernie heard before it's sent.</p>
     <p class="err" id="homeErr" role="alert" hidden></p>
     <div class="install" id="install" hidden><p id="installText"></p><button class="btn" id="installBtn" type="button" hidden>Install</button></div>
   </main>
 
+  <main class="screen" id="working" hidden>
+    <h1 id="workTitle">One moment.</h1>
+    <p class="sub" id="workText" aria-live="polite"></p>
+  </main>
+
   <main class="screen" id="review" hidden>
-    <h1>Got it.</h1>
-    <p class="sub">Your message is <span id="reviewLen">0:00</span> long.  Send it to our team?</p>
-    <div class="row"><button class="btn ghost" id="redo" type="button">Start over</button><button class="btn" id="sendVoice" type="button">Send it</button></div>
-  </main>
-
-  <main class="screen" id="typed" hidden>
-    <h1>What's going on?</h1>
-    <form class="card" id="typedForm" novalidate>
-      <label>Tell us in a sentence or two<textarea id="t-text" maxlength="5000"></textarea></label>
-      <p class="err" id="typedErr" role="alert" hidden></p>
-      <div class="row" style="max-width:none"><button class="btn ghost" id="typedBack" type="button">Back</button><button class="btn" type="submit">Send it</button></div>
+    <h1>Look right?</h1>
+    <form class="card" id="reviewForm" novalidate>
+      <p class="sub" id="reviewNote" style="max-width:none;text-align:center"></p>
+      <label><span class="hp">What's going on</span><textarea id="r-text" maxlength="5000" aria-label="What's going on"></textarea></label>
+      <p class="err" id="reviewErr" role="alert" hidden></p>
+      <div class="row" style="max-width:none"><button class="btn ghost" id="redo" type="button">Start over</button><button class="btn" type="submit">Submit</button></div>
     </form>
-  </main>
-
-  <main class="screen" id="sending" hidden>
-    <h1>Sending.</h1>
-    <p class="sub" aria-live="polite">One moment.</p>
   </main>
 
   <main class="screen" id="done" hidden>
@@ -73,12 +68,12 @@
   <main class="screen" id="failed" hidden>
     <h1>That didn't go through.</h1>
     <p class="sub">Try again, or email us at <a id="mailLink" href="#">support@wellrunit.com</a>.</p>
-    <div class="row"><button class="btn ghost" id="failedBack" type="button">Back</button><button class="btn" id="retry" type="button">Try again</button></div>
+    <div class="row"><button class="btn ghost" id="failedBack" type="button">Edit</button><button class="btn" id="retry" type="button">Try again</button></div>
   </main>
 
   <div id="botcheck"></div>
   <div class="foot"><button class="linkbtn" id="typeIt" type="button">Rather type it?</button><button class="linkbtn who" id="changeWho" type="button" aria-label="Change your details"><span id="who"></span></button></div>
 </div>
-<script src="assets/js/app.js?v=62f44952" defer></script>
+<script src="assets/js/app.js?v=ce7c1e31" defer></script>
 </body>
 </html>
