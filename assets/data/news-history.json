@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-12T21:00:44.730961+00:00",
+ "updated": "2026-11-12T21:58:04.920109+00:00",
  "items": [
+  {
+   "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
+   "link": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+   "source": "Dark Reading",
+   "date": "2026-11-12T21:18:52+00:00"
+  },
   {
    "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
    "link": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
@@ -2490,12 +2496,6 @@
    "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
    "source": "Dark Reading",
    "date": "2026-10-30T08:00:00+00:00"
-  },
-  {
-   "title": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
-   "source": "Dark Reading",
-   "date": "2026-10-29T21:21:56+00:00"
   }
  ]
 }
