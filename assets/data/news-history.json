@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-12T16:16:26.263958+00:00",
+ "updated": "2026-11-12T17:19:16.282597+00:00",
  "items": [
+  {
+   "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+   "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T16:27:01+00:00"
+  },
   {
    "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
    "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",

@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-12T16:16:26.263958+00:00",
+ "updated": "2026-11-12T17:19:16.282597+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-12T16:16:26.469301+00:00",
+  "checked": "2026-11-12T17:19:16.330579+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-12T16:16:26.263958+00:00"
+  "checked": "2026-11-12T17:19:16.282597+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-12T16:16:26.263958+00:00"
+  "checked": "2026-11-12T17:19:16.282597+00:00"
  },
  "items": [
+  {
+   "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+   "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T16:27:01+00:00"
+  },
   {
    "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
    "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
@@ -183,12 +189,6 @@
    "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
    "source": "The Hacker News",
    "date": "2026-11-12T06:42:47+00:00"
-  },
-  {
-   "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-   "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T05:12:26+00:00"
   },
   {
    "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-12T16:16:26.263958+00:00"
+  "checked": "2026-11-12T17:19:16.282597+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-12T16:16:26.263958+00:00"
+  "checked": "2026-11-12T17:19:16.282597+00:00"
  }
 }
