@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-12T20:05:35.480652+00:00",
+ "updated": "2026-11-12T21:00:44.730961+00:00",
  "items": [
+  {
+   "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+   "link": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T20:55:30+00:00"
+  },
+  {
+   "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T20:15:16+00:00"
+  },
+  {
+   "title": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
+   "link": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
+   "source": "Dark Reading",
+   "date": "2026-11-12T20:09:41+00:00"
+  },
   {
    "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
    "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
@@ -2478,12 +2496,6 @@
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
    "source": "Dark Reading",
    "date": "2026-10-29T21:21:56+00:00"
-  },
-  {
-   "title": "Rethinking Cybersecurity Awareness in the AI Era",
-   "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
-   "source": "Dark Reading",
-   "date": "2026-10-29T20:15:37+00:00"
   }
  ]
 }
