@@ -1,21 +1,63 @@
 {
- "updated": "2026-11-12T11:21:33.923971+00:00",
+ "updated": "2026-11-12T13:28:36.637931+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-12T11:21:34.271951+00:00",
+  "checked": "2026-11-12T13:28:36.931362+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-12T11:21:33.923971+00:00"
+  "checked": "2026-11-12T13:28:36.637931+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-12T11:21:33.923971+00:00"
+  "checked": "2026-11-12T13:28:36.637931+00:00"
  },
  "items": [
+  {
+   "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
+   "link": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T13:12:11+00:00"
+  },
+  {
+   "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T12:11:11+00:00"
+  },
+  {
+   "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+   "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T12:09:14+00:00"
+  },
+  {
+   "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+   "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T12:02:51+00:00"
+  },
+  {
+   "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+   "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T11:51:43+00:00"
+  },
+  {
+   "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+   "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T11:51:31+00:00"
+  },
+  {
+   "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+   "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T11:33:15+00:00"
+  },
   {
    "title": "Notion Customer Data Compromised in Fireworks AI Hack",
    "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
@@ -209,12 +251,6 @@
    "date": "2026-11-11T15:01:11+00:00"
   },
   {
-   "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-   "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-   "source": "The Hacker News",
-   "date": "2026-11-11T14:01:00+00:00"
-  },
-  {
    "title": "Asus, Zoom Release Security Patches",
    "link": "https://www.securityweek.com/asus-zoom-release-security-patches/",
    "source": "SecurityWeek",
@@ -233,46 +269,10 @@
    "date": "2026-11-11T12:32:27+00:00"
   },
   {
-   "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
-   "link": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
-   "source": "SecurityWeek",
-   "date": "2026-11-11T12:24:33+00:00"
-  },
-  {
-   "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-   "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-   "source": "The Hacker News",
-   "date": "2026-11-11T12:19:40+00:00"
-  },
-  {
-   "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-   "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
-   "source": "The Hacker News",
-   "date": "2026-11-11T12:01:59+00:00"
-  },
-  {
-   "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-   "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-   "source": "The Hacker News",
-   "date": "2026-11-11T12:00:53+00:00"
-  },
-  {
    "title": "Microsoft fixes audio issues caused by September security updates",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
    "source": "BleepingComputer",
    "date": "2026-11-11T11:18:36+00:00"
-  },
-  {
-   "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-11T10:12:08+00:00"
-  },
-  {
-   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-   "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-   "source": "The Hacker News",
-   "date": "2026-11-11T08:17:53+00:00"
   },
   {
    "title": "Detecting sleeper agents hiding in AI model neurons",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-12T11:21:33.923971+00:00"
+  "checked": "2026-11-12T13:28:36.637931+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-12T11:21:33.923971+00:00"
+  "checked": "2026-11-12T13:28:36.637931+00:00"
  }
 }

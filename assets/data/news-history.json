@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-12T11:21:33.923971+00:00",
+ "updated": "2026-11-12T13:28:36.637931+00:00",
  "items": [
+  {
+   "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
+   "link": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
+   "source": "SecurityWeek",
+   "date": "2026-11-12T13:12:11+00:00"
+  },
+  {
+   "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+   "source": "BleepingComputer",
+   "date": "2026-11-12T12:11:11+00:00"
+  },
+  {
+   "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+   "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T12:09:14+00:00"
+  },
+  {
+   "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+   "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T12:02:51+00:00"
+  },
+  {
+   "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+   "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T11:51:43+00:00"
+  },
+  {
+   "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+   "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T11:51:31+00:00"
+  },
+  {
+   "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+   "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T11:33:15+00:00"
+  },
   {
    "title": "Notion Customer Data Compromised in Fireworks AI Hack",
    "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
