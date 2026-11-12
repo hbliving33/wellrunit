@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-12T04:08:35.351337+00:00",
+ "updated": "2026-11-12T05:14:27.586847+00:00",
  "m365": {
   "status": "Available",
-  "checked": "2026-11-12T04:08:35.477803+00:00",
+  "checked": "2026-11-12T05:14:27.629120+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-12T04:08:35.351337+00:00"
+  "checked": "2026-11-12T05:14:27.586847+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-12T04:08:35.351337+00:00"
+  "checked": "2026-11-12T05:14:27.586847+00:00"
  },
  "items": [
+  {
+   "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+   "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+   "source": "The Hacker News",
+   "date": "2026-11-12T04:39:48+00:00"
+  },
   {
    "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
    "link": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
@@ -305,12 +311,6 @@
    "date": "2026-11-10T19:23:10+00:00"
   },
   {
-   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-   "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-   "source": "The Hacker News",
-   "date": "2026-11-10T19:19:39+00:00"
-  },
-  {
    "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
    "link": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
    "source": "Dark Reading",
@@ -383,11 +383,11 @@
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-12T04:08:35.351337+00:00"
+  "checked": "2026-11-12T05:14:27.586847+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-12T04:08:35.351337+00:00"
+  "checked": "2026-11-12T05:14:27.586847+00:00"
  }
 }
