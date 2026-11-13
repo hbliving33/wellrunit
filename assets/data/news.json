@@ -1,21 +1,45 @@
 {
- "updated": "2026-11-13T15:01:59.218771+00:00",
+ "updated": "2026-11-13T16:00:27.596398+00:00",
  "m365": {
   "status": "ServiceDegradation",
-  "checked": "2026-11-13T15:01:59.342180+00:00",
+  "checked": "2026-11-13T16:00:27.629463+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-13T15:01:59.218771+00:00"
+  "checked": "2026-11-13T16:00:27.596398+00:00"
  },
  "wasabi": {
   "status": "Service Under Maintenance",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-13T15:01:59.218771+00:00"
+  "checked": "2026-11-13T16:00:27.596398+00:00"
  },
  "items": [
+  {
+   "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+   "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T15:20:00+00:00"
+  },
+  {
+   "title": "How one AI agent exposed five critical enterprise security gaps",
+   "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T15:01:11+00:00"
+  },
+  {
+   "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+   "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T14:28:58+00:00"
+  },
+  {
+   "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+   "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T13:54:20+00:00"
+  },
   {
    "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
    "link": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
@@ -131,12 +155,6 @@
    "date": "2026-11-13T05:43:28+00:00"
   },
   {
-   "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
-   "link": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T02:28:21+00:00"
-  },
-  {
    "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
    "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
    "source": "BleepingComputer",
@@ -227,28 +245,10 @@
    "date": "2026-11-12T15:38:49+00:00"
   },
   {
-   "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
-   "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T15:15:40+00:00"
-  },
-  {
    "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
    "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
    "source": "BleepingComputer",
    "date": "2026-11-12T15:07:20+00:00"
-  },
-  {
-   "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
-   "link": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T15:00:10+00:00"
-  },
-  {
-   "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-   "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T13:08:28+00:00"
   },
   {
    "title": "Siemens Desigo, Gridscale",
@@ -381,11 +381,11 @@
  "zoom": {
   "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-13T15:01:59.218771+00:00"
+  "checked": "2026-11-13T16:00:27.596398+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-13T15:01:59.218771+00:00"
+  "checked": "2026-11-13T16:00:27.596398+00:00"
  }
 }

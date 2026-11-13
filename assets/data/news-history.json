@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-13T15:01:59.218771+00:00",
+ "updated": "2026-11-13T16:00:27.596398+00:00",
  "items": [
+  {
+   "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+   "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T15:20:00+00:00"
+  },
+  {
+   "title": "How one AI agent exposed five critical enterprise security gaps",
+   "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T15:01:11+00:00"
+  },
+  {
+   "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+   "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T14:28:58+00:00"
+  },
+  {
+   "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+   "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T13:54:20+00:00"
+  },
   {
    "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
    "link": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
@@ -2556,30 +2580,6 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
    "source": "Microsoft Security Blog",
    "date": "2026-10-30T16:11:44+00:00"
-  },
-  {
-   "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
-   "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-   "source": "BleepingComputer",
-   "date": "2026-10-30T15:58:20+00:00"
-  },
-  {
-   "title": "L\u2019Italia \u00e8 afflitta da vulnerabilit\u00e0 informatiche, senza una causa chiara",
-   "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian",
-   "source": "Dark Reading",
-   "date": "2026-10-30T15:39:54+00:00"
-  },
-  {
-   "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
-   "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-   "source": "The Hacker News",
-   "date": "2026-10-30T15:17:28+00:00"
-  },
-  {
-   "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
-   "link": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
-   "source": "SecurityWeek",
-   "date": "2026-10-30T15:09:25+00:00"
   }
  ]
 }
