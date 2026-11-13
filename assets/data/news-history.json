@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-13T09:12:34.024555+00:00",
+ "updated": "2026-11-13T10:14:24.417268+00:00",
  "items": [
+  {
+   "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+   "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T09:36:56+00:00"
+  },
+  {
+   "title": "Microsoft confirms Windows activation failures after November updates",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T09:36:18+00:00"
+  },
+  {
+   "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
+   "link": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T09:21:01+00:00"
+  },
   {
    "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit \u2018SignDrop\u2019",
    "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
@@ -2550,12 +2568,6 @@
    "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
    "source": "SecurityWeek",
    "date": "2026-10-30T11:07:11+00:00"
-  },
-  {
-   "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
-   "link": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
-   "source": "SecurityWeek",
-   "date": "2026-10-30T09:41:36+00:00"
   }
  ]
 }
