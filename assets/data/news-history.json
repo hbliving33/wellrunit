@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-13T07:39:04.307839+00:00",
+ "updated": "2026-11-13T09:12:34.024555+00:00",
  "items": [
+  {
+   "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit \u2018SignDrop\u2019",
+   "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T08:50:36+00:00"
+  },
+  {
+   "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
+   "link": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T08:34:20+00:00"
+  },
+  {
+   "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T08:05:49+00:00"
+  },
+  {
+   "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+   "link": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T07:39:04+00:00"
+  },
   {
    "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
    "link": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
@@ -2532,12 +2556,6 @@
    "link": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
    "source": "SecurityWeek",
    "date": "2026-10-30T09:41:36+00:00"
-  },
-  {
-   "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
-   "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
-   "source": "Dark Reading",
-   "date": "2026-10-30T08:00:00+00:00"
   }
  ]
 }

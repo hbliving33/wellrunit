@@ -1,21 +1,45 @@
 {
- "updated": "2026-11-13T07:39:04.307839+00:00",
+ "updated": "2026-11-13T09:12:34.024555+00:00",
  "m365": {
   "status": "ServiceDegradation",
-  "checked": "2026-11-13T07:39:04.357582+00:00",
+  "checked": "2026-11-13T09:12:34.045261+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-13T07:39:04.307839+00:00"
+  "checked": "2026-11-13T09:12:34.024555+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-13T07:39:04.307839+00:00"
+  "checked": "2026-11-13T09:12:34.024555+00:00"
  },
  "items": [
+  {
+   "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit \u2018SignDrop\u2019",
+   "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T08:50:36+00:00"
+  },
+  {
+   "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
+   "link": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T08:34:20+00:00"
+  },
+  {
+   "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T08:05:49+00:00"
+  },
+  {
+   "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+   "link": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T07:39:04+00:00"
+  },
   {
    "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
    "link": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
@@ -233,12 +257,6 @@
    "date": "2026-11-12T11:51:31+00:00"
   },
   {
-   "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-   "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T11:33:15+00:00"
-  },
-  {
    "title": "Notion Customer Data Compromised in Fireworks AI Hack",
    "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
    "source": "SecurityWeek",
@@ -251,28 +269,10 @@
    "date": "2026-11-12T11:00:00+00:00"
   },
   {
-   "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
-   "link": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T10:39:34+00:00"
-  },
-  {
    "title": "Microsoft confirms Windows security updates installation issues",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
    "source": "BleepingComputer",
    "date": "2026-11-12T10:24:07+00:00"
-  },
-  {
-   "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
-   "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T09:39:55+00:00"
-  },
-  {
-   "title": "Hackers plant GSocket on Linux servers for persistent access",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T09:38:00+00:00"
   },
   {
    "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
@@ -381,11 +381,11 @@
  "zoom": {
   "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-13T07:39:04.307839+00:00"
+  "checked": "2026-11-13T09:12:34.024555+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-13T07:39:04.307839+00:00"
+  "checked": "2026-11-13T09:12:34.024555+00:00"
  }
 }
