@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-13T10:14:24.417268+00:00",
+ "updated": "2026-11-13T11:14:39.063109+00:00",
  "items": [
+  {
+   "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
+   "link": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T10:48:40+00:00"
+  },
+  {
+   "title": "Check Point warns of zero-day flaw exploited for root access",
+   "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T10:44:22+00:00"
+  },
   {
    "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
    "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
@@ -2562,12 +2574,6 @@
    "link": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
    "source": "SecurityWeek",
    "date": "2026-10-30T12:04:13+00:00"
-  },
-  {
-   "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
-   "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
-   "source": "SecurityWeek",
-   "date": "2026-10-30T11:07:11+00:00"
   }
  ]
 }

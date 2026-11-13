@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-13T10:14:24.417268+00:00",
+ "updated": "2026-11-13T11:14:39.063109+00:00",
  "m365": {
   "status": "ServiceDegradation",
-  "checked": "2026-11-13T10:14:24.559111+00:00",
+  "checked": "2026-11-13T11:14:39.103632+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-13T10:14:24.417268+00:00"
+  "checked": "2026-11-13T11:14:39.063109+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-13T10:14:24.417268+00:00"
+  "checked": "2026-11-13T11:14:39.063109+00:00"
  },
  "items": [
+  {
+   "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
+   "link": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T10:48:40+00:00"
+  },
+  {
+   "title": "Check Point warns of zero-day flaw exploited for root access",
+   "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T10:44:22+00:00"
+  },
   {
    "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
    "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
@@ -209,22 +221,10 @@
    "date": "2026-11-12T13:42:09+00:00"
   },
   {
-   "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
-   "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T13:39:03+00:00"
-  },
-  {
    "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
    "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
    "source": "The Hacker News",
    "date": "2026-11-12T13:08:28+00:00"
-  },
-  {
-   "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T12:11:11+00:00"
   },
   {
    "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
@@ -381,11 +381,11 @@
  "zoom": {
   "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-13T10:14:24.417268+00:00"
+  "checked": "2026-11-13T11:14:39.063109+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-13T10:14:24.417268+00:00"
+  "checked": "2026-11-13T11:14:39.063109+00:00"
  }
 }
