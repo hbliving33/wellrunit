@@ -1,11 +1,23 @@
 {
- "updated": "2026-11-13T01:23:55.632796+00:00",
+ "updated": "2026-11-13T02:59:13.435821+00:00",
  "items": [
+  {
+   "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
+   "link": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T02:28:21+00:00"
+  },
   {
    "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
    "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
    "source": "BleepingComputer",
    "date": "2026-11-12T22:53:10+00:00"
+  },
+  {
+   "title": "Getting Past the Post-Quantum Cryptography Discovery Phase",
+   "link": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
+   "source": "Dark Reading",
+   "date": "2026-11-12T22:46:05+00:00"
   },
   {
    "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",

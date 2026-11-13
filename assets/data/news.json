@@ -1,26 +1,38 @@
 {
- "updated": "2026-11-13T01:23:55.632796+00:00",
+ "updated": "2026-11-13T02:59:13.435821+00:00",
  "m365": {
   "status": "ServiceDegradation",
-  "checked": "2026-11-13T01:23:55.657139+00:00",
+  "checked": "2026-11-13T02:59:13.484194+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-13T01:23:55.632796+00:00"
+  "checked": "2026-11-13T02:59:13.435821+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-13T01:23:55.632796+00:00"
+  "checked": "2026-11-13T02:59:13.435821+00:00"
  },
  "items": [
+  {
+   "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
+   "link": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T02:28:21+00:00"
+  },
   {
    "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
    "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
    "source": "BleepingComputer",
    "date": "2026-11-12T22:53:10+00:00"
+  },
+  {
+   "title": "Getting Past the Post-Quantum Cryptography Discovery Phase",
+   "link": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
+   "source": "Dark Reading",
+   "date": "2026-11-12T22:46:05+00:00"
   },
   {
    "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
@@ -263,12 +275,6 @@
    "date": "2026-11-12T09:23:21+00:00"
   },
   {
-   "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
-   "link": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T08:38:47+00:00"
-  },
-  {
    "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
    "link": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
    "source": "Dark Reading",
@@ -347,12 +353,6 @@
    "date": "2026-11-10T21:01:14+00:00"
   },
   {
-   "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
-   "link": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
-   "source": "Dark Reading",
-   "date": "2026-11-10T20:41:45+00:00"
-  },
-  {
    "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
    "link": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
@@ -381,11 +381,11 @@
  "zoom": {
   "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-13T01:23:55.632796+00:00"
+  "checked": "2026-11-13T02:59:13.435821+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-13T01:23:55.632796+00:00"
+  "checked": "2026-11-13T02:59:13.435821+00:00"
  }
 }
