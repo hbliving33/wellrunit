@@ -1,11 +1,23 @@
 {
- "updated": "2026-11-13T21:57:24.823283+00:00",
+ "updated": "2026-11-13T22:55:06.927361+00:00",
  "items": [
   {
    "title": "FAA Ground Stop Issued Due to \u2018Extraordinary Circumstances\u2019",
    "link": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
    "source": "SecurityWeek",
    "date": "2026-11-13T21:33:27+00:00"
+  },
+  {
+   "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-13T21:31:44+00:00"
+  },
+  {
+   "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+   "link": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+   "source": "Dark Reading",
+   "date": "2026-11-13T20:20:27+00:00"
   },
   {
    "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
@@ -308,12 +320,6 @@
    "date": "2026-11-11T20:27:00+00:00"
   },
   {
-   "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
-   "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
-   "source": "Dark Reading",
-   "date": "2026-11-11T20:05:18+00:00"
-  },
-  {
    "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
    "source": "Microsoft Security Blog",
@@ -354,12 +360,6 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
    "source": "Microsoft Security Blog",
    "date": "2026-11-09T20:17:31+00:00"
-  },
-  {
-   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-   "source": "CISA",
-   "date": "2026-11-09T12:00:00+00:00"
   }
  ],
  "errors": {},
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Service degradation"
   ],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,25 +378,25 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "salesforce": {
   "status": "1 open incident",
@@ -404,7 +404,7 @@
   "notes": [
    "Affects 75 instances: AUS4S, AUS6S, AUS20S, AUS26S, AUS60, AUS62"
   ],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "okta": {
   "status": "1 open incident",
@@ -412,25 +412,23 @@
   "notes": [
    "Monitoring Service Disruption"
   ],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "wasabi": {
-  "status": "Service Under Maintenance",
+  "status": "Available",
   "link": "https://status.wasabi.com/",
-  "notes": [
-   "Maintenance: Maintenance Activity Advisory for 13 November 2026 in EU-WEST-2"
-  ],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "notes": [],
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "zoom": {
   "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
   "notes": [
    "Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.",
-   "Maintenance: Zoom Team Chat Update",
-   "Maintenance: Zoom FileServer Release: November 03, 2026 (No Operational Impact)"
+   "Maintenance: Zoom Support EU Maintenance : November 13, 2026",
+   "Maintenance: Zoom Team Chat Update"
   ],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -438,7 +436,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6Njc3NTA5MTk0OTI3fQo="
   ],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -448,43 +446,43 @@
    "Cloudflare is currently having an issue with the r8.im registry used for Replicate model publishing and builds is currently restricted",
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "claude": {
   "status": "Available",
   "link": "https://status.claude.com/",
   "notes": [],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "openai": {
   "status": "Partial System Degradation",
@@ -493,18 +491,18 @@
    "Delayed Costs Data in the Compliance API",
    "Elevated errors affecting the Microsoft 365 connector"
   ],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-13T21:57:24.823283+00:00"
+  "checked": "2026-11-13T22:55:06.927361+00:00"
  }
 }
