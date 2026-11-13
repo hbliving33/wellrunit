@@ -1,4 +1,4 @@
-"""Pull security news headlines and Microsoft 365 public status into assets/data/news.json.
+"""Pull security news headlines and cloud service status (15 providers) into assets/data/news.json.
 
 Runs on a schedule in GitHub Actions (.github/workflows/feeds.yml).  Only headlines, sources,
 dates and links are kept, so the site links out to each publisher instead of copying articles.
@@ -67,48 +67,112 @@ def parse(source, raw):
     out.sort(key=lambda x: x['date'], reverse=True)
     return out[:PER_SOURCE]
 
+# ---------- cloud service status (Cloud Status page) ----------
+# Each check returns ({status, link, notes}, error).  status is "Available" when nothing is open,
+# "Unknown" when the check failed, or the provider's own wording.  notes lists what's open right now (max 5).
+def _clip(t, n=220):
+    t = clean(t or '')
+    return t if len(t) <= n else t[:n - 3].rstrip() + '...'
+
 def m365():
+    link = 'https://status.cloud.microsoft/'
     try:
         root = ET.fromstring(get(M365_FEED))
-        it = root.find('.//item')
-        status = (it.findtext('status') or '').strip() if it is not None else ''
-        return {'status': status or 'Unknown', 'checked': dt.datetime.now(dt.timezone.utc).isoformat(), 'link': 'https://status.cloud.microsoft/'}
+        items = root.findall('.//item')
+        raw = (items[0].findtext('status') or '').strip() if items else ''
+        if not raw: return {'status': 'Unknown', 'link': link, 'notes': []}, None
+        if re.search(r'operational|restored|resolved', raw, re.I): return {'status': 'Available', 'link': link, 'notes': []}, None
+        status = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', raw).capitalize()   # "ServiceDegradation" -> "Service degradation"
+        notes = [_clip(it.findtext('title') or it.findtext('description')) for it in items[:5] if (it.findtext('title') or it.findtext('description'))]
+        return {'status': status, 'link': link, 'notes': notes}, None
     except Exception as e:
-        print('M365 status failed:', e)
-        return {'status': 'Unknown', 'checked': dt.datetime.now(dt.timezone.utc).isoformat(), 'link': 'https://status.cloud.microsoft/'}
+        return {'status': 'Unknown', 'link': link, 'notes': []}, str(e)[:160]
 
 def aws():
     # AWS Health Dashboard public events (no sign-in needed).  An empty list means no open public events.
-    url = 'https://health.aws.amazon.com/public/currentevents'
+    link, url = 'https://health.aws.amazon.com/health/status', 'https://health.aws.amazon.com/public/currentevents'
     try:
-        raw = get(url).decode('utf-16') if get(url)[:2] in (b'\xff\xfe', b'\xfe\xff') else get(url).decode('utf-8-sig')
+        b = get(url)
+        raw = b.decode('utf-16') if b[:2] in (b'\xff\xfe', b'\xfe\xff') else b.decode('utf-8-sig')
         ev = json.loads(raw or '[]')
-        n = len(ev) if isinstance(ev, list) else 0
-        return {'status': 'Available' if n == 0 else f'{n} open event' + ('' if n == 1 else 's'), 'link': 'https://health.aws.amazon.com/health/status'}, None
+        ev = ev if isinstance(ev, list) else []
+        notes = []
+        for x in ev[:5]:
+            if isinstance(x, dict):
+                name = x.get('service_name') or x.get('service') or ''
+                summ = x.get('summary') or ''
+                notes.append(_clip(' '.join(p for p in [name, summ] if p)))
+        n = len(ev)
+        return {'status': 'Available' if n == 0 else f'{n} open event' + ('' if n == 1 else 's'), 'link': link, 'notes': [x for x in notes if x]}, None
     except Exception as e:
-        return {'status': 'Unknown', 'link': 'https://health.aws.amazon.com/health/status'}, str(e)[:160]
-
-def wasabi():
-    # Wasabi's status page; this checks the standard status-page summary it publishes.
-    try:
-        d = json.loads(get('https://status.wasabi.com/api/v2/status.json'))
-        ind = (d.get('status') or {}).get('indicator', '')
-        desc = (d.get('status') or {}).get('description', '')
-        return {'status': 'Available' if ind == 'none' else (desc or 'Unknown'), 'link': 'https://status.wasabi.com/'}, None
-    except Exception as e:
-        return {'status': 'Unknown', 'link': 'https://status.wasabi.com/'}, str(e)[:160]
+        return {'status': 'Unknown', 'link': link, 'notes': []}, str(e)[:160]
 
 def statuspage(base):
-    # Atlassian Statuspage sites publish a public summary at /api/v2/status.json (no sign-in needed).
+    # Atlassian Statuspage sites publish a public summary at /api/v2/summary.json (no sign-in needed).
     try:
-        d = json.loads(get(base.rstrip('/') + '/api/v2/status.json'))
-        ind = (d.get('status') or {}).get('indicator', '')
-        desc = (d.get('status') or {}).get('description', '')
-        return {'status': 'Available' if ind == 'none' else (desc or 'Unknown'), 'link': base}, None
+        d = json.loads(get(base.rstrip('/') + '/api/v2/summary.json'))
+        ind = (d.get('status') or {}).get('indicator', ''); desc = (d.get('status') or {}).get('description', '')
+        open_ = [i for i in d.get('incidents', []) if i.get('status') not in ('resolved', 'postmortem')]
+        maint = [m for m in d.get('scheduled_maintenances', []) if m.get('status') == 'in_progress']
+        notes = [_clip(i.get('name')) for i in open_][:4] + [_clip('Maintenance: ' + (m.get('name') or '')) for m in maint][:2]
+        return {'status': 'Available' if ind == 'none' else (desc or 'Unknown'), 'link': base, 'notes': notes[:5]}, None
     except Exception as e:
-        return {'status': 'Unknown', 'link': base}, str(e)[:160]
+        return {'status': 'Unknown', 'link': base, 'notes': []}, str(e)[:160]
 
-EXTRA = [('zoom', 'Zoom status', 'https://status.zoom.us/'), ('netsuite', 'NetSuite status', 'https://status.netsuite.com/')]
+def google():
+    link = 'https://www.google.com/appsstatus/dashboard/'
+    try:
+        inc = json.loads(get('https://www.google.com/appsstatus/dashboard/incidents.json'))
+        open_ = [i for i in inc if isinstance(i, dict) and not i.get('end')]
+        notes = [_clip(i.get('external_desc') or (i.get('most_recent_update') or {}).get('text')) for i in open_][:5]
+        n = len(open_)
+        return {'status': 'Available' if n == 0 else f'{n} open incident' + ('' if n == 1 else 's'), 'link': link, 'notes': notes}, None
+    except Exception as e:
+        return {'status': 'Unknown', 'link': link, 'notes': []}, str(e)[:160]
+
+def azure():
+    # Azure's public RSS feed lists the incidents that are open right now; an empty feed means none.
+    link = 'https://azure.status.microsoft/en-us/status'
+    try:
+        root = ET.fromstring(get('https://azure.status.microsoft/en-us/status/feed/'))
+        items = root.findall('.//item')
+        notes = [_clip(it.findtext('title')) for it in items[:5] if it.findtext('title')]
+        n = len(items)
+        return {'status': 'Available' if n == 0 else f'{n} open incident' + ('' if n == 1 else 's'), 'link': link, 'notes': notes}, None
+    except Exception as e:
+        return {'status': 'Unknown', 'link': link, 'notes': []}, str(e)[:160]
+
+def slack():
+    link = 'https://slack-status.com/'
+    try:
+        d = json.loads(get('https://slack-status.com/api/v2.0.0/current'))
+        act = d.get('active_incidents') or []
+        notes = [_clip(i.get('title')) for i in act if isinstance(i, dict)][:5]
+        ok = (d.get('status') == 'ok') and not act
+        return {'status': 'Available' if ok else (f'{len(act)} open incident' + ('' if len(act) == 1 else 's') if act else str(d.get('status') or 'Unknown')), 'link': link, 'notes': notes}, None
+    except Exception as e:
+        return {'status': 'Unknown', 'link': link, 'notes': []}, str(e)[:160]
+
+def salesforce():
+    # Salesforce runs many separate instances; most incidents hit only some of them.
+    link = 'https://status.salesforce.com/'
+    try:
+        act = json.loads(get('https://api.status.salesforce.com/v1/incidents/active'))
+        act = act if isinstance(act, list) else []
+        n = len(act)
+        notes = []
+        for i in act[:5]:
+            inst = i.get('instanceKeys') or []
+            notes.append(_clip(('Affects all instances' if i.get('affectsAll') else f'Affects {len(inst)} instance' + ('' if len(inst) == 1 else 's') + (': ' + ', '.join(inst[:6]) if inst else '')) + (' (core service)' if i.get('isCore') else '')))
+        return {'status': 'Available' if n == 0 else f'{n} open incident' + ('' if n == 1 else 's'), 'link': link, 'notes': notes}, None
+    except Exception as e:
+        return {'status': 'Unknown', 'link': link, 'notes': []}, str(e)[:160]
+
+STATUSPAGES = [('wasabi', 'https://status.wasabi.com/'), ('zoom', 'https://status.zoom.us/'), ('netsuite', 'https://status.netsuite.com/'),
+               ('cloudflare', 'https://www.cloudflarestatus.com/'), ('dropbox', 'https://status.dropbox.com/'), ('box', 'https://status.box.com/'),
+               ('goto', 'https://status.goto.com/'), ('quickbooks', 'https://status.quickbooks.intuit.com/')]
+CHECKS = [('m365', m365), ('aws', aws), ('google', google), ('azure', azure), ('slack', slack), ('salesforce', salesforce)] + \
+         [(k, (lambda b=b: statuspage(b))) for k, b in STATUSPAGES]
 
 def main():
     prev = {}
@@ -140,14 +204,13 @@ def main():
     first = [x for src, _ in FEEDS for x in [y for y in uniq if y['source'] == src][:2]]
     rest = [x for x in uniq if x not in first]
     pick = sorted(first + rest[:max(0, TOTAL - len(first))], key=lambda x: x['date'], reverse=True)
-    a, ae = aws(); w, we = wasabi()
-    if ae: errors['AWS status'] = ae
-    if we: errors['Wasabi status'] = we
-    now = dt.datetime.now(dt.timezone.utc).isoformat(); a['checked'] = w['checked'] = now
-    data = {'updated': now, 'm365': m365(), 'aws': a, 'wasabi': w, 'items': pick, 'errors': errors}
-    for key, label, base in EXTRA:
-        r, err = statuspage(base); r['checked'] = now; data[key] = r
-        if err: errors[label] = err
+    now = dt.datetime.now(dt.timezone.utc).isoformat()
+    data = {'updated': now, 'items': pick, 'errors': errors}
+    for key, fn in CHECKS:
+        r, err = fn(); r['checked'] = now; data[key] = r
+        if err: errors[key + ' status'] = err; print(key, 'status failed:', err)
+    # Okta publishes no public feed (its status data needs a sign-in), so the page links to it instead.
+    data['okta'] = {'status': 'Link only', 'link': 'https://status.okta.com/', 'notes': [], 'checked': now}
     if not data['items'] and prev.get('items'): data['items'] = prev['items']
     OUT.write_text(json.dumps(data, indent=1))
     # history: everything seen in the last 14 days, kept between runs, newest first
@@ -159,7 +222,7 @@ def main():
         k = x['title'].lower()
         if x['date'] >= cutoff and k not in seen_h: seen_h.add(k); keep.append(x)
     HIST.write_text(json.dumps({'updated': now, 'items': keep[:600]}, indent=1))
-    print('\n'.join(ok)); print('M365:', data['m365']['status'], '| headlines:', len(data['items']))
+    print('\n'.join(ok)); print(' | '.join(f"{k}: {data[k]['status']}" for k, _ in CHECKS), '|', '| headlines:', len(data['items']))
 
 if __name__ == '__main__':
     main()

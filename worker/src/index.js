@@ -17,7 +17,7 @@ const SECURITY_HEADERS = {
   'Content-Security-Policy': [
     "default-src 'self'",
     "script-src 'self' https://challenges.cloudflare.com",
-    "frame-src https://challenges.cloudflare.com",
+    "frame-src https://challenges.cloudflare.com https://azure.status.microsoft https://www.google.com https://status.zoom.us https://slack-status.com https://status.goto.com https://status.dropbox.com https://status.box.com https://status.wasabi.com https://status.quickbooks.intuit.com https://status.netsuite.com",   // Cloud Status page (status.html)
     "connect-src 'self' https://mefvxxoytleyfjbwtxix.supabase.co",   // anonymous visit counter
     "img-src 'self' data:",
     "style-src 'self' 'unsafe-inline'",

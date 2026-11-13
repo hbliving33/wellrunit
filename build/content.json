@@ -193,19 +193,19 @@
  ],
  "QUOTES": [
   [
-   "\u201c[His] commitment to providing his clients with the highest level of service \u2026 is unsurpassed!\u201d",
+   "“[His] commitment to providing his clients with the highest level of service … is unsurpassed!”",
    "President, equipment financing firm"
   ],
   [
-   "\u201cAlways assured of [his] passion to do what is right, what is technically sound, and what is cost effective.\u201d",
+   "“Always assured of [his] passion to do what is right, what is technically sound, and what is cost effective.”",
    "Former manager"
   ],
   [
-   "\u201cA strong leader (often leading by example) and a great communicator!\u201d",
+   "“A strong leader (often leading by example) and a great communicator!”",
    "President and Chief Operating Officer"
   ],
   [
-   "\u201c[He] is the kind of guy all successful organizations need.\u201d",
+   "“[He] is the kind of guy all successful organizations need.”",
    "Project manager"
   ]
  ],
@@ -1611,27 +1611,92 @@
   [
    "m365",
    "Microsoft 365",
-   "https://status.cloud.microsoft/"
+   "https://status.cloud.microsoft/",
+   false
+  ],
+  [
+   "azure",
+   "Microsoft Azure",
+   "https://azure.status.microsoft/en-us/status",
+   true
+  ],
+  [
+   "google",
+   "Google Workspace",
+   "https://www.google.com/appsstatus/dashboard/",
+   true
   ],
   [
    "aws",
-   "Amazon Web Services",
-   "https://health.aws.amazon.com/health/status"
+   "AWS",
+   "https://health.aws.amazon.com/health/status",
+   false
   ],
   [
-   "wasabi",
-   "Wasabi cloud storage",
-   "https://status.wasabi.com/"
+   "cloudflare",
+   "Cloudflare",
+   "https://www.cloudflarestatus.com/",
+   false
+  ],
+  [
+   "okta",
+   "Okta",
+   "https://status.okta.com/",
+   false
   ],
   [
    "zoom",
    "Zoom",
-   "https://status.zoom.us/"
+   "https://status.zoom.us/",
+   true
+  ],
+  [
+   "slack",
+   "Slack",
+   "https://slack-status.com/",
+   true
+  ],
+  [
+   "goto",
+   "GoTo",
+   "https://status.goto.com/",
+   true
+  ],
+  [
+   "dropbox",
+   "Dropbox",
+   "https://status.dropbox.com/",
+   true
+  ],
+  [
+   "box",
+   "Box",
+   "https://status.box.com/",
+   true
+  ],
+  [
+   "wasabi",
+   "Wasabi cloud storage",
+   "https://status.wasabi.com/",
+   true
+  ],
+  [
+   "salesforce",
+   "Salesforce",
+   "https://status.salesforce.com/",
+   false
+  ],
+  [
+   "quickbooks",
+   "QuickBooks Online",
+   "https://status.quickbooks.intuit.com/",
+   true
   ],
   [
    "netsuite",
    "Oracle NetSuite",
-   "https://status.netsuite.com/"
+   "https://status.netsuite.com/",
+   true
   ]
  ]
 }

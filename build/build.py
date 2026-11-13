@@ -69,7 +69,7 @@ def icon(name):
 def plain(h):
     return re.sub(r'</?em>', '', h)
 
-NAV = [('index.html', 'Home'), ('services.html', 'Services'), ('about.html', 'About Us'), ('news.html', 'Cyber News')]   # five pages with Contact (Nov 12 2026 trim)
+NAV = [('index.html', 'Home'), ('services.html', 'Services'), ('about.html', 'About Us'), ('news.html', 'Cyber News'), ('status.html', 'Cloud Status')]   # five pages with Contact (Nov 12 2026 trim)
 SVC_FILES = {s['slug'] + '.html' for s in SERVICES}
 
 ORG_LD = json.dumps({"@context": "https://schema.org", "@type": "ProfessionalService", "name": BRAND, "url": DOMAIN, "logo": DOMAIN + "assets/brand/og.png",
@@ -296,18 +296,30 @@ def about():
 def testimonials():
     redirect('testimonials.html', 'about.html#testimonials')   # folded into About Us, Nov 12 2026
 
-def status_panel():
-    rows = ''.join(f'<a class="sp-row" data-status="{k}" href="{u}" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span><b>{n}</b><span class="sp-t">Checking.</span></a>' for k, n, u in C['STATUS'])
-    return f'<div class="status-panel"><p class="sp-h">Cloud service status</p>{rows}<p class="sp-note">From each provider\'s public status page, checked every hour.  Problems limited to one company\'s account show only in its own admin console.</p></div>'
+def status_page():
+    # Cloud Status (Nov 13 2026): the list on the left; picking a provider shows its own status page on the right.
+    # Microsoft 365, AWS, Cloudflare, Okta and Salesforce don't allow their pages inside other sites, so those show
+    # what their public feed says right now, with a button to open their page.
+    rows = ''.join(f'<button type="button" class="sp-row" data-status="{k}" data-name="{E(n)}" data-link="{u}" data-frame="{1 if f else 0}" aria-pressed="false"><span class="dot" aria-hidden="true"></span><b>{n}</b><span class="sp-t">Checking.</span></button>' for k, n, u, f in C['STATUS'])
+    body = phero('Cloud service status.', 'The services most businesses run on, checked every hour.  Pick one to see its status page right here.') + f'''
+<section style="padding-top:0"><div class="wrap cs">
+  <div class="status-panel cs-list"><p class="sp-h">Cloud service status</p><div id="csRows">{rows}</div>
+  <p class="sp-note">From each provider's public status page, checked every hour.  <span id="csUpdated"></span>  Problems limited to one company's account show only in its own admin console.</p></div>
+  <div class="cs-view" id="csView" aria-live="polite">
+    <div class="cs-bar"><div><h2 id="csName">Pick a service</h2><p id="csState"></p></div><a class="btn ghost" id="csOpen" href="#" target="_blank" rel="noopener" hidden>Open their page</a></div>
+    <iframe id="csFrame" title="Provider status page" hidden referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
+    <div class="cs-sum" id="csSum" hidden></div>
+  </div>
+</div></section>'''
+    page('status.html', f'Cloud Status | {BRAND}', 'Live status for Microsoft 365, Azure, Google Workspace, AWS, Cloudflare, Zoom, Slack and more, checked every hour.', body)
 
 def news_page():
     body = phero('Cybersecurity news, last 48 hours.', 'Advisories from CISA and Microsoft, plus the stories security teams are reading.  We collect the headlines; every link goes to the original publisher.') + f'''
-<section style="padding-top:0"><div class="wrap two">
-  <div><ol class="news" id="newsList" data-hours="48"><li class="news-empty">Loading the latest headlines.</li></ol>
-  <p style="margin-top:22px"><a class="link" href="news-history.html">Previous two weeks</a></p></div>
-  <div>{status_panel()}</div>
+<section style="padding-top:0"><div class="wrap" style="max-width:920px">
+  <ol class="news" id="newsList" data-hours="48"><li class="news-empty">Loading the latest headlines.</li></ol>
+  <p style="margin-top:22px"><a class="link" href="news-history.html">Previous two weeks</a></p>
 </div></section>'''
-    page('news.html', f'Cybersecurity News | {BRAND}', 'Cybersecurity headlines from the last 48 hours, from CISA, Microsoft and the security press, plus cloud service status, refreshed every hour.', body)
+    page('news.html', f'Cybersecurity News | {BRAND}', 'Cybersecurity headlines from the last 48 hours, from CISA, Microsoft and the security press, refreshed every hour.', body)
 
 def news_history():
     body = phero('Cybersecurity news, previous two weeks.', 'Older headlines, newest first.  For the last 48 hours, see the <a href="news.html">main news page</a>.') + \
@@ -342,7 +354,7 @@ def redirect(fname, to):
     (ROOT / fname).write_text(f'<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url={to}"><link rel="canonical" href="{DOMAIN}{to}"><title>Moved</title><a href="{to}">This page has moved.</a>')
 
 def extras():
-    pages = ['', 'services.html', 'about.html', 'news.html', 'news-history.html', 'contact.html', 'privacy.html', 'terms.html']
+    pages = ['', 'services.html', 'about.html', 'news.html', 'status.html', 'news-history.html', 'contact.html', 'privacy.html', 'terms.html']
     (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{DOMAIN}{p}</loc></url>\n' for p in pages) + '</urlset>\n')
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {DOMAIN}sitemap.xml\n')
     (ROOT / 'CNAME').write_text('wellrunit.com\n')
@@ -352,7 +364,7 @@ def extras():
         redirect(old, new)
 
 if __name__ == '__main__':
-    home(); services(); [service(i, s) for i, s in enumerate(SERVICES)]; engagement(); why(); about(); testimonials(); news_page(); news_history(); contact(); thanks(); privacy(); terms(); notfound(); redirect('app.html', 'index.html'); extras()   # Bernie app removed Nov 12 2026
+    home(); services(); [service(i, s) for i, s in enumerate(SERVICES)]; engagement(); why(); about(); testimonials(); news_page(); status_page(); news_history(); contact(); thanks(); privacy(); terms(); notfound(); redirect('app.html', 'index.html'); extras()   # Bernie app removed Nov 12 2026
     for n in ('thanks.html', '404.html'):
         f = ROOT / n; t = f.read_text()
         if 'name="robots"' not in t: f.write_text(t.replace('<meta name="theme-color"', '<meta name="robots" content="noindex">\n<meta name="theme-color"', 1))
