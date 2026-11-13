@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-13T17:29:13.324989+00:00",
+ "updated": "2026-11-13T17:33:32.878639+00:00",
  "items": [
+  {
+   "title": "German military drone operations disrupted by cyberattack",
+   "link": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T17:31:56+00:00"
+  },
+  {
+   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+   "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T16:53:08+00:00"
+  },
   {
    "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
    "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
@@ -224,18 +236,6 @@
    "date": "2026-11-12T17:00:00+00:00"
   },
   {
-   "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-   "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T16:27:01+00:00"
-  },
-  {
-   "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-   "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T16:04:00+00:00"
-  },
-  {
    "title": "Siemens Desigo, Gridscale",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
    "source": "CISA",
@@ -367,9 +367,9 @@
   "status": "Service degradation",
   "link": "https://status.cloud.microsoft/",
   "notes": [
-   "Microsoft Admin Center"
+   "Microsoft Admin Center: Service degradation"
   ],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,25 +378,25 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "salesforce": {
   "status": "1 open incident",
@@ -404,7 +404,7 @@
   "notes": [
    "Affects 75 instances: AUS4S, AUS6S, AUS20S, AUS26S, AUS60, AUS62"
   ],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "wasabi": {
   "status": "Service Under Maintenance",
@@ -412,7 +412,7 @@
   "notes": [
    "Maintenance: Maintenance Activity Advisory for 13 November 2026 in EU-WEST-2"
   ],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "zoom": {
   "status": "Partially Degraded Service",
@@ -422,7 +422,7 @@
    "Maintenance: Zoom Team Chat Update",
    "Maintenance: Zoom FileServer Release: November 03, 2026 (No Operational Impact)"
   ],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -430,7 +430,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6Njc3NTA5MTk0OTI3fQo="
   ],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -440,36 +440,36 @@
    "Cloudflare is currently having an issue with the r8.im registry used for Replicate model publishing and builds is currently restricted",
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  },
  "okta": {
   "status": "Link only",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-13T17:29:13.324989+00:00"
+  "checked": "2026-11-13T17:33:32.878639+00:00"
  }
 }
