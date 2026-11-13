@@ -173,7 +173,9 @@ def salesforce():
 
 STATUSPAGES = [('wasabi', 'https://status.wasabi.com/'), ('zoom', 'https://status.zoom.us/'), ('netsuite', 'https://status.netsuite.com/'),
                ('cloudflare', 'https://www.cloudflarestatus.com/'), ('dropbox', 'https://status.dropbox.com/'), ('box', 'https://status.box.com/'),
-               ('goto', 'https://status.goto.com/'), ('quickbooks', 'https://status.quickbooks.intuit.com/')]
+               ('goto', 'https://status.goto.com/'), ('quickbooks', 'https://status.quickbooks.intuit.com/'),
+               ('smartsheet', 'https://status.smartsheet.com/'), ('claude', 'https://status.claude.com/'),
+               ('openai', 'https://status.openai.com/'), ('perplexity', 'https://status.perplexity.com/')]
 CHECKS = [('m365', m365), ('aws', aws), ('google', google), ('azure', azure), ('slack', slack), ('salesforce', salesforce)] + \
          [(k, (lambda b=b: statuspage(b))) for k, b in STATUSPAGES]
 
@@ -214,6 +216,8 @@ def main():
         if err: errors[key + ' status'] = err; print(key, 'status failed:', err)
     # Okta publishes no public feed (its status data needs a sign-in), so the page links to it instead.
     data['okta'] = {'status': 'Link only', 'link': 'https://status.okta.com/', 'notes': [], 'checked': now}
+    # Google's Gemini API and AI Studio status page has no public feed either.
+    data['gemini'] = {'status': 'Link only', 'link': 'https://aistudio.google.com/status', 'notes': [], 'checked': now}
     if not data['items'] and prev.get('items'): data['items'] = prev['items']
     OUT.write_text(json.dumps(data, indent=1))
     # history: everything seen in the last 14 days, kept between runs, newest first

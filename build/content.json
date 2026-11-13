@@ -1682,6 +1682,31 @@
    "netsuite",
    "Oracle NetSuite",
    "https://status.netsuite.com/"
+  ],
+  [
+   "smartsheet",
+   "Smartsheet",
+   "https://status.smartsheet.com/"
+  ],
+  [
+   "claude",
+   "Claude",
+   "https://status.claude.com/"
+  ],
+  [
+   "openai",
+   "ChatGPT and OpenAI",
+   "https://status.openai.com/"
+  ],
+  [
+   "gemini",
+   "Gemini API and AI Studio",
+   "https://aistudio.google.com/status"
+  ],
+  [
+   "perplexity",
+   "Perplexity",
+   "https://status.perplexity.com/"
   ]
  ],
  "STATUS_GROUPS": [
@@ -1717,7 +1742,17 @@
    [
     "salesforce",
     "quickbooks",
-    "netsuite"
+    "netsuite",
+    "smartsheet"
+   ]
+  ],
+  [
+   "AI assistants",
+   [
+    "claude",
+    "openai",
+    "gemini",
+    "perplexity"
    ]
   ]
  ]

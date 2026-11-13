@@ -304,13 +304,14 @@ def status_page():
     cards = ''
     for title, keys in C['STATUS_GROUPS']:
         rows = ''.join(f'<a class="sp-row" data-status="{k}" href="{svc[k][1]}" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span><b>{svc[k][0]}</b><span class="sp-t">Checking.</span>{ext}<span class="sr">(opens {svc[k][0]}\'s status page in a new tab)</span></a>' for k in keys)
-        cards += f'<div class="status-panel cs-card"><h2 class="sp-h">{title}</h2>{rows}</div>'
+        wide = ' cs-wide' if len(C['STATUS_GROUPS']) % 2 and title == C['STATUS_GROUPS'][-1][0] else ''   # an odd last group spans both columns
+        cards += f'<div class="status-panel cs-card{wide}"><h2 class="sp-h">{title}</h2><div class="cs-rows">{rows}</div></div>'
     body = phero('Cloud service status.', 'The services most businesses run on, checked every hour.  Click one to open its own status page.') + f'''
 <section style="padding-top:0"><div class="wrap">
   <div class="cs-grid">{cards}</div>
   <p class="sp-note cs-note">From each provider's public status page, checked every hour.  <span id="csUpdated"></span>  Problems limited to one company's account show only in its own admin console.</p>
 </div></section>'''
-    page('status.html', f'Cloud Status | {BRAND}', 'Status for Microsoft 365, Google Workspace, Azure, AWS, Cloudflare, Zoom, Slack and more, checked every hour.', body)
+    page('status.html', f'Cloud Status | {BRAND}', 'Status for Microsoft 365, Google Workspace, Azure, AWS, Cloudflare, Zoom, Slack, Claude, ChatGPT and more, checked every hour.', body)
 
 def news_page():
     body = phero('Cybersecurity news, last 48 hours.', 'Advisories from CISA and Microsoft, plus the stories security teams are reading.  We collect the headlines; every link goes to the original publisher.') + f'''
