@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-13T12:09:15.855847+00:00",
+ "updated": "2026-11-13T13:24:56.201640+00:00",
  "items": [
+  {
+   "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+   "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+   "source": "Dark Reading",
+   "date": "2026-11-13T13:00:00+00:00"
+  },
+  {
+   "title": "Apify Confirms Customer Data Accessed in Cyberattack",
+   "link": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T12:41:01+00:00"
+  },
+  {
+   "title": "Microsoft says November security updates cause printing issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T12:27:40+00:00"
+  },
+  {
+   "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
+   "link": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T12:20:28+00:00"
+  },
   {
    "title": "When an AI Agent Goes Wrong, Can You Stop It?",
    "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",

@@ -1,21 +1,45 @@
 {
- "updated": "2026-11-13T12:09:15.855847+00:00",
+ "updated": "2026-11-13T13:24:56.201640+00:00",
  "m365": {
   "status": "ServiceDegradation",
-  "checked": "2026-11-13T12:09:15.905222+00:00",
+  "checked": "2026-11-13T13:24:56.213435+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-13T12:09:15.855847+00:00"
+  "checked": "2026-11-13T13:24:56.201640+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-13T12:09:15.855847+00:00"
+  "checked": "2026-11-13T13:24:56.201640+00:00"
  },
  "items": [
+  {
+   "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+   "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+   "source": "Dark Reading",
+   "date": "2026-11-13T13:00:00+00:00"
+  },
+  {
+   "title": "Apify Confirms Customer Data Accessed in Cyberattack",
+   "link": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T12:41:01+00:00"
+  },
+  {
+   "title": "Microsoft says November security updates cause printing issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T12:27:40+00:00"
+  },
+  {
+   "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
+   "link": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T12:20:28+00:00"
+  },
   {
    "title": "When an AI Agent Goes Wrong, Can You Stop It?",
    "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
@@ -203,12 +227,6 @@
    "date": "2026-11-12T15:38:49+00:00"
   },
   {
-   "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-   "link": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T15:38:31+00:00"
-  },
-  {
    "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
    "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
    "source": "The Hacker News",
@@ -225,18 +243,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
    "source": "BleepingComputer",
    "date": "2026-11-12T15:00:10+00:00"
-  },
-  {
-   "title": "Apify rotates API tokens, prompts 2FA resets after breach",
-   "link": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T14:36:47+00:00"
-  },
-  {
-   "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
-   "link": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T13:42:09+00:00"
   },
   {
    "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
@@ -347,12 +353,6 @@
    "date": "2026-11-10T21:55:03+00:00"
   },
   {
-   "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
-   "source": "Dark Reading",
-   "date": "2026-11-10T21:01:14+00:00"
-  },
-  {
    "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
    "link": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
@@ -381,11 +381,11 @@
  "zoom": {
   "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-13T12:09:15.855847+00:00"
+  "checked": "2026-11-13T13:24:56.201640+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-13T12:09:15.855847+00:00"
+  "checked": "2026-11-13T13:24:56.201640+00:00"
  }
 }
