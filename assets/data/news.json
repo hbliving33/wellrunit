@@ -1,21 +1,39 @@
 {
- "updated": "2026-11-13T11:14:39.063109+00:00",
+ "updated": "2026-11-13T12:09:15.855847+00:00",
  "m365": {
   "status": "ServiceDegradation",
-  "checked": "2026-11-13T11:14:39.103632+00:00",
+  "checked": "2026-11-13T12:09:15.905222+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-13T11:14:39.063109+00:00"
+  "checked": "2026-11-13T12:09:15.855847+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-13T11:14:39.063109+00:00"
+  "checked": "2026-11-13T12:09:15.855847+00:00"
  },
  "items": [
+  {
+   "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+   "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T11:52:31+00:00"
+  },
+  {
+   "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+   "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T11:10:40+00:00"
+  },
+  {
+   "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+   "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T10:55:03+00:00"
+  },
   {
    "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
    "link": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
@@ -227,12 +245,6 @@
    "date": "2026-11-12T13:08:28+00:00"
   },
   {
-   "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-   "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T12:09:14+00:00"
-  },
-  {
    "title": "Siemens Desigo, Gridscale",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
    "source": "CISA",
@@ -255,18 +267,6 @@
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
    "source": "CISA",
    "date": "2026-11-12T12:00:00+00:00"
-  },
-  {
-   "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-   "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T11:51:43+00:00"
-  },
-  {
-   "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-   "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T11:51:31+00:00"
   },
   {
    "title": "Inside an AI Attack Against a US Retailer",
@@ -381,11 +381,11 @@
  "zoom": {
   "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-13T11:14:39.063109+00:00"
+  "checked": "2026-11-13T12:09:15.855847+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-13T11:14:39.063109+00:00"
+  "checked": "2026-11-13T12:09:15.855847+00:00"
  }
 }

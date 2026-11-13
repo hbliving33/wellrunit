@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-13T11:14:39.063109+00:00",
+ "updated": "2026-11-13T12:09:15.855847+00:00",
  "items": [
+  {
+   "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+   "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T11:52:31+00:00"
+  },
+  {
+   "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+   "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T11:10:40+00:00"
+  },
+  {
+   "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+   "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T10:55:03+00:00"
+  },
   {
    "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
    "link": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
@@ -2568,12 +2586,6 @@
    "link": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
    "source": "SecurityWeek",
    "date": "2026-10-30T13:36:12+00:00"
-  },
-  {
-   "title": "Fresh WordPress Vulnerability in Attackers\u2019 Crosshairs",
-   "link": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
-   "source": "SecurityWeek",
-   "date": "2026-10-30T12:04:13+00:00"
   }
  ]
 }
