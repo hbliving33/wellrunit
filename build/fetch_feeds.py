@@ -83,7 +83,10 @@ def m365():
         if not raw: return {'status': 'Unknown', 'link': link, 'notes': []}, None
         if re.search(r'operational|restored|resolved', raw, re.I): return {'status': 'Available', 'link': link, 'notes': []}, None
         status = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', raw).capitalize()   # "ServiceDegradation" -> "Service degradation"
-        notes = [_clip(it.findtext('title') or it.findtext('description')) for it in items[:5] if (it.findtext('title') or it.findtext('description'))]
+        # each feed item is one affected service and its state, e.g. "Exchange Online: Service degradation"
+        words = lambda v: re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', v).capitalize()
+        notes = [_clip(f"{it.findtext('title').strip()}: {words((it.findtext('status') or '').strip())}") for it in items
+                 if it.findtext('title') and not re.search(r'operational|restored|resolved', it.findtext('status') or '', re.I)][:5]
         return {'status': status, 'link': link, 'notes': notes}, None
     except Exception as e:
         return {'status': 'Unknown', 'link': link, 'notes': []}, str(e)[:160]
