@@ -115,7 +115,7 @@ def page(fname, title, desc, body):
   <div class="wrap">
     <div class="foot-row">
       <a class="brand" href="index.html" aria-label="{BRAND}, home">{logo(True)}</a>
-      <nav class="foot-links" aria-label="Footer"><a href="services.html">Services</a><a href="about.html">About us</a><a href="news.html">Cyber news</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+      <nav class="foot-links" aria-label="Footer"><a href="services.html">Services</a><a href="about.html">About us</a><a href="news.html">Cyber news</a><a href="status.html">Cloud status</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
     </div>
     <div class="base"><span>&copy; {YEAR} {BRAND}</span><span>Supporting all 50 states</span></div>
   </div>
@@ -297,21 +297,20 @@ def testimonials():
     redirect('testimonials.html', 'about.html#testimonials')   # folded into About Us, Nov 12 2026
 
 def status_page():
-    # Cloud Status (Nov 13 2026): the list on the left; picking a provider shows its own status page on the right.
-    # Microsoft 365, AWS, Cloudflare, Okta and Salesforce don't allow their pages inside other sites, so those show
-    # what their public feed says right now, with a button to open their page.
-    rows = ''.join(f'<button type="button" class="sp-row" data-status="{k}" data-name="{E(n)}" data-link="{u}" data-frame="{1 if f else 0}" aria-pressed="false"><span class="dot" aria-hidden="true"></span><b>{n}</b><span class="sp-t">Checking.</span></button>' for k, n, u, f in C['STATUS'])
-    body = phero('Cloud service status.', 'The services most businesses run on, checked every hour.  Pick one to see its status page right here.') + f'''
-<section style="padding-top:0"><div class="wrap cs">
-  <div class="status-panel cs-list"><p class="sp-h">Cloud service status</p><div id="csRows">{rows}</div>
-  <p class="sp-note">From each provider's public status page, checked every hour.  <span id="csUpdated"></span>  Problems limited to one company's account show only in its own admin console.</p></div>
-  <div class="cs-view" id="csView" aria-live="polite">
-    <div class="cs-bar"><div><h2 id="csName">Pick a service</h2><p id="csState"></p></div><a class="btn ghost" id="csOpen" href="#" target="_blank" rel="noopener" hidden>Open their page</a></div>
-    <iframe id="csFrame" title="Provider status page" hidden referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
-    <div class="cs-sum" id="csSum" hidden></div>
-  </div>
+    # Cloud Status (Nov 13 2026, take 2): services grouped by type in two columns.  Each row opens the
+    # provider's own status page in a new tab.  Status comes from the hourly check (assets/data/news.json).
+    svc = {k: (n, u) for k, n, u in C['STATUS']}
+    ext = '<svg class="sp-go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1h5"/></svg>'
+    cards = ''
+    for title, keys in C['STATUS_GROUPS']:
+        rows = ''.join(f'<a class="sp-row" data-status="{k}" href="{svc[k][1]}" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span><b>{svc[k][0]}</b><span class="sp-t">Checking.</span>{ext}<span class="sr">(opens {svc[k][0]}\'s status page in a new tab)</span></a>' for k in keys)
+        cards += f'<div class="status-panel cs-card"><h2 class="sp-h">{title}</h2>{rows}</div>'
+    body = phero('Cloud service status.', 'The services most businesses run on, checked every hour.  Click one to open its own status page.') + f'''
+<section style="padding-top:0"><div class="wrap">
+  <div class="cs-grid">{cards}</div>
+  <p class="sp-note cs-note">From each provider's public status page, checked every hour.  <span id="csUpdated"></span>  Problems limited to one company's account show only in its own admin console.</p>
 </div></section>'''
-    page('status.html', f'Cloud Status | {BRAND}', 'Live status for Microsoft 365, Azure, Google Workspace, AWS, Cloudflare, Zoom, Slack and more, checked every hour.', body)
+    page('status.html', f'Cloud Status | {BRAND}', 'Status for Microsoft 365, Google Workspace, Azure, AWS, Cloudflare, Zoom, Slack and more, checked every hour.', body)
 
 def news_page():
     body = phero('Cybersecurity news, last 48 hours.', 'Advisories from CISA and Microsoft, plus the stories security teams are reading.  We collect the headlines; every link goes to the original publisher.') + f'''

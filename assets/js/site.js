@@ -49,46 +49,10 @@
         row.classList.remove("ok", "unk", "warn");
         row.classList.add(ok ? "ok" : (unk || link) ? "unk" : "warn");
         t.textContent = ok ? "No issues reported" : link ? "See their page" : unk ? "Unavailable right now" : st;
-        row._d = d || { status: st, notes: [] };
       });
-      if (document.getElementById("csView")) cloudStatus(data);
+      const up = document.getElementById("csUpdated");
+      if (up && data.updated) up.textContent = "Last checked " + new Date(data.updated).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + ".";
     }).catch(() => { if (newsList) newsList.innerHTML = '<li class="news-empty">Headlines are unavailable right now.</li>'; });
-  }
-
-  // Cloud Status page: pick a provider on the left, see it on the right.  Pages that allow it load in a frame;
-  // the rest (they block being shown inside other sites) show what their public feed says, plus a button to open them.
-  function cloudStatus(data) {
-    const rows = [...document.querySelectorAll("#csRows .sp-row")];
-    const name = document.getElementById("csName"), state = document.getElementById("csState"), open = document.getElementById("csOpen");
-    const frame = document.getElementById("csFrame"), sum = document.getElementById("csSum");
-    const up = document.getElementById("csUpdated");
-    if (up && data.updated) up.textContent = "Last checked " + new Date(data.updated).toLocaleString("en-US", { hour: "numeric", minute: "2-digit", month: "short", day: "numeric" }) + ".";
-    function pick(row, scroll) {
-      rows.forEach((r) => r.setAttribute("aria-pressed", r === row ? "true" : "false"));
-      const d = row._d || { status: "Unknown", notes: [] }, n = row.dataset.name, link = row.dataset.link;
-      name.textContent = n; state.textContent = row.querySelector(".sp-t").textContent;
-      state.className = row.classList.contains("ok") ? "ok" : row.classList.contains("warn") ? "warn" : "unk";
-      open.href = link; open.hidden = false; open.textContent = "Open " + n + "'s page";
-      if (row.dataset.frame === "1") {
-        sum.hidden = true; frame.hidden = false;
-        if (frame.getAttribute("src") !== link) frame.setAttribute("src", link);
-      } else {
-        frame.hidden = true; frame.removeAttribute("src"); sum.hidden = false; sum.textContent = "";
-        const p = document.createElement("p"); p.className = "cs-why";
-        p.textContent = d.status === "Link only" ? n + " doesn't publish a public status feed, and its page can't be shown inside other websites.  Use the button to open it." : n + " doesn't allow its status page to be shown inside other websites, so here's what its public status feed says right now.";
-        sum.appendChild(p);
-        if (d.status !== "Link only") {
-          const h = document.createElement("h3"); h.textContent = /^available$/i.test(d.status) ? "Nothing open right now" : "Open right now"; sum.appendChild(h);
-          if ((d.notes || []).length) { const ul = document.createElement("ul"); d.notes.forEach((t) => { const li = document.createElement("li"); li.textContent = t; ul.appendChild(li); }); sum.appendChild(ul); }
-          else if (!/^available$/i.test(d.status)) { const q = document.createElement("p"); q.textContent = d.status === "Unknown" ? "We couldn't reach their status feed on the last check." : d.status + ".  Their page has the details."; sum.appendChild(q); }
-        }
-      }
-      try { history.replaceState(null, "", "#" + row.dataset.status); } catch (e) {}
-      if (scroll && window.matchMedia("(max-width: 900px)").matches) document.getElementById("csView").scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-    rows.forEach((r) => r.addEventListener("click", () => pick(r, true)));
-    const start = rows.find((r) => "#" + r.dataset.status === location.hash) || rows[0];
-    if (start) pick(start, false);
   }
 
   // news history: the previous two weeks, grouped by day (older than the 48 hours on the main page)

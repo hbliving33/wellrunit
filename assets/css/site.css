@@ -512,30 +512,20 @@ section.band{background:#e3e8ef}
   .scard ul{align-self:start}
 }
 .sgroup-head p{max-width:640px}
-/* Cloud Status page (Nov 13 2026): list on the left, the provider's page on the right */
-.cs{display:grid;grid-template-columns:400px minmax(0,1fr);gap:28px;align-items:start}
-.cs .status-panel{margin-top:0;position:sticky;top:96px}
-button.sp-row{width:100%;background:none;border:0;border-bottom:1px solid var(--line);font:inherit;cursor:pointer;text-align:left;padding:11px 10px;margin:0 -10px;width:calc(100% + 20px);border-radius:8px}
-button.sp-row:hover{background:var(--soft,#ebeff4)}
-button.sp-row[aria-pressed="true"]{background:#e3e8ef;box-shadow:inset 3px 0 0 var(--accent)}
-button.sp-row:focus-visible{outline:3px solid var(--accent);outline-offset:1px}
+/* Cloud Status page (Nov 13 2026): services grouped by type, two columns, each row opens the provider's page */
+.cs-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.cs-card{margin-top:0}
+.cs-card .sp-h{font:600 13px Inter;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.cs-card .sp-row{padding:13px 10px;margin:0 -10px;border-radius:8px}
+.cs-card .sp-row:last-child{border-bottom:0}
+.cs-card .sp-row:hover{background:#ebeff4}
+.cs-card .sp-row:focus-visible{outline:3px solid var(--accent);outline-offset:1px}
+.cs-card .sp-row b{white-space:nowrap}
+.cs-card .sp-t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.sp-go{width:16px;height:16px;flex:none;color:var(--muted)}
+.cs-card .sp-row:hover .sp-go{color:var(--accent)}
 .sp-row.unk .dot{background:#9aa3ad}
-.cs-view{background:#fff;border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:var(--r);box-shadow:0 2px 10px rgba(15,28,45,.08);overflow:hidden;min-height:640px;display:flex;flex-direction:column}
-.cs-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:18px 22px;border-bottom:1px solid var(--line)}
-.cs-bar h2{font-size:22px}
-.cs-bar p{margin-top:4px;font-size:14.5px;font-weight:600;color:var(--muted)}
-.cs-bar p.ok{color:#2f8a5b}.cs-bar p.warn{color:#a8661a}
-.cs-bar .btn{min-height:42px;padding:0 16px;font-size:15px}
-#csFrame{display:block;width:100%;flex:1;min-height:760px;border:0;background:#fff}
-#csFrame[hidden],.cs-sum[hidden]{display:none}
-.cs-sum{padding:24px 22px 30px;max-width:720px}
-.cs-sum .cs-why{color:var(--ink2);font-size:15.5px}
-.cs-sum h3{margin-top:22px;font-size:18px}
-.cs-sum ul{margin:12px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:10px}
-.cs-sum li,.cs-sum p{font-size:15.5px;line-height:1.5}
-.cs-sum > p + p{margin-top:12px}
-@media (max-width:900px){.cs{grid-template-columns:1fr}.cs .status-panel{position:static}.cs-view{min-height:0}#csFrame{min-height:70vh}}
-.btn.ghost{background:#fff;color:var(--ink);border:1.5px solid var(--line2)}.btn.ghost:hover{background:var(--soft,#ebeff4)}
-.cs .status-panel{position:static}
-.cs .sp-row b{white-space:nowrap}
-.cs .sp-row .sp-t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.cs-note{margin-top:18px}
+@media (max-width:820px){.cs-grid{grid-template-columns:1fr}}
+.btn.ghost{background:#fff;color:var(--ink);border:1.5px solid var(--line2)}.btn.ghost:hover{background:#ebeff4}

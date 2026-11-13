@@ -1611,92 +1611,114 @@
   [
    "m365",
    "Microsoft 365",
-   "https://status.cloud.microsoft/",
-   false
-  ],
-  [
-   "azure",
-   "Microsoft Azure",
-   "https://azure.status.microsoft/en-us/status",
-   true
+   "https://status.cloud.microsoft/"
   ],
   [
    "google",
    "Google Workspace",
-   "https://www.google.com/appsstatus/dashboard/",
-   true
-  ],
-  [
-   "aws",
-   "AWS",
-   "https://health.aws.amazon.com/health/status",
-   false
-  ],
-  [
-   "cloudflare",
-   "Cloudflare",
-   "https://www.cloudflarestatus.com/",
-   false
-  ],
-  [
-   "okta",
-   "Okta",
-   "https://status.okta.com/",
-   false
+   "https://www.google.com/appsstatus/dashboard/"
   ],
   [
    "zoom",
    "Zoom",
-   "https://www.zoomstatus.com/",
-   true
+   "https://www.zoomstatus.com/"
   ],
   [
    "slack",
    "Slack",
-   "https://slack-status.com/",
-   true
+   "https://slack-status.com/"
+  ],
+  [
+   "azure",
+   "Microsoft Azure",
+   "https://azure.status.microsoft/en-us/status"
+  ],
+  [
+   "aws",
+   "AWS",
+   "https://health.aws.amazon.com/health/status"
+  ],
+  [
+   "cloudflare",
+   "Cloudflare",
+   "https://www.cloudflarestatus.com/"
+  ],
+  [
+   "okta",
+   "Okta",
+   "https://status.okta.com/"
   ],
   [
    "goto",
    "GoTo",
-   "https://status.goto.com/",
-   true
+   "https://status.goto.com/"
   ],
   [
    "dropbox",
    "Dropbox",
-   "https://status.dropbox.com/",
-   true
+   "https://status.dropbox.com/"
   ],
   [
    "box",
    "Box",
-   "https://status.box.com/",
-   true
+   "https://status.box.com/"
   ],
   [
    "wasabi",
    "Wasabi cloud storage",
-   "https://status.wasabi.com/",
-   true
+   "https://status.wasabi.com/"
   ],
   [
    "salesforce",
    "Salesforce",
-   "https://status.salesforce.com/",
-   false
+   "https://status.salesforce.com/"
   ],
   [
    "quickbooks",
    "QuickBooks Online",
-   "https://status.quickbooks.intuit.com/",
-   true
+   "https://status.quickbooks.intuit.com/"
   ],
   [
    "netsuite",
    "Oracle NetSuite",
-   "https://status.netsuite.com/",
-   true
+   "https://status.netsuite.com/"
+  ]
+ ],
+ "STATUS_GROUPS": [
+  [
+   "Email and collaboration",
+   [
+    "m365",
+    "google",
+    "zoom",
+    "slack"
+   ]
+  ],
+  [
+   "Cloud, internet and sign-in",
+   [
+    "azure",
+    "aws",
+    "cloudflare",
+    "okta"
+   ]
+  ],
+  [
+   "Phones, files and backup",
+   [
+    "goto",
+    "dropbox",
+    "box",
+    "wasabi"
+   ]
+  ],
+  [
+   "Business applications",
+   [
+    "salesforce",
+    "quickbooks",
+    "netsuite"
+   ]
   ]
  ]
 }
