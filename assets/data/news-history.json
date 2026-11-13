@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-13T13:24:56.201640+00:00",
+ "updated": "2026-11-13T15:01:59.218771+00:00",
  "items": [
+  {
+   "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
+   "link": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T13:47:42+00:00"
+  },
   {
    "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
    "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
@@ -456,6 +462,12 @@
    "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
    "source": "BleepingComputer",
    "date": "2026-11-11T20:54:20+00:00"
+  },
+  {
+   "title": "As Test Takers Turn to AI for Answers, Exam Security Must Catch Up",
+   "link": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
+   "source": "Dark Reading",
+   "date": "2026-11-11T20:27:00+00:00"
   },
   {
    "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
@@ -2568,48 +2580,6 @@
    "link": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
    "source": "SecurityWeek",
    "date": "2026-10-30T15:09:25+00:00"
-  },
-  {
-   "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
-   "link": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
-   "source": "SecurityWeek",
-   "date": "2026-10-30T14:41:35+00:00"
-  },
-  {
-   "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-   "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-   "source": "BleepingComputer",
-   "date": "2026-10-30T14:36:54+00:00"
-  },
-  {
-   "title": "Undead Software Projects Continue to Raise Security Risks",
-   "link": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
-   "source": "Dark Reading",
-   "date": "2026-10-30T14:10:37+00:00"
-  },
-  {
-   "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-   "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-   "source": "The Hacker News",
-   "date": "2026-10-30T14:08:14+00:00"
-  },
-  {
-   "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
-   "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
-   "source": "BleepingComputer",
-   "date": "2026-10-30T14:00:10+00:00"
-  },
-  {
-   "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
-   "link": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
-   "source": "SecurityWeek",
-   "date": "2026-10-30T14:00:00+00:00"
-  },
-  {
-   "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
-   "link": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
-   "source": "SecurityWeek",
-   "date": "2026-10-30T13:36:12+00:00"
   }
  ]
 }

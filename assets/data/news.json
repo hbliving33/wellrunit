@@ -1,21 +1,27 @@
 {
- "updated": "2026-11-13T13:24:56.201640+00:00",
+ "updated": "2026-11-13T15:01:59.218771+00:00",
  "m365": {
   "status": "ServiceDegradation",
-  "checked": "2026-11-13T13:24:56.213435+00:00",
+  "checked": "2026-11-13T15:01:59.342180+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-13T13:24:56.201640+00:00"
+  "checked": "2026-11-13T15:01:59.218771+00:00"
  },
  "wasabi": {
-  "status": "Available",
+  "status": "Service Under Maintenance",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-13T13:24:56.201640+00:00"
+  "checked": "2026-11-13T15:01:59.218771+00:00"
  },
  "items": [
+  {
+   "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
+   "link": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
+   "source": "SecurityWeek",
+   "date": "2026-11-13T13:47:42+00:00"
+  },
   {
    "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
    "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
@@ -153,12 +159,6 @@
    "link": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
    "source": "Dark Reading",
    "date": "2026-11-12T21:18:52+00:00"
-  },
-  {
-   "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
-   "link": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T20:55:30+00:00"
   },
   {
    "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
@@ -311,6 +311,12 @@
    "date": "2026-11-11T21:20:41+00:00"
   },
   {
+   "title": "As Test Takers Turn to AI for Answers, Exam Security Must Catch Up",
+   "link": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
+   "source": "Dark Reading",
+   "date": "2026-11-11T20:27:00+00:00"
+  },
+  {
    "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
    "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
    "source": "Dark Reading",
@@ -339,12 +345,6 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
    "source": "Microsoft Security Blog",
    "date": "2026-11-10T23:00:00+00:00"
-  },
-  {
-   "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
-   "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
-   "source": "Dark Reading",
-   "date": "2026-11-10T22:26:51+00:00"
   },
   {
    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
@@ -381,11 +381,11 @@
  "zoom": {
   "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-13T13:24:56.201640+00:00"
+  "checked": "2026-11-13T15:01:59.218771+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-13T13:24:56.201640+00:00"
+  "checked": "2026-11-13T15:01:59.218771+00:00"
  }
 }
