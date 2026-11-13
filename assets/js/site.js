@@ -48,7 +48,7 @@
         const st = (d && d.status) || "Unknown", ok = /^available$/i.test(st), link = st === "Link only", unk = st === "Unknown";
         row.classList.remove("ok", "unk", "warn");
         row.classList.add(ok ? "ok" : (unk || link) ? "unk" : "warn");
-        t.textContent = ok ? "No issues reported" : link ? "See their page" : unk ? "Unavailable right now" : st;
+        t.textContent = ok ? "No issues reported" : link ? "No public feed, open their page" : unk ? "Unavailable right now" : st;
       });
       const up = document.getElementById("csUpdated");
       if (up && data.updated) up.textContent = "Last checked " + new Date(data.updated).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + ".";

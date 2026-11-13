@@ -171,12 +171,36 @@ def salesforce():
     except Exception as e:
         return {'status': 'Unknown', 'link': link, 'notes': []}, str(e)[:160]
 
+def okta():
+    # Okta has no JSON feed, but its Atom feed lists every incident update; the title starts with the stage
+    # ("Investigating", "Identified", "Monitoring", "Resolved").  An incident is open until its newest update is Resolved.
+    link = 'https://status.okta.com/'
+    try:
+        ns = {'a': 'http://www.w3.org/2005/Atom'}
+        root = ET.fromstring(get('https://feeds.feedburner.com/OktaStatusRSS'))
+        latest = {}
+        for e in root.findall('a:entry', ns):
+            title = (e.findtext('a:title', '', ns) or '').strip()
+            when_ = e.findtext('a:updated', '', ns) or e.findtext('a:published', '', ns) or ''
+            href = ''.join(l.get('href', '') for l in e.findall('a:link', ns))[:200] or (e.findtext('a:id', '', ns) or '')
+            m = re.search(r'#incident/(\w+)', href) or re.search(r'(\w{15,})', href)
+            key = m.group(1) if m else title + when_
+            if key not in latest or when_ > latest[key][0]: latest[key] = (when_, title)
+        cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=14)).isoformat()
+        open_ = [(w, t) for w, t in latest.values() if not t.lower().startswith('resolved') and w >= cutoff[:19]]
+        open_.sort(reverse=True)
+        notes = [_clip(t) for _, t in open_][:5]
+        n = len(open_)
+        return {'status': 'Available' if n == 0 else f'{n} open incident' + ('' if n == 1 else 's'), 'link': link, 'notes': notes}, None
+    except Exception as e:
+        return {'status': 'Unknown', 'link': link, 'notes': []}, str(e)[:160]
+
 STATUSPAGES = [('wasabi', 'https://status.wasabi.com/'), ('zoom', 'https://status.zoom.us/'), ('netsuite', 'https://status.netsuite.com/'),
                ('cloudflare', 'https://www.cloudflarestatus.com/'), ('dropbox', 'https://status.dropbox.com/'), ('box', 'https://status.box.com/'),
                ('goto', 'https://status.goto.com/'), ('quickbooks', 'https://status.quickbooks.intuit.com/'),
                ('smartsheet', 'https://status.smartsheet.com/'), ('claude', 'https://status.claude.com/'),
                ('openai', 'https://status.openai.com/'), ('perplexity', 'https://status.perplexity.com/')]
-CHECKS = [('m365', m365), ('aws', aws), ('google', google), ('azure', azure), ('slack', slack), ('salesforce', salesforce)] + \
+CHECKS = [('m365', m365), ('aws', aws), ('google', google), ('azure', azure), ('slack', slack), ('salesforce', salesforce), ('okta', okta)] + \
          [(k, (lambda b=b: statuspage(b))) for k, b in STATUSPAGES]
 
 def main():
@@ -214,8 +238,6 @@ def main():
     for key, fn in CHECKS:
         r, err = fn(); r['checked'] = now; data[key] = r
         if err: errors[key + ' status'] = err; print(key, 'status failed:', err)
-    # Okta publishes no public feed (its status data needs a sign-in), so the page links to it instead.
-    data['okta'] = {'status': 'Link only', 'link': 'https://status.okta.com/', 'notes': [], 'checked': now}
     # Google's Gemini API and AI Studio status page has no public feed either.
     data['gemini'] = {'status': 'Link only', 'link': 'https://aistudio.google.com/status', 'notes': [], 'checked': now}
     if not data['items'] and prev.get('items'): data['items'] = prev['items']
