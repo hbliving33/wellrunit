@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-13T16:00:27.596398+00:00",
+ "updated": "2026-11-13T17:07:57.124291+00:00",
  "items": [
+  {
+   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+   "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T16:21:43+00:00"
+  },
+  {
+   "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+   "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T15:27:05+00:00"
+  },
   {
    "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
    "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
@@ -2568,18 +2580,6 @@
    "link": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
    "source": "Dark Reading",
    "date": "2026-10-30T19:46:08+00:00"
-  },
-  {
-   "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-   "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-   "source": "The Hacker News",
-   "date": "2026-10-30T16:58:44+00:00"
-  },
-  {
-   "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-30T16:11:44+00:00"
   }
  ]
 }

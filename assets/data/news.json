@@ -1,21 +1,33 @@
 {
- "updated": "2026-11-13T16:00:27.596398+00:00",
+ "updated": "2026-11-13T17:07:57.124291+00:00",
  "m365": {
   "status": "ServiceDegradation",
-  "checked": "2026-11-13T16:00:27.629463+00:00",
+  "checked": "2026-11-13T17:07:57.188764+00:00",
   "link": "https://status.cloud.microsoft/"
  },
  "aws": {
   "status": "2 open events",
   "link": "https://health.aws.amazon.com/health/status",
-  "checked": "2026-11-13T16:00:27.596398+00:00"
+  "checked": "2026-11-13T17:07:57.124291+00:00"
  },
  "wasabi": {
   "status": "Service Under Maintenance",
   "link": "https://status.wasabi.com/",
-  "checked": "2026-11-13T16:00:27.596398+00:00"
+  "checked": "2026-11-13T17:07:57.124291+00:00"
  },
  "items": [
+  {
+   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+   "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+   "source": "BleepingComputer",
+   "date": "2026-11-13T16:21:43+00:00"
+  },
+  {
+   "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+   "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+   "source": "The Hacker News",
+   "date": "2026-11-13T15:27:05+00:00"
+  },
   {
    "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
    "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
@@ -239,18 +251,6 @@
    "date": "2026-11-12T16:04:00+00:00"
   },
   {
-   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-   "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T15:38:49+00:00"
-  },
-  {
-   "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-   "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T15:07:20+00:00"
-  },
-  {
    "title": "Siemens Desigo, Gridscale",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
    "source": "CISA",
@@ -381,11 +381,11 @@
  "zoom": {
   "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
-  "checked": "2026-11-13T16:00:27.596398+00:00"
+  "checked": "2026-11-13T17:07:57.124291+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
-  "checked": "2026-11-13T16:00:27.596398+00:00"
+  "checked": "2026-11-13T17:07:57.124291+00:00"
  }
 }
