@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:51:10.898982+00:00",
+ "updated": "2026-11-14T01:18:03.989068+00:00",
  "items": [
   {
    "title": "FAA Ground Stop Issued Due to \u2018Extraordinary Circumstances\u2019",
@@ -2592,12 +2592,6 @@
    "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
    "source": "The Hacker News",
    "date": "2026-10-31T04:56:12+00:00"
-  },
-  {
-   "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-10-31T01:02:57+00:00"
   }
  ]
 }
