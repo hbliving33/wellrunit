@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-14T15:50:05.764539+00:00",
+ "updated": "2026-11-14T20:44:03.549318+00:00",
  "items": [
+  {
+   "title": "Cursor confirms security breach led to malicious Claude Code extension",
+   "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+   "source": "BleepingComputer",
+   "date": "2026-11-14T17:27:25+00:00"
+  },
   {
    "title": "US disrupts North Korean campaign behind $400 million crypto theft",
    "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
@@ -224,12 +230,6 @@
    "date": "2026-11-12T21:18:52+00:00"
   },
   {
-   "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T20:15:16+00:00"
-  },
-  {
    "title": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
    "link": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
    "source": "Dark Reading",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,25 +378,25 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "salesforce": {
   "status": "1 open incident",
@@ -404,30 +404,27 @@
   "notes": [
    "Affects 75 instances: AUS4S, AUS6S, AUS20S, AUS26S, AUS60, AUS62"
   ],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "okta": {
-  "status": "1 open incident",
+  "status": "Available",
   "link": "https://status.okta.com/",
-  "notes": [
-   "Monitoring Service Disruption"
-  ],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "notes": [],
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
   "notes": [
-   "Maintenance: Zoom Conference Room Connector DNS Changes: November 14, 2026 (No Operational Impact)",
-   "Maintenance: Zoom Conference Room Connector DNS Changes in Saudi Arabia Region: November 13, 2026 (No Operational Impact)"
+   "Maintenance: Zoom Team Chat Update"
   ],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -435,7 +432,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NjgxOTk3MTc1OTk0fQo="
   ],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -443,37 +440,37 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -481,7 +478,7 @@
   "notes": [
    "Some users unable to sign up with Apple on the Claude iOS app"
   ],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "openai": {
   "status": "Partial System Degradation",
@@ -489,18 +486,18 @@
   "notes": [
    "Delayed Costs Data in the Compliance API"
   ],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-14T15:50:05.764539+00:00"
+  "checked": "2026-11-14T20:44:03.549318+00:00"
  }
 }

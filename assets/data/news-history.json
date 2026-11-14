@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-14T15:50:05.764539+00:00",
+ "updated": "2026-11-14T20:44:03.549318+00:00",
  "items": [
+  {
+   "title": "Cursor confirms security breach led to malicious Claude Code extension",
+   "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+   "source": "BleepingComputer",
+   "date": "2026-11-14T17:27:25+00:00"
+  },
   {
    "title": "US disrupts North Korean campaign behind $400 million crypto theft",
    "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
@@ -2562,12 +2568,6 @@
    "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
    "source": "The Hacker News",
    "date": "2026-11-01T07:02:58+00:00"
-  },
-  {
-   "title": "Northflank security breach leads to abuse of customers' AI API keys",
-   "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-   "source": "BleepingComputer",
-   "date": "2026-10-31T18:01:12+00:00"
   }
  ]
 }
