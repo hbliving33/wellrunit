@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-14T08:59:56.466238+00:00",
+ "updated": "2026-11-14T15:50:05.764539+00:00",
  "items": [
+  {
+   "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+   "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+   "source": "BleepingComputer",
+   "date": "2026-11-14T15:15:49+00:00"
+  },
+  {
+   "title": "Is AI Making Us Worse at Cybersecurity?",
+   "link": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+   "source": "SecurityWeek",
+   "date": "2026-11-14T14:00:00+00:00"
+  },
+  {
+   "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+   "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+   "source": "The Hacker News",
+   "date": "2026-11-14T12:38:35+00:00"
+  },
+  {
+   "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+   "link": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+   "source": "SecurityWeek",
+   "date": "2026-11-14T11:00:00+00:00"
+  },
   {
    "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
    "link": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
@@ -158,18 +182,6 @@
    "date": "2026-11-13T09:36:18+00:00"
   },
   {
-   "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
-   "link": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T09:21:01+00:00"
-  },
-  {
-   "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit \u2018SignDrop\u2019",
-   "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T08:50:36+00:00"
-  },
-  {
    "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
    "link": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
    "source": "BleepingComputer",
@@ -224,12 +236,6 @@
    "date": "2026-11-12T20:09:41+00:00"
   },
   {
-   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-   "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T19:51:16+00:00"
-  },
-  {
    "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
    "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
    "source": "The Hacker News",
@@ -240,12 +246,6 @@
    "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
    "source": "The Hacker News",
    "date": "2026-11-12T18:02:51+00:00"
-  },
-  {
-   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-   "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T17:50:27+00:00"
   },
   {
    "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,25 +378,25 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "salesforce": {
   "status": "1 open incident",
@@ -404,7 +404,7 @@
   "notes": [
    "Affects 75 instances: AUS4S, AUS6S, AUS20S, AUS26S, AUS60, AUS62"
   ],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "okta": {
   "status": "1 open incident",
@@ -412,23 +412,22 @@
   "notes": [
    "Monitoring Service Disruption"
   ],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
   "notes": [
-   "Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.",
    "Maintenance: Zoom Conference Room Connector DNS Changes: November 14, 2026 (No Operational Impact)",
    "Maintenance: Zoom Conference Room Connector DNS Changes in Saudi Arabia Region: November 13, 2026 (No Operational Impact)"
   ],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -436,48 +435,45 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NjgxOTk3MTc1OTk0fQo="
   ],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
   "link": "https://www.cloudflarestatus.com/",
   "notes": [
-   "Cloudflare is seeing an issue with Workers API availability",
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "goto": {
-  "status": "Service Under Maintenance",
+  "status": "Available",
   "link": "https://status.goto.com/",
-  "notes": [
-   "Maintenance: LogMeIn Pro, LogMeIn Central, Hamachi, Join.me, GoToMyPC - Maintenance"
-  ],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "notes": [],
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -485,7 +481,7 @@
   "notes": [
    "Some users unable to sign up with Apple on the Claude iOS app"
   ],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "openai": {
   "status": "Partial System Degradation",
@@ -493,18 +489,18 @@
   "notes": [
    "Delayed Costs Data in the Compliance API"
   ],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-14T08:59:56.466238+00:00"
+  "checked": "2026-11-14T15:50:05.764539+00:00"
  }
 }

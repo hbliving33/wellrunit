@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-14T08:59:56.466238+00:00",
+ "updated": "2026-11-14T15:50:05.764539+00:00",
  "items": [
+  {
+   "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+   "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+   "source": "BleepingComputer",
+   "date": "2026-11-14T15:15:49+00:00"
+  },
+  {
+   "title": "Is AI Making Us Worse at Cybersecurity?",
+   "link": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+   "source": "SecurityWeek",
+   "date": "2026-11-14T14:00:00+00:00"
+  },
+  {
+   "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+   "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+   "source": "The Hacker News",
+   "date": "2026-11-14T12:38:35+00:00"
+  },
+  {
+   "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+   "link": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+   "source": "SecurityWeek",
+   "date": "2026-11-14T11:00:00+00:00"
+  },
   {
    "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
    "link": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
@@ -2544,42 +2568,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
    "source": "BleepingComputer",
    "date": "2026-10-31T18:01:12+00:00"
-  },
-  {
-   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
-   "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-   "source": "BleepingComputer",
-   "date": "2026-10-31T15:35:11+00:00"
-  },
-  {
-   "title": "Reddit to lock content behind logins to fight scrapers",
-   "link": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
-   "source": "BleepingComputer",
-   "date": "2026-10-31T14:05:15+00:00"
-  },
-  {
-   "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-   "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
-   "source": "BleepingComputer",
-   "date": "2026-10-31T13:10:19+00:00"
-  },
-  {
-   "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
-   "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
-   "source": "BleepingComputer",
-   "date": "2026-10-31T12:50:09+00:00"
-  },
-  {
-   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-   "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
-   "source": "The Hacker News",
-   "date": "2026-10-31T12:01:56+00:00"
-  },
-  {
-   "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
-   "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
-   "source": "SecurityWeek",
-   "date": "2026-10-31T11:00:00+00:00"
   }
  ]
 }
