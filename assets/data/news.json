@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-14T01:18:03.989068+00:00",
+ "updated": "2026-11-14T08:59:56.466238+00:00",
  "items": [
+  {
+   "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+   "link": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
+   "source": "SecurityWeek",
+   "date": "2026-11-14T08:40:22+00:00"
+  },
   {
    "title": "FAA Ground Stop Issued Due to \u2018Extraordinary Circumstances\u2019",
    "link": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
@@ -174,12 +180,6 @@
    "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
    "source": "The Hacker News",
    "date": "2026-11-13T08:05:49+00:00"
-  },
-  {
-   "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
-   "link": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T07:39:04+00:00"
   },
   {
    "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
@@ -364,12 +364,12 @@
  ],
  "errors": {},
  "m365": {
-  "status": "Service degradation",
+  "status": "Available",
   "link": "https://status.cloud.microsoft/",
   "notes": [
-   "Microsoft Admin Center: Service degradation"
+   "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,25 +378,25 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "salesforce": {
   "status": "1 open incident",
@@ -404,7 +404,7 @@
   "notes": [
    "Affects 75 instances: AUS4S, AUS6S, AUS20S, AUS26S, AUS60, AUS62"
   ],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "okta": {
   "status": "1 open incident",
@@ -412,31 +412,31 @@
   "notes": [
    "Monitoring Service Disruption"
   ],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "zoom": {
-  "status": "Partially Degraded Service",
+  "status": "Available",
   "link": "https://status.zoom.us/",
   "notes": [
    "Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.",
-   "Maintenance: Zoom Contact Center Update: November 14, 2026 (No Operational Impact)",
-   "Maintenance: Zoom Team Chat Update"
+   "Maintenance: Zoom Conference Room Connector DNS Changes: November 14, 2026 (No Operational Impact)",
+   "Maintenance: Zoom Conference Room Connector DNS Changes in Saudi Arabia Region: November 13, 2026 (No Operational Impact)"
   ],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
   "notes": [
-   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6Njc3NTA5MTk0OTI3fQo="
+   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NjgxOTk3MTc1OTk0fQo="
   ],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -445,43 +445,47 @@
    "Cloudflare is seeing an issue with Workers API availability",
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "goto": {
-  "status": "Available",
+  "status": "Service Under Maintenance",
   "link": "https://status.goto.com/",
-  "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "notes": [
+   "Maintenance: LogMeIn Pro, LogMeIn Central, Hamachi, Join.me, GoToMyPC - Maintenance"
+  ],
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "claude": {
-  "status": "Available",
+  "status": "Partially Degraded Service",
   "link": "https://status.claude.com/",
-  "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "notes": [
+   "Some users unable to sign up with Apple on the Claude iOS app"
+  ],
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "openai": {
   "status": "Partial System Degradation",
@@ -489,18 +493,18 @@
   "notes": [
    "Delayed Costs Data in the Compliance API"
   ],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-14T01:18:03.989068+00:00"
+  "checked": "2026-11-14T08:59:56.466238+00:00"
  }
 }

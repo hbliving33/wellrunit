@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-14T01:18:03.989068+00:00",
+ "updated": "2026-11-14T08:59:56.466238+00:00",
  "items": [
+  {
+   "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+   "link": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
+   "source": "SecurityWeek",
+   "date": "2026-11-14T08:40:22+00:00"
+  },
   {
    "title": "FAA Ground Stop Issued Due to \u2018Extraordinary Circumstances\u2019",
    "link": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
@@ -2574,24 +2580,6 @@
    "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
    "source": "SecurityWeek",
    "date": "2026-10-31T11:00:00+00:00"
-  },
-  {
-   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-   "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-   "source": "The Hacker News",
-   "date": "2026-10-31T08:27:43+00:00"
-  },
-  {
-   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-   "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-   "source": "The Hacker News",
-   "date": "2026-10-31T05:33:41+00:00"
-  },
-  {
-   "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-   "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-   "source": "The Hacker News",
-   "date": "2026-10-31T04:56:12+00:00"
   }
  ]
 }
