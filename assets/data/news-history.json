@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-15T15:41:26.832403+00:00",
+ "updated": "2026-11-15T21:03:42.154199+00:00",
  "items": [
+  {
+   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-15T18:29:53+00:00"
+  },
   {
    "title": "TSMC employee data breach linked to cloud provider",
    "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
@@ -2550,12 +2556,6 @@
    "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
    "source": "The Hacker News",
    "date": "2026-11-02T05:51:07+00:00"
-  },
-  {
-   "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
-   "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
-   "source": "BleepingComputer",
-   "date": "2026-11-01T19:57:53+00:00"
   }
  ]
 }

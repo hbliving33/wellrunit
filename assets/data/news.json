@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-15T15:41:26.832403+00:00",
+ "updated": "2026-11-15T21:03:42.154199+00:00",
  "items": [
+  {
+   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-15T18:29:53+00:00"
+  },
   {
    "title": "TSMC employee data breach linked to cloud provider",
    "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
@@ -224,12 +230,6 @@
    "date": "2026-11-13T05:43:28+00:00"
   },
   {
-   "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T22:53:10+00:00"
-  },
-  {
    "title": "Getting Past the Post-Quantum Cryptography Discovery Phase",
    "link": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
    "source": "Dark Reading",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "aws": {
   "status": "3 open events",
@@ -379,25 +379,25 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "salesforce": {
   "status": "1 open incident",
@@ -405,19 +405,21 @@
   "notes": [
    "Affects 75 instances: AUS4S, AUS6S, AUS20S, AUS26S, AUS60, AUS62"
   ],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "wasabi": {
-  "status": "Available",
+  "status": "Partially Degraded Service",
   "link": "https://status.wasabi.com/",
-  "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "notes": [
+   "System Errors in the EU-West-2 (Paris) region"
+  ],
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "zoom": {
   "status": "Available",
@@ -425,7 +427,7 @@
   "notes": [
    "Maintenance: Zoom Team Chat Update"
   ],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -433,7 +435,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6Njg2MjU0NzQ4MDE4fQo="
   ],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -441,37 +443,37 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -479,7 +481,7 @@
   "notes": [
    "Some users unable to sign up with Apple on the Claude iOS app"
   ],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "openai": {
   "status": "Partial System Degradation",
@@ -487,18 +489,18 @@
   "notes": [
    "Delayed Costs Data in the Compliance API"
   ],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-15T15:41:26.832403+00:00"
+  "checked": "2026-11-15T21:03:42.154199+00:00"
  }
 }
