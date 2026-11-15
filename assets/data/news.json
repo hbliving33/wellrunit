@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-15T07:53:27.180118+00:00",
+ "updated": "2026-11-15T15:41:26.832403+00:00",
  "items": [
+  {
+   "title": "TSMC employee data breach linked to cloud provider",
+   "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+   "source": "BleepingComputer",
+   "date": "2026-11-15T15:23:48+00:00"
+  },
+  {
+   "title": "Pentagon Renames CDAO \u2018Super Intelligence Office\u2019",
+   "link": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+   "source": "SecurityWeek",
+   "date": "2026-11-15T12:51:33+00:00"
+  },
+  {
+   "title": "Italy Fines Meta \u20ac805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+   "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+   "source": "The Hacker News",
+   "date": "2026-11-15T11:27:31+00:00"
+  },
+  {
+   "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+   "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+   "source": "The Hacker News",
+   "date": "2026-11-15T08:22:04+00:00"
+  },
+  {
+   "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+   "link": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+   "source": "SecurityWeek",
+   "date": "2026-11-14T19:00:00+00:00"
+  },
   {
    "title": "Cursor confirms security breach led to malicious Claude Code extension",
    "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
@@ -164,22 +194,10 @@
    "date": "2026-11-13T10:55:03+00:00"
   },
   {
-   "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
-   "link": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T10:48:40+00:00"
-  },
-  {
    "title": "Check Point warns of zero-day flaw exploited for root access",
    "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
    "source": "BleepingComputer",
    "date": "2026-11-13T10:44:22+00:00"
-  },
-  {
-   "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-   "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T09:36:56+00:00"
   },
   {
    "title": "Microsoft confirms Windows activation failures after November updates",
@@ -218,12 +236,6 @@
    "date": "2026-11-12T22:46:05+00:00"
   },
   {
-   "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T22:25:30+00:00"
-  },
-  {
    "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
    "link": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
    "source": "Dark Reading",
@@ -234,18 +246,6 @@
    "link": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
    "source": "Dark Reading",
    "date": "2026-11-12T20:09:41+00:00"
-  },
-  {
-   "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-   "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T18:07:15+00:00"
-  },
-  {
-   "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-   "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T18:02:51+00:00"
   },
   {
    "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
@@ -369,34 +369,35 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "aws": {
-  "status": "2 open events",
+  "status": "3 open events",
   "link": "https://health.aws.amazon.com/health/status",
   "notes": [
+   "Multiple services [RESOLVED] Increased Connectivity issues in US-EAST-1",
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "salesforce": {
   "status": "1 open incident",
@@ -404,36 +405,35 @@
   "notes": [
    "Affects 75 instances: AUS4S, AUS6S, AUS20S, AUS26S, AUS60, AUS62"
   ],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
   "notes": [
-   "Maintenance: Zoom Phone Update: November 15, 2026 (No Operational Impact)",
    "Maintenance: Zoom Team Chat Update"
   ],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
   "notes": [
-   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NjgxOTk3MTc1OTk0fQo="
+   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6Njg2MjU0NzQ4MDE4fQo="
   ],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -441,37 +441,37 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -479,7 +479,7 @@
   "notes": [
    "Some users unable to sign up with Apple on the Claude iOS app"
   ],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "openai": {
   "status": "Partial System Degradation",
@@ -487,18 +487,18 @@
   "notes": [
    "Delayed Costs Data in the Compliance API"
   ],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-15T07:53:27.180118+00:00"
+  "checked": "2026-11-15T15:41:26.832403+00:00"
  }
 }
