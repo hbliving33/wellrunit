@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T01:04:52.490367+00:00",
+ "updated": "2026-11-15T07:53:27.180118+00:00",
  "items": [
   {
    "title": "Cursor confirms security breach led to malicious Claude Code extension",
@@ -2550,24 +2550,6 @@
    "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
    "source": "The Hacker News",
    "date": "2026-11-01T08:51:31+00:00"
-  },
-  {
-   "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
-   "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
-   "source": "The Hacker News",
-   "date": "2026-11-01T07:25:40+00:00"
-  },
-  {
-   "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-   "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-01T07:03:00+00:00"
-  },
-  {
-   "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
-   "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
-   "source": "The Hacker News",
-   "date": "2026-11-01T07:02:58+00:00"
   }
  ]
 }
