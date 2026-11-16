@@ -1,6 +1,150 @@
 {
- "updated": "2026-11-16T08:01:02.926646+00:00",
+ "updated": "2026-11-16T18:35:28.706837+00:00",
  "items": [
+  {
+   "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T16:43:24+00:00"
+  },
+  {
+   "title": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
+   "source": "Dark Reading",
+   "date": "2026-11-16T16:36:55+00:00"
+  },
+  {
+   "title": "Cursor Supply Chain Attack Started at Fireworks AI",
+   "link": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-16T15:45:43+00:00"
+  },
+  {
+   "title": "Fandango says hackers stole payment card details from checkout pages",
+   "link": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T15:44:21+00:00"
+  },
+  {
+   "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
+   "link": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/",
+   "source": "SecurityWeek",
+   "date": "2026-11-16T15:31:25+00:00"
+  },
+  {
+   "title": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks",
+   "link": "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-16T15:07:32+00:00"
+  },
+  {
+   "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
+   "link": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T15:01:11+00:00"
+  },
+  {
+   "title": "Google warns that fully-automated AI attacks are coming soon",
+   "link": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T14:00:00+00:00"
+  },
+  {
+   "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+   "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+   "source": "The Hacker News",
+   "date": "2026-11-16T14:00:00+00:00"
+  },
+  {
+   "title": "\u26a1 Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+   "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+   "source": "The Hacker News",
+   "date": "2026-11-16T13:27:20+00:00"
+  },
+  {
+   "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T12:53:18+00:00"
+  },
+  {
+   "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
+   "link": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
+   "source": "SecurityWeek",
+   "date": "2026-11-16T12:48:03+00:00"
+  },
+  {
+   "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+   "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+   "source": "The Hacker News",
+   "date": "2026-11-16T12:34:21+00:00"
+  },
+  {
+   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+   "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+   "source": "The Hacker News",
+   "date": "2026-11-16T12:33:18+00:00"
+  },
+  {
+   "title": "Australian retail giant Coles investigates cybersecurity incident",
+   "link": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T11:18:09+00:00"
+  },
+  {
+   "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
+   "link": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-16T11:15:48+00:00"
+  },
+  {
+   "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
+   "link": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/",
+   "source": "SecurityWeek",
+   "date": "2026-11-16T11:05:42+00:00"
+  },
+  {
+   "title": "Uber Data Breach Impacts 150,000 People",
+   "link": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
+   "source": "SecurityWeek",
+   "date": "2026-11-16T11:02:48+00:00"
+  },
+  {
+   "title": "Anthropic\u2019s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T11:00:00+00:00"
+  },
+  {
+   "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+   "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+   "source": "The Hacker News",
+   "date": "2026-11-16T09:32:57+00:00"
+  },
+  {
+   "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+   "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T09:30:04+00:00"
+  },
+  {
+   "title": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
+   "link": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
+   "source": "SecurityWeek",
+   "date": "2026-11-16T08:55:32+00:00"
+  },
+  {
+   "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T08:26:52+00:00"
+  },
+  {
+   "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
+   "link": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
+   "source": "SecurityWeek",
+   "date": "2026-11-16T08:15:12+00:00"
+  },
   {
    "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
    "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
@@ -2388,174 +2532,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
    "source": "BleepingComputer",
    "date": "2026-11-02T19:00:45+00:00"
-  },
-  {
-   "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-   "link": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T18:16:34+00:00"
-  },
-  {
-   "title": "\u26a1 Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-   "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T16:57:56+00:00"
-  },
-  {
-   "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-   "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T15:50:26+00:00"
-  },
-  {
-   "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
-   "link": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T15:03:07+00:00"
-  },
-  {
-   "title": "BTCPay Server warns of hot wallet thefts targeting outdated instances",
-   "link": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T15:03:07+00:00"
-  },
-  {
-   "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
-   "link": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T15:01:11+00:00"
-  },
-  {
-   "title": "Your Mobile Carrier Stores Your Call Logs for Years",
-   "link": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T15:01:11+00:00"
-  },
-  {
-   "title": "Microsoft's AI Risk Report Misses This Key Detail",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
-   "source": "Dark Reading",
-   "date": "2026-11-02T15:00:00+00:00"
-  },
-  {
-   "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-   "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T14:46:05+00:00"
-  },
-  {
-   "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
-   "link": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T14:44:18+00:00"
-  },
-  {
-   "title": "Hackers disrupt refrigeration systems at European supermarkets",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T14:28:39+00:00"
-  },
-  {
-   "title": "PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
-   "source": "Dark Reading",
-   "date": "2026-11-02T14:00:00+00:00"
-  },
-  {
-   "title": "PapRAT Cyber Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
-   "source": "Dark Reading",
-   "date": "2026-11-02T14:00:00+00:00"
-  },
-  {
-   "title": "Microsoft fixes Smart App Control broken by October Windows update",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T13:57:29+00:00"
-  },
-  {
-   "title": "Revolve Data Breach Impacts at Least 200,000 People",
-   "link": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T13:35:21+00:00"
-  },
-  {
-   "title": "Revolve Data Breach Impacts at Least 180,000 People",
-   "link": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T13:35:21+00:00"
-  },
-  {
-   "title": "Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward",
-   "link": "https://www.securityweek.com/google-introduces-250000-root-in-cloud-bug-bounty-reward/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T13:25:11+00:00"
-  },
-  {
-   "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T12:47:00+00:00"
-  },
-  {
-   "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-   "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T11:50:00+00:00"
-  },
-  {
-   "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-   "link": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T11:30:00+00:00"
-  },
-  {
-   "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
-   "link": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T11:29:39+00:00"
-  },
-  {
-   "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
-   "link": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T11:28:42+00:00"
-  },
-  {
-   "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-   "link": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T11:08:45+00:00"
-  },
-  {
-   "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-   "link": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
-   "source": "The Hacker News",
-   "date": "2026-11-02T10:49:59+00:00"
-  },
-  {
-   "title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
-   "link": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T10:27:49+00:00"
-  },
-  {
-   "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T09:33:26+00:00"
-  },
-  {
-   "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
-   "link": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T09:33:15+00:00"
-  },
-  {
-   "title": "FBI Flags Over 600 Addresses Tied to North Korea\u2019s Binance Heist",
-   "link": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
-   "source": "SecurityWeek",
-   "date": "2026-11-02T08:40:36+00:00"
   }
  ]
 }
