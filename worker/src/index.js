@@ -118,13 +118,19 @@ function str(v, max) { return typeof v === 'string' ? v.replace(/[\u0000-\u001f\
 function cleanLead(l) {
   if (!l || typeof l !== 'object') return null;
   const lead = {
-    type: l.type === 'Existing customer' ? 'Existing customer' : 'New customer',
+    type: l.type === 'Existing customer' || l.ticket === true ? 'Existing customer' : 'New customer',
+    ticket: l.ticket === true && l.emergency !== true,
     name: str(l.name, 120), company: str(l.company, 160), email: str(l.email, 200), phone: str(l.phone, 40),
     state: STATES.includes(l.state) ? l.state : '', need: str(l.need, 3000), emergency: l.emergency === true,
     times: Array.isArray(l.times) ? l.times.slice(0, 3).map((t) => str(t, 120)).filter(Boolean) : [],
   };
   if (!lead.name || lead.phone.replace(/\D/g, '').length < 7) return null;
   if (lead.emergency) return lead;   // emergency: name and phone are all we ask for
+  if (lead.ticket) {   // support ticket: no state or callback times
+    if (!lead.company || !lead.need) return null;
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(lead.email)) return null;
+    return lead;
+  }
   if (!lead.company || !lead.state || !lead.need) return null;
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(lead.email)) return null;
   if (lead.times.length < 1) return null;   // one to three callback times
@@ -147,11 +153,20 @@ async function graphToken(env) {
 
 // The email always has the same subject format and the same rows in the same order.
 async function sendLeadEmail(env, lead, transcript) {
-  const subject = lead.emergency ? `URGENT | Call ${lead.name}, ${lead.phone} | Website emergency` : `${lead.company}, ${lead.state} | Website request`;
+  const subject = lead.emergency ? `URGENT | Call ${lead.name}, ${lead.phone} | Website emergency`
+    : lead.ticket ? `Support ticket | ${lead.company} | ${lead.name}`
+    : `${lead.company}, ${lead.state} | Website request`;
   const rows = lead.emergency ? [
     ['Emergency', 'YES, the visitor says something is down right now'],
     ['Name', lead.name],
     ['Phone', lead.phone],
+  ] : lead.ticket ? [
+    ['Request', 'Support ticket from an existing client'],
+    ['Company', lead.company],
+    ['Name', lead.name],
+    ['Email', lead.email],
+    ['Phone', lead.phone],
+    ["What's going on", lead.need],
   ] : [
     ['Emergency', lead.emergency ? 'YES, the visitor says something is down right now' : 'No'],
     ['Customer', lead.type],
@@ -166,7 +181,7 @@ async function sendLeadEmail(env, lead, transcript) {
   const table = rows.map(([k, v]) => `<tr><td style="padding:8px 14px 8px 0;color:#6b7787;vertical-align:top;white-space:nowrap">${k}</td><td style="padding:8px 0;color:#1b2430">${k === 'Callback times' ? v : esc(v).replace(/\n/g, '<br>')}</td></tr>`).join('');
   const chat = transcript.length ? transcript.map((m) => `<p style="margin:0 0 8px"><b>${m.who}:</b> ${esc(m.text)}</p>`).join('') : '<p style="margin:0">No chat, form only.</p>';
   const html = `<div style="font:15px/1.5 Segoe UI,Arial,sans-serif;max-width:680px">
-<h2 style="margin:0 0 4px;font-size:20px;color:${lead.emergency ? '#b42318' : '#1b2430'}">${lead.emergency ? 'URGENT: ' : ''}New website request</h2>
+<h2 style="margin:0 0 4px;font-size:20px;color:${lead.emergency ? '#b42318' : '#1b2430'}">${lead.emergency ? 'URGENT: New website request' : lead.ticket ? 'New support ticket' : 'New website request'}</h2>
 <p style="margin:0 0 16px;color:#6b7787">Sent by Bernie on wellrunit.com.  ${lead.emergency ? "Emergency: call them now." : "Reply to this email to answer the customer directly."}</p>
 <table style="border-collapse:collapse">${table}</table>
 <h3 style="margin:22px 0 8px;font-size:16px;color:#1b2430">Full chat</h3>${chat}</div>`;

@@ -1,6 +1,7 @@
 // Bernie: fills out the contact form for the visitor through a short chat, then hands them to a real person.
 // Form only: Bernie asks the questions, he doesn't answer them (Nov 2026).
-// Never asks for the same thing twice.  Never prices, troubleshoots or solves.  "Talk to a person" is always one click away.
+// Never asks for the same thing twice.  Never prices, troubleshoots or solves.
+// Opening choices (Nov 17 2026): Open a support ticket (existing clients), New business (prospects), Something's down right now.
 // Nothing is stored in the browser or on the server: a finished chat becomes one email to support@wellrunit.com.
 (() => {
   const API = '/api/bernie/';
@@ -16,7 +17,7 @@
     Washington: PAC, 'West Virginia': EAST, Wisconsin: CENT, Wyoming: MTN };
 
   let ui, log, foot, session = null, sitekey = null, ready = null, opened = false;
-  const lead = { need: '', type: '', name: '', company: '', email: '', phone: '', state: '', times: [], emergency: false };
+  const lead = { need: '', type: '', name: '', company: '', email: '', phone: '', state: '', times: [], emergency: false, ticket: false };
   const transcript = [];   // goes into the email, then it's gone
 
   // ---------- small helpers ----------
@@ -79,7 +80,8 @@
     ready.then((ok) => { if (!ok && !transcript.some((m) => m.who === 'visitor')) { log.replaceChildren(); transcript.length = 0; offline(); } });
     say("Hi, I'm Bernie.  What would you like to do?");
     setFoot(choices([
-      ['Talk to a person', () => { say('Talk to a person', 'visitor'); startForm(); }],
+      ['Open a support ticket', () => { say('Open a support ticket', 'visitor'); lead.ticket = true; lead.type = 'Existing customer'; startForm(); }],
+      ['New business', () => { say('New business', 'visitor'); lead.type = 'New customer'; startForm(); }],
       ["Something's down right now", () => { say("Something's down right now", 'visitor'); lead.emergency = true; startForm(); }, 'warn'],
     ]));
   }
@@ -117,17 +119,22 @@
     inForm = true;
     steps.length = 0;
     if (lead.emergency) steps.push(stepName, stepPhone, review);   // emergency: just name and phone, fast
-    else {
+    else if (lead.ticket) {   // support ticket: what's wrong and who to reply to, no callback times
       if (!lead.need) steps.push(stepNeed);
-      steps.push(stepType, stepName, stepCompany, stepEmail, stepPhone, stepState, stepTimes, review);
+      steps.push(stepName, stepCompany, stepEmail, stepPhone, review);
+    } else {
+      if (!lead.need) steps.push(stepNeed);
+      if (!lead.type) steps.push(stepType);
+      steps.push(stepName, stepCompany, stepEmail, stepPhone, stepState, stepTimes, review);
     }
     if (lead.emergency) say('Got it.  Just your name and best phone number, and I\'ll get this to our team right away.');
+    else if (lead.ticket) say('Sure.  A few quick questions and I\'ll open a ticket with our team.');
     else say('Happy to.  A few quick questions and a real person will take it from there.');
     next();
   }
   const next = () => { const s = steps.shift(); if (s) s(); };
 
-  function stepNeed() { ask(lead.emergency ? "What's down?" : 'What can we help with?', { area: true, placeholder: 'A sentence or two is plenty', done: (v) => { lead.need = v; next(); } }); }
+  function stepNeed() { ask(lead.emergency ? "What's down?" : lead.ticket ? "What's going on?" : 'What can we help with?', { area: true, placeholder: 'A sentence or two is plenty', done: (v) => { lead.need = v; next(); } }); }
   function stepType() {
     say('Are you a new or existing customer?');
     setFoot(choices([['New customer', () => { lead.type = 'New customer'; say('New customer', 'visitor'); next(); }, 'ghost'], ['Existing customer', () => { lead.type = 'Existing customer'; say('Existing customer', 'visitor'); next(); }, 'ghost']]));
@@ -210,6 +217,7 @@
   // Review: everything at once, change any one thing without starting over.
   function review() {
     const fields = lead.emergency ? [['name', 'Name'], ['phone', 'Phone']]
+      : lead.ticket ? [['need', "What's going on"], ['name', 'Name'], ['company', 'Company'], ['email', 'Email'], ['phone', 'Phone']]
       : [['need', 'What you need'], ['type', 'Customer'], ['name', 'Name'], ['company', 'Company'], ['email', 'Email'], ['phone', 'Phone'], ['state', 'State'], ['times', 'Callback times']];
     say("Here's what I'll send.  Tap anything to change it.");
     const box = el('div', 'breview');
@@ -242,6 +250,7 @@
     t.remove();
     if (!ok) return offline();
     if (lead.emergency) say("Thanks.  I've emailed our team and marked it urgent.  We'll call you as fast as we can.");
+    else if (lead.ticket) say("Your ticket is in.  Our team has everything and will reach out to you.  You won't have to repeat any of this.");
     else say("All set.  A real person has everything and will reach out to confirm one of your times.  You won't have to repeat any of this.");
     setFoot(btn('Close', close, 'ghost'));
     inForm = false;
