@@ -1,6 +1,222 @@
 {
- "updated": "2026-11-17T11:55:50.972604+00:00",
+ "updated": "2026-11-17T20:58:32.084395+00:00",
  "items": [
+  {
+   "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+   "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+   "source": "BleepingComputer",
+   "date": "2026-11-17T20:51:21+00:00"
+  },
+  {
+   "title": "Researchers Claim Two RCE Exploits That Bypass Telegram\u2019s New Android Defenses",
+   "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+   "source": "The Hacker News",
+   "date": "2026-11-17T19:34:20+00:00"
+  },
+  {
+   "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+   "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+   "source": "BleepingComputer",
+   "date": "2026-11-17T19:24:07+00:00"
+  },
+  {
+   "title": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+   "link": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
+   "source": "Dark Reading",
+   "date": "2026-11-17T18:38:37+00:00"
+  },
+  {
+   "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+   "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+   "source": "BleepingComputer",
+   "date": "2026-11-17T18:21:24+00:00"
+  },
+  {
+   "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
+   "link": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
+   "source": "SecurityWeek",
+   "date": "2026-11-17T18:16:17+00:00"
+  },
+  {
+   "title": "Security for the agentic era, powered by Microsoft Perception",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-17T18:14:00+00:00"
+  },
+  {
+   "title": "Tor releases emergency update amid ongoing DDoS attack",
+   "link": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+   "source": "BleepingComputer",
+   "date": "2026-11-17T18:04:15+00:00"
+  },
+  {
+   "title": "Flipper Devices launches $399 \u2018Flipper One\u2019 Linux-based multi-tool",
+   "link": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+   "source": "BleepingComputer",
+   "date": "2026-11-17T16:00:00+00:00"
+  },
+  {
+   "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+   "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+   "source": "The Hacker News",
+   "date": "2026-11-17T15:17:36+00:00"
+  },
+  {
+   "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+   "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+   "source": "The Hacker News",
+   "date": "2026-11-17T15:17:28+00:00"
+  },
+  {
+   "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+   "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+   "source": "BleepingComputer",
+   "date": "2026-11-17T15:01:11+00:00"
+  },
+  {
+   "title": "The risks of device code authentication for AI coding agents",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-17T15:00:00+00:00"
+  },
+  {
+   "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
+   "link": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+   "source": "SecurityWeek",
+   "date": "2026-11-17T14:55:30+00:00"
+  },
+  {
+   "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
+   "link": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+   "source": "SecurityWeek",
+   "date": "2026-11-17T14:14:24+00:00"
+  },
+  {
+   "title": "Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool",
+   "link": "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/",
+   "source": "SecurityWeek",
+   "date": "2026-11-17T14:00:00+00:00"
+  },
+  {
+   "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
+   "link": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
+   "source": "SecurityWeek",
+   "date": "2026-11-17T13:24:43+00:00"
+  },
+  {
+   "title": "Grok Bots Attempt to Access Corporate Data Without User Approval",
+   "link": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
+   "source": "Dark Reading",
+   "date": "2026-11-17T13:12:56+00:00"
+  },
+  {
+   "title": "Access Dental Management Data Breach Impacts Over 340,000",
+   "link": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
+   "source": "SecurityWeek",
+   "date": "2026-11-17T12:59:04+00:00"
+  },
+  {
+   "title": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity",
+   "link": "https://www.securityweek.com/corma-receives-125-million-to-train-foundation-models-for-defensive-cybersecurity/",
+   "source": "SecurityWeek",
+   "date": "2026-11-17T12:51:54+00:00"
+  },
+  {
+   "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+   "link": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
+   "source": "SecurityWeek",
+   "date": "2026-11-17T12:28:45+00:00"
+  },
+  {
+   "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+   "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+   "source": "The Hacker News",
+   "date": "2026-11-17T12:25:06+00:00"
+  },
+  {
+   "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+   "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+   "source": "The Hacker News",
+   "date": "2026-11-17T12:14:36+00:00"
+  },
+  {
+   "title": "Dorsett Controls InfoScan",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens Mendix Studio Pro",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens meta-iot2050",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens SIMATIC WinCC",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens RUGGEDCOM APE1808",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens Industrial Automation Software Products",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens SIMATIC",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens Industrial Software Products",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens ROS#",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens Simcenter Femap",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
+   "link": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
   {
    "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
    "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
@@ -116,7 +332,7 @@
    "date": "2026-11-16T19:57:13+00:00"
   },
   {
-   "title": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+   "title": "Ransomware Attacks Increase Behind AI, but Payments Decline",
    "link": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
    "source": "Dark Reading",
    "date": "2026-11-16T19:56:05+00:00"
@@ -168,6 +384,12 @@
    "link": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
    "source": "BleepingComputer",
    "date": "2026-11-16T15:01:11+00:00"
+  },
+  {
+   "title": "NIST Finalizes Post-Quantum Cryptography Guidance, GAO Offers a Reality Check",
+   "link": "https://www.darkreading.com/cyber-risk/nist-finalizes-post-quantum-cryptography-guidance-gao-offers-a-reality-check",
+   "source": "Dark Reading",
+   "date": "2026-11-16T14:22:15+00:00"
   },
   {
    "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
@@ -354,6 +576,12 @@
    "link": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
    "source": "SecurityWeek",
    "date": "2026-11-14T08:40:22+00:00"
+  },
+  {
+   "title": "As Test Takers Turn to AI, Exam Security Plays Catch-Up",
+   "link": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
+   "source": "Dark Reading",
+   "date": "2026-11-13T22:27:00+00:00"
   },
   {
    "title": "FAA Ground Stop Issued Due to \u2018Extraordinary Circumstances\u2019",
@@ -724,12 +952,6 @@
   {
    "title": "Siemens Desigo, Gridscale",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
-   "source": "CISA",
-   "date": "2026-11-12T12:00:00+00:00"
-  },
-  {
-   "title": "Siemens RUGGEDCOM APE1808",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
    "source": "CISA",
    "date": "2026-11-12T12:00:00+00:00"
   },
@@ -1868,12 +2090,6 @@
    "date": "2026-11-06T12:06:35+00:00"
   },
   {
-   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-   "source": "CISA",
-   "date": "2026-11-06T12:00:00+00:00"
-  },
-  {
    "title": "The Flood is Coming And The Pipes Were Already Full",
    "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
    "source": "The Hacker News",
@@ -2412,144 +2628,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
    "source": "BleepingComputer",
    "date": "2026-11-03T21:28:44+00:00"
-  },
-  {
-   "title": "Binance says fake job interview led to $6.3 billion crypto heist",
-   "link": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T20:05:50+00:00"
-  },
-  {
-   "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
-   "link": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T18:51:04+00:00"
-  },
-  {
-   "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-   "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T18:46:38+00:00"
-  },
-  {
-   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-   "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T18:16:19+00:00"
-  },
-  {
-   "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-03T17:32:47+00:00"
-  },
-  {
-   "title": "Microsoft named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for AI Agent Management Platforms",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-03T17:00:00+00:00"
-  },
-  {
-   "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-   "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T16:55:58+00:00"
-  },
-  {
-   "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-   "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T15:59:19+00:00"
-  },
-  {
-   "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-   "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T15:41:53+00:00"
-  },
-  {
-   "title": "9 Cyber Awareness Tips That Actually Match Today's Maze of Threats",
-   "link": "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats",
-   "source": "Dark Reading",
-   "date": "2026-11-03T15:38:20+00:00"
-  },
-  {
-   "title": "9 Cyber Awareness Tips That Actually Match Today\u2019s Maze of Threats",
-   "link": "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats",
-   "source": "Dark Reading",
-   "date": "2026-11-03T15:38:20+00:00"
-  },
-  {
-   "title": "LLMjacking Emerges as Thriving Cybercriminal Enterprise",
-   "link": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise",
-   "source": "Dark Reading",
-   "date": "2026-11-03T15:35:50+00:00"
-  },
-  {
-   "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
-   "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-03T15:16:32+00:00"
-  },
-  {
-   "title": "Barracuda warns of critical flaws allowing root access to devices",
-   "link": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T15:06:16+00:00"
-  },
-  {
-   "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
-   "link": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T15:00:10+00:00"
-  },
-  {
-   "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
-   "link": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
-   "source": "SecurityWeek",
-   "date": "2026-11-03T14:32:38+00:00"
-  },
-  {
-   "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
-   "link": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
-   "source": "SecurityWeek",
-   "date": "2026-11-03T14:12:44+00:00"
-  },
-  {
-   "title": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
-   "link": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
-   "source": "Dark Reading",
-   "date": "2026-11-03T14:00:00+00:00"
-  },
-  {
-   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-   "link": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T14:00:00+00:00"
-  },
-  {
-   "title": "Police seizes over 100 servers in investment scam crackdown",
-   "link": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T13:33:49+00:00"
-  },
-  {
-   "title": "Android\u2019s November 2026 Updates Patch Over 200 Vulnerabilities",
-   "link": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
-   "source": "SecurityWeek",
-   "date": "2026-11-03T12:21:49+00:00"
-  },
-  {
-   "title": "Critical Node-RED Flaw Exploited in Attacks",
-   "link": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-03T12:10:19+00:00"
-  },
-  {
-   "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
-   "link": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T12:05:52+00:00"
   }
  ]
 }
