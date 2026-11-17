@@ -1,6 +1,66 @@
 {
- "updated": "2026-11-16T18:35:28.706837+00:00",
+ "updated": "2026-11-17T02:28:54.097751+00:00",
  "items": [
+  {
+   "title": "Optimizely supply chain attack infects major brands' sites with malware",
+   "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
+   "source": "BleepingComputer",
+   "date": "2026-11-17T02:12:17+00:00"
+  },
+  {
+   "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-17T00:08:41+00:00"
+  },
+  {
+   "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+   "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T22:54:00+00:00"
+  },
+  {
+   "title": "Google Project Zero Slashes Bug Disclosure Deadlines, Splitting Experts",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/google-project-zero-bug-disclosure-deadlines",
+   "source": "Dark Reading",
+   "date": "2026-11-16T22:08:20+00:00"
+  },
+  {
+   "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+   "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T21:31:44+00:00"
+  },
+  {
+   "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+   "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T20:59:44+00:00"
+  },
+  {
+   "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
+   "link": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
+   "source": "SecurityWeek",
+   "date": "2026-11-16T20:00:00+00:00"
+  },
+  {
+   "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+   "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T19:57:13+00:00"
+  },
+  {
+   "title": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+   "link": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
+   "source": "Dark Reading",
+   "date": "2026-11-16T19:56:05+00:00"
+  },
+  {
+   "title": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models",
+   "source": "Dark Reading",
+   "date": "2026-11-16T19:10:03+00:00"
+  },
   {
    "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
@@ -122,22 +182,10 @@
    "date": "2026-11-16T09:32:57+00:00"
   },
   {
-   "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
-   "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-   "source": "BleepingComputer",
-   "date": "2026-11-16T09:30:04+00:00"
-  },
-  {
    "title": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
    "link": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
    "source": "SecurityWeek",
    "date": "2026-11-16T08:55:32+00:00"
-  },
-  {
-   "title": "Microsoft pushes Windows emergency updates to fix activation failures",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
-   "source": "BleepingComputer",
-   "date": "2026-11-16T08:26:52+00:00"
   },
   {
    "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
@@ -158,24 +206,6 @@
    "date": "2026-11-16T06:53:34+00:00"
   },
   {
-   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-   "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-15T18:29:53+00:00"
-  },
-  {
-   "title": "TSMC employee data breach linked to cloud provider",
-   "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
-   "source": "BleepingComputer",
-   "date": "2026-11-15T15:23:48+00:00"
-  },
-  {
-   "title": "Pentagon Renames CDAO \u2018Super Intelligence Office\u2019",
-   "link": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
-   "source": "SecurityWeek",
-   "date": "2026-11-15T12:51:33+00:00"
-  },
-  {
    "title": "Italy Fines Meta \u20ac805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
    "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
    "source": "The Hacker News",
@@ -186,12 +216,6 @@
    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
    "source": "The Hacker News",
    "date": "2026-11-15T08:22:04+00:00"
-  },
-  {
-   "title": "Cursor confirms security breach led to malicious Claude Code extension",
-   "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-   "source": "BleepingComputer",
-   "date": "2026-11-14T17:27:25+00:00"
   },
   {
    "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
@@ -302,24 +326,6 @@
    "date": "2026-11-12T00:00:00+00:00"
   },
   {
-   "title": "AI\u3092\u6d3b\u7528\u3057\u305f\u30b5\u30a4\u30d0\u30fc\u653b\u6483\u306e\u5897\u52a0\u3092\u53d7\u3051\u3001\u65e5\u672c\u304c\u30b5\u30a4\u30d0\u30fc\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3078\u306e\u7dca\u6025\u8cc7\u91d1\u62e0\u51fa\u3092\u63a8\u9032",
-   "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese",
-   "source": "Dark Reading",
-   "date": "2026-11-11T22:14:44+00:00"
-  },
-  {
-   "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
-   "link": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
-   "source": "Dark Reading",
-   "date": "2026-11-11T21:44:04+00:00"
-  },
-  {
-   "title": "AI Raises the Stakes for Cyber Resilience",
-   "link": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
-   "source": "Dark Reading",
-   "date": "2026-11-11T21:20:41+00:00"
-  },
-  {
    "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
    "source": "Microsoft Security Blog",
@@ -354,12 +360,6 @@
    "link": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
    "date": "2026-11-10T12:00:00+00:00"
-  },
-  {
-   "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-09T20:17:31+00:00"
   }
  ],
  "errors": {},
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,52 +378,53 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
   "notes": [
+   "Service Degradation Affecting Outbound SMS due to an underlying carrier issue in the Australia region.",
    "Maintenance: Zoom Phone Maintenance - SA01 - KSA1 Data Center: November 16, 2026",
    "Maintenance: Zoom Team Chat Update"
   ],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -431,7 +432,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6Njg5MjgyMjI5MDQxfQo="
   ],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -439,63 +440,62 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
   "link": "https://status.claude.com/",
   "notes": [
-   "Claude unable to join meetings",
-   "Some users unable to sign up with Apple on the Claude iOS app"
+   "Claude unable to join meetings"
   ],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-16T18:35:28.706837+00:00"
+  "checked": "2026-11-17T02:28:54.097751+00:00"
  }
 }

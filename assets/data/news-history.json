@@ -1,6 +1,66 @@
 {
- "updated": "2026-11-16T18:35:28.706837+00:00",
+ "updated": "2026-11-17T02:28:54.097751+00:00",
  "items": [
+  {
+   "title": "Optimizely supply chain attack infects major brands' sites with malware",
+   "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
+   "source": "BleepingComputer",
+   "date": "2026-11-17T02:12:17+00:00"
+  },
+  {
+   "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-17T00:08:41+00:00"
+  },
+  {
+   "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+   "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T22:54:00+00:00"
+  },
+  {
+   "title": "Google Project Zero Slashes Bug Disclosure Deadlines, Splitting Experts",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/google-project-zero-bug-disclosure-deadlines",
+   "source": "Dark Reading",
+   "date": "2026-11-16T22:08:20+00:00"
+  },
+  {
+   "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+   "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T21:31:44+00:00"
+  },
+  {
+   "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+   "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T20:59:44+00:00"
+  },
+  {
+   "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
+   "link": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
+   "source": "SecurityWeek",
+   "date": "2026-11-16T20:00:00+00:00"
+  },
+  {
+   "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+   "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+   "source": "BleepingComputer",
+   "date": "2026-11-16T19:57:13+00:00"
+  },
+  {
+   "title": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+   "link": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
+   "source": "Dark Reading",
+   "date": "2026-11-16T19:56:05+00:00"
+  },
+  {
+   "title": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models",
+   "source": "Dark Reading",
+   "date": "2026-11-16T19:10:03+00:00"
+  },
   {
    "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
@@ -2502,36 +2562,6 @@
    "link": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
    "source": "The Hacker News",
    "date": "2026-11-03T05:34:37+00:00"
-  },
-  {
-   "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-   "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
-   "source": "Krebs on Security",
-   "date": "2026-11-03T02:24:31+00:00"
-  },
-  {
-   "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-   "source": "Dark Reading",
-   "date": "2026-11-02T22:27:24+00:00"
-  },
-  {
-   "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
-   "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T21:40:14+00:00"
-  },
-  {
-   "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-02T20:20:59+00:00"
-  },
-  {
-   "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-   "link": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
-   "source": "BleepingComputer",
-   "date": "2026-11-02T19:00:45+00:00"
   }
  ]
 }
