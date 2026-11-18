@@ -1,11 +1,131 @@
 {
- "updated": "2026-11-18T11:46:53.735774+00:00",
+ "updated": "2026-11-18T20:35:18.077157+00:00",
  "items": [
+  {
+   "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+   "link": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T19:39:33+00:00"
+  },
+  {
+   "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+   "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T18:31:17+00:00"
+  },
+  {
+   "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+   "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T18:15:39+00:00"
+  },
+  {
+   "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+   "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T17:10:45+00:00"
+  },
+  {
+   "title": "Microsoft\u2019s Agent Framework PyPI package compromised to steal credentials",
+   "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T16:58:42+00:00"
+  },
+  {
+   "title": "Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
+   "source": "Dark Reading",
+   "date": "2026-11-18T16:54:52+00:00"
+  },
+  {
+   "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
+   "link": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T15:30:42+00:00"
+  },
+  {
+   "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+   "link": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T15:00:10+00:00"
+  },
+  {
+   "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+   "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T14:11:28+00:00"
+  },
+  {
+   "title": "Major Brazilian Signature Apps Enable RCE & Fraud",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
+   "source": "Dark Reading",
+   "date": "2026-11-18T14:00:00+00:00"
+  },
+  {
+   "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
+   "link": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T13:33:47+00:00"
+  },
+  {
+   "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
+   "link": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T13:19:32+00:00"
+  },
+  {
+   "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+   "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T12:28:30+00:00"
+  },
+  {
+   "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+   "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T12:15:00+00:00"
+  },
+  {
+   "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
+   "link": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T12:14:23+00:00"
+  },
+  {
+   "title": "CISO Conversations: Patti Degnan \u2013 Part of the Job Is Deciding What Not to Do",
+   "link": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T12:00:00+00:00"
+  },
+  {
+   "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+   "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T11:55:49+00:00"
+  },
+  {
+   "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+   "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T11:50:25+00:00"
+  },
+  {
+   "title": "Chrome 158 Patches 204 Vulnerabilities",
+   "link": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T11:43:22+00:00"
+  },
   {
    "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
    "link": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
    "source": "SecurityWeek",
    "date": "2026-11-18T11:05:39+00:00"
+  },
+  {
+   "title": "Quality Isn\u2019t The Main Worry About AI Pentesting \u2014 Data Privacy and Production Safety Are",
+   "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T11:03:57+00:00"
   },
   {
    "title": "Critical Perforce Puppet RCE Exploited in Attacks",
@@ -50,7 +170,7 @@
    "date": "2026-11-18T08:24:18+00:00"
   },
   {
-   "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+   "title": "Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover",
    "link": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
    "source": "SecurityWeek",
    "date": "2026-11-18T07:43:34+00:00"
@@ -68,22 +188,10 @@
    "date": "2026-11-18T05:58:04+00:00"
   },
   {
-   "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-   "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-   "source": "The Hacker News",
-   "date": "2026-11-18T04:27:41+00:00"
-  },
-  {
    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
    "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
    "source": "Krebs on Security",
    "date": "2026-11-18T02:52:04+00:00"
-  },
-  {
-   "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
-   "link": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
-   "source": "SecurityWeek",
-   "date": "2026-11-18T02:15:07+00:00"
   },
   {
    "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
@@ -116,19 +224,13 @@
    "date": "2026-11-17T20:51:21+00:00"
   },
   {
-   "title": "Researchers Claim Two RCE Exploits That Bypass Telegram\u2019s New Android Defenses",
-   "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
-   "source": "The Hacker News",
-   "date": "2026-11-17T19:34:20+00:00"
-  },
-  {
    "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
    "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
    "source": "BleepingComputer",
    "date": "2026-11-17T19:24:07+00:00"
   },
   {
-   "title": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+   "title": "Cursor Traces Malicious Claude Code Extensions to Third-Party Breach",
    "link": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
    "source": "Dark Reading",
    "date": "2026-11-17T18:38:37+00:00"
@@ -140,46 +242,10 @@
    "date": "2026-11-17T18:21:24+00:00"
   },
   {
-   "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
-   "link": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
-   "source": "SecurityWeek",
-   "date": "2026-11-17T18:16:17+00:00"
-  },
-  {
    "title": "Security for the agentic era, powered by Microsoft Perception",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
    "source": "Microsoft Security Blog",
    "date": "2026-11-17T18:14:00+00:00"
-  },
-  {
-   "title": "Tor releases emergency update amid ongoing DDoS attack",
-   "link": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
-   "source": "BleepingComputer",
-   "date": "2026-11-17T18:04:15+00:00"
-  },
-  {
-   "title": "Flipper Devices launches $399 \u2018Flipper One\u2019 Linux-based multi-tool",
-   "link": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
-   "source": "BleepingComputer",
-   "date": "2026-11-17T16:00:00+00:00"
-  },
-  {
-   "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-   "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-   "source": "The Hacker News",
-   "date": "2026-11-17T15:17:36+00:00"
-  },
-  {
-   "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-   "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-   "source": "The Hacker News",
-   "date": "2026-11-17T15:17:28+00:00"
-  },
-  {
-   "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
-   "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
-   "source": "BleepingComputer",
-   "date": "2026-11-17T15:01:11+00:00"
   },
   {
    "title": "The risks of device code authentication for AI coding agents",
@@ -188,46 +254,10 @@
    "date": "2026-11-17T15:00:00+00:00"
   },
   {
-   "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
-   "link": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
-   "source": "SecurityWeek",
-   "date": "2026-11-17T14:55:30+00:00"
-  },
-  {
-   "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
-   "link": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
-   "source": "SecurityWeek",
-   "date": "2026-11-17T14:14:24+00:00"
-  },
-  {
-   "title": "Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool",
-   "link": "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/",
-   "source": "SecurityWeek",
-   "date": "2026-11-17T14:00:00+00:00"
-  },
-  {
-   "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
-   "link": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
-   "source": "SecurityWeek",
-   "date": "2026-11-17T13:24:43+00:00"
-  },
-  {
    "title": "Grok Bots Attempt to Access Corporate Data Without User Approval",
    "link": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
    "source": "Dark Reading",
    "date": "2026-11-17T13:12:56+00:00"
-  },
-  {
-   "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-   "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-   "source": "The Hacker News",
-   "date": "2026-11-17T12:25:06+00:00"
-  },
-  {
-   "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-   "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-   "source": "The Hacker News",
-   "date": "2026-11-17T12:14:36+00:00"
   },
   {
    "title": "Siemens ROS#",
@@ -302,24 +332,6 @@
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
-   "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-   "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-   "source": "The Hacker News",
-   "date": "2026-11-17T11:20:18+00:00"
-  },
-  {
-   "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-   "source": "BleepingComputer",
-   "date": "2026-11-17T11:19:51+00:00"
-  },
-  {
-   "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-   "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-17T11:07:31+00:00"
-  },
-  {
    "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
    "source": "Microsoft Security Blog",
@@ -344,18 +356,6 @@
    "date": "2026-11-16T19:10:03+00:00"
   },
   {
-   "title": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
-   "source": "Dark Reading",
-   "date": "2026-11-16T16:36:55+00:00"
-  },
-  {
-   "title": "NIST Finalizes Post-Quantum Cryptography Guidance, GAO Offers a Reality Check",
-   "link": "https://www.darkreading.com/cyber-risk/nist-finalizes-post-quantum-cryptography-guidance-gao-offers-a-reality-check",
-   "source": "Dark Reading",
-   "date": "2026-11-16T14:22:15+00:00"
-  },
-  {
    "title": "Who Runs the Ransomware Group Qilin?",
    "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
    "source": "Krebs on Security",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,46 +378,45 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "wasabi": {
   "status": "Service Under Maintenance",
   "link": "https://status.wasabi.com/",
   "notes": [
-   "Maintenance: Wasabi Technologies Direct Connect Maintenance Activity Advisory for AP-NORTHEAST-1",
    "Maintenance: Maintenance Activity Advisory for AP-NORTHEAST-1"
   ],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "zoom": {
   "status": "Service Under Maintenance",
@@ -426,7 +425,7 @@
    "Maintenance: Zoom Phone Maintenance - SA01 - KSA1 Data Center: November 16, 2026",
    "Maintenance: Zoom Team Chat Update"
   ],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -434,7 +433,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6Njk3MTMxNzcxNzMxfQo="
   ],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -442,37 +441,37 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -480,26 +479,24 @@
   "notes": [
    "Claude unable to join meetings"
   ],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "openai": {
-  "status": "Partial System Degradation",
+  "status": "Available",
   "link": "https://status.openai.com/",
-  "notes": [
-   "Costs API data is delayed"
-  ],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "notes": [],
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-18T11:46:53.735774+00:00"
+  "checked": "2026-11-18T20:35:18.077157+00:00"
  }
 }
