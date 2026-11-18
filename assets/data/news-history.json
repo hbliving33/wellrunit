@@ -1,6 +1,84 @@
 {
- "updated": "2026-11-18T02:55:16.113972+00:00",
+ "updated": "2026-11-18T11:46:53.735774+00:00",
  "items": [
+  {
+   "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+   "link": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T11:05:39+00:00"
+  },
+  {
+   "title": "Critical Perforce Puppet RCE Exploited in Attacks",
+   "link": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T10:37:08+00:00"
+  },
+  {
+   "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T10:35:05+00:00"
+  },
+  {
+   "title": "Microsoft announces Windows Server 2028 with hardened security",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T09:24:31+00:00"
+  },
+  {
+   "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
+   "link": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T08:47:18+00:00"
+  },
+  {
+   "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+   "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T08:24:31+00:00"
+  },
+  {
+   "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+   "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T08:24:23+00:00"
+  },
+  {
+   "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+   "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T08:24:18+00:00"
+  },
+  {
+   "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+   "link": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T07:43:34+00:00"
+  },
+  {
+   "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+   "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T06:45:26+00:00"
+  },
+  {
+   "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+   "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T05:58:04+00:00"
+  },
+  {
+   "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+   "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T04:27:41+00:00"
+  },
+  {
+   "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+   "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+   "source": "Krebs on Security",
+   "date": "2026-11-18T02:52:04+00:00"
+  },
   {
    "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
    "link": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
@@ -2556,78 +2634,6 @@
    "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
    "source": "The Hacker News",
    "date": "2026-11-04T12:07:04+00:00"
-  },
-  {
-   "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-   "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-   "source": "The Hacker News",
-   "date": "2026-11-04T11:46:27+00:00"
-  },
-  {
-   "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-   "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-   "source": "The Hacker News",
-   "date": "2026-11-04T11:34:20+00:00"
-  },
-  {
-   "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-   "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-   "source": "The Hacker News",
-   "date": "2026-11-04T11:24:31+00:00"
-  },
-  {
-   "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
-   "link": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-04T10:54:48+00:00"
-  },
-  {
-   "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
-   "link": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
-   "source": "SecurityWeek",
-   "date": "2026-11-04T10:38:46+00:00"
-  },
-  {
-   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
-   "link": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
-   "source": "SecurityWeek",
-   "date": "2026-11-04T10:36:32+00:00"
-  },
-  {
-   "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-   "source": "BleepingComputer",
-   "date": "2026-11-04T09:39:54+00:00"
-  },
-  {
-   "title": "North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack",
-   "link": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-04T09:23:22+00:00"
-  },
-  {
-   "title": "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million",
-   "link": "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/",
-   "source": "SecurityWeek",
-   "date": "2026-11-04T08:27:05+00:00"
-  },
-  {
-   "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-   "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-   "source": "The Hacker News",
-   "date": "2026-11-04T08:17:11+00:00"
-  },
-  {
-   "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-   "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-   "source": "The Hacker News",
-   "date": "2026-11-04T07:46:15+00:00"
-  },
-  {
-   "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-   "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-   "source": "The Hacker News",
-   "date": "2026-11-04T05:43:11+00:00"
   }
  ]
 }

@@ -1,6 +1,84 @@
 {
- "updated": "2026-11-18T02:55:16.113972+00:00",
+ "updated": "2026-11-18T11:46:53.735774+00:00",
  "items": [
+  {
+   "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+   "link": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T11:05:39+00:00"
+  },
+  {
+   "title": "Critical Perforce Puppet RCE Exploited in Attacks",
+   "link": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T10:37:08+00:00"
+  },
+  {
+   "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T10:35:05+00:00"
+  },
+  {
+   "title": "Microsoft announces Windows Server 2028 with hardened security",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T09:24:31+00:00"
+  },
+  {
+   "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
+   "link": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T08:47:18+00:00"
+  },
+  {
+   "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+   "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T08:24:31+00:00"
+  },
+  {
+   "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+   "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T08:24:23+00:00"
+  },
+  {
+   "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+   "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T08:24:18+00:00"
+  },
+  {
+   "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+   "link": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T07:43:34+00:00"
+  },
+  {
+   "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+   "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T06:45:26+00:00"
+  },
+  {
+   "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+   "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T05:58:04+00:00"
+  },
+  {
+   "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+   "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+   "source": "The Hacker News",
+   "date": "2026-11-18T04:27:41+00:00"
+  },
+  {
+   "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+   "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+   "source": "Krebs on Security",
+   "date": "2026-11-18T02:52:04+00:00"
+  },
   {
    "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
    "link": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
@@ -140,24 +218,6 @@
    "date": "2026-11-17T13:12:56+00:00"
   },
   {
-   "title": "Access Dental Management Data Breach Impacts Over 340,000",
-   "link": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
-   "source": "SecurityWeek",
-   "date": "2026-11-17T12:59:04+00:00"
-  },
-  {
-   "title": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity",
-   "link": "https://www.securityweek.com/corma-receives-125-million-to-train-foundation-models-for-defensive-cybersecurity/",
-   "source": "SecurityWeek",
-   "date": "2026-11-17T12:51:54+00:00"
-  },
-  {
-   "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
-   "link": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
-   "source": "SecurityWeek",
-   "date": "2026-11-17T12:28:45+00:00"
-  },
-  {
    "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
    "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
    "source": "The Hacker News",
@@ -242,12 +302,6 @@
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
-   "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
-   "link": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-17T12:00:00+00:00"
-  },
-  {
    "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
    "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
    "source": "The Hacker News",
@@ -264,42 +318,6 @@
    "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
    "source": "The Hacker News",
    "date": "2026-11-17T11:07:31+00:00"
-  },
-  {
-   "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-   "link": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-   "source": "BleepingComputer",
-   "date": "2026-11-17T09:44:22+00:00"
-  },
-  {
-   "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-   "link": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-   "source": "BleepingComputer",
-   "date": "2026-11-17T08:35:42+00:00"
-  },
-  {
-   "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-   "link": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-   "source": "BleepingComputer",
-   "date": "2026-11-17T07:25:44+00:00"
-  },
-  {
-   "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-   "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-   "source": "The Hacker News",
-   "date": "2026-11-17T07:12:13+00:00"
-  },
-  {
-   "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
-   "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
-   "source": "The Hacker News",
-   "date": "2026-11-17T06:29:27+00:00"
-  },
-  {
-   "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-   "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-   "source": "The Hacker News",
-   "date": "2026-11-17T05:00:34+00:00"
   },
   {
    "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
@@ -338,28 +356,10 @@
    "date": "2026-11-16T14:22:15+00:00"
   },
   {
-   "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-   "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-16T14:00:00+00:00"
-  },
-  {
-   "title": "\u26a1 Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-   "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-   "source": "The Hacker News",
-   "date": "2026-11-16T13:27:20+00:00"
-  },
-  {
    "title": "Who Runs the Ransomware Group Qilin?",
    "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
    "source": "Krebs on Security",
    "date": "2026-11-11T18:06:01+00:00"
-  },
-  {
-   "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
-   "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
-   "source": "Krebs on Security",
-   "date": "2026-11-10T21:55:03+00:00"
   }
  ],
  "errors": {},
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,45 +378,46 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "wasabi": {
   "status": "Service Under Maintenance",
   "link": "https://status.wasabi.com/",
   "notes": [
+   "Maintenance: Wasabi Technologies Direct Connect Maintenance Activity Advisory for AP-NORTHEAST-1",
    "Maintenance: Maintenance Activity Advisory for AP-NORTHEAST-1"
   ],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "zoom": {
   "status": "Service Under Maintenance",
@@ -425,58 +426,53 @@
    "Maintenance: Zoom Phone Maintenance - SA01 - KSA1 Data Center: November 16, 2026",
    "Maintenance: Zoom Team Chat Update"
   ],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
   "notes": [
-   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NjkyNTAxMjkxNTUyfQo="
+   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6Njk3MTMxNzcxNzMxfQo="
   ],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
   "link": "https://www.cloudflarestatus.com/",
   "notes": [
-   "Errors and stalled predictions on some models",
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "goto": {
-  "status": "Service Under Maintenance",
+  "status": "Available",
   "link": "https://status.goto.com/",
-  "notes": [
-   "Maintenance: GoTo Products - Scheduled Maintenance"
-  ],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "notes": [],
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
-  "notes": [
-   "Optimizely Security Incident"
-  ],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "notes": [],
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -484,7 +480,7 @@
   "notes": [
    "Claude unable to join meetings"
   ],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "openai": {
   "status": "Partial System Degradation",
@@ -492,18 +488,18 @@
   "notes": [
    "Costs API data is delayed"
   ],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-18T02:55:16.113972+00:00"
+  "checked": "2026-11-18T11:46:53.735774+00:00"
  }
 }
