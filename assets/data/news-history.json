@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-17T20:58:32.084395+00:00",
+ "updated": "2026-11-18T02:55:16.113972+00:00",
  "items": [
+  {
+   "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+   "link": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T02:15:07+00:00"
+  },
+  {
+   "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+   "source": "BleepingComputer",
+   "date": "2026-11-17T23:04:21+00:00"
+  },
+  {
+   "title": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
+   "link": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+   "source": "Dark Reading",
+   "date": "2026-11-17T22:34:22+00:00"
+  },
+  {
+   "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+   "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+   "source": "BleepingComputer",
+   "date": "2026-11-17T21:27:17+00:00"
+  },
+  {
+   "title": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
+   "link": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
+   "source": "Dark Reading",
+   "date": "2026-11-17T20:58:13+00:00"
+  },
   {
    "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
    "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
@@ -140,6 +170,12 @@
    "date": "2026-11-17T12:14:36+00:00"
   },
   {
+   "title": "Siemens ROS#",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
    "title": "Dorsett Controls InfoScan",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
    "source": "CISA",
@@ -152,44 +188,14 @@
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
-   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-   "source": "CISA",
-   "date": "2026-11-17T12:00:00+00:00"
-  },
-  {
-   "title": "Siemens meta-iot2050",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
-   "source": "CISA",
-   "date": "2026-11-17T12:00:00+00:00"
-  },
-  {
-   "title": "Siemens SIMATIC WinCC",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
-   "source": "CISA",
-   "date": "2026-11-17T12:00:00+00:00"
-  },
-  {
-   "title": "Siemens RUGGEDCOM APE1808",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
-   "source": "CISA",
-   "date": "2026-11-17T12:00:00+00:00"
-  },
-  {
    "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
-   "title": "Siemens Industrial Automation Software Products",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
-   "source": "CISA",
-   "date": "2026-11-17T12:00:00+00:00"
-  },
-  {
-   "title": "Siemens SIMATIC",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+   "title": "Critical Java Vulnerability Requires Immediate Patching",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
@@ -200,14 +206,38 @@
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
-   "title": "Siemens ROS#",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+   "title": "Siemens Simcenter Femap",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
-   "title": "Siemens Simcenter Femap",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+   "title": "Siemens SIMATIC",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens Industrial Automation Software Products",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens RUGGEDCOM APE1808",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens SIMATIC WinCC",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
@@ -215,6 +245,12 @@
    "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
    "link": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
    "source": "SecurityWeek",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens meta-iot2050",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+   "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
@@ -2592,42 +2628,6 @@
    "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
    "source": "The Hacker News",
    "date": "2026-11-04T05:43:11+00:00"
-  },
-  {
-   "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
-   "source": "Dark Reading",
-   "date": "2026-11-04T02:00:00+00:00"
-  },
-  {
-   "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
-   "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
-   "source": "Dark Reading",
-   "date": "2026-11-04T01:05:40+00:00"
-  },
-  {
-   "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T22:18:50+00:00"
-  },
-  {
-   "title": "Fresh European Fridge Attacks Put Cold-Chain Security in Focus",
-   "link": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security",
-   "source": "Dark Reading",
-   "date": "2026-11-03T22:16:49+00:00"
-  },
-  {
-   "title": "Germany Busts 'Crime-as-a-Service' Investment Fraud Outfit",
-   "link": "https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud",
-   "source": "Dark Reading",
-   "date": "2026-11-03T21:57:12+00:00"
-  },
-  {
-   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-   "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-   "source": "BleepingComputer",
-   "date": "2026-11-03T21:28:44+00:00"
   }
  ]
 }
