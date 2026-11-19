@@ -1,6 +1,150 @@
 {
- "updated": "2026-11-19T11:44:48.651408+00:00",
+ "updated": "2026-11-19T20:40:26.907072+00:00",
  "items": [
+  {
+   "title": "Navigating Vulnerability Hysteria in the AI Era",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
+   "source": "Dark Reading",
+   "date": "2026-11-19T19:46:44+00:00"
+  },
+  {
+   "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+   "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T19:21:06+00:00"
+  },
+  {
+   "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+   "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T18:47:58+00:00"
+  },
+  {
+   "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+   "link": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+   "source": "BleepingComputer",
+   "date": "2026-11-19T18:20:01+00:00"
+  },
+  {
+   "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+   "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T16:59:56+00:00"
+  },
+  {
+   "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+   "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+   "source": "BleepingComputer",
+   "date": "2026-11-19T16:28:23+00:00"
+  },
+  {
+   "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+   "link": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T15:54:20+00:00"
+  },
+  {
+   "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+   "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T15:18:07+00:00"
+  },
+  {
+   "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+   "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T15:11:06+00:00"
+  },
+  {
+   "title": "Five warning signs of ransomware breach before encryption or data theft",
+   "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+   "source": "BleepingComputer",
+   "date": "2026-11-19T15:00:10+00:00"
+  },
+  {
+   "title": "Critical NGINX \u2018NGINX2Root\u2019 bugs let attackers hijack servers",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+   "source": "BleepingComputer",
+   "date": "2026-11-19T14:57:24+00:00"
+  },
+  {
+   "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+   "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T14:33:06+00:00"
+  },
+  {
+   "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+   "link": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T14:17:32+00:00"
+  },
+  {
+   "title": "Why Holiday Security Can't Wait for Black Friday",
+   "link": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
+   "source": "Dark Reading",
+   "date": "2026-11-19T14:00:00+00:00"
+  },
+  {
+   "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+   "link": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T13:12:20+00:00"
+  },
+  {
+   "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+   "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+   "source": "BleepingComputer",
+   "date": "2026-11-19T13:08:08+00:00"
+  },
+  {
+   "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+   "link": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T12:23:34+00:00"
+  },
+  {
+   "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+   "link": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T12:13:24+00:00"
+  },
+  {
+   "title": "Elecbrakes EB2, VM1, ELBC2000",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+   "source": "CISA",
+   "date": "2026-11-19T12:00:00+00:00"
+  },
+  {
+   "title": "libumqtt",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+   "source": "CISA",
+   "date": "2026-11-19T12:00:00+00:00"
+  },
+  {
+   "title": "Autonomy Logic OpenPLC Runtime",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+   "source": "CISA",
+   "date": "2026-11-19T12:00:00+00:00"
+  },
+  {
+   "title": "The Governance Gap in Open-Weight AI and What to Do About It",
+   "link": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T12:00:00+00:00"
+  },
+  {
+   "title": "Everything Is a Web Application, Including Your Firewall",
+   "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T11:52:23+00:00"
+  },
+  {
+   "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+   "source": "BleepingComputer",
+   "date": "2026-11-19T11:46:00+00:00"
+  },
   {
    "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
    "link": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
@@ -494,8 +638,8 @@
    "date": "2026-11-17T12:14:36+00:00"
   },
   {
-   "title": "Siemens ROS#",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+   "title": "Siemens Simcenter Femap",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
@@ -530,8 +674,8 @@
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
-   "title": "Siemens Simcenter Femap",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+   "title": "Siemens ROS#",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
@@ -2526,138 +2670,6 @@
    "link": "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
    "source": "Dark Reading",
    "date": "2026-11-05T21:00:47+00:00"
-  },
-  {
-   "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
-   "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T20:15:08+00:00"
-  },
-  {
-   "title": "APT29's Watering Holes Target Thousands of Mobile Users",
-   "link": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
-   "source": "Dark Reading",
-   "date": "2026-11-05T20:05:39+00:00"
-  },
-  {
-   "title": "OpenAI\u2019s GPT-6 Astra silently obstructed safety research tasks",
-   "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T19:24:26+00:00"
-  },
-  {
-   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-   "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T17:45:29+00:00"
-  },
-  {
-   "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
-   "link": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
-   "source": "SecurityWeek",
-   "date": "2026-11-05T17:32:37+00:00"
-  },
-  {
-   "title": "New investments to reduce on-premises security risk",
-   "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-05T17:10:14+00:00"
-  },
-  {
-   "title": "\u200b\u200b\u200b\u200bWhat\u2019s new in Microsoft Security: November 2026",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-05T17:00:00+00:00"
-  },
-  {
-   "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
-   "link": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
-   "source": "Dark Reading",
-   "date": "2026-11-05T16:48:36+00:00"
-  },
-  {
-   "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-   "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T16:42:46+00:00"
-  },
-  {
-   "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-   "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T16:42:32+00:00"
-  },
-  {
-   "title": "Hackers backdoor Linux servers using trojanized CWP web server",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T16:24:26+00:00"
-  },
-  {
-   "title": "DigiCert data breach exposes customer information, identity documents",
-   "link": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T16:12:46+00:00"
-  },
-  {
-   "title": "Email threat landscape: Q3 2026 trends and insights",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-05T16:00:00+00:00"
-  },
-  {
-   "title": "Closing the Identity Gap at the Service Desk",
-   "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T15:00:10+00:00"
-  },
-  {
-   "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-   "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T14:41:10+00:00"
-  },
-  {
-   "title": "Bank Phishing Sites Show Fake \u2018Suspended\u2019 Pages to Evade Takedowns",
-   "link": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
-   "source": "SecurityWeek",
-   "date": "2026-11-05T13:22:12+00:00"
-  },
-  {
-   "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
-   "link": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
-   "source": "SecurityWeek",
-   "date": "2026-11-05T12:58:32+00:00"
-  },
-  {
-   "title": "Cisco, WatchGuard Release Patches; SonicWall Won\u2019t Fix GMS Flaws",
-   "link": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
-   "source": "SecurityWeek",
-   "date": "2026-11-05T12:33:49+00:00"
-  },
-  {
-   "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-   "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T12:25:00+00:00"
-  },
-  {
-   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-   "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T12:08:54+00:00"
-  },
-  {
-   "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
-   "link": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
-   "source": "CISA",
-   "date": "2026-11-05T12:00:00+00:00"
-  },
-  {
-   "title": "Post-Quantum Questions to Ask Your Vendors",
-   "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-   "source": "CISA",
-   "date": "2026-11-05T12:00:00+00:00"
   }
  ]
 }
