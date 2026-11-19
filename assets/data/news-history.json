@@ -1,6 +1,84 @@
 {
- "updated": "2026-11-19T02:36:29.406406+00:00",
+ "updated": "2026-11-19T11:44:48.651408+00:00",
  "items": [
+  {
+   "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
+   "link": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T10:41:05+00:00"
+  },
+  {
+   "title": "Microsoft confirms app installation, launch issues after hotpatch",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+   "source": "BleepingComputer",
+   "date": "2026-11-19T10:35:05+00:00"
+  },
+  {
+   "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
+   "link": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T10:26:51+00:00"
+  },
+  {
+   "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+   "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T09:31:26+00:00"
+  },
+  {
+   "title": "NVIDIA investigating Gentlemen ransomware breach claims",
+   "link": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+   "source": "BleepingComputer",
+   "date": "2026-11-19T09:23:21+00:00"
+  },
+  {
+   "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
+   "link": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T09:10:58+00:00"
+  },
+  {
+   "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+   "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T08:42:11+00:00"
+  },
+  {
+   "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+   "link": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T08:14:00+00:00"
+  },
+  {
+   "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+   "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T08:00:00+00:00"
+  },
+  {
+   "title": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
+   "link": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge",
+   "source": "Dark Reading",
+   "date": "2026-11-19T08:00:00+00:00"
+  },
+  {
+   "title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
+   "link": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T07:45:17+00:00"
+  },
+  {
+   "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+   "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T04:33:46+00:00"
+  },
+  {
+   "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
+   "link": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
+   "source": "SecurityWeek",
+   "date": "2026-11-19T03:25:23+00:00"
+  },
   {
    "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
    "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
@@ -66,6 +144,12 @@
    "link": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
    "source": "Dark Reading",
    "date": "2026-11-18T16:54:52+00:00"
+  },
+  {
+   "title": "Vero Security Raises $11 Million for AI Security Engineering Platform",
+   "link": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
+   "source": "SecurityWeek",
+   "date": "2026-11-18T15:30:42+00:00"
   },
   {
    "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
@@ -2574,78 +2658,6 @@
    "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
    "source": "CISA",
    "date": "2026-11-05T12:00:00+00:00"
-  },
-  {
-   "title": "The Agent Smith Dilemma: Governing Agentic Identities",
-   "link": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
-   "source": "SecurityWeek",
-   "date": "2026-11-05T11:15:00+00:00"
-  },
-  {
-   "title": "CISO Conversations: Ryan Davis \u2013 The Unknown Is Where Security Meets Reality",
-   "link": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
-   "source": "SecurityWeek",
-   "date": "2026-11-05T11:00:00+00:00"
-  },
-  {
-   "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
-   "link": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
-   "source": "SecurityWeek",
-   "date": "2026-11-05T10:56:41+00:00"
-  },
-  {
-   "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
-   "link": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
-   "source": "SecurityWeek",
-   "date": "2026-11-05T10:37:13+00:00"
-  },
-  {
-   "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-   "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T10:06:19+00:00"
-  },
-  {
-   "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
-   "link": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-05T10:02:00+00:00"
-  },
-  {
-   "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
-   "link": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T09:18:29+00:00"
-  },
-  {
-   "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-   "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T09:13:28+00:00"
-  },
-  {
-   "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-   "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T08:42:03+00:00"
-  },
-  {
-   "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-   "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T07:06:33+00:00"
-  },
-  {
-   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-   "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-05T05:17:04+00:00"
-  },
-  {
-   "title": "Want to Rent an Internet Address at the White House?",
-   "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
-   "source": "Krebs on Security",
-   "date": "2026-11-05T04:36:17+00:00"
   }
  ]
 }
