@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-18T20:35:18.077157+00:00",
+ "updated": "2026-11-19T02:36:29.406406+00:00",
  "items": [
+  {
+   "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+   "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T23:08:33+00:00"
+  },
+  {
+   "title": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
+   "source": "Dark Reading",
+   "date": "2026-11-18T21:59:46+00:00"
+  },
+  {
+   "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+   "link": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T20:49:32+00:00"
+  },
+  {
+   "title": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
+   "link": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
+   "source": "Dark Reading",
+   "date": "2026-11-18T20:45:49+00:00"
+  },
+  {
+   "title": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
+   "link": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
+   "source": "Dark Reading",
+   "date": "2026-11-18T20:38:42+00:00"
+  },
   {
    "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
    "link": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
@@ -90,6 +120,12 @@
    "link": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
    "source": "SecurityWeek",
    "date": "2026-11-18T12:14:23+00:00"
+  },
+  {
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "source": "CISA",
+   "date": "2026-11-18T12:00:00+00:00"
   },
   {
    "title": "CISO Conversations: Patti Degnan \u2013 Part of the Job Is Deciding What Not to Do",
@@ -224,22 +260,10 @@
    "date": "2026-11-17T20:51:21+00:00"
   },
   {
-   "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
-   "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
-   "source": "BleepingComputer",
-   "date": "2026-11-17T19:24:07+00:00"
-  },
-  {
    "title": "Cursor Traces Malicious Claude Code Extensions to Third-Party Breach",
    "link": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
    "source": "Dark Reading",
    "date": "2026-11-17T18:38:37+00:00"
-  },
-  {
-   "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
-   "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
-   "source": "BleepingComputer",
-   "date": "2026-11-17T18:21:24+00:00"
   },
   {
    "title": "Security for the agentic era, powered by Microsoft Perception",
@@ -320,12 +344,6 @@
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
-   "title": "Siemens SIMATIC WinCC",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
-   "source": "CISA",
-   "date": "2026-11-17T12:00:00+00:00"
-  },
-  {
    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
    "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
    "source": "CISA",
@@ -336,24 +354,6 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
    "source": "Microsoft Security Blog",
    "date": "2026-11-17T00:08:41+00:00"
-  },
-  {
-   "title": "Google Project Zero Slashes Bug Disclosure Deadlines, Splitting Experts",
-   "link": "https://www.darkreading.com/vulnerabilities-threats/google-project-zero-bug-disclosure-deadlines",
-   "source": "Dark Reading",
-   "date": "2026-11-16T22:08:20+00:00"
-  },
-  {
-   "title": "Ransomware Attacks Increase Behind AI, but Payments Decline",
-   "link": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
-   "source": "Dark Reading",
-   "date": "2026-11-16T19:56:05+00:00"
-  },
-  {
-   "title": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models",
-   "link": "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models",
-   "source": "Dark Reading",
-   "date": "2026-11-16T19:10:03+00:00"
   },
   {
    "title": "Who Runs the Ransomware Group Qilin?",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,45 +378,46 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "wasabi": {
   "status": "Service Under Maintenance",
   "link": "https://status.wasabi.com/",
   "notes": [
+   "Maintenance: Wasabi Technologies Direct Connect Maintenance Activity Advisory for AP-NORTHEAST-1",
    "Maintenance: Maintenance Activity Advisory for AP-NORTHEAST-1"
   ],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "zoom": {
   "status": "Service Under Maintenance",
@@ -425,7 +426,7 @@
    "Maintenance: Zoom Phone Maintenance - SA01 - KSA1 Data Center: November 16, 2026",
    "Maintenance: Zoom Team Chat Update"
   ],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -433,70 +434,69 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6Njk3MTMxNzcxNzMxfQo="
   ],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
   "link": "https://www.cloudflarestatus.com/",
   "notes": [
+   "Degraded connectivity between Europe and Asia Pacific",
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "claude": {
-  "status": "Partially Degraded Service",
+  "status": "Available",
   "link": "https://status.claude.com/",
-  "notes": [
-   "Claude unable to join meetings"
-  ],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "notes": [],
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-18T20:35:18.077157+00:00"
+  "checked": "2026-11-19T02:36:29.406406+00:00"
  }
 }

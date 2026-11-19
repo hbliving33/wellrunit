@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-18T20:35:18.077157+00:00",
+ "updated": "2026-11-19T02:36:29.406406+00:00",
  "items": [
+  {
+   "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+   "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T23:08:33+00:00"
+  },
+  {
+   "title": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
+   "source": "Dark Reading",
+   "date": "2026-11-18T21:59:46+00:00"
+  },
+  {
+   "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+   "link": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+   "source": "BleepingComputer",
+   "date": "2026-11-18T20:49:32+00:00"
+  },
+  {
+   "title": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
+   "link": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
+   "source": "Dark Reading",
+   "date": "2026-11-18T20:45:49+00:00"
+  },
+  {
+   "title": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
+   "link": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
+   "source": "Dark Reading",
+   "date": "2026-11-18T20:38:42+00:00"
+  },
   {
    "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
    "link": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
@@ -90,6 +120,12 @@
    "link": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
    "source": "SecurityWeek",
    "date": "2026-11-18T12:14:23+00:00"
+  },
+  {
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "source": "CISA",
+   "date": "2026-11-18T12:00:00+00:00"
   },
   {
    "title": "CISO Conversations: Patti Degnan \u2013 Part of the Job Is Deciding What Not to Do",
@@ -434,14 +470,14 @@
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
-   "title": "Siemens SIMATIC WinCC",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
-   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "Siemens SIMATIC WinCC",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
@@ -2072,12 +2108,6 @@
    "date": "2026-11-09T12:13:32+00:00"
   },
   {
-   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-   "source": "CISA",
-   "date": "2026-11-09T12:00:00+00:00"
-  },
-  {
    "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
    "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
    "source": "The Hacker News",
@@ -2616,24 +2646,6 @@
    "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
    "source": "Krebs on Security",
    "date": "2026-11-05T04:36:17+00:00"
-  },
-  {
-   "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
-   "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
-   "source": "Dark Reading",
-   "date": "2026-11-04T21:48:18+00:00"
-  },
-  {
-   "title": "Vercel rolls out new protection against stolen session cookie attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-04T21:31:18+00:00"
-  },
-  {
-   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-   "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-   "source": "BleepingComputer",
-   "date": "2026-11-04T20:58:19+00:00"
   }
  ]
 }
