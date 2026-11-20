@@ -1,6 +1,78 @@
 {
- "updated": "2026-11-20T02:21:16.350270+00:00",
+ "updated": "2026-11-20T11:44:29.285170+00:00",
  "items": [
+  {
+   "title": "SBC Medical Group Data Breach Impacts Over 2 Million",
+   "link": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
+   "source": "SecurityWeek",
+   "date": "2026-11-20T11:36:51+00:00"
+  },
+  {
+   "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+   "link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+   "source": "BleepingComputer",
+   "date": "2026-11-20T10:57:43+00:00"
+  },
+  {
+   "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+   "link": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+   "source": "SecurityWeek",
+   "date": "2026-11-20T10:51:42+00:00"
+  },
+  {
+   "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+   "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+   "source": "The Hacker News",
+   "date": "2026-11-20T10:38:22+00:00"
+  },
+  {
+   "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
+   "link": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
+   "source": "SecurityWeek",
+   "date": "2026-11-20T10:34:10+00:00"
+  },
+  {
+   "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+   "source": "The Hacker News",
+   "date": "2026-11-20T10:32:50+00:00"
+  },
+  {
+   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+   "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+   "source": "The Hacker News",
+   "date": "2026-11-20T09:38:15+00:00"
+  },
+  {
+   "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
+   "source": "BleepingComputer",
+   "date": "2026-11-20T09:25:35+00:00"
+  },
+  {
+   "title": "N-able Blames Service Disruption on Cyberattack",
+   "link": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-20T09:08:35+00:00"
+  },
+  {
+   "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+   "link": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+   "source": "SecurityWeek",
+   "date": "2026-11-20T07:35:46+00:00"
+  },
+  {
+   "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+   "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+   "source": "The Hacker News",
+   "date": "2026-11-20T07:11:39+00:00"
+  },
+  {
+   "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+   "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+   "source": "The Hacker News",
+   "date": "2026-11-20T05:30:01+00:00"
+  },
   {
    "title": "VMware patches vCenter zero-day exploited in attacks since September",
    "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
@@ -86,7 +158,7 @@
    "date": "2026-11-19T15:18:07+00:00"
   },
   {
-   "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+   "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
    "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
    "source": "The Hacker News",
    "date": "2026-11-19T15:11:06+00:00"
@@ -140,12 +212,6 @@
    "date": "2026-11-19T12:23:34+00:00"
   },
   {
-   "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
-   "link": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-19T12:13:24+00:00"
-  },
-  {
    "title": "Elecbrakes EB2, VM1, ELBC2000",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
    "source": "CISA",
@@ -164,12 +230,6 @@
    "date": "2026-11-19T12:00:00+00:00"
   },
   {
-   "title": "The Governance Gap in Open-Weight AI and What to Do About It",
-   "link": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
-   "source": "SecurityWeek",
-   "date": "2026-11-19T12:00:00+00:00"
-  },
-  {
    "title": "Everything Is a Web Application, Including Your Firewall",
    "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
    "source": "The Hacker News",
@@ -182,22 +242,10 @@
    "date": "2026-11-19T11:46:00+00:00"
   },
   {
-   "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
-   "link": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
-   "source": "SecurityWeek",
-   "date": "2026-11-19T10:41:05+00:00"
-  },
-  {
    "title": "Microsoft confirms app installation, launch issues after hotpatch",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
    "source": "BleepingComputer",
    "date": "2026-11-19T10:35:05+00:00"
-  },
-  {
-   "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
-   "link": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
-   "source": "SecurityWeek",
-   "date": "2026-11-19T10:26:51+00:00"
   },
   {
    "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
@@ -206,52 +254,10 @@
    "date": "2026-11-19T09:31:26+00:00"
   },
   {
-   "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-   "link": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
-   "source": "BleepingComputer",
-   "date": "2026-11-19T09:23:21+00:00"
-  },
-  {
-   "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
-   "link": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
-   "source": "SecurityWeek",
-   "date": "2026-11-19T09:10:58+00:00"
-  },
-  {
-   "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
-   "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-   "source": "The Hacker News",
-   "date": "2026-11-19T08:42:11+00:00"
-  },
-  {
-   "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-   "link": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-   "source": "The Hacker News",
-   "date": "2026-11-19T08:14:00+00:00"
-  },
-  {
-   "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-   "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-   "source": "The Hacker News",
-   "date": "2026-11-19T08:00:00+00:00"
-  },
-  {
    "title": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
    "link": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge",
    "source": "Dark Reading",
    "date": "2026-11-19T08:00:00+00:00"
-  },
-  {
-   "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-   "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
-   "source": "The Hacker News",
-   "date": "2026-11-19T04:33:46+00:00"
-  },
-  {
-   "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-   "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-   "source": "BleepingComputer",
-   "date": "2026-11-18T23:08:33+00:00"
   },
   {
    "title": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
@@ -270,12 +276,6 @@
    "link": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
    "source": "Dark Reading",
    "date": "2026-11-18T20:38:42+00:00"
-  },
-  {
-   "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-   "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
-   "source": "The Hacker News",
-   "date": "2026-11-18T18:31:17+00:00"
   },
   {
    "title": "Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,120 +378,124 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "wasabi": {
-  "status": "Available",
+  "status": "Service Under Maintenance",
   "link": "https://status.wasabi.com/",
-  "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "notes": [
+   "Maintenance: Wasabi Technologies Direct Connect Maintenance Activity Advisory for AP-NORTHEAST-2"
+  ],
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "zoom": {
-  "status": "Available",
+  "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
   "notes": [
+   "Maintenance: Zoom Phone Maintenance (Sydney Data Center): November 20, 2026",
    "Maintenance: Zoom Team Chat Update"
   ],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
   "notes": [
-   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzAxOTc5MzQ5NDAxfQo="
+   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzA2NjkzMzYzODc0fQo="
   ],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
   "link": "https://www.cloudflarestatus.com/",
   "notes": [
+   "Network Performance Issues in Miami",
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "claude": {
   "status": "Available",
   "link": "https://status.claude.com/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-20T02:21:16.350270+00:00"
+  "checked": "2026-11-20T11:44:29.285170+00:00"
  }
 }

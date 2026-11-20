@@ -1,6 +1,78 @@
 {
- "updated": "2026-11-20T02:21:16.350270+00:00",
+ "updated": "2026-11-20T11:44:29.285170+00:00",
  "items": [
+  {
+   "title": "SBC Medical Group Data Breach Impacts Over 2 Million",
+   "link": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
+   "source": "SecurityWeek",
+   "date": "2026-11-20T11:36:51+00:00"
+  },
+  {
+   "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+   "link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+   "source": "BleepingComputer",
+   "date": "2026-11-20T10:57:43+00:00"
+  },
+  {
+   "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+   "link": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+   "source": "SecurityWeek",
+   "date": "2026-11-20T10:51:42+00:00"
+  },
+  {
+   "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+   "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+   "source": "The Hacker News",
+   "date": "2026-11-20T10:38:22+00:00"
+  },
+  {
+   "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
+   "link": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
+   "source": "SecurityWeek",
+   "date": "2026-11-20T10:34:10+00:00"
+  },
+  {
+   "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+   "source": "The Hacker News",
+   "date": "2026-11-20T10:32:50+00:00"
+  },
+  {
+   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+   "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+   "source": "The Hacker News",
+   "date": "2026-11-20T09:38:15+00:00"
+  },
+  {
+   "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
+   "source": "BleepingComputer",
+   "date": "2026-11-20T09:25:35+00:00"
+  },
+  {
+   "title": "N-able Blames Service Disruption on Cyberattack",
+   "link": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-20T09:08:35+00:00"
+  },
+  {
+   "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+   "link": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+   "source": "SecurityWeek",
+   "date": "2026-11-20T07:35:46+00:00"
+  },
+  {
+   "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+   "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+   "source": "The Hacker News",
+   "date": "2026-11-20T07:11:39+00:00"
+  },
+  {
+   "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+   "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+   "source": "The Hacker News",
+   "date": "2026-11-20T05:30:01+00:00"
+  },
   {
    "title": "VMware patches vCenter zero-day exploited in attacks since September",
    "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
@@ -84,6 +156,12 @@
    "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
    "source": "The Hacker News",
    "date": "2026-11-19T15:18:07+00:00"
+  },
+  {
+   "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
+   "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+   "source": "The Hacker News",
+   "date": "2026-11-19T15:11:06+00:00"
   },
   {
    "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
@@ -230,15 +308,15 @@
    "date": "2026-11-19T08:14:00+00:00"
   },
   {
-   "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-   "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-   "source": "The Hacker News",
-   "date": "2026-11-19T08:00:00+00:00"
-  },
-  {
    "title": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
    "link": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge",
    "source": "Dark Reading",
+   "date": "2026-11-19T08:00:00+00:00"
+  },
+  {
+   "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+   "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+   "source": "The Hacker News",
    "date": "2026-11-19T08:00:00+00:00"
   },
   {
@@ -2622,54 +2700,6 @@
    "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
    "source": "The Hacker News",
    "date": "2026-11-06T12:06:35+00:00"
-  },
-  {
-   "title": "The Flood is Coming And The Pipes Were Already Full",
-   "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-   "source": "The Hacker News",
-   "date": "2026-11-06T11:30:00+00:00"
-  },
-  {
-   "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
-   "link": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
-   "source": "SecurityWeek",
-   "date": "2026-11-06T09:33:51+00:00"
-  },
-  {
-   "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-   "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
-   "source": "BleepingComputer",
-   "date": "2026-11-06T09:22:28+00:00"
-  },
-  {
-   "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
-   "link": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
-   "source": "Dark Reading",
-   "date": "2026-11-06T09:00:00+00:00"
-  },
-  {
-   "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-   "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-   "source": "The Hacker News",
-   "date": "2026-11-06T08:04:49+00:00"
-  },
-  {
-   "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-   "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-   "source": "The Hacker News",
-   "date": "2026-11-06T05:58:54+00:00"
-  },
-  {
-   "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-   "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-   "source": "The Hacker News",
-   "date": "2026-11-06T05:39:10+00:00"
-  },
-  {
-   "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
-   "link": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
-   "source": "SecurityWeek",
-   "date": "2026-11-06T03:03:29+00:00"
   }
  ]
 }
