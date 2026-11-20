@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-19T20:40:26.907072+00:00",
+ "updated": "2026-11-20T02:21:16.350270+00:00",
  "items": [
+  {
+   "title": "VMware patches vCenter zero-day exploited in attacks since September",
+   "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+   "source": "BleepingComputer",
+   "date": "2026-11-20T00:26:25+00:00"
+  },
+  {
+   "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
+   "link": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
+   "source": "Dark Reading",
+   "date": "2026-11-19T22:40:03+00:00"
+  },
+  {
+   "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+   "source": "BleepingComputer",
+   "date": "2026-11-19T22:25:42+00:00"
+  },
+  {
+   "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+   "link": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+   "source": "BleepingComputer",
+   "date": "2026-11-19T21:15:59+00:00"
+  },
+  {
+   "title": "Second Norwegian Energy Company Breached in Two Days",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached",
+   "source": "Dark Reading",
+   "date": "2026-11-19T20:14:15+00:00"
+  },
+  {
+   "title": "Critical PHP Flaws Allow Code Execution, But Don't Panic 'PHP2Shell'-Style",
+   "link": "https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
+   "source": "Dark Reading",
+   "date": "2026-11-19T19:57:31+00:00"
+  },
   {
    "title": "Navigating Vulnerability Hysteria in the AI Era",
    "link": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
@@ -2634,42 +2670,6 @@
    "link": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
    "source": "SecurityWeek",
    "date": "2026-11-06T03:03:29+00:00"
-  },
-  {
-   "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
-   "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
-   "source": "BleepingComputer",
-   "date": "2026-11-06T00:56:44+00:00"
-  },
-  {
-   "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-05T23:46:50+00:00"
-  },
-  {
-   "title": "Opera\u00e7\u00e3o de influ\u00eancia russa tem como alvo generalizado a Am\u00e9rica Latina",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/opera-o-de-influ-ncia-russa-tem-como-alvo-generalizado-a-am-rica-latina",
-   "source": "Dark Reading",
-   "date": "2026-11-05T22:13:23+00:00"
-  },
-  {
-   "title": "US Government Email Systems Open to Abuse Thanks to Typos",
-   "link": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
-   "source": "Dark Reading",
-   "date": "2026-11-05T21:35:05+00:00"
-  },
-  {
-   "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-   "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
-   "source": "BleepingComputer",
-   "date": "2026-11-05T21:30:30+00:00"
-  },
-  {
-   "title": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
-   "link": "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
-   "source": "Dark Reading",
-   "date": "2026-11-05T21:00:47+00:00"
   }
  ]
 }
