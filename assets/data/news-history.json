@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-21T02:19:36.786817+00:00",
+ "updated": "2026-11-21T11:08:24.832540+00:00",
  "items": [
+  {
+   "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+   "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+   "source": "The Hacker News",
+   "date": "2026-11-21T08:49:20+00:00"
+  },
+  {
+   "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+   "source": "The Hacker News",
+   "date": "2026-11-21T08:49:13+00:00"
+  },
   {
    "title": "CTO of \u2018RansomwareHelp\u2019 Indicted for Wire Fraud",
    "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
@@ -2646,24 +2658,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
    "source": "BleepingComputer",
    "date": "2026-11-07T14:10:19+00:00"
-  },
-  {
-   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-   "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-   "source": "SecurityWeek",
-   "date": "2026-11-07T10:16:23+00:00"
-  },
-  {
-   "title": "Claude Code's \u201cDon't Ask Again\u201d File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-   "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-   "source": "The Hacker News",
-   "date": "2026-11-07T06:44:17+00:00"
-  },
-  {
-   "title": "ARTEX abuse expands as cybercriminals target financial sector",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-07T02:44:34+00:00"
   }
  ]
 }
