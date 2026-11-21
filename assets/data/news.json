@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-20T20:24:33.423622+00:00",
+ "updated": "2026-11-21T02:19:36.786817+00:00",
  "items": [
+  {
+   "title": "CTO of \u2018RansomwareHelp\u2019 Indicted for Wire Fraud",
+   "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "source": "Krebs on Security",
+   "date": "2026-11-21T00:36:39+00:00"
+  },
+  {
+   "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+   "source": "Dark Reading",
+   "date": "2026-11-20T21:03:27+00:00"
+  },
   {
    "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
    "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
@@ -302,12 +314,6 @@
    "date": "2026-11-18T20:38:42+00:00"
   },
   {
-   "title": "Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
-   "link": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
-   "source": "Dark Reading",
-   "date": "2026-11-18T16:54:52+00:00"
-  },
-  {
    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
    "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
    "source": "Krebs on Security",
@@ -354,12 +360,6 @@
    "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
-  },
-  {
-   "title": "Who Runs the Ransomware Group Qilin?",
-   "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
-   "source": "Krebs on Security",
-   "date": "2026-11-11T18:06:01+00:00"
   }
  ],
  "errors": {},
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,51 +378,54 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "wasabi": {
-  "status": "Available",
+  "status": "Service Under Maintenance",
   "link": "https://status.wasabi.com/",
-  "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "notes": [
+   "Maintenance: Wasabi Technologies Direct Connect Maintenance Activity Advisory for AP-NORTHEAST-2"
+  ],
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "zoom": {
   "status": "Service Under Maintenance",
   "link": "https://status.zoom.us/",
   "notes": [
+   "Maintenance: Zoom Support Maintenance: November 20, 2026",
    "Maintenance: Zoom Phone India Maintenance (Hyderabad Data Center): November 20, 2026"
   ],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -430,68 +433,69 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzA2NjkzMzYzODc0fQo="
   ],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
   "link": "https://www.cloudflarestatus.com/",
   "notes": [
+   "Network Performance Issues in Washington, DC datacenter (IAD)",
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "claude": {
   "status": "Available",
   "link": "https://status.claude.com/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-20T20:24:33.423622+00:00"
+  "checked": "2026-11-21T02:19:36.786817+00:00"
  }
 }
