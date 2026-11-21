@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-21T11:08:24.832540+00:00",
+ "updated": "2026-11-21T17:59:18.041728+00:00",
  "items": [
+  {
+   "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+   "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+   "source": "BleepingComputer",
+   "date": "2026-11-21T15:17:27+00:00"
+  },
+  {
+   "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+   "source": "BleepingComputer",
+   "date": "2026-11-21T14:26:04+00:00"
+  },
+  {
+   "title": "Amazon: China-Linked Hackers\u2019 AI Agents Exploited Medical Software Zero-Day",
+   "link": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+   "source": "SecurityWeek",
+   "date": "2026-11-21T12:08:50+00:00"
+  },
+  {
+   "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+   "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+   "source": "The Hacker News",
+   "date": "2026-11-21T11:53:07+00:00"
+  },
+  {
+   "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+   "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+   "source": "The Hacker News",
+   "date": "2026-11-21T11:05:53+00:00"
+  },
+  {
+   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+   "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+   "source": "The Hacker News",
+   "date": "2026-11-21T11:03:17+00:00"
+  },
   {
    "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
    "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
@@ -2646,18 +2682,6 @@
    "link": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
    "source": "SecurityWeek",
    "date": "2026-11-08T12:14:00+00:00"
-  },
-  {
-   "title": "Hackers pull off $133 million French bank heist via service provider",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-   "source": "BleepingComputer",
-   "date": "2026-11-07T15:25:35+00:00"
-  },
-  {
-   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-   "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
-   "source": "BleepingComputer",
-   "date": "2026-11-07T14:10:19+00:00"
   }
  ]
 }

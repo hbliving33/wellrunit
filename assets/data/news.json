@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-21T11:08:24.832540+00:00",
+ "updated": "2026-11-21T17:59:18.041728+00:00",
  "items": [
+  {
+   "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+   "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+   "source": "BleepingComputer",
+   "date": "2026-11-21T15:17:27+00:00"
+  },
+  {
+   "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+   "source": "BleepingComputer",
+   "date": "2026-11-21T14:26:04+00:00"
+  },
+  {
+   "title": "Amazon: China-Linked Hackers\u2019 AI Agents Exploited Medical Software Zero-Day",
+   "link": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+   "source": "SecurityWeek",
+   "date": "2026-11-21T12:08:50+00:00"
+  },
+  {
+   "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+   "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+   "source": "The Hacker News",
+   "date": "2026-11-21T11:53:07+00:00"
+  },
+  {
+   "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+   "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+   "source": "The Hacker News",
+   "date": "2026-11-21T11:05:53+00:00"
+  },
+  {
+   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+   "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+   "source": "The Hacker News",
+   "date": "2026-11-21T11:03:17+00:00"
+  },
   {
    "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
    "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
@@ -188,18 +224,6 @@
    "date": "2026-11-20T07:35:46+00:00"
   },
   {
-   "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-   "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-   "source": "The Hacker News",
-   "date": "2026-11-20T07:11:39+00:00"
-  },
-  {
-   "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-   "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-   "source": "The Hacker News",
-   "date": "2026-11-20T05:30:01+00:00"
-  },
-  {
    "title": "VMware patches vCenter zero-day exploited in attacks since September",
    "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
    "source": "BleepingComputer",
@@ -216,12 +240,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
    "source": "BleepingComputer",
    "date": "2026-11-19T22:25:42+00:00"
-  },
-  {
-   "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
-   "link": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-   "source": "BleepingComputer",
-   "date": "2026-11-19T21:15:59+00:00"
   },
   {
    "title": "Second Norwegian Energy Company Breached in 2 Days",
@@ -246,24 +264,6 @@
    "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
    "source": "SecurityWeek",
    "date": "2026-11-19T19:21:06+00:00"
-  },
-  {
-   "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-   "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-   "source": "The Hacker News",
-   "date": "2026-11-19T18:47:58+00:00"
-  },
-  {
-   "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-   "link": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-   "source": "BleepingComputer",
-   "date": "2026-11-19T18:20:01+00:00"
-  },
-  {
-   "title": "PHP Patches Seven Critical RCE Vulnerabilities",
-   "link": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
-   "source": "SecurityWeek",
-   "date": "2026-11-19T15:54:20+00:00"
   },
   {
    "title": "Why Holiday Security Can't Wait for Black Friday",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,43 +378,43 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "zoom": {
   "status": "Service Under Maintenance",
@@ -422,7 +422,7 @@
   "notes": [
    "Maintenance: Zoom Phone India Maintenance (Hyderabad Data Center): November 20, 2026"
   ],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -430,7 +430,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzExMzEzNDI2MDIyfQo="
   ],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -438,60 +438,60 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "claude": {
   "status": "Available",
   "link": "https://status.claude.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-21T11:08:24.832540+00:00"
+  "checked": "2026-11-21T17:59:18.041728+00:00"
  }
 }
