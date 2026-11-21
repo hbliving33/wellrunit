@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-21T17:59:18.041728+00:00",
+ "updated": "2026-11-21T23:20:57.613830+00:00",
  "items": [
+  {
+   "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+   "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+   "source": "BleepingComputer",
+   "date": "2026-11-21T22:59:58+00:00"
+  },
+  {
+   "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+   "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+   "source": "BleepingComputer",
+   "date": "2026-11-21T18:01:58+00:00"
+  },
   {
    "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
    "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",

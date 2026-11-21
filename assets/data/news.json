@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-21T17:59:18.041728+00:00",
+ "updated": "2026-11-21T23:20:57.613830+00:00",
  "items": [
+  {
+   "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+   "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+   "source": "BleepingComputer",
+   "date": "2026-11-21T22:59:58+00:00"
+  },
+  {
+   "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+   "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+   "source": "BleepingComputer",
+   "date": "2026-11-21T18:01:58+00:00"
+  },
   {
    "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
    "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
@@ -224,22 +236,10 @@
    "date": "2026-11-20T07:35:46+00:00"
   },
   {
-   "title": "VMware patches vCenter zero-day exploited in attacks since September",
-   "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-   "source": "BleepingComputer",
-   "date": "2026-11-20T00:26:25+00:00"
-  },
-  {
    "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
    "link": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
    "source": "Dark Reading",
    "date": "2026-11-19T22:40:03+00:00"
-  },
-  {
-   "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
-   "source": "BleepingComputer",
-   "date": "2026-11-19T22:25:42+00:00"
   },
   {
    "title": "Second Norwegian Energy Company Breached in 2 Days",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,51 +378,49 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "zoom": {
-  "status": "Service Under Maintenance",
+  "status": "Available",
   "link": "https://status.zoom.us/",
-  "notes": [
-   "Maintenance: Zoom Phone India Maintenance (Hyderabad Data Center): November 20, 2026"
-  ],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "notes": [],
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -430,7 +428,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzExMzEzNDI2MDIyfQo="
   ],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -438,60 +436,60 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "claude": {
   "status": "Available",
   "link": "https://status.claude.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-21T17:59:18.041728+00:00"
+  "checked": "2026-11-21T23:20:57.613830+00:00"
  }
 }
