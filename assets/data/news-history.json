@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-22T15:21:26.547670+00:00",
+ "updated": "2026-11-22T21:49:07.188383+00:00",
  "items": [
+  {
+   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "source": "BleepingComputer",
+   "date": "2026-11-22T18:45:37+00:00"
+  },
+  {
+   "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+   "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+   "source": "BleepingComputer",
+   "date": "2026-11-22T15:43:04+00:00"
+  },
   {
    "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
    "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
@@ -2712,12 +2724,6 @@
    "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
    "source": "The Hacker News",
    "date": "2026-11-09T06:05:24+00:00"
-  },
-  {
-   "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-   "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-   "source": "BleepingComputer",
-   "date": "2026-11-08T15:43:08+00:00"
   }
  ]
 }
