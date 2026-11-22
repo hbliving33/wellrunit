@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-21T23:20:57.613830+00:00",
+ "updated": "2026-11-22T06:54:10.928062+00:00",
  "items": [
+  {
+   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+   "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "source": "The Hacker News",
+   "date": "2026-11-22T05:06:55+00:00"
+  },
+  {
+   "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+   "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+   "source": "The Hacker News",
+   "date": "2026-11-22T05:03:41+00:00"
+  },
+  {
+   "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+   "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+   "source": "SecurityWeek",
+   "date": "2026-11-22T00:53:02+00:00"
+  },
   {
    "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
    "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
@@ -24,6 +42,12 @@
    "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
    "source": "BleepingComputer",
    "date": "2026-11-21T14:26:04+00:00"
+  },
+  {
+   "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+   "link": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+   "source": "SecurityWeek",
+   "date": "2026-11-21T13:00:00+00:00"
   },
   {
    "title": "Amazon: China-Linked Hackers\u2019 AI Agents Exploited Medical Software Zero-Day",
