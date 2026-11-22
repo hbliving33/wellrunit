@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-22T06:54:10.928062+00:00",
+ "updated": "2026-11-22T15:21:26.547670+00:00",
  "items": [
+  {
+   "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+   "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+   "source": "BleepingComputer",
+   "date": "2026-11-22T15:15:25+00:00"
+  },
   {
    "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
    "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
@@ -2712,12 +2718,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
    "source": "BleepingComputer",
    "date": "2026-11-08T15:43:08+00:00"
-  },
-  {
-   "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
-   "link": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
-   "source": "SecurityWeek",
-   "date": "2026-11-08T12:14:00+00:00"
   }
  ]
 }
