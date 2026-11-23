@@ -1,6 +1,78 @@
 {
- "updated": "2026-11-23T02:48:16.614705+00:00",
+ "updated": "2026-11-23T12:51:37.370731+00:00",
  "items": [
+  {
+   "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+   "source": "The Hacker News",
+   "date": "2026-11-23T12:41:04+00:00"
+  },
+  {
+   "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+   "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+   "source": "The Hacker News",
+   "date": "2026-11-23T12:28:09+00:00"
+  },
+  {
+   "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
+   "link": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
+   "source": "SecurityWeek",
+   "date": "2026-11-23T12:16:20+00:00"
+  },
+  {
+   "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
+   "link": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+   "source": "BleepingComputer",
+   "date": "2026-11-23T12:02:23+00:00"
+  },
+  {
+   "title": "BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted",
+   "link": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
+   "source": "SecurityWeek",
+   "date": "2026-11-23T11:44:18+00:00"
+  },
+  {
+   "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
+   "link": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-23T11:35:15+00:00"
+  },
+  {
+   "title": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
+   "link": "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/",
+   "source": "SecurityWeek",
+   "date": "2026-11-23T11:31:44+00:00"
+  },
+  {
+   "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+   "source": "The Hacker News",
+   "date": "2026-11-23T09:11:56+00:00"
+  },
+  {
+   "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+   "source": "BleepingComputer",
+   "date": "2026-11-23T09:11:15+00:00"
+  },
+  {
+   "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+   "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+   "source": "The Hacker News",
+   "date": "2026-11-23T09:04:08+00:00"
+  },
+  {
+   "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+   "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+   "source": "The Hacker News",
+   "date": "2026-11-23T08:24:15+00:00"
+  },
+  {
+   "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+   "source": "BleepingComputer",
+   "date": "2026-11-23T07:44:19+00:00"
+  },
   {
    "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
@@ -104,6 +176,12 @@
    "date": "2026-11-21T08:49:13+00:00"
   },
   {
+   "title": "How Security Vendors Are Tackling Access-Control Challenges for AI Agents",
+   "link": "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
+   "source": "Dark Reading",
+   "date": "2026-11-21T01:31:23+00:00"
+  },
+  {
    "title": "CTO of \u2018RansomwareHelp\u2019 Indicted for Wire Fraud",
    "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
    "source": "Krebs on Security",
@@ -128,12 +206,6 @@
    "date": "2026-11-20T18:35:40+00:00"
   },
   {
-   "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-   "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-   "source": "The Hacker News",
-   "date": "2026-11-20T17:57:20+00:00"
-  },
-  {
    "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
    "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
    "source": "BleepingComputer",
@@ -152,28 +224,10 @@
    "date": "2026-11-20T17:00:00+00:00"
   },
   {
-   "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-   "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-   "source": "The Hacker News",
-   "date": "2026-11-20T16:58:16+00:00"
-  },
-  {
    "title": "WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign",
    "link": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
    "source": "SecurityWeek",
    "date": "2026-11-20T16:01:02+00:00"
-  },
-  {
-   "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-   "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-   "source": "BleepingComputer",
-   "date": "2026-11-20T15:58:06+00:00"
-  },
-  {
-   "title": "Still tracking company passwords in spreadsheets? You\u2019re flying blind.",
-   "link": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-   "source": "BleepingComputer",
-   "date": "2026-11-20T15:00:10+00:00"
   },
   {
    "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit",
@@ -188,64 +242,16 @@
    "date": "2026-11-20T13:51:30+00:00"
   },
   {
-   "title": "N-able says recent security breach led to major service outage",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-   "source": "BleepingComputer",
-   "date": "2026-11-20T13:18:36+00:00"
-  },
-  {
    "title": "Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday",
    "link": "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
    "source": "SecurityWeek",
    "date": "2026-11-20T12:38:55+00:00"
   },
   {
-   "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-   "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-   "source": "The Hacker News",
-   "date": "2026-11-20T12:20:00+00:00"
-  },
-  {
    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
    "link": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
    "date": "2026-11-20T12:00:00+00:00"
-  },
-  {
-   "title": "The Path to AI Autonomy in the SOC",
-   "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
-   "source": "The Hacker News",
-   "date": "2026-11-20T12:00:00+00:00"
-  },
-  {
-   "title": "SBC Medical Group Data Breach Impacts Over 2 Million",
-   "link": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
-   "source": "SecurityWeek",
-   "date": "2026-11-20T11:36:51+00:00"
-  },
-  {
-   "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
-   "link": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
-   "source": "SecurityWeek",
-   "date": "2026-11-20T10:51:42+00:00"
-  },
-  {
-   "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-   "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-   "source": "The Hacker News",
-   "date": "2026-11-20T10:38:22+00:00"
-  },
-  {
-   "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
-   "link": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
-   "source": "SecurityWeek",
-   "date": "2026-11-20T10:34:10+00:00"
-  },
-  {
-   "title": "N-able Blames Service Disruption on Cyberattack",
-   "link": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-20T09:08:35+00:00"
   },
   {
    "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
@@ -308,12 +314,6 @@
    "date": "2026-11-18T21:59:46+00:00"
   },
   {
-   "title": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
-   "link": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
-   "source": "Dark Reading",
-   "date": "2026-11-18T20:45:49+00:00"
-  },
-  {
    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
    "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
    "source": "Krebs on Security",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,59 +378,57 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "zoom": {
-  "status": "Partially Degraded Service",
+  "status": "Available",
   "link": "https://status.zoom.us/",
-  "notes": [
-   "Service Degradation Affecting Zoom Phone tab on desktop clients"
-  ],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "notes": [],
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
   "notes": [
-   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzE1NjM4ODY3NTY5fQo="
+   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzE4NzkxNzI5NTA3fQo="
   ],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -438,60 +436,60 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "claude": {
   "status": "Available",
   "link": "https://status.claude.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-23T02:48:16.614705+00:00"
+  "checked": "2026-11-23T12:51:37.370731+00:00"
  }
 }
