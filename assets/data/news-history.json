@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:49:07.188383+00:00",
+ "updated": "2026-11-23T02:48:16.614705+00:00",
  "items": [
   {
    "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
@@ -180,6 +180,12 @@
    "link": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
    "source": "SecurityWeek",
    "date": "2026-11-20T14:56:23+00:00"
+  },
+  {
+   "title": "Microsoft Debuts Offensive, Defensive Security Tools for the AI Era",
+   "link": "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
+   "source": "Dark Reading",
+   "date": "2026-11-20T13:51:30+00:00"
   },
   {
    "title": "N-able says recent security breach led to major service outage",

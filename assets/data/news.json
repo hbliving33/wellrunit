@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:49:07.188383+00:00",
+ "updated": "2026-11-23T02:48:16.614705+00:00",
  "items": [
   {
    "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
@@ -182,6 +182,12 @@
    "date": "2026-11-20T14:56:23+00:00"
   },
   {
+   "title": "Microsoft Debuts Offensive, Defensive Security Tools for the AI Era",
+   "link": "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
+   "source": "Dark Reading",
+   "date": "2026-11-20T13:51:30+00:00"
+  },
+  {
    "title": "N-able says recent security breach led to major service outage",
    "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
    "source": "BleepingComputer",
@@ -308,12 +314,6 @@
    "date": "2026-11-18T20:45:49+00:00"
   },
   {
-   "title": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
-   "link": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
-   "source": "Dark Reading",
-   "date": "2026-11-18T20:38:42+00:00"
-  },
-  {
    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
    "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
    "source": "Krebs on Security",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,49 +378,51 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "zoom": {
-  "status": "Available",
+  "status": "Partially Degraded Service",
   "link": "https://status.zoom.us/",
-  "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "notes": [
+   "Service Degradation Affecting Zoom Phone tab on desktop clients"
+  ],
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -428,7 +430,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzE1NjM4ODY3NTY5fQo="
   ],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -436,60 +438,60 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "claude": {
   "status": "Available",
   "link": "https://status.claude.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-22T21:49:07.188383+00:00"
+  "checked": "2026-11-23T02:48:16.614705+00:00"
  }
 }
