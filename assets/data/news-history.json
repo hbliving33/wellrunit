@@ -1,6 +1,120 @@
 {
- "updated": "2026-11-23T12:51:37.370731+00:00",
+ "updated": "2026-11-24T00:54:41.856809+00:00",
  "items": [
+  {
+   "title": "Industrial Serial Gateways Broadcast That They're Insecure",
+   "link": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
+   "source": "Dark Reading",
+   "date": "2026-11-23T22:02:46+00:00"
+  },
+  {
+   "title": "CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal",
+   "link": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
+   "source": "Dark Reading",
+   "date": "2026-11-23T21:21:42+00:00"
+  },
+  {
+   "title": "South Korea\u2019s power giant KEPCO confirms data breach impacting 1.5 million",
+   "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+   "source": "BleepingComputer",
+   "date": "2026-11-23T20:54:51+00:00"
+  },
+  {
+   "title": "US Cyber Director Pick Signals Shift Toward Expertise",
+   "link": "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
+   "source": "Dark Reading",
+   "date": "2026-11-23T20:13:48+00:00"
+  },
+  {
+   "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+   "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+   "source": "BleepingComputer",
+   "date": "2026-11-23T20:00:20+00:00"
+  },
+  {
+   "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+   "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+   "source": "BleepingComputer",
+   "date": "2026-11-23T19:42:20+00:00"
+  },
+  {
+   "title": "Spanish LaLiga confirms hackers stole soccer fans\u2019 personal data",
+   "link": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+   "source": "BleepingComputer",
+   "date": "2026-11-23T18:38:40+00:00"
+  },
+  {
+   "title": "Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors",
+   "link": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
+   "source": "Dark Reading",
+   "date": "2026-11-23T17:45:52+00:00"
+  },
+  {
+   "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+   "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+   "source": "The Hacker News",
+   "date": "2026-11-23T17:45:15+00:00"
+  },
+  {
+   "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+   "link": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+   "source": "BleepingComputer",
+   "date": "2026-11-23T16:50:01+00:00"
+  },
+  {
+   "title": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
+   "source": "Dark Reading",
+   "date": "2026-11-23T16:17:21+00:00"
+  },
+  {
+   "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
+   "link": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+   "source": "SecurityWeek",
+   "date": "2026-11-23T15:47:40+00:00"
+  },
+  {
+   "title": "\u26a1 Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+   "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+   "source": "The Hacker News",
+   "date": "2026-11-23T15:10:48+00:00"
+  },
+  {
+   "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+   "link": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
+   "source": "SecurityWeek",
+   "date": "2026-11-23T15:06:49+00:00"
+  },
+  {
+   "title": "AI Agents Are Creating a Shared Responsibility Gap",
+   "link": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+   "source": "BleepingComputer",
+   "date": "2026-11-23T15:00:10+00:00"
+  },
+  {
+   "title": "phpAfterShell Vulnerability Revives PHP2Shell\u2019s Attack Path",
+   "link": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/",
+   "source": "SecurityWeek",
+   "date": "2026-11-23T13:58:07+00:00"
+  },
+  {
+   "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+   "source": "BleepingComputer",
+   "date": "2026-11-23T13:28:45+00:00"
+  },
+  {
+   "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+   "link": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+   "source": "SecurityWeek",
+   "date": "2026-11-23T13:26:22+00:00"
+  },
+  {
+   "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+   "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+   "source": "The Hacker News",
+   "date": "2026-11-23T13:22:20+00:00"
+  },
   {
    "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
@@ -24,6 +138,12 @@
    "link": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
    "source": "BleepingComputer",
    "date": "2026-11-23T12:02:23+00:00"
+  },
+  {
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "source": "CISA",
+   "date": "2026-11-23T12:00:00+00:00"
   },
   {
    "title": "BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted",
@@ -192,6 +312,12 @@
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
    "source": "Dark Reading",
    "date": "2026-11-20T21:03:27+00:00"
+  },
+  {
+   "title": "Nok et norsk energiselskap har blitt utsatt for et datainnbrudd p\u00e5 to dager",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached-norwegian",
+   "source": "Dark Reading",
+   "date": "2026-11-20T20:43:45+00:00"
   },
   {
    "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
@@ -1052,8 +1178,8 @@
    "date": "2026-11-17T12:14:36+00:00"
   },
   {
-   "title": "Siemens Simcenter Femap",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+   "title": "Siemens ROS#",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
@@ -1088,8 +1214,8 @@
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
-   "title": "Siemens ROS#",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+   "title": "Siemens Simcenter Femap",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
@@ -1602,12 +1728,6 @@
    "link": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
    "source": "SecurityWeek",
    "date": "2026-11-13T12:20:28+00:00"
-  },
-  {
-   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "source": "CISA",
-   "date": "2026-11-13T12:00:00+00:00"
   },
   {
    "title": "When an AI Agent Goes Wrong, Can You Stop It?",
@@ -2574,156 +2694,6 @@
    "link": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
    "source": "SecurityWeek",
    "date": "2026-11-10T06:12:24+00:00"
-  },
-  {
-   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-   "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T23:52:12+00:00"
-  },
-  {
-   "title": "People Are Getting Weird About AI",
-   "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
-   "source": "Dark Reading",
-   "date": "2026-11-09T23:06:22+00:00"
-  },
-  {
-   "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-   "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T22:09:33+00:00"
-  },
-  {
-   "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents",
-   "source": "Dark Reading",
-   "date": "2026-11-09T21:38:20+00:00"
-  },
-  {
-   "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-   "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T21:26:25+00:00"
-  },
-  {
-   "title": "York University breach exposed personal information dating to 2007",
-   "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T21:22:31+00:00"
-  },
-  {
-   "title": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
-   "link": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
-   "source": "Dark Reading",
-   "date": "2026-11-09T21:12:24+00:00"
-  },
-  {
-   "title": "Black Hat India 2026 Makes a Landmark Debut in Bengaluru, Bringing the Global Cybersecurity Community to India",
-   "link": "https://www.darkreading.com/cybersecurity-operations/black-hat-india-2026-landmark-debut",
-   "source": "Dark Reading",
-   "date": "2026-11-09T20:19:56+00:00"
-  },
-  {
-   "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-09T20:17:31+00:00"
-  },
-  {
-   "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
-   "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T18:32:42+00:00"
-  },
-  {
-   "title": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
-   "link": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
-   "source": "Dark Reading",
-   "date": "2026-11-09T18:08:30+00:00"
-  },
-  {
-   "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-   "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-   "source": "The Hacker News",
-   "date": "2026-11-09T17:51:21+00:00"
-  },
-  {
-   "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
-   "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T17:50:32+00:00"
-  },
-  {
-   "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-   "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-   "source": "The Hacker News",
-   "date": "2026-11-09T17:36:28+00:00"
-  },
-  {
-   "title": "PwC's CISO on AI, Robots & What's Next for Security",
-   "link": "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security",
-   "source": "Dark Reading",
-   "date": "2026-11-09T17:17:23+00:00"
-  },
-  {
-   "title": "Binance denies data breach after alleged ShinyHunters claims",
-   "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T16:12:39+00:00"
-  },
-  {
-   "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T16:04:57+00:00"
-  },
-  {
-   "title": "NIST: Solo Shouldn't Mean Less Secure",
-   "link": "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure",
-   "source": "Dark Reading",
-   "date": "2026-11-09T15:46:10+00:00"
-  },
-  {
-   "title": "The Biggest Threat to Your GRC Job Isn\u2019t AI. It\u2019s Ignoring AI.",
-   "link": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T15:05:15+00:00"
-  },
-  {
-   "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
-   "link": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T14:34:03+00:00"
-  },
-  {
-   "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-   "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-   "source": "The Hacker News",
-   "date": "2026-11-09T14:31:29+00:00"
-  },
-  {
-   "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
-   "link": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
-   "source": "SecurityWeek",
-   "date": "2026-11-09T14:08:08+00:00"
-  },
-  {
-   "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
-   "link": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
-   "source": "BleepingComputer",
-   "date": "2026-11-09T13:28:56+00:00"
-  },
-  {
-   "title": "\u26a1 Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
-   "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
-   "source": "The Hacker News",
-   "date": "2026-11-09T13:28:25+00:00"
-  },
-  {
-   "title": "Plex2Shell Exploited Against QNAP NAS Users",
-   "link": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
-   "source": "SecurityWeek",
-   "date": "2026-11-09T13:13:28+00:00"
   }
  ]
 }
