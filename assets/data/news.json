@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-24T00:54:41.856809+00:00",
+ "updated": "2026-11-24T10:58:11.070544+00:00",
  "items": [
+  {
+   "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+   "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+   "source": "The Hacker News",
+   "date": "2026-11-24T10:44:49+00:00"
+  },
+  {
+   "title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
+   "link": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
+   "source": "SecurityWeek",
+   "date": "2026-11-24T10:44:44+00:00"
+  },
+  {
+   "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
+   "link": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
+   "source": "SecurityWeek",
+   "date": "2026-11-24T10:35:04+00:00"
+  },
+  {
+   "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+   "link": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+   "source": "The Hacker News",
+   "date": "2026-11-24T08:34:20+00:00"
+  },
+  {
+   "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+   "link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+   "source": "The Hacker News",
+   "date": "2026-11-24T06:02:57+00:00"
+  },
+  {
+   "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+   "source": "The Hacker News",
+   "date": "2026-11-24T06:02:45+00:00"
+  },
   {
    "title": "Industrial Serial Gateways Broadcast That They're Insecure",
    "link": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
@@ -80,7 +116,7 @@
    "date": "2026-11-23T15:10:48+00:00"
   },
   {
-   "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+   "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
    "link": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
    "source": "SecurityWeek",
    "date": "2026-11-23T15:06:49+00:00"
@@ -204,42 +240,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
    "source": "BleepingComputer",
    "date": "2026-11-22T15:43:04+00:00"
-  },
-  {
-   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-   "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-   "source": "The Hacker News",
-   "date": "2026-11-22T05:06:55+00:00"
-  },
-  {
-   "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-   "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-   "source": "The Hacker News",
-   "date": "2026-11-22T05:03:41+00:00"
-  },
-  {
-   "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
-   "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
-   "source": "SecurityWeek",
-   "date": "2026-11-22T00:53:02+00:00"
-  },
-  {
-   "title": "President Trump Taps Kirsten Davies as National Cyber Director",
-   "link": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
-   "source": "SecurityWeek",
-   "date": "2026-11-21T13:00:00+00:00"
-  },
-  {
-   "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-   "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-   "source": "The Hacker News",
-   "date": "2026-11-21T11:53:07+00:00"
-  },
-  {
-   "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-   "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-   "source": "The Hacker News",
-   "date": "2026-11-21T11:05:53+00:00"
   },
   {
    "title": "How Security Vendors Are Tackling Access-Control Challenges for AI Agents",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,57 +378,57 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "netsuite": {
   "status": "Available",
   "link": "https://status.netsuite.com/",
   "notes": [
-   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzE4NzkxNzI5NTA3fQo="
+   "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzIyMTg0NTk2ODcyfQo="
   ],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -437,37 +437,37 @@
    "Cloudflare Workers API \u2013 Delayed or Inconsistent Responses",
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -475,24 +475,24 @@
   "notes": [
    "Claude for Microsoft 365 add-in missing for some users"
   ],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-24T00:54:41.856809+00:00"
+  "checked": "2026-11-24T10:58:11.070544+00:00"
  }
 }
