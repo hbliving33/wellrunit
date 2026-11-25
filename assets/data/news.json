@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-24T21:14:44.074595+00:00",
+ "updated": "2026-11-25T04:17:41.795992+00:00",
  "items": [
+  {
+   "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+   "link": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+   "source": "SecurityWeek",
+   "date": "2026-11-24T22:41:58+00:00"
+  },
+  {
+   "title": "Satellites Have a Ground-Level Cybersecurity Problem",
+   "link": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+   "source": "Dark Reading",
+   "date": "2026-11-24T22:05:34+00:00"
+  },
+  {
+   "title": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
+   "link": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+   "source": "Dark Reading",
+   "date": "2026-11-24T21:48:06+00:00"
+  },
+  {
+   "title": "Rackspace shuts down Spot cloud platform after security breach",
+   "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+   "source": "BleepingComputer",
+   "date": "2026-11-24T21:37:30+00:00"
+  },
+  {
+   "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+   "source": "Dark Reading",
+   "date": "2026-11-24T21:36:11+00:00"
+  },
   {
    "title": "New Inception extortion gang launches large-scale vishing campaign",
    "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
@@ -128,14 +158,20 @@
    "date": "2026-11-24T12:01:54+00:00"
   },
   {
-   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
   {
    "title": "Danfoss AK-SM 8xxA Series",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+   "source": "CISA",
+   "date": "2026-11-24T12:00:00+00:00"
+  },
+  {
+   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
@@ -212,12 +248,6 @@
    "date": "2026-11-23T20:13:48+00:00"
   },
   {
-   "title": "OpenRouter drops AI providers over leaked prompts and secrets",
-   "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
-   "source": "BleepingComputer",
-   "date": "2026-11-23T20:00:20+00:00"
-  },
-  {
    "title": "Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors",
    "link": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
    "source": "Dark Reading",
@@ -246,12 +276,6 @@
    "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
    "source": "The Hacker News",
    "date": "2026-11-23T15:10:48+00:00"
-  },
-  {
-   "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
-   "link": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-23T15:06:49+00:00"
   },
   {
    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
@@ -290,34 +314,16 @@
    "date": "2026-11-20T18:35:40+00:00"
   },
   {
-   "title": "What We Missed: Nvidia CEO Scandal Rocks AI Industry",
-   "link": "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry",
-   "source": "Dark Reading",
-   "date": "2026-11-20T17:04:04+00:00"
-  },
-  {
    "title": "Microsoft named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for SIEM",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
    "source": "Microsoft Security Blog",
    "date": "2026-11-20T17:00:00+00:00"
   },
   {
-   "title": "Microsoft Debuts Offensive, Defensive Security Tools for the AI Era",
-   "link": "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
-   "source": "Dark Reading",
-   "date": "2026-11-20T13:51:30+00:00"
-  },
-  {
    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
    "link": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
    "date": "2026-11-20T12:00:00+00:00"
-  },
-  {
-   "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
-   "link": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
-   "source": "Dark Reading",
-   "date": "2026-11-19T22:40:03+00:00"
   },
   {
    "title": "Elecbrakes EB2, VM1, ELBC2000",
@@ -354,12 +360,6 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
    "source": "Microsoft Security Blog",
    "date": "2026-11-17T15:00:00+00:00"
-  },
-  {
-   "title": "Siemens SIMATIC WinCC",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
-   "source": "CISA",
-   "date": "2026-11-17T12:00:00+00:00"
   }
  ],
  "errors": {},
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,49 +378,49 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -428,48 +428,46 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzIyMTg0NTk2ODcyfQo="
   ],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "cloudflare": {
   "status": "Minor Service Outage",
   "link": "https://www.cloudflarestatus.com/",
   "notes": [
-   "Issues with Email Routing in France",
    "Magic Transit Degraded Performance",
-   "Cloudflare Workers API \u2013 Delayed or Inconsistent Responses",
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -477,24 +475,24 @@
   "notes": [
    "Claude for Microsoft 365 add-in missing for some users"
   ],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-24T21:14:44.074595+00:00"
+  "checked": "2026-11-25T04:17:41.795992+00:00"
  }
 }

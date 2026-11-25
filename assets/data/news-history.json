@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-24T21:14:44.074595+00:00",
+ "updated": "2026-11-25T04:17:41.795992+00:00",
  "items": [
+  {
+   "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+   "link": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+   "source": "SecurityWeek",
+   "date": "2026-11-24T22:41:58+00:00"
+  },
+  {
+   "title": "Satellites Have a Ground-Level Cybersecurity Problem",
+   "link": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+   "source": "Dark Reading",
+   "date": "2026-11-24T22:05:34+00:00"
+  },
+  {
+   "title": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
+   "link": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+   "source": "Dark Reading",
+   "date": "2026-11-24T21:48:06+00:00"
+  },
+  {
+   "title": "Rackspace shuts down Spot cloud platform after security breach",
+   "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+   "source": "BleepingComputer",
+   "date": "2026-11-24T21:37:30+00:00"
+  },
+  {
+   "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+   "source": "Dark Reading",
+   "date": "2026-11-24T21:36:11+00:00"
+  },
   {
    "title": "New Inception extortion gang launches large-scale vishing campaign",
    "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
@@ -128,14 +158,20 @@
    "date": "2026-11-24T12:01:54+00:00"
   },
   {
-   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
   {
    "title": "Danfoss AK-SM 8xxA Series",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+   "source": "CISA",
+   "date": "2026-11-24T12:00:00+00:00"
+  },
+  {
+   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
@@ -1370,14 +1406,20 @@
    "date": "2026-11-17T12:14:36+00:00"
   },
   {
-   "title": "Siemens SIMATIC WinCC",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+   "title": "Siemens RUGGEDCOM APE1808",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
   {
    "title": "Dorsett Controls InfoScan",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
+   "title": "Siemens SIMATIC WinCC",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
@@ -1426,12 +1468,6 @@
   {
    "title": "Siemens Industrial Automation Software Products",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
-   "source": "CISA",
-   "date": "2026-11-17T12:00:00+00:00"
-  },
-  {
-   "title": "Siemens RUGGEDCOM APE1808",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
@@ -2556,30 +2592,6 @@
    "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
    "source": "The Hacker News",
    "date": "2026-11-11T06:04:02+00:00"
-  },
-  {
-   "title": "Detecting sleeper agents hiding in AI model neurons",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-10T23:00:00+00:00"
-  },
-  {
-   "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
-   "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
-   "source": "Dark Reading",
-   "date": "2026-11-10T22:26:51+00:00"
-  },
-  {
-   "title": "Railway breach leads to $740,000 in fraudulent AI charges",
-   "link": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
-   "source": "BleepingComputer",
-   "date": "2026-11-10T22:20:19+00:00"
-  },
-  {
-   "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
-   "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
-   "source": "Krebs on Security",
-   "date": "2026-11-10T21:55:03+00:00"
   }
  ]
 }
