@@ -1,6 +1,66 @@
 {
- "updated": "2026-11-26T09:33:28.304357+00:00",
+ "updated": "2026-11-26T19:38:25.949103+00:00",
  "items": [
+  {
+   "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+   "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+   "source": "BleepingComputer",
+   "date": "2026-11-26T17:58:42+00:00"
+  },
+  {
+   "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+   "link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+   "source": "BleepingComputer",
+   "date": "2026-11-26T17:15:27+00:00"
+  },
+  {
+   "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing \u2018Personal and Business Information\u2019",
+   "link": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+   "source": "SecurityWeek",
+   "date": "2026-11-26T17:06:55+00:00"
+  },
+  {
+   "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+   "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+   "source": "BleepingComputer",
+   "date": "2026-11-26T15:23:28+00:00"
+  },
+  {
+   "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+   "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T15:13:41+00:00"
+  },
+  {
+   "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+   "link": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-26T13:04:06+00:00"
+  },
+  {
+   "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+   "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+   "source": "BleepingComputer",
+   "date": "2026-11-26T11:50:17+00:00"
+  },
+  {
+   "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+   "link": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-26T11:35:25+00:00"
+  },
+  {
+   "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+   "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T10:57:55+00:00"
+  },
+  {
+   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+   "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T10:57:25+00:00"
+  },
   {
    "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
    "link": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
@@ -30,12 +90,6 @@
    "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
    "source": "The Hacker News",
    "date": "2026-11-26T06:44:46+00:00"
-  },
-  {
-   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-   "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-   "source": "The Hacker News",
-   "date": "2026-11-26T04:20:22+00:00"
   },
   {
    "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
@@ -200,48 +254,6 @@
    "date": "2026-11-25T09:06:59+00:00"
   },
   {
-   "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
-   "link": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
-   "source": "SecurityWeek",
-   "date": "2026-11-25T09:05:13+00:00"
-  },
-  {
-   "title": "Microsoft confirms authentication issues after November updates",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-   "source": "BleepingComputer",
-   "date": "2026-11-25T09:02:57+00:00"
-  },
-  {
-   "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
-   "link": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
-   "source": "SecurityWeek",
-   "date": "2026-11-25T08:12:24+00:00"
-  },
-  {
-   "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
-   "link": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-25T08:01:06+00:00"
-  },
-  {
-   "title": "Hackers reportedly breached CIA intelligence analysis system",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-   "source": "BleepingComputer",
-   "date": "2026-11-25T07:45:03+00:00"
-  },
-  {
-   "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-   "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
-   "source": "The Hacker News",
-   "date": "2026-11-25T06:50:19+00:00"
-  },
-  {
-   "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-   "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
-   "source": "The Hacker News",
-   "date": "2026-11-25T06:37:06+00:00"
-  },
-  {
    "title": "Satellites Have a Ground-Level Cybersecurity Problem",
    "link": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
    "source": "Dark Reading",
@@ -254,22 +266,10 @@
    "date": "2026-11-24T21:48:06+00:00"
   },
   {
-   "title": "Rackspace shuts down Spot cloud platform after security breach",
-   "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-   "source": "BleepingComputer",
-   "date": "2026-11-24T21:37:30+00:00"
-  },
-  {
    "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
    "link": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
    "source": "Dark Reading",
    "date": "2026-11-24T21:36:11+00:00"
-  },
-  {
-   "title": "New Inception extortion gang launches large-scale vishing campaign",
-   "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-   "source": "BleepingComputer",
-   "date": "2026-11-24T20:21:20+00:00"
   },
   {
    "title": "How Southeastern University Got a Handle on Its Data",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,43 +378,43 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "zoom": {
   "status": "Available",
@@ -422,7 +422,7 @@
   "notes": [
    "Maintenance: Zoom Chat Backend Update : November 25, 2026 (No Operational Impact)"
   ],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -430,47 +430,45 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzMyMTE5MTc3MjE2fQo="
   ],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
   "link": "https://www.cloudflarestatus.com/",
   "notes": [
-   "Cloudflare Billing Issues",
-   "RealTimeKit Recording Delays",
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -478,26 +476,24 @@
   "notes": [
    "Claude for Microsoft 365 add-in missing for some users"
   ],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "openai": {
-  "status": "Partial System Degradation",
+  "status": "Available",
   "link": "https://status.openai.com/",
-  "notes": [
-   "Elevated errors with Codex GitHub reviews and pull request merges"
-  ],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "notes": [],
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-26T09:33:28.304357+00:00"
+  "checked": "2026-11-26T19:38:25.949103+00:00"
  }
 }

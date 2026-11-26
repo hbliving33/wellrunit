@@ -1,6 +1,66 @@
 {
- "updated": "2026-11-26T09:33:28.304357+00:00",
+ "updated": "2026-11-26T19:38:25.949103+00:00",
  "items": [
+  {
+   "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+   "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+   "source": "BleepingComputer",
+   "date": "2026-11-26T17:58:42+00:00"
+  },
+  {
+   "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+   "link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+   "source": "BleepingComputer",
+   "date": "2026-11-26T17:15:27+00:00"
+  },
+  {
+   "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing \u2018Personal and Business Information\u2019",
+   "link": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+   "source": "SecurityWeek",
+   "date": "2026-11-26T17:06:55+00:00"
+  },
+  {
+   "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+   "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+   "source": "BleepingComputer",
+   "date": "2026-11-26T15:23:28+00:00"
+  },
+  {
+   "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+   "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T15:13:41+00:00"
+  },
+  {
+   "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+   "link": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-26T13:04:06+00:00"
+  },
+  {
+   "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+   "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+   "source": "BleepingComputer",
+   "date": "2026-11-26T11:50:17+00:00"
+  },
+  {
+   "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+   "link": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+   "source": "SecurityWeek",
+   "date": "2026-11-26T11:35:25+00:00"
+  },
+  {
+   "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+   "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T10:57:55+00:00"
+  },
+  {
+   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+   "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T10:57:25+00:00"
+  },
   {
    "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
    "link": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
@@ -30,12 +90,6 @@
    "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
    "source": "The Hacker News",
    "date": "2026-11-26T06:44:46+00:00"
-  },
-  {
-   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-   "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-   "source": "The Hacker News",
-   "date": "2026-11-26T04:20:22+00:00"
   },
   {
    "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
@@ -2346,198 +2400,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
    "source": "BleepingComputer",
    "date": "2026-11-12T19:51:16+00:00"
-  },
-  {
-   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-   "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T19:12:55+00:00"
-  },
-  {
-   "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-   "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T18:07:15+00:00"
-  },
-  {
-   "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-   "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T18:02:51+00:00"
-  },
-  {
-   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-   "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T17:50:27+00:00"
-  },
-  {
-   "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-12T17:00:00+00:00"
-  },
-  {
-   "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-   "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T16:27:01+00:00"
-  },
-  {
-   "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-   "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T16:04:00+00:00"
-  },
-  {
-   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-   "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T15:38:49+00:00"
-  },
-  {
-   "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-   "link": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T15:38:31+00:00"
-  },
-  {
-   "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
-   "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T15:15:40+00:00"
-  },
-  {
-   "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-   "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T15:07:20+00:00"
-  },
-  {
-   "title": "Police dismantles Gootloader, CastleRAT, StealC malware infrastructure",
-   "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T15:07:20+00:00"
-  },
-  {
-   "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
-   "link": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T15:00:10+00:00"
-  },
-  {
-   "title": "Apify rotates API tokens, prompts 2FA resets after breach",
-   "link": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T14:36:47+00:00"
-  },
-  {
-   "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
-   "link": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T13:42:09+00:00"
-  },
-  {
-   "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
-   "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T13:39:03+00:00"
-  },
-  {
-   "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
-   "link": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T13:12:11+00:00"
-  },
-  {
-   "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-   "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T13:08:28+00:00"
-  },
-  {
-   "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T12:11:11+00:00"
-  },
-  {
-   "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-   "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T12:09:14+00:00"
-  },
-  {
-   "title": "Siemens Desigo, Gridscale",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
-   "source": "CISA",
-   "date": "2026-11-12T12:00:00+00:00"
-  },
-  {
-   "title": "Siemens Building Automation and Energy Products",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
-   "source": "CISA",
-   "date": "2026-11-12T12:00:00+00:00"
-  },
-  {
-   "title": "Siemens Industrial Edge Management",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
-   "source": "CISA",
-   "date": "2026-11-12T12:00:00+00:00"
-  },
-  {
-   "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-   "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T11:51:43+00:00"
-  },
-  {
-   "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-   "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T11:51:31+00:00"
-  },
-  {
-   "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-   "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T11:33:15+00:00"
-  },
-  {
-   "title": "Notion Customer Data Compromised in Fireworks AI Hack",
-   "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T11:08:52+00:00"
-  },
-  {
-   "title": "Inside an AI Attack Against a US Retailer",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
-   "source": "Dark Reading",
-   "date": "2026-11-12T11:00:00+00:00"
-  },
-  {
-   "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
-   "link": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T10:39:34+00:00"
-  },
-  {
-   "title": "Microsoft confirms Windows security updates installation issues",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T10:24:07+00:00"
-  },
-  {
-   "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
-   "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T09:39:55+00:00"
-  },
-  {
-   "title": "Hackers plant GSocket on Linux servers for persistent access",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T09:38:00+00:00"
   }
  ]
 }
