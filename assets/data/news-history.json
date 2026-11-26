@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-26T00:23:22.906665+00:00",
+ "updated": "2026-11-26T09:33:28.304357+00:00",
  "items": [
+  {
+   "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+   "link": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+   "source": "SecurityWeek",
+   "date": "2026-11-26T09:12:26+00:00"
+  },
+  {
+   "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+   "link": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+   "source": "SecurityWeek",
+   "date": "2026-11-26T08:32:10+00:00"
+  },
+  {
+   "title": "Cyprus Becomes Espionage Target for Iranian Hackers",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
+   "source": "Dark Reading",
+   "date": "2026-11-26T08:00:00+00:00"
+  },
+  {
+   "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+   "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T07:02:34+00:00"
+  },
+  {
+   "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T06:44:46+00:00"
+  },
+  {
+   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+   "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T04:20:22+00:00"
+  },
+  {
+   "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+   "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T03:48:52+00:00"
+  },
   {
    "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
    "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
@@ -2496,54 +2538,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
    "source": "BleepingComputer",
    "date": "2026-11-12T09:38:00+00:00"
-  },
-  {
-   "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-   "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T09:25:00+00:00"
-  },
-  {
-   "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
-   "link": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T09:23:21+00:00"
-  },
-  {
-   "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
-   "link": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T08:38:47+00:00"
-  },
-  {
-   "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
-   "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T08:20:37+00:00"
-  },
-  {
-   "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-   "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T06:42:47+00:00"
-  },
-  {
-   "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-   "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T05:12:26+00:00"
-  },
-  {
-   "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-   "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
-   "source": "The Hacker News",
-   "date": "2026-11-12T04:39:48+00:00"
-  },
-  {
-   "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
-   "link": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
-   "source": "Dark Reading",
-   "date": "2026-11-12T01:00:00+00:00"
   }
  ]
 }
