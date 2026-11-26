@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-25T15:38:19.033412+00:00",
+ "updated": "2026-11-26T00:23:22.906665+00:00",
  "items": [
+  {
+   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-25T22:05:09+00:00"
+  },
+  {
+   "title": "1Password customer data stolen after employee GitHub account breach",
+   "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+   "source": "BleepingComputer",
+   "date": "2026-11-25T21:33:33+00:00"
+  },
+  {
+   "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+   "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-25T19:39:31+00:00"
+  },
+  {
+   "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-25T18:09:06+00:00"
+  },
+  {
+   "title": "Microsoft named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Email Security",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-25T17:15:00+00:00"
+  },
+  {
+   "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+   "source": "BleepingComputer",
+   "date": "2026-11-25T16:13:40+00:00"
+  },
+  {
+   "title": "Attackers Target .NET Developers With Poisoned Job Assessments",
+   "link": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+   "source": "Dark Reading",
+   "date": "2026-11-25T15:48:04+00:00"
+  },
   {
    "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
    "link": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
@@ -66,6 +108,12 @@
    "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
    "source": "The Hacker News",
    "date": "2026-11-25T12:30:08+00:00"
+  },
+  {
+   "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+   "source": "CISA",
+   "date": "2026-11-25T12:00:00+00:00"
   },
   {
    "title": "Credential Remediation Is Slow When You Don\u2019t Know What Will Break",
@@ -320,14 +368,14 @@
    "date": "2026-11-24T12:01:54+00:00"
   },
   {
-   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "title": "AutomationDirect C-More EA9 Programming Software",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
   {
-   "title": "Danfoss AK-SM 8xxA Series",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
@@ -338,8 +386,8 @@
    "date": "2026-11-24T12:00:00+00:00"
   },
   {
-   "title": "AutomationDirect C-More EA9 Programming Software",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+   "title": "Danfoss AK-SM 8xxA Series",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
@@ -1568,6 +1616,12 @@
    "date": "2026-11-17T12:14:36+00:00"
   },
   {
+   "title": "Siemens Industrial Software Products",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+   "source": "CISA",
+   "date": "2026-11-17T12:00:00+00:00"
+  },
+  {
    "title": "Siemens RUGGEDCOM APE1808",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
    "source": "CISA",
@@ -1606,12 +1660,6 @@
   {
    "title": "Critical Java Vulnerability Requires Immediate Patching",
    "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-   "source": "CISA",
-   "date": "2026-11-17T12:00:00+00:00"
-  },
-  {
-   "title": "Siemens Industrial Software Products",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
    "source": "CISA",
    "date": "2026-11-17T12:00:00+00:00"
   },
@@ -2496,108 +2544,6 @@
    "link": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
    "source": "Dark Reading",
    "date": "2026-11-12T01:00:00+00:00"
-  },
-  {
-   "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
-   "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
-   "source": "Dark Reading",
-   "date": "2026-11-12T00:00:00+00:00"
-  },
-  {
-   "title": "Baker Tilly notifies clients of data breach at third-party provider",
-   "link": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-   "source": "BleepingComputer",
-   "date": "2026-11-11T23:01:31+00:00"
-  },
-  {
-   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-   "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-   "source": "BleepingComputer",
-   "date": "2026-11-11T22:56:21+00:00"
-  },
-  {
-   "title": "AI\u3092\u6d3b\u7528\u3057\u305f\u30b5\u30a4\u30d0\u30fc\u653b\u6483\u306e\u5897\u52a0\u3092\u53d7\u3051\u3001\u65e5\u672c\u304c\u30b5\u30a4\u30d0\u30fc\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3078\u306e\u7dca\u6025\u8cc7\u91d1\u62e0\u51fa\u3092\u63a8\u9032",
-   "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese",
-   "source": "Dark Reading",
-   "date": "2026-11-11T22:14:44+00:00"
-  },
-  {
-   "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
-   "link": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
-   "source": "Dark Reading",
-   "date": "2026-11-11T21:44:04+00:00"
-  },
-  {
-   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-   "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
-   "source": "BleepingComputer",
-   "date": "2026-11-11T21:27:40+00:00"
-  },
-  {
-   "title": "AI Raises the Stakes for Cyber Resilience",
-   "link": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
-   "source": "Dark Reading",
-   "date": "2026-11-11T21:20:41+00:00"
-  },
-  {
-   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-   "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-   "source": "BleepingComputer",
-   "date": "2026-11-11T20:54:20+00:00"
-  },
-  {
-   "title": "As Test Takers Turn to AI for Answers, Exam Security Must Catch Up",
-   "link": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
-   "source": "Dark Reading",
-   "date": "2026-11-11T20:27:00+00:00"
-  },
-  {
-   "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
-   "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
-   "source": "Dark Reading",
-   "date": "2026-11-11T20:05:18+00:00"
-  },
-  {
-   "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-11T19:49:57+00:00"
-  },
-  {
-   "title": "Who Runs the Ransomware Group Qilin?",
-   "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
-   "source": "Krebs on Security",
-   "date": "2026-11-11T18:06:01+00:00"
-  },
-  {
-   "title": "Lessons from 59 Linux Kernel Bug Reports",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-11T16:55:00+00:00"
-  },
-  {
-   "title": "Today: CISO Forum Virtual Summit 2026 Day 2 \u2013 Join Cybersecurity Leaders Online",
-   "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
-   "source": "SecurityWeek",
-   "date": "2026-11-11T16:29:42+00:00"
-  },
-  {
-   "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-   "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-   "source": "BleepingComputer",
-   "date": "2026-11-11T16:24:18+00:00"
-  },
-  {
-   "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-   "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-   "source": "The Hacker News",
-   "date": "2026-11-11T16:12:46+00:00"
-  },
-  {
-   "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
-   "link": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-11T15:42:47+00:00"
   }
  ]
 }

@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-25T15:38:19.033412+00:00",
+ "updated": "2026-11-26T00:23:22.906665+00:00",
  "items": [
+  {
+   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-25T22:05:09+00:00"
+  },
+  {
+   "title": "1Password customer data stolen after employee GitHub account breach",
+   "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+   "source": "BleepingComputer",
+   "date": "2026-11-25T21:33:33+00:00"
+  },
+  {
+   "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+   "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-25T19:39:31+00:00"
+  },
+  {
+   "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-25T18:09:06+00:00"
+  },
+  {
+   "title": "Microsoft named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Email Security",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/",
+   "source": "Microsoft Security Blog",
+   "date": "2026-11-25T17:15:00+00:00"
+  },
+  {
+   "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+   "source": "BleepingComputer",
+   "date": "2026-11-25T16:13:40+00:00"
+  },
+  {
+   "title": "Attackers Target .NET Developers With Poisoned Job Assessments",
+   "link": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+   "source": "Dark Reading",
+   "date": "2026-11-25T15:48:04+00:00"
+  },
   {
    "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
    "link": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
@@ -66,6 +108,12 @@
    "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
    "source": "The Hacker News",
    "date": "2026-11-25T12:30:08+00:00"
+  },
+  {
+   "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+   "source": "CISA",
+   "date": "2026-11-25T12:00:00+00:00"
   },
   {
    "title": "Credential Remediation Is Slow When You Don\u2019t Know What Will Break",
@@ -194,18 +242,6 @@
    "date": "2026-11-24T20:21:20+00:00"
   },
   {
-   "title": "Turnitin discloses cyberattack affecting customer-facing systems",
-   "link": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
-   "source": "BleepingComputer",
-   "date": "2026-11-24T18:59:52+00:00"
-  },
-  {
-   "title": "Radware discloses breach exposing customer cloud access keys",
-   "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-   "source": "BleepingComputer",
-   "date": "2026-11-24T17:49:05+00:00"
-  },
-  {
    "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
    "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
    "source": "The Hacker News",
@@ -216,18 +252,6 @@
    "link": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
    "source": "SecurityWeek",
    "date": "2026-11-24T16:32:56+00:00"
-  },
-  {
-   "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
-   "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
-   "source": "BleepingComputer",
-   "date": "2026-11-24T16:30:19+00:00"
-  },
-  {
-   "title": "European Commission confirms data theft in EU Academy breach",
-   "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
-   "source": "BleepingComputer",
-   "date": "2026-11-24T16:22:44+00:00"
   },
   {
    "title": "How Southeastern University Got a Handle on Its Data",
@@ -248,14 +272,14 @@
    "date": "2026-11-24T13:28:21+00:00"
   },
   {
-   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "title": "AutomationDirect C-More EA9 Programming Software",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
   {
-   "title": "Danfoss AK-SM 8xxA Series",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
@@ -266,8 +290,8 @@
    "date": "2026-11-24T12:00:00+00:00"
   },
   {
-   "title": "AutomationDirect C-More EA9 Programming Software",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+   "title": "Danfoss AK-SM 8xxA Series",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
@@ -294,12 +318,6 @@
    "link": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
    "source": "Dark Reading",
    "date": "2026-11-23T17:45:52+00:00"
-  },
-  {
-   "title": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
-   "source": "Dark Reading",
-   "date": "2026-11-23T16:17:21+00:00"
   },
   {
    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
@@ -338,28 +356,10 @@
    "date": "2026-11-19T12:00:00+00:00"
   },
   {
-   "title": "libumqtt",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-   "source": "CISA",
-   "date": "2026-11-19T12:00:00+00:00"
-  },
-  {
    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
    "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
    "source": "Krebs on Security",
    "date": "2026-11-18T02:52:04+00:00"
-  },
-  {
-   "title": "Security for the agentic era, powered by Microsoft Perception",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-17T18:14:00+00:00"
-  },
-  {
-   "title": "The risks of device code authentication for AI coding agents",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-17T15:00:00+00:00"
   }
  ],
  "errors": {},
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,49 +378,51 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "zoom": {
   "status": "Available",
   "link": "https://status.zoom.us/",
-  "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "notes": [
+   "Maintenance: Zoom Chat Backend Update : November 25, 2026 (No Operational Impact)"
+  ],
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -428,7 +430,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzI3MDkxNDEyODAxfQo="
   ],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -436,37 +438,37 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -474,26 +476,26 @@
   "notes": [
    "Claude for Microsoft 365 add-in missing for some users"
   ],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "openai": {
   "status": "Partial System Degradation",
   "link": "https://status.openai.com/",
   "notes": [
-   "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors"
+   "Elevated errors with Codex GitHub reviews and pull request merges"
   ],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-25T15:38:19.033412+00:00"
+  "checked": "2026-11-26T00:23:22.906665+00:00"
  }
 }
