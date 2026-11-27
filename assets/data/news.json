@@ -1,6 +1,72 @@
 {
- "updated": "2026-11-27T12:27:15.902311+00:00",
+ "updated": "2026-11-27T21:59:14.058451+00:00",
  "items": [
+  {
+   "title": "pCloud confirms password manager hack after suspicious login alerts",
+   "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T19:26:04+00:00"
+  },
+  {
+   "title": "New Boston Scientific data breach exposes personal, medical info",
+   "link": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T18:57:42+00:00"
+  },
+  {
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T17:06:13+00:00"
+  },
+  {
+   "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+   "source": "The Hacker News",
+   "date": "2026-11-27T16:36:11+00:00"
+  },
+  {
+   "title": "Matters.AI Lands India\u2019s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
+   "link": "https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks",
+   "source": "Dark Reading",
+   "date": "2026-11-27T15:27:20+00:00"
+  },
+  {
+   "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+   "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T15:09:40+00:00"
+  },
+  {
+   "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+   "link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T15:00:10+00:00"
+  },
+  {
+   "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+   "link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T14:22:06+00:00"
+  },
+  {
+   "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+   "source": "Dark Reading",
+   "date": "2026-11-27T14:00:00+00:00"
+  },
+  {
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "source": "CISA",
+   "date": "2026-11-27T12:00:00+00:00"
+  },
+  {
+   "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+   "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+   "source": "The Hacker News",
+   "date": "2026-11-27T11:49:34+00:00"
+  },
   {
    "title": "Microsoft removes WSUS server role in Windows Server 2028",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
@@ -92,28 +158,10 @@
    "date": "2026-11-26T19:39:57+00:00"
   },
   {
-   "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
-   "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
-   "source": "BleepingComputer",
-   "date": "2026-11-26T17:58:42+00:00"
-  },
-  {
-   "title": "Fake paid expert interviews impersonate brands to steal Google logins",
-   "link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
-   "source": "BleepingComputer",
-   "date": "2026-11-26T17:15:27+00:00"
-  },
-  {
    "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing \u2018Personal and Business Information\u2019",
    "link": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
    "source": "SecurityWeek",
    "date": "2026-11-26T17:06:55+00:00"
-  },
-  {
-   "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-   "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
-   "source": "BleepingComputer",
-   "date": "2026-11-26T15:23:28+00:00"
   },
   {
    "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
@@ -126,12 +174,6 @@
    "link": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
    "source": "SecurityWeek",
    "date": "2026-11-26T13:04:06+00:00"
-  },
-  {
-   "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-   "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
-   "source": "BleepingComputer",
-   "date": "2026-11-26T11:50:17+00:00"
   },
   {
    "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
@@ -182,24 +224,6 @@
    "date": "2026-11-26T06:44:46+00:00"
   },
   {
-   "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
-   "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
-   "source": "The Hacker News",
-   "date": "2026-11-26T03:48:52+00:00"
-  },
-  {
-   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-25T22:05:09+00:00"
-  },
-  {
-   "title": "1Password customer data stolen after employee GitHub account breach",
-   "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-   "source": "BleepingComputer",
-   "date": "2026-11-25T21:33:33+00:00"
-  },
-  {
    "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
    "source": "Microsoft Security Blog",
@@ -242,12 +266,6 @@
    "date": "2026-11-25T14:00:00+00:00"
   },
   {
-   "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-   "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-   "source": "The Hacker News",
-   "date": "2026-11-25T12:48:54+00:00"
-  },
-  {
    "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
    "link": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
@@ -266,12 +284,6 @@
    "date": "2026-11-24T21:48:06+00:00"
   },
   {
-   "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
-   "link": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
-   "source": "Dark Reading",
-   "date": "2026-11-24T21:36:11+00:00"
-  },
-  {
    "title": "How Southeastern University Got a Handle on Its Data",
    "link": "https://www.darkreading.com/cybersecurity-operations/how-southeastern-university-handle-data",
    "source": "Dark Reading",
@@ -280,12 +292,6 @@
   {
    "title": "AutomationDirect C-More EA9 Programming Software",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
-   "source": "CISA",
-   "date": "2026-11-24T12:00:00+00:00"
-  },
-  {
-   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
@@ -314,12 +320,6 @@
    "date": "2026-11-23T21:21:42+00:00"
   },
   {
-   "title": "US Cyber Director Pick Signals Shift Toward Expertise",
-   "link": "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
-   "source": "Dark Reading",
-   "date": "2026-11-23T20:13:48+00:00"
-  },
-  {
    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
    "link": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
@@ -344,14 +344,14 @@
    "date": "2026-11-20T12:00:00+00:00"
   },
   {
-   "title": "Elecbrakes EB2, VM1, ELBC2000",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+   "title": "libumqtt",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
    "source": "CISA",
    "date": "2026-11-19T12:00:00+00:00"
   },
   {
-   "title": "Autonomy Logic OpenPLC Runtime",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+   "title": "Elecbrakes EB2, VM1, ELBC2000",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
    "source": "CISA",
    "date": "2026-11-19T12:00:00+00:00"
   },
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,45 +378,45 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "salesforce": {
   "status": "1 open incident",
   "link": "https://status.salesforce.com/",
   "notes": [
-   "Affects 13 instances: ISR12, NA247, USA348, USA414, USA592, USA604"
+   "Affects 15 instances: ISR4S, ISR12, NA247, USA348, USA414, USA592"
   ],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "zoom": {
   "status": "Available",
@@ -424,7 +424,7 @@
   "notes": [
    "Maintenance: Zoom Chat Backend Update : November 25, 2026 (No Operational Impact)"
   ],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -432,7 +432,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzM2OTk5NDgzODczfQo="
   ],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -440,37 +440,37 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -478,24 +478,24 @@
   "notes": [
    "Claude for Microsoft 365 add-in missing for some users"
   ],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-27T12:27:15.902311+00:00"
+  "checked": "2026-11-27T21:59:14.058451+00:00"
  }
 }

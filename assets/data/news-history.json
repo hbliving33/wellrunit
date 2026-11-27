@@ -1,6 +1,72 @@
 {
- "updated": "2026-11-27T12:27:15.902311+00:00",
+ "updated": "2026-11-27T21:59:14.058451+00:00",
  "items": [
+  {
+   "title": "pCloud confirms password manager hack after suspicious login alerts",
+   "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T19:26:04+00:00"
+  },
+  {
+   "title": "New Boston Scientific data breach exposes personal, medical info",
+   "link": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T18:57:42+00:00"
+  },
+  {
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T17:06:13+00:00"
+  },
+  {
+   "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+   "source": "The Hacker News",
+   "date": "2026-11-27T16:36:11+00:00"
+  },
+  {
+   "title": "Matters.AI Lands India\u2019s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
+   "link": "https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks",
+   "source": "Dark Reading",
+   "date": "2026-11-27T15:27:20+00:00"
+  },
+  {
+   "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+   "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T15:09:40+00:00"
+  },
+  {
+   "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+   "link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T15:00:10+00:00"
+  },
+  {
+   "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+   "link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T14:22:06+00:00"
+  },
+  {
+   "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+   "source": "Dark Reading",
+   "date": "2026-11-27T14:00:00+00:00"
+  },
+  {
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "source": "CISA",
+   "date": "2026-11-27T12:00:00+00:00"
+  },
+  {
+   "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+   "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+   "source": "The Hacker News",
+   "date": "2026-11-27T11:49:34+00:00"
+  },
   {
    "title": "Microsoft removes WSUS server role in Windows Server 2028",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
@@ -416,12 +482,6 @@
    "date": "2026-11-24T21:37:30+00:00"
   },
   {
-   "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
-   "link": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
-   "source": "Dark Reading",
-   "date": "2026-11-24T21:36:11+00:00"
-  },
-  {
    "title": "New Inception extortion gang launches large-scale vishing campaign",
    "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
    "source": "BleepingComputer",
@@ -556,12 +616,6 @@
   {
    "title": "AutomationDirect C-More EA9 Programming Software",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
-   "source": "CISA",
-   "date": "2026-11-24T12:00:00+00:00"
-  },
-  {
-   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
    "source": "CISA",
    "date": "2026-11-24T12:00:00+00:00"
   },
@@ -1286,6 +1340,12 @@
    "date": "2026-11-19T12:13:24+00:00"
   },
   {
+   "title": "libumqtt",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+   "source": "CISA",
+   "date": "2026-11-19T12:00:00+00:00"
+  },
+  {
    "title": "Elecbrakes EB2, VM1, ELBC2000",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
    "source": "CISA",
@@ -1294,12 +1354,6 @@
   {
    "title": "Autonomy Logic OpenPLC Runtime",
    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-   "source": "CISA",
-   "date": "2026-11-19T12:00:00+00:00"
-  },
-  {
-   "title": "libumqtt",
-   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
    "source": "CISA",
    "date": "2026-11-19T12:00:00+00:00"
   },
@@ -2250,102 +2304,6 @@
    "link": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
    "source": "Dark Reading",
    "date": "2026-11-13T22:27:00+00:00"
-  },
-  {
-   "title": "FAA Ground Stop Issued Due to \u2018Extraordinary Circumstances\u2019",
-   "link": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T21:33:27+00:00"
-  },
-  {
-   "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
-   "source": "Microsoft Security Blog",
-   "date": "2026-11-13T21:31:44+00:00"
-  },
-  {
-   "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
-   "link": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
-   "source": "Dark Reading",
-   "date": "2026-11-13T20:20:27+00:00"
-  },
-  {
-   "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
-   "link": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
-   "source": "BleepingComputer",
-   "date": "2026-11-13T19:38:36+00:00"
-  },
-  {
-   "title": "German military drone operations disrupted by cyberattack",
-   "link": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-   "source": "BleepingComputer",
-   "date": "2026-11-13T17:31:56+00:00"
-  },
-  {
-   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-   "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-   "source": "The Hacker News",
-   "date": "2026-11-13T16:53:08+00:00"
-  },
-  {
-   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-   "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-   "source": "BleepingComputer",
-   "date": "2026-11-13T16:21:43+00:00"
-  },
-  {
-   "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
-   "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
-   "source": "The Hacker News",
-   "date": "2026-11-13T15:27:05+00:00"
-  },
-  {
-   "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
-   "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T15:20:00+00:00"
-  },
-  {
-   "title": "How one AI agent exposed five critical enterprise security gaps",
-   "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-   "source": "BleepingComputer",
-   "date": "2026-11-13T15:01:11+00:00"
-  },
-  {
-   "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-   "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-   "source": "The Hacker News",
-   "date": "2026-11-13T14:28:58+00:00"
-  },
-  {
-   "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-   "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-   "source": "The Hacker News",
-   "date": "2026-11-13T13:54:20+00:00"
-  },
-  {
-   "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
-   "link": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T13:47:42+00:00"
-  },
-  {
-   "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
-   "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
-   "source": "Dark Reading",
-   "date": "2026-11-13T13:00:00+00:00"
-  },
-  {
-   "title": "Apify Confirms Customer Data Accessed in Cyberattack",
-   "link": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T12:41:01+00:00"
-  },
-  {
-   "title": "Microsoft says November security updates cause printing issues",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-   "source": "BleepingComputer",
-   "date": "2026-11-13T12:27:40+00:00"
   }
  ]
 }
