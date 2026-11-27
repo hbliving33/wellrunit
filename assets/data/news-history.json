@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-26T19:38:25.949103+00:00",
+ "updated": "2026-11-27T02:52:01.169897+00:00",
  "items": [
+  {
+   "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+   "source": "BleepingComputer",
+   "date": "2026-11-26T21:06:22+00:00"
+  },
+  {
+   "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+   "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T19:39:57+00:00"
+  },
   {
    "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
    "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
@@ -2346,60 +2358,6 @@
    "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
    "source": "The Hacker News",
    "date": "2026-11-13T05:43:28+00:00"
-  },
-  {
-   "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
-   "link": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T02:28:21+00:00"
-  },
-  {
-   "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T22:53:10+00:00"
-  },
-  {
-   "title": "Getting Past the Post-Quantum Cryptography Discovery Phase",
-   "link": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
-   "source": "Dark Reading",
-   "date": "2026-11-12T22:46:05+00:00"
-  },
-  {
-   "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T22:25:30+00:00"
-  },
-  {
-   "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
-   "link": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
-   "source": "Dark Reading",
-   "date": "2026-11-12T21:18:52+00:00"
-  },
-  {
-   "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
-   "link": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
-   "source": "SecurityWeek",
-   "date": "2026-11-12T20:55:30+00:00"
-  },
-  {
-   "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T20:15:16+00:00"
-  },
-  {
-   "title": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
-   "link": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
-   "source": "Dark Reading",
-   "date": "2026-11-12T20:09:41+00:00"
-  },
-  {
-   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-   "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-   "source": "BleepingComputer",
-   "date": "2026-11-12T19:51:16+00:00"
   }
  ]
 }

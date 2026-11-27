@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-26T19:38:25.949103+00:00",
+ "updated": "2026-11-27T02:52:01.169897+00:00",
  "items": [
+  {
+   "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+   "source": "BleepingComputer",
+   "date": "2026-11-26T21:06:22+00:00"
+  },
+  {
+   "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+   "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+   "source": "The Hacker News",
+   "date": "2026-11-26T19:39:57+00:00"
+  },
   {
    "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
    "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
@@ -242,18 +254,6 @@
    "date": "2026-11-25T10:40:07+00:00"
   },
   {
-   "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-   "source": "BleepingComputer",
-   "date": "2026-11-25T10:10:20+00:00"
-  },
-  {
-   "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
-   "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
-   "source": "The Hacker News",
-   "date": "2026-11-25T09:06:59+00:00"
-  },
-  {
    "title": "Satellites Have a Ground-Level Cybersecurity Problem",
    "link": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
    "source": "Dark Reading",
@@ -369,7 +369,7 @@
   "notes": [
    "Microsoft Admin Center: Available"
   ],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "aws": {
   "status": "2 open events",
@@ -378,43 +378,43 @@
    "Multiple services Region Availability",
    "Multiple services Region Availability"
   ],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "google": {
   "status": "Available",
   "link": "https://www.google.com/appsstatus/dashboard/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "azure": {
   "status": "Available",
   "link": "https://azure.status.microsoft/en-us/status",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "slack": {
   "status": "Available",
   "link": "https://slack-status.com/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "salesforce": {
   "status": "Available",
   "link": "https://status.salesforce.com/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "okta": {
   "status": "Available",
   "link": "https://status.okta.com/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "wasabi": {
   "status": "Available",
   "link": "https://status.wasabi.com/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "zoom": {
   "status": "Available",
@@ -422,7 +422,7 @@
   "notes": [
    "Maintenance: Zoom Chat Backend Update : November 25, 2026 (No Operational Impact)"
   ],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "netsuite": {
   "status": "Available",
@@ -430,7 +430,7 @@
   "notes": [
    "_system_metadata:eyJ1cHRpbWUiOiI5OS45OSIsInJlcXVlc3RzX3NlcnZlZCI6NzMyMTE5MTc3MjE2fQo="
   ],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "cloudflare": {
   "status": "Partially Degraded Service",
@@ -438,37 +438,37 @@
   "notes": [
    "Changes to Cloudflare Workers are not producing Event Subscription events"
   ],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "dropbox": {
   "status": "Available",
   "link": "https://status.dropbox.com/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "box": {
   "status": "Available",
   "link": "https://status.box.com/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "goto": {
   "status": "Available",
   "link": "https://status.goto.com/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "quickbooks": {
   "status": "Available",
   "link": "https://status.quickbooks.intuit.com/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "smartsheet": {
   "status": "Available",
   "link": "https://status.smartsheet.com/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "claude": {
   "status": "Partially Degraded Service",
@@ -476,24 +476,24 @@
   "notes": [
    "Claude for Microsoft 365 add-in missing for some users"
   ],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "openai": {
   "status": "Available",
   "link": "https://status.openai.com/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "perplexity": {
   "status": "Available",
   "link": "https://status.perplexity.com/",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  },
  "gemini": {
   "status": "Link only",
   "link": "https://aistudio.google.com/status",
   "notes": [],
-  "checked": "2026-11-26T19:38:25.949103+00:00"
+  "checked": "2026-11-27T02:52:01.169897+00:00"
  }
 }
