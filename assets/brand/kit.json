@@ -172,5 +172,23 @@
   "label": "PNG, 1920 x 1080",
   "group": "zoom-light",
   "bytes": 1120759
+ },
+ {
+  "file": "signature-logo-200.png",
+  "label": "PNG, 200 wide, white background (paste into Outlook)",
+  "group": "signature",
+  "bytes": 6254
+ },
+ {
+  "file": "signature-logo-400.png",
+  "label": "PNG, 400 wide, white background (sharp on high-res screens)",
+  "group": "signature",
+  "bytes": 12914
+ },
+ {
+  "file": "signature-logo-400-transparent.png",
+  "label": "PNG, 400 wide, transparent",
+  "group": "signature",
+  "bytes": 14680
  }
 ]

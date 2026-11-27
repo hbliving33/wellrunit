@@ -35,6 +35,9 @@ icons = ''.join([
     card('App icon', 'Rounded slate square.  The ICO files are for Windows shortcuts and browser tabs.', 'app-icon.png', '#e3e8ef', ['app-icon.svg', 'app-icon.png', 'app-icon.ico', 'favicon.ico']),
 ])
 photo = card('Support mailbox photo', '648 by 648, the largest photo size Microsoft 365 uses.  Outlook and Teams show it as a circle, so the R is centered with room around it.', 'support-mailbox-photo.png', '#e3e8ef', ['support-mailbox-photo.jpg', 'support-mailbox-photo.png'])
+sig = card('Email signature logo', 'Sized for email.  The 200 wide file pastes into Outlook at the right size.  The 400 wide files are for an HTML signature set to 200 wide, so the logo stays sharp on high-resolution screens.  White background so it stays readable in dark mode.', 'signature-logo-400.png', '#ffffff', ['signature-logo-200.png', 'signature-logo-400.png', 'signature-logo-400-transparent.png'])
+SIG_HTML = (ROOT / KIT / 'support-signature.html').read_text()
+sigprev = f'<article class="card"><div class="pv" style="background:#fff;place-items:center start;height:auto;min-height:200px">{SIG_HTML}</div><div class="body"><h3>Support mailbox signature</h3><p>For support@wellrunit.com.  Select the signature in the box above, copy it, and paste it into the Outlook signature editor.</p><div class="dls"><a class="dl" href="{KIT}support-signature.html" download><b>HTML</b><span>Signature, HTML file</span><i>{size((ROOT / KIT / "support-signature.html").stat().st_size)}</i></a></div></div></article>'
 zoom = ''.join([
     card('Zoom background, dark', '1920 by 1080 (16:9).  Logo top left, so it stays clear of you.', 'zoom-dark.jpg', G, ['zoom-dark.jpg', 'zoom-dark.png'], wide=True),
     card('Zoom background, light', '1920 by 1080 (16:9).', 'zoom-light.jpg', '#e3e8ef', ['zoom-light.jpg', 'zoom-light.png'], wide=True),
@@ -83,6 +86,7 @@ h2{{font:800 24px Inter;letter-spacing:-.02em;margin:48px 0 16px;padding-bottom:
 <h2>Logo</h2><div class="grid">{logos}</div>
 <h2>Icon</h2><div class="grid">{icons}</div>
 <h2>Microsoft 365</h2><div class="grid">{photo}</div>
+<h2>Email signature</h2><div class="grid">{sig}{sigprev}</div>
 <h2>Zoom backgrounds</h2><div class="grid g2">{zoom}</div>
 <h2>Colors</h2><div class="sws">{swatches}</div>
 <p class="foot">Earlier logo options: <a href="logo-refine.html">final round</a>, <a href="logo-custom.html">custom letters</a>, <a href="logo-icons.html">icons</a>, <a href="logos-round3.html">wordmark rounds</a>.</p>
