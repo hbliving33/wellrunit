@@ -1,6 +1,84 @@
 {
- "updated": "2026-11-27T02:52:01.169897+00:00",
+ "updated": "2026-11-27T12:27:15.902311+00:00",
  "items": [
+  {
+   "title": "Microsoft removes WSUS server role in Windows Server 2028",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T11:18:36+00:00"
+  },
+  {
+   "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+   "link": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+   "source": "SecurityWeek",
+   "date": "2026-11-27T11:00:00+00:00"
+  },
+  {
+   "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+   "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+   "source": "The Hacker News",
+   "date": "2026-11-27T10:32:18+00:00"
+  },
+  {
+   "title": "Drupal warns of new site takeover flaw exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T10:10:15+00:00"
+  },
+  {
+   "title": "SAP confirms security incident after suspicious GitHub activity",
+   "link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T09:56:36+00:00"
+  },
+  {
+   "title": "100,000 Potentially Impacted by Colorado Data Breach",
+   "link": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+   "source": "SecurityWeek",
+   "date": "2026-11-27T09:30:54+00:00"
+  },
+  {
+   "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+   "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+   "source": "The Hacker News",
+   "date": "2026-11-27T09:29:30+00:00"
+  },
+  {
+   "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T09:08:16+00:00"
+  },
+  {
+   "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+   "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+   "source": "BleepingComputer",
+   "date": "2026-11-27T08:06:58+00:00"
+  },
+  {
+   "title": "Hex Package Manager Warns of Potential Data Breach",
+   "link": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+   "source": "SecurityWeek",
+   "date": "2026-11-27T07:44:49+00:00"
+  },
+  {
+   "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+   "link": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+   "source": "SecurityWeek",
+   "date": "2026-11-27T07:36:14+00:00"
+  },
+  {
+   "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+   "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+   "source": "The Hacker News",
+   "date": "2026-11-27T06:04:20+00:00"
+  },
+  {
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+   "source": "The Hacker News",
+   "date": "2026-11-27T05:48:20+00:00"
+  },
   {
    "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
@@ -170,15 +248,15 @@
    "date": "2026-11-25T15:00:10+00:00"
   },
   {
-   "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-   "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-   "source": "BleepingComputer",
-   "date": "2026-11-25T15:00:00+00:00"
-  },
-  {
    "title": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
    "link": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
    "source": "Dark Reading",
+   "date": "2026-11-25T15:00:00+00:00"
+  },
+  {
+   "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+   "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+   "source": "BleepingComputer",
    "date": "2026-11-25T15:00:00+00:00"
   },
   {
@@ -2268,96 +2346,6 @@
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
    "source": "BleepingComputer",
    "date": "2026-11-13T12:27:40+00:00"
-  },
-  {
-   "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
-   "link": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T12:20:28+00:00"
-  },
-  {
-   "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-   "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-   "source": "The Hacker News",
-   "date": "2026-11-13T11:52:31+00:00"
-  },
-  {
-   "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-   "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
-   "source": "The Hacker News",
-   "date": "2026-11-13T11:10:40+00:00"
-  },
-  {
-   "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-   "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-   "source": "The Hacker News",
-   "date": "2026-11-13T10:55:03+00:00"
-  },
-  {
-   "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
-   "link": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T10:48:40+00:00"
-  },
-  {
-   "title": "Check Point warns of zero-day flaw exploited for root access",
-   "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-   "source": "BleepingComputer",
-   "date": "2026-11-13T10:44:22+00:00"
-  },
-  {
-   "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-   "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T09:36:56+00:00"
-  },
-  {
-   "title": "Microsoft confirms Windows activation failures after November updates",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
-   "source": "BleepingComputer",
-   "date": "2026-11-13T09:36:18+00:00"
-  },
-  {
-   "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
-   "link": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T09:21:01+00:00"
-  },
-  {
-   "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit \u2018SignDrop\u2019",
-   "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T08:50:36+00:00"
-  },
-  {
-   "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
-   "link": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
-   "source": "BleepingComputer",
-   "date": "2026-11-13T08:34:20+00:00"
-  },
-  {
-   "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-   "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
-   "source": "The Hacker News",
-   "date": "2026-11-13T08:05:49+00:00"
-  },
-  {
-   "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
-   "link": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T07:39:04+00:00"
-  },
-  {
-   "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
-   "link": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
-   "source": "SecurityWeek",
-   "date": "2026-11-13T07:20:50+00:00"
-  },
-  {
-   "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
-   "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
-   "source": "The Hacker News",
-   "date": "2026-11-13T05:43:28+00:00"
   }
  ]
 }
